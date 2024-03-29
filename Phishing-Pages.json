@@ -1,8 +1,194 @@
 {
-  "PHISHING_PAGE_1": {
-    "URL": "https://example.com",
-    "Type": "Type",
-    "Method": "Method",
-    "Date Found": "12-12-2012"
+  "MALWARE_PAGE_1": {
+    "SURFACE_URL": "https://qptr.ru/zfYs",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/32360572365825",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_2": {
+    "SURFACE_URL": "https://qptr.ru/O0XI",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/83265819789",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_3": {
+    "SURFACE_URL": "https://qptr.ru/hHNr",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/318783965944",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_4": {
+    "SURFACE_URL": "https://qptr.ru/lIf7",
+    "FINAL_URL": "https://csgo-dallas.com/gift/323236235124721225",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_5": {
+    "SURFACE_URL": "https://qptr.ru/lmZE",
+    "FINAL_URL": "https://steamcommuxity.com/gift/7656685934763977",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_6": {
+    "SURFACE_URL": "https://qptr.ru/yrsl",
+    "FINAL_URL": "https://steancomrnunity.com/gift/7656685934762596",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_7": {
+    "SURFACE_URL": "https://qptr.ru/8Hmr",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/7838612579",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_8": {
+    "SURFACE_URL": "https://qptr.ru/qcMs",
+    "FINAL_URL": "https://steancomrnunity.com/gift/7645793648253796",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_9": {
+    "SURFACE_URL": "https://go-link.ru/P7Jgb",
+    "FINAL_URL": "https://steamcommujity.com/gift/765612019083321088",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_10": {
+    "SURFACE_URL": "https://go-link.ru/mp6NV",
+    "FINAL_URL": "https://steamcommujity.com/gift/765614019083521115",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_11": {
+    "SURFACE_URL": "https://go-link.ru/Pb3lB",
+    "FINAL_URL": "https://steamcommujity.com/gift/765614019083521009",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_12": {
+    "SURFACE_URL": "https://u.to/189_IA",
+    "FINAL_URL": "https://skinboxs.com/ref/2097313",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_13": {
+    "SURFACE_URL": "https://go-link.ru/o615e",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/76566894433985451",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_14": {
+    "SURFACE_URL": "https://go-link.ru/oL1NL",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/76566894433982213",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_15": {
+    "SURFACE_URL": "https://go-link.ru/m8111",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/76566894433988334",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_16": {
+    "SURFACE_URL": "https://go-link.ru/orONn",
+    "FINAL_URL": "https://steamcommujity.com/gift/newyear",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_17": {
+    "SURFACE_URL": "https://go-link.ru/mBYrb",
+    "FINAL_URL": "https://steamcommunijty.com/gift/76566894433982450",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_18": {
+    "SURFACE_URL": "https://go-link.ru/P4VEB",
+    "FINAL_URL": "https://steamcommujity.com/gift/76566894433978994",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_19": {
+    "SURFACE_URL": "https://go-link.ru/jd5VZ",
+    "FINAL_URL": "https://steamcommujity.com/gift/76566894433982450",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_20": {
+    "SURFACE_URL": "https://go-link.ru/oX8ZG",
+    "FINAL_URL": "https://steamcommujity.com/gift/76561199218059944",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_21": {
+    "SURFACE_URL": "https://go-link.ru/Pwl28",
+    "FINAL_URL": "https://steamcommunivy.com/gift/76561199218059944",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_22": {
+    "SURFACE_URL": "https://go-link.ru/oX8bE",
+    "FINAL_URL": "https://steamcommunaiy.com/gift/76561199218059944",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_23": {
+    "SURFACE_URL": "https://u.to/CCxeIA",
+    "FINAL_URL": "https://csgo-dallas.com/premiumdiscord",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_24": {
+    "SURFACE_URL": "https://shorter.me/discord-nitro",
+    "FINAL_URL": "https://game-nitro.ru/activation=3938243",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_25": {
+    "SURFACE_URL": "https://cutt.ly/EwXwEd6S",
+    "FINAL_URL": "https://stecmcommuaity.com/gift/16266359347639712",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_26": {
+    "SURFACE_URL": "https://shorter.me/7BfW7",
+    "FINAL_URL": "https://steamcommunllty.com/25jard",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_27": {
+    "SURFACE_URL": "https://rb.gy/mi0taf",
+    "FINAL_URL": "https://steamcommunaiy.com/gjft/736146",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_28": {
+    "SURFACE_URL": "https://go-link.ru/mQLDX",
+    "FINAL_URL": "https://steamcommunivy.com/gift/76561199111538119",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_29": {
+    "SURFACE_URL": "https://go-link.ru/jAGQM",
+    "FINAL_URL": "https://steamcommujity.com/gift/906353439838",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_30": {
+    "SURFACE_URL": "https://qptr.ru/d836",
+    "FINAL_URL": "https://steamcommunivy.com/gift/7656685934763976",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_31": {
+    "SURFACE_URL": "https://goo.su/gg-nitro",
+    "FINAL_URL": "https://happy-nitro.ru/activation/xonthly",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "MALWARE_PAGE_32": {
+    "SURFACE_URL": "https://shorturl.at/anBMS",
+    "FINAL_URL": "https://steamcomumnity.com/app/1543340/STALKER_2_Heart_of_Chornobyl",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
   }
 }
