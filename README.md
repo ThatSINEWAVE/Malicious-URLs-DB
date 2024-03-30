@@ -1,4 +1,4 @@
-# Malicious-Links-DB
+# Malicious-URLs-DB
 
 ## Description:
 
