@@ -202,5 +202,11 @@
     "FINAL_URL": "https://steamcommunivy.com/gift/541398720247591294571594303017498509",
     "Type": "Phishing Page",
     "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_35": {
+    "SURFACE_URL": "https://plhn.pw/fCi",
+    "FINAL_URL": "https://steamcommunivy.com/gift/5413987202475912945271594303017498509",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
   }
 }
