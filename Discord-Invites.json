@@ -153,5 +153,10 @@
     "URL": "https://discord.gg/s3xygirls",
     "Type": "Fake NSFW Server",
     "Method": "Fake Verification bot"
+  },
+  "DISCORD_INVITE_32": {
+    "URL": "https://discord.gg/PJm8tdWazM",
+    "Type": "Fake NSFW Server",
+    "Method": "Fake Verification bot"
   }
 }
