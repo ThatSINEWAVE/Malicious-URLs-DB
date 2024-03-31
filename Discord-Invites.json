@@ -163,5 +163,15 @@
     "URL": "https://discord.gg/xmedia",
     "Type": "Fake NSFW Server",
     "Method": "Fake Verification bot"
+  },
+  "DISCORD_INVITE_34": {
+    "URL": "https://discord.gg/get",
+    "Type": "Fake NSFW Server",
+    "Method": "Fake Verification bot"
+  },
+  "DISCORD_INVITE_35": {
+    "URL": "https://discord.gg/twerking",
+    "Type": "Fake NSFW Server",
+    "Method": "Fake Verification bot"
   }
 }
