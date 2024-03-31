@@ -158,5 +158,10 @@
     "URL": "https://discord.gg/PJm8tdWazM",
     "Type": "Fake NSFW Server",
     "Method": "Fake Verification bot"
+  },
+  "DISCORD_INVITE_33": {
+    "URL": "https://discord.gg/xmedia",
+    "Type": "Fake NSFW Server",
+    "Method": "Fake Verification bot"
   }
 }
