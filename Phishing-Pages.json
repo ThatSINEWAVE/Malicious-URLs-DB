@@ -214,5 +214,29 @@
     "FINAL_URL": "https://steamcommunivy.com/gift/5413987202475912945271594303017498509",
     "Type": "Phishing Page",
     "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_37": {
+    "SURFACE_URL": "None",
+    "FINAL_URL": "https://skinboxs.com/helloween",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_38": {
+    "SURFACE_URL": "None",
+    "FINAL_URL": "https://steembonus.com/helloween",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_39": {
+    "SURFACE_URL": "None",
+    "FINAL_URL": "https://steamcomunnityy.com/gift/activation=Iro378hfm2r",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_40": {
+    "SURFACE_URL": "None",
+    "FINAL_URL": "steamcomnunniity.com/gift/activation=Kas362gfa4y",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
   }
 }
