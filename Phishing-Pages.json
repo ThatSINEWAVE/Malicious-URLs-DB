@@ -844,5 +844,11 @@
     "FINAL_URL": "https://steamcomnunltiy.com/gift/32489432081244333456724415791998",
     "Type": "Phishing Page",
     "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_142": {
+    "SURFACE_URL": "https://go-link.ru/oO3BR",
+    "FINAL_URL": "https://steamcommunivy.com/gift/76561199111538119",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
   }
 }
