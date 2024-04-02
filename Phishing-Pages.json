@@ -856,5 +856,11 @@
     "FINAL_URL": "https://steamcommunivy.com/gift/76561199446779484",
     "Type": "Phishing Page",
     "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_144": {
+    "SURFACE_URL": "https://goo.su/nitro-bas",
+    "FINAL_URL": "https://nitro-basic.ru",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
   }
 }
