@@ -12,6 +12,8 @@ This repository serves as a curated collection of JSON files containing lists of
 
 - `Malware-Pages.json`: Within this JSON file are listed URLs known to host malware or engage in distributing malicious software. These pages pose a significant threat to users' devices and cybersecurity.
 
+## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
 ## Definitions:
 
 - **"URL"** - This is used in `Discord-Invites.json` and `Malware-Pages.json` and shows the URL used in the campaign.
