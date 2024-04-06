@@ -1,8 +1,12 @@
+<div align="center">
+
 # Malicious-URLs-DB
 
 ## Description:
 
 This repository serves as a curated collection of JSON files containing lists of websites associated with malicious activities. The lists are compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.
+
+</div>
 
 ## Included Files:
 
@@ -12,7 +16,11 @@ This repository serves as a curated collection of JSON files containing lists of
 
 - `Malware-Pages.json`: Within this JSON file are listed URLs known to host malware or engage in distributing malicious software. These pages pose a significant threat to users' devices and cybersecurity.
 
+<div align="center">
+
 ## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
+</div>
 
 ## Definitions:
 
