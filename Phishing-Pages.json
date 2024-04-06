@@ -874,5 +874,23 @@
     "FINAL_URL": "https://u.to/ptyTIA",
     "Type": "Phishing Page",
     "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_147": {
+    "SURFACE_URL": "https://go-link.ru/o060M",
+    "FINAL_URL": "https://steamcommunivy.com/gift/76561199446779484",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_148": {
+    "SURFACE_URL": "https://fairyte.ch/ty8v",
+    "FINAL_URL": "https://steamcommunivy.com/gjft/738135",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_149": {
+    "SURFACE_URL": "https://f-link.me/MdCHn",
+    "FINAL_URL": "https://steamcommunivy.com/gift/543987202475911294575943031017498509",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
   }
 }
