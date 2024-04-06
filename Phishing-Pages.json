@@ -868,5 +868,11 @@
     "FINAL_URL": "https://steamcommunivy.com/gift/7656685934763976",
     "Type": "Phishing Page",
     "Method": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_146": {
+    "SURFACE_URL": "https://qptr.ru/1VEO",
+    "FINAL_URL": "https://u.to/ptyTIA",
+    "Type": "Phishing Page",
+    "Method": "Fake Steam Gift Card"
   }
 }
