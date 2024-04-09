@@ -14,6 +14,8 @@ This repository serves as a curated collection of JSON files containing lists of
 
 - `Malware-Pages.json`: Within this JSON file are listed URLs known to host malware or engage in distributing malicious software. These pages pose a significant threat to users' devices and cybersecurity.
 
+- `Compromised-Discord-Accounts.json`: This JSON file contains the full list of details and info about all the compromised accounts I have personally found over time. Most of the compromised accounts in this list were used / are actively used in phishing campaigns.
+
 <div align="center">
 
 ## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
@@ -22,15 +24,28 @@ This repository serves as a curated collection of JSON files containing lists of
 
 ## Definitions:
 
-- **"URL"** - This is used in `Discord-Invites.json` and `Malware-Pages.json` and shows the URL used in the campaign.
+<div align="center">
 
-- **"SURFACE_URL"** - This is used in the `Phishing-Pages.json` and shows the surface URL that is used in the campaign because most of them use URL shortening services.
+|            **Definition**            |                              **Description**                             |
+|:-----------------------------------:|:-----------------------------------------------------------------------:|
+|          CASE_NUMBER            |                 The unique identifier for the case.                |
+|              FOUND_ON                |           The date when the compromised account was discovered.          |
+|             DISCORD_ID             |           The unique identifier associated with the user on Discord.          |
+|              USERNAME              |                 The username of the compromised account.                |
+|             BEHAVIOUR             |        Description of the suspicious activities associated with the compromised account.       |
+|          ATTACK_METHOD        |             The method used in the attack.             |
+|          ATTACK_VECTOR          |     The specific approach or technique used in the attack.     |
+|           ATTACK_GOAL           |          The objective of the attack.         |
+|        ATTACK_SURFACE        |           The platform or service targeted / used in the attack.           |
+| SUSPECTED_REGION_OF_ORIGIN | The suspected geographical location from which the attack originated. |
+|            SURFACE_URL            |      The URL associated with the initial interaction or surface level of the attack.      |
+|      SURFACE_URL_DOMAIN     |                    The domain of the surface URL.                    |
+|    SURFACE_URL_STATUS     |      The status of the surface URL, whether it is active or not.      |
+|              FINAL_URL               |       The URL to which the attack directs users after initial interaction.       |
+|        FINAL_URL_DOMAIN         |                    The domain of the final URL.                    |
+|      FINAL_URL_STATUS      |        The status of the final URL, whether it is active or not.        |
 
-- **"FINAL_URL"** - This is used in the `Phishing-Pages.json` and shows the final URL that is used in the campaign behind the shortened URL showed in "SURFACE_URL".
-
-- **"Method"** - This is used in `Phishing-Pages.json`, `Discord-Invites.json` and `Malware-Pages.json` and shows the method used by the attackers.
-
-- **"Type"** - This is used in `Phishing-Pages.json`, `Discord-Invites.json` and `Malware-Pages.json` and shows the type used of the attack.
+</div>
 
 ## Contributions:
 
