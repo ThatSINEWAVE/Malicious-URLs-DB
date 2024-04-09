@@ -1,5 +1,6 @@
 {
-  "ACCOUNT_NO_1": {
+  "ACCOUNT_NUMBER_1": {
+    "CASE_NUMBER": "1",
     "FOUND_ON": "2024-01-16",
     "DISCORD_ID": "363284446268620800",
     "USERNAME": "Leo_2701",
@@ -10,11 +11,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/webslut",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/webslut",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_2": {
+  "ACCOUNT_NUMBER_2": {
+    "CASE_NUMBER": "2",
     "FOUND_ON": "2024-01-16",
     "DISCORD_ID": "982053353842434148",
     "USERNAME": "Viper",
@@ -25,11 +29,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://steamcommunijty.com/gift/76566894433982450",
+    "SURFACE_URL_DOMAIN": "steamcommunijty.com",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_3": {
+  "ACCOUNT_NUMBER_3": {
+    "CASE_NUMBER": "3",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "1075640510494023740",
     "USERNAME": "fk_rabbit",
@@ -40,11 +47,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/ybtEIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_4": {
+  "ACCOUNT_NUMBER_4": {
+    "CASE_NUMBER": "4",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "948474704677715989",
     "USERNAME": "Pryvyd Kyleva",
@@ -55,11 +65,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/uk/lots/offer?id=25363702",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_5": {
+  "ACCOUNT_NUMBER_5": {
+    "CASE_NUMBER": "5",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "347805289074130954",
     "USERNAME": "westside",
@@ -70,11 +83,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/uk/lots/offer?id=25388076",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_6": {
+  "ACCOUNT_NUMBER_6": {
+    "CASE_NUMBER": "6",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "331870997697396737",
     "USERNAME": "thi2205",
@@ -85,11 +101,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/8wjt2DbPH",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/8wjt2DbPH",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_7": {
+  "ACCOUNT_NUMBER_7": {
+    "CASE_NUMBER": "7",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "907610451762900992",
     "USERNAME": "Argai",
@@ -100,11 +119,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/uk/lots/offer?id=25388076",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_8": {
+  "ACCOUNT_NUMBER_8": {
+    "CASE_NUMBER": "8",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "792742887422820373",
     "USERNAME": "LiMoN",
@@ -115,11 +137,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25387191",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_9": {
+  "ACCOUNT_NUMBER_9": {
+    "CASE_NUMBER": "9",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "1197998654120796332",
     "USERNAME": "disBalancerEU",
@@ -130,11 +155,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25363702",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_10": {
+  "ACCOUNT_NUMBER_10": {
+    "CASE_NUMBER": "10",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "1197961973544005735",
     "USERNAME": "Argai",
@@ -145,11 +173,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/uk/lots/offer?id=25388076",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_11": {
+  "ACCOUNT_NUMBER_11": {
+    "CASE_NUMBER": "11",
     "FOUND_ON": "2024-01-19",
     "DISCORD_ID": "1198004453681414248",
     "USERNAME": "4tamanwot",
@@ -160,11 +191,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25363702",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_12": {
+  "ACCOUNT_NUMBER_12": {
+    "CASE_NUMBER": "12",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1198021809363234967",
     "USERNAME": "Claudettemild",
@@ -175,11 +209,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25363702",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_13": {
+  "ACCOUNT_NUMBER_13": {
+    "CASE_NUMBER": "13",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1180927388675231747",
     "USERNAME": "ratatui228228",
@@ -190,11 +227,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25387191",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_14": {
+  "ACCOUNT_NUMBER_14": {
+    "CASE_NUMBER": "14",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1198014505242861610",
     "USERNAME": "UglyDuck33",
@@ -205,11 +245,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/uk/lots/offer?id=25388076",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_15": {
+  "ACCOUNT_NUMBER_15": {
+    "CASE_NUMBER": "15",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1198173904674492416",
     "USERNAME": "prodaza_kodov",
@@ -220,11 +263,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25387191",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_16": {
+  "ACCOUNT_NUMBER_16": {
+    "CASE_NUMBER": "16",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1198181353234112572",
     "USERNAME": "prodaza_kodov",
@@ -235,11 +281,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25387191",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_17": {
+  "ACCOUNT_NUMBER_17": {
+    "CASE_NUMBER": "17",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1198040842041053214",
     "USERNAME": "MicroMasha",
@@ -250,11 +299,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25363702",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_18": {
+  "ACCOUNT_NUMBER_18": {
+    "CASE_NUMBER": "18",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "825287719952449536",
     "USERNAME": "Prim_bs",
@@ -265,11 +317,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25387191",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_19": {
+  "ACCOUNT_NUMBER_19": {
+    "CASE_NUMBER": "19",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1010833741263929417",
     "USERNAME": "Vika3000",
@@ -280,11 +335,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25387191",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_20": {
+  "ACCOUNT_NUMBER_20": {
+    "CASE_NUMBER": "20",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "983254468235763762",
     "USERNAME": "afrodayt88",
@@ -295,11 +353,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25387191",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_21": {
+  "ACCOUNT_NUMBER_21": {
+    "CASE_NUMBER": "21",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1198255059994148924",
     "USERNAME": "Craig Cody",
@@ -310,11 +371,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25363702",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_22": {
+  "ACCOUNT_NUMBER_22": {
+    "CASE_NUMBER": "22",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "1198013745763463320",
     "USERNAME": "Kutuz",
@@ -325,11 +389,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/uk/lots/offer?id=25388076",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_23": {
+  "ACCOUNT_NUMBER_23": {
+    "CASE_NUMBER": "23",
     "FOUND_ON": "2024-01-20",
     "DISCORD_ID": "728212418177531946",
     "USERNAME": "Q_Zix",
@@ -340,11 +407,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/zfYs",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_24": {
+  "ACCOUNT_NUMBER_24": {
+    "CASE_NUMBER": "24",
     "FOUND_ON": "2024-01-21",
     "DISCORD_ID": "1198196193126264972",
     "USERNAME": "palcrybal",
@@ -355,11 +425,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25413700",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_25": {
+  "ACCOUNT_NUMBER_25": {
+    "CASE_NUMBER": "25",
     "FOUND_ON": "2024-01-21",
     "DISCORD_ID": "520096835365240834",
     "USERNAME": "ciz1te",
@@ -370,11 +443,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=2543441",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_26": {
+  "ACCOUNT_NUMBER_26": {
+    "CASE_NUMBER": "26",
     "FOUND_ON": "2024-01-21",
     "DISCORD_ID": "548853653134376974",
     "USERNAME": "Sertit",
@@ -385,11 +461,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/O0XI",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_27": {
+  "ACCOUNT_NUMBER_27": {
+    "CASE_NUMBER": "27",
     "FOUND_ON": "2024-01-21",
     "DISCORD_ID": "1156577423203250306",
     "USERNAME": "logdog",
@@ -400,11 +479,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/O0XI",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_28": {
+  "ACCOUNT_NUMBER_28": {
+    "CASE_NUMBER": "28",
     "FOUND_ON": "2024-01-21",
     "DISCORD_ID": "558286182375620629",
     "USERNAME": "KDDDDDD",
@@ -415,11 +497,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/8wjt2DbPH",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/8wjt2DbPH",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_29": {
+  "ACCOUNT_NUMBER_29": {
+    "CASE_NUMBER": "29",
     "FOUND_ON": "2024-01-22",
     "DISCORD_ID": "673868861103276042",
     "USERNAME": "Michu",
@@ -430,11 +515,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/8wjt2DbPH",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/8wjt2DbPH",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_30": {
+  "ACCOUNT_NUMBER_30": {
+    "CASE_NUMBER": "30",
     "FOUND_ON": "2024-01-22",
     "DISCORD_ID": "584977775111438351",
     "USERNAME": "SpeedWagon",
@@ -445,11 +533,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/hHNr",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_31": {
+  "ACCOUNT_NUMBER_31": {
+    "CASE_NUMBER": "31",
     "FOUND_ON": "2024-01-23",
     "DISCORD_ID": "595531360358105090",
     "USERNAME": "SkilBlody [\u0412\u0430\u0434\u0438\u043c]",
@@ -460,11 +551,14 @@
     "ATTACK_SURFACE": "Money",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://funpay.com/en/lots/offer?id=25436069",
+    "SURFACE_URL_DOMAIN": "funpay.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_32": {
+  "ACCOUNT_NUMBER_32": {
+    "CASE_NUMBER": "32",
     "FOUND_ON": "2024-01-24",
     "DISCORD_ID": "514476567397793803",
     "USERNAME": "STx-Allan",
@@ -475,11 +569,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/sexynude",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/sexynude",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_33": {
+  "ACCOUNT_NUMBER_33": {
+    "CASE_NUMBER": "33",
     "FOUND_ON": "2024-01-25",
     "DISCORD_ID": "723824999248560138",
     "USERNAME": "\u0445\u0443\u0439\u043b\u0443\u0448\u0430",
@@ -490,11 +587,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/ORRw",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_34": {
+  "ACCOUNT_NUMBER_34": {
+    "CASE_NUMBER": "34",
     "FOUND_ON": "2024-01-25",
     "DISCORD_ID": "900015795629850674",
     "USERNAME": "_gui_",
@@ -505,11 +605,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/lmZE",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_35": {
+  "ACCOUNT_NUMBER_35": {
+    "CASE_NUMBER": "35",
     "FOUND_ON": "2024-01-26",
     "DISCORD_ID": "1114527533686325328",
     "USERNAME": "emiloz99",
@@ -520,11 +623,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/Eu46Ff6ZRy",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/Eu46Ff6ZRy",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_36": {
+  "ACCOUNT_NUMBER_36": {
+    "CASE_NUMBER": "36",
     "FOUND_ON": "2024-01-27",
     "DISCORD_ID": "712767997797990461",
     "USERNAME": "BravoCHELAST09",
@@ -535,11 +641,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/lovelywhores",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/lovelywhores",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_37": {
+  "ACCOUNT_NUMBER_37": {
+    "CASE_NUMBER": "37",
     "FOUND_ON": "2024-01-28",
     "DISCORD_ID": "1108466373308469299",
     "USERNAME": "Lxgik_mod",
@@ -550,11 +659,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/lovelyleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/lovelyleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_38": {
+  "ACCOUNT_NUMBER_38": {
+    "CASE_NUMBER": "38",
     "FOUND_ON": "2024-01-28",
     "DISCORD_ID": "932576171986681856",
     "USERNAME": "Hdsmi",
@@ -565,11 +677,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/8AnXKZpT",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/8AnXKZpT",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_39": {
+  "ACCOUNT_NUMBER_39": {
+    "CASE_NUMBER": "39",
     "FOUND_ON": "2024-01-28",
     "DISCORD_ID": "1147220710851358790",
     "USERNAME": "Kamil_Michotowski",
@@ -580,11 +695,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/neednudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/neednudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_40": {
+  "ACCOUNT_NUMBER_40": {
+    "CASE_NUMBER": "40",
     "FOUND_ON": "2024-01-28",
     "DISCORD_ID": "1140477841083994232",
     "USERNAME": "Tony",
@@ -595,11 +713,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/8AnXKZpT",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/8AnXKZpT",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_41": {
+  "ACCOUNT_NUMBER_41": {
+    "CASE_NUMBER": "41",
     "FOUND_ON": "2024-01-28",
     "DISCORD_ID": "272041072857710593",
     "USERNAME": "Enigma",
@@ -610,11 +731,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/8AnXKZpT",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/8AnXKZpT",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_42": {
+  "ACCOUNT_NUMBER_42": {
+    "CASE_NUMBER": "42",
     "FOUND_ON": "2024-01-29",
     "DISCORD_ID": "635888753747034113",
     "USERNAME": "muscles_marinara",
@@ -625,11 +749,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/lovelyleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/lovelyleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_43": {
+  "ACCOUNT_NUMBER_43": {
+    "CASE_NUMBER": "43",
     "FOUND_ON": "2024-01-29",
     "DISCORD_ID": "269124966765690891",
     "USERNAME": "kingofsteel",
@@ -640,11 +767,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/lovelyleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/lovelyleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_44": {
+  "ACCOUNT_NUMBER_44": {
+    "CASE_NUMBER": "44",
     "FOUND_ON": "2024-02-01",
     "DISCORD_ID": "731823147468324914",
     "USERNAME": "\u0442\u0430\u0439\u043d\u043e \u0434\u0435\u0440\u043d\u0443\u043b",
@@ -655,11 +785,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://shorter.me/discord-nitro",
+    "SURFACE_URL_DOMAIN": "shorter.me",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_45": {
+  "ACCOUNT_NUMBER_45": {
+    "CASE_NUMBER": "45",
     "FOUND_ON": "2024-02-03",
     "DISCORD_ID": "1052237422072696933",
     "USERNAME": "kevinah",
@@ -670,11 +803,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/8jzPaXFeHF",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/8jzPaXFeHF",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_46": {
+  "ACCOUNT_NUMBER_46": {
+    "CASE_NUMBER": "46",
     "FOUND_ON": "2024-02-04",
     "DISCORD_ID": "1168612828140290099",
     "USERNAME": "rugaciune_ion",
@@ -685,11 +821,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://cutt.ly/EwXwEd6S",
+    "SURFACE_URL_DOMAIN": "cutt.ly",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_47": {
+  "ACCOUNT_NUMBER_47": {
+    "CASE_NUMBER": "47",
     "FOUND_ON": "2024-02-04",
     "DISCORD_ID": "946809166125752330",
     "USERNAME": "Faith",
@@ -700,11 +839,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/dcnudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/dcnudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_48": {
+  "ACCOUNT_NUMBER_48": {
+    "CASE_NUMBER": "48",
     "FOUND_ON": "2024-02-04",
     "DISCORD_ID": "460508184625414174",
     "USERNAME": "TORO",
@@ -715,11 +857,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/dcnudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/dcnudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_49": {
+  "ACCOUNT_NUMBER_49": {
+    "CASE_NUMBER": "49",
     "FOUND_ON": "2024-02-04",
     "DISCORD_ID": "700231924261584967",
     "USERNAME": "Solitaire",
@@ -730,11 +875,14 @@
     "ATTACK_SURFACE": "Telegram",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://lyl.su/qxe",
+    "SURFACE_URL_DOMAIN": "lyl.su",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_50": {
+  "ACCOUNT_NUMBER_50": {
+    "CASE_NUMBER": "50",
     "FOUND_ON": "2024-02-04",
     "DISCORD_ID": "722695116988350494",
     "USERNAME": "Rizon",
@@ -745,11 +893,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/oLBMB",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_51": {
+  "ACCOUNT_NUMBER_51": {
+    "CASE_NUMBER": "51",
     "FOUND_ON": "2024-02-05",
     "DISCORD_ID": "693518775554670704",
     "USERNAME": "ANIMOKI",
@@ -760,11 +911,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/yrsl",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_52": {
+  "ACCOUNT_NUMBER_52": {
+    "CASE_NUMBER": "52",
     "FOUND_ON": "2024-02-05",
     "DISCORD_ID": "1111619403830796319",
     "USERNAME": "Crafter1030",
@@ -775,11 +929,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/yrsl",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_53": {
+  "ACCOUNT_NUMBER_53": {
+    "CASE_NUMBER": "53",
     "FOUND_ON": "2024-02-05",
     "DISCORD_ID": "114230296811012103",
     "USERNAME": "Kevstep",
@@ -790,11 +947,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/8LJVIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_54": {
+  "ACCOUNT_NUMBER_54": {
+    "CASE_NUMBER": "54",
     "FOUND_ON": "2024-02-05",
     "DISCORD_ID": "637717585089134612",
     "USERNAME": "silentwolf5054",
@@ -805,11 +965,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/8LJVIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_55": {
+  "ACCOUNT_NUMBER_55": {
+    "CASE_NUMBER": "55",
     "FOUND_ON": "2024-02-05",
     "DISCORD_ID": "847831317461729280",
     "USERNAME": "goldenr8226",
@@ -820,11 +983,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/yrsl",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_56": {
+  "ACCOUNT_NUMBER_56": {
+    "CASE_NUMBER": "56",
     "FOUND_ON": "2024-02-05",
     "DISCORD_ID": "1100533380363325440",
     "USERNAME": "acrondddd",
@@ -835,11 +1001,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "http://tinyurl.com/yc68ujwu",
+    "SURFACE_URL_DOMAIN": "tinyurl.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_57": {
+  "ACCOUNT_NUMBER_57": {
+    "CASE_NUMBER": "57",
     "FOUND_ON": "2024-02-07",
     "DISCORD_ID": "987824993201172530",
     "USERNAME": "ognisty_smoczek",
@@ -850,11 +1019,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/DRj7RfqjV6",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/DRj7RfqjV6",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_58": {
+  "ACCOUNT_NUMBER_58": {
+    "CASE_NUMBER": "58",
     "FOUND_ON": "2024-02-08",
     "DISCORD_ID": "859007231461687316",
     "USERNAME": "piopro.",
@@ -865,11 +1037,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/o615e",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_59": {
+  "ACCOUNT_NUMBER_59": {
+    "CASE_NUMBER": "59",
     "FOUND_ON": "2024-02-08",
     "DISCORD_ID": "412449287604273162",
     "USERNAME": "liemtran",
@@ -880,11 +1055,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/oL1NL",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_60": {
+  "ACCOUNT_NUMBER_60": {
+    "CASE_NUMBER": "60",
     "FOUND_ON": "2024-02-11",
     "DISCORD_ID": "366232992802275328",
     "USERNAME": "toxiclikeneverbefore",
@@ -895,11 +1073,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://envs.sh/QOG",
+    "SURFACE_URL_DOMAIN": "envs.sh",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_61": {
+  "ACCOUNT_NUMBER_61": {
+    "CASE_NUMBER": "61",
     "FOUND_ON": "2024-02-11",
     "DISCORD_ID": "332035436325109760",
     "USERNAME": "radak123",
@@ -910,11 +1091,14 @@
     "ATTACK_SURFACE": "Funpay",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://tinyurl.com/jupAdrop",
+    "SURFACE_URL_DOMAIN": "tinyurl.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_62": {
+  "ACCOUNT_NUMBER_62": {
+    "CASE_NUMBER": "62",
     "FOUND_ON": "2024-02-11",
     "DISCORD_ID": "926950626175381614",
     "USERNAME": "spakynaut",
@@ -925,11 +1109,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/8Hmr",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_63": {
+  "ACCOUNT_NUMBER_63": {
+    "CASE_NUMBER": "63",
     "FOUND_ON": "2024-02-12",
     "DISCORD_ID": "834417445376229376",
     "USERNAME": "ikkyu2010",
@@ -940,11 +1127,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/qcMs",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_64": {
+  "ACCOUNT_NUMBER_64": {
+    "CASE_NUMBER": "64",
     "FOUND_ON": "2024-02-12",
     "DISCORD_ID": "1192529251526778981",
     "USERNAME": "lucca575",
@@ -955,11 +1145,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://sc.link/bAFpH",
+    "SURFACE_URL_DOMAIN": "sc.link",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_65": {
+  "ACCOUNT_NUMBER_65": {
+    "CASE_NUMBER": "65",
     "FOUND_ON": "2024-02-12",
     "DISCORD_ID": "492697000807235585",
     "USERNAME": "beeriffer",
@@ -970,11 +1163,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/m8111",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_66": {
+  "ACCOUNT_NUMBER_66": {
+    "CASE_NUMBER": "66",
     "FOUND_ON": "2024-02-12",
     "DISCORD_ID": "1148321073142702201",
     "USERNAME": "hunterfazx",
@@ -985,11 +1181,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/m8111",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_67": {
+  "ACCOUNT_NUMBER_67": {
+    "CASE_NUMBER": "67",
     "FOUND_ON": "2024-02-12",
     "DISCORD_ID": "403695478010675221",
     "USERNAME": "mleKA",
@@ -1000,11 +1199,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/drop-take",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_68": {
+  "ACCOUNT_NUMBER_68": {
+    "CASE_NUMBER": "68",
     "FOUND_ON": "2024-03-13",
     "DISCORD_ID": "777205860660281364",
     "USERNAME": "seregamegavarov",
@@ -1015,11 +1217,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/PDVcIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_69": {
+  "ACCOUNT_NUMBER_69": {
+    "CASE_NUMBER": "69",
     "FOUND_ON": "2024-03-13",
     "DISCORD_ID": "574583799787290624",
     "USERNAME": "budinalgonjore",
@@ -1030,11 +1235,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/PDVcIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_70": {
+  "ACCOUNT_NUMBER_70": {
+    "CASE_NUMBER": "70",
     "FOUND_ON": "2024-03-13",
     "DISCORD_ID": "530343817061203970",
     "USERNAME": "daxao69",
@@ -1045,11 +1253,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://discord.gg/bestnuds",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/bestnuds",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_71": {
+  "ACCOUNT_NUMBER_71": {
+    "CASE_NUMBER": "71",
     "FOUND_ON": "2024-03-13",
     "DISCORD_ID": "584059960242077718",
     "USERNAME": "embo28",
@@ -1060,11 +1271,14 @@
     "ATTACK_SURFACE": "Crypto",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://cyberdaog.com/link",
+    "SURFACE_URL_DOMAIN": "cyberdaog.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_72": {
+  "ACCOUNT_NUMBER_72": {
+    "CASE_NUMBER": "72",
     "FOUND_ON": "2024-02-14",
     "DISCORD_ID": "923950623836237826",
     "USERNAME": "lutecijum",
@@ -1075,11 +1289,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/CCxeIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_73": {
+  "ACCOUNT_NUMBER_73": {
+    "CASE_NUMBER": "73",
     "FOUND_ON": "2024-02-15",
     "DISCORD_ID": "516799700049854479",
     "USERNAME": "tsarstalin",
@@ -1090,11 +1307,14 @@
     "ATTACK_SURFACE": "Crypto",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://shareit.pics/invite.php?id=LJJ078.html",
+    "SURFACE_URL_DOMAIN": "shareit.pics",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_74": {
+  "ACCOUNT_NUMBER_74": {
+    "CASE_NUMBER": "74",
     "FOUND_ON": "2024-02-15",
     "DISCORD_ID": "1079105701361754112",
     "USERNAME": "pietrassaletras",
@@ -1105,11 +1325,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "Link failed to send",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "UNKNOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_75": {
+  "ACCOUNT_NUMBER_75": {
+    "CASE_NUMBER": "75",
     "FOUND_ON": "2024-02-16",
     "DISCORD_ID": "500963449669681153",
     "USERNAME": "shadow6705",
@@ -1120,11 +1343,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qoo.su/KQOlO",
+    "SURFACE_URL_DOMAIN": "qoo.su",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_76": {
+  "ACCOUNT_NUMBER_76": {
+    "CASE_NUMBER": "76",
     "FOUND_ON": "2024-02-18",
     "DISCORD_ID": "1084233182741798952",
     "USERNAME": "real_shadow.exe",
@@ -1135,11 +1361,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://shorter.me/7BfW7",
+    "SURFACE_URL_DOMAIN": "shorter.me",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_77": {
+  "ACCOUNT_NUMBER_77": {
+    "CASE_NUMBER": "77",
     "FOUND_ON": "2024-02-19",
     "DISCORD_ID": "976172338741641317",
     "USERNAME": "domainofhell_",
@@ -1150,11 +1379,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/orONn",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_78": {
+  "ACCOUNT_NUMBER_78": {
+    "CASE_NUMBER": "78",
     "FOUND_ON": "2024-02-19",
     "DISCORD_ID": "302160083771719680",
     "USERNAME": "dkxgi",
@@ -1165,11 +1397,14 @@
     "ATTACK_SURFACE": "Adobe",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://bit.ly/adobe_gratis",
+    "SURFACE_URL_DOMAIN": "bit.ly",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_79": {
+  "ACCOUNT_NUMBER_79": {
+    "CASE_NUMBER": "79",
     "FOUND_ON": "2024-02-20",
     "DISCORD_ID": "977853368020107298",
     "USERNAME": "qbas27",
@@ -1180,11 +1415,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/dcleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/dcleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_80": {
+  "ACCOUNT_NUMBER_80": {
+    "CASE_NUMBER": "80",
     "FOUND_ON": "2024-02-20",
     "DISCORD_ID": "1064172952138027010",
     "USERNAME": "justarndm_",
@@ -1195,11 +1433,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/mBYrb",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_81": {
+  "ACCOUNT_NUMBER_81": {
+    "CASE_NUMBER": "81",
     "FOUND_ON": "2024-02-20",
     "DISCORD_ID": "714820492699107510",
     "USERNAME": "kosziak",
@@ -1210,11 +1451,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/mBYrb",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_82": {
+  "ACCOUNT_NUMBER_82": {
+    "CASE_NUMBER": "82",
     "FOUND_ON": "2024-02-21",
     "DISCORD_ID": "770589468524150786",
     "USERNAME": "bartek4927",
@@ -1225,11 +1469,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/xxxsexxx",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxxsexxx",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_83": {
+  "ACCOUNT_NUMBER_83": {
+    "CASE_NUMBER": "83",
     "FOUND_ON": "2024-02-21",
     "DISCORD_ID": "509122632336277505",
     "USERNAME": "jokerbruh61",
@@ -1240,11 +1487,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/mq32J",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_84": {
+  "ACCOUNT_NUMBER_84": {
+    "CASE_NUMBER": "84",
     "FOUND_ON": "2024-02-22",
     "DISCORD_ID": "536553427740786698",
     "USERNAME": "tuanhung8497",
@@ -1255,11 +1505,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://www.mediafire.com/file/1h57i416u85bsn6/File.rar/file",
+    "SURFACE_URL_DOMAIN": "www.mediafire.com",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_85": {
+  "ACCOUNT_NUMBER_85": {
+    "CASE_NUMBER": "85",
     "FOUND_ON": "2024-02-22",
     "DISCORD_ID": "1174981167678754858",
     "USERNAME": "zheljudy",
@@ -1270,11 +1523,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/wgBmIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_86": {
+  "ACCOUNT_NUMBER_86": {
+    "CASE_NUMBER": "86",
     "FOUND_ON": "2024-02-23",
     "DISCORD_ID": "918544110741246063",
     "USERNAME": "stef_blu",
@@ -1285,11 +1541,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/wgBmIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_87": {
+  "ACCOUNT_NUMBER_87": {
+    "CASE_NUMBER": "87",
     "FOUND_ON": "2024-02-23",
     "DISCORD_ID": "1197471903686864917",
     "USERNAME": "stachu_rizzz",
@@ -1300,11 +1559,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/JngvdUwM",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/JngvdUwM",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_88": {
+  "ACCOUNT_NUMBER_88": {
+    "CASE_NUMBER": "88",
     "FOUND_ON": "2024-02-24",
     "DISCORD_ID": "666986751906152476",
     "USERNAME": "lucky_klein",
@@ -1315,11 +1577,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://envs.sh/QVM",
+    "SURFACE_URL_DOMAIN": "envs.sh",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_89": {
+  "ACCOUNT_NUMBER_89": {
+    "CASE_NUMBER": "89",
     "FOUND_ON": "2024-02-24",
     "DISCORD_ID": "420946031799304202",
     "USERNAME": "apexscared",
@@ -1330,11 +1595,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/JngvdUwM",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/JngvdUwM",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_90": {
+  "ACCOUNT_NUMBER_90": {
+    "CASE_NUMBER": "90",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "499259155127861251",
     "USERNAME": "son02951",
@@ -1345,11 +1613,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/qgdnIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_91": {
+  "ACCOUNT_NUMBER_91": {
+    "CASE_NUMBER": "91",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "1210841638189137940",
     "USERNAME": "benjamincurry0840",
@@ -1360,11 +1631,14 @@
     "ATTACK_SURFACE": "Telegram",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://t.me/official_Benjamincurry",
+    "SURFACE_URL_DOMAIN": "t.me",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_92": {
+  "ACCOUNT_NUMBER_92": {
+    "CASE_NUMBER": "92",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "930848974007574539",
     "USERNAME": "strkac",
@@ -1375,11 +1649,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/qgdnIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_93": {
+  "ACCOUNT_NUMBER_93": {
+    "CASE_NUMBER": "93",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "354340237704429568",
     "USERNAME": "itsmiquelesp",
@@ -1390,11 +1667,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-24",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_94": {
+  "ACCOUNT_NUMBER_94": {
+    "CASE_NUMBER": "94",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "584059960242077718",
     "USERNAME": "embo28",
@@ -1405,11 +1685,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "soft-gratis.com",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_95": {
+  "ACCOUNT_NUMBER_95": {
+    "CASE_NUMBER": "95",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "923950623836237826",
     "USERNAME": "lutecijum",
@@ -1420,11 +1703,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "gratis-expert.org",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "UNKNOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_96": {
+  "ACCOUNT_NUMBER_96": {
+    "CASE_NUMBER": "96",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "516799700049854479",
     "USERNAME": "tsarstalin",
@@ -1435,11 +1721,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "gratis-st.com",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "UNKNOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_97": {
+  "ACCOUNT_NUMBER_97": {
+    "CASE_NUMBER": "97",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "777205860660281364",
     "USERNAME": "seregamegavarov",
@@ -1450,11 +1739,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "gratissofts.com",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "UNKNOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_98": {
+  "ACCOUNT_NUMBER_98": {
+    "CASE_NUMBER": "98",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "574583799787290624",
     "USERNAME": "budinalgonjore",
@@ -1465,11 +1757,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "pc-gratis.com",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_99": {
+  "ACCOUNT_NUMBER_99": {
+    "CASE_NUMBER": "99",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "731823147468324914",
     "USERNAME": "\u0442\u0430\u0439\u043d\u043e \u0434\u0435\u0440\u043d\u0443\u043b",
@@ -1480,11 +1775,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "mega-gratis.com",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "UNKNOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_100": {
+  "ACCOUNT_NUMBER_100": {
+    "CASE_NUMBER": "100",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "637717585089134612",
     "USERNAME": "silentwolf5054",
@@ -1495,11 +1793,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "pcgratis.net",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_101": {
+  "ACCOUNT_NUMBER_101": {
+    "CASE_NUMBER": "101",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "693518775554670704",
     "USERNAME": "ANIMOKI",
@@ -1510,11 +1811,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "gratissoftware.org",
+    "SURFACE_URL_DOMAIN": "",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_102": {
+  "ACCOUNT_NUMBER_102": {
+    "CASE_NUMBER": "102",
     "FOUND_ON": "2024-02-25",
     "DISCORD_ID": "737666353724653569",
     "USERNAME": "young_.2",
@@ -1525,11 +1829,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/P7Jgb",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_103": {
+  "ACCOUNT_NUMBER_103": {
+    "CASE_NUMBER": "103",
     "FOUND_ON": "2024-02-26",
     "DISCORD_ID": "1165085624588566560",
     "USERNAME": "jjannesssss",
@@ -1540,11 +1847,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/latinanudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/latinanudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_104": {
+  "ACCOUNT_NUMBER_104": {
+    "CASE_NUMBER": "104",
     "FOUND_ON": "2024-02-26",
     "DISCORD_ID": "760535976040071229",
     "USERNAME": "farming_tool_1820",
@@ -1555,11 +1865,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/luvsex",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/luvsex",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_105": {
+  "ACCOUNT_NUMBER_105": {
+    "CASE_NUMBER": "105",
     "FOUND_ON": "2024-02-26",
     "DISCORD_ID": "568791276028166144",
     "USERNAME": "raenmud",
@@ -1570,11 +1883,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/latinanudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/latinanudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_106": {
+  "ACCOUNT_NUMBER_106": {
+    "CASE_NUMBER": "106",
     "FOUND_ON": "2024-02-26",
     "DISCORD_ID": "693410713745490022",
     "USERNAME": "otterstien",
@@ -1585,11 +1901,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/qgdnIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_107": {
+  "ACCOUNT_NUMBER_107": {
+    "CASE_NUMBER": "107",
     "FOUND_ON": "2024-02-27",
     "DISCORD_ID": "536073806096105482",
     "USERNAME": "athrun_rtykd",
@@ -1600,11 +1919,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/xxxsexxx",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxxsexxx",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_108": {
+  "ACCOUNT_NUMBER_108": {
+    "CASE_NUMBER": "108",
     "FOUND_ON": "2024-02-27",
     "DISCORD_ID": "523493228570476556",
     "USERNAME": "wluniak",
@@ -1615,11 +1937,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/mp6NV",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_109": {
+  "ACCOUNT_NUMBER_109": {
+    "CASE_NUMBER": "109",
     "FOUND_ON": "2024-02-28",
     "DISCORD_ID": "513750863018459136",
     "USERNAME": "stely23m",
@@ -1630,11 +1955,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/Pb3lB",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_110": {
+  "ACCOUNT_NUMBER_110": {
+    "CASE_NUMBER": "110",
     "FOUND_ON": "2024-02-28",
     "DISCORD_ID": "955089251589062666",
     "USERNAME": "abomatriix",
@@ -1645,11 +1973,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-25",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_111": {
+  "ACCOUNT_NUMBER_111": {
+    "CASE_NUMBER": "111",
     "FOUND_ON": "2024-02-28",
     "DISCORD_ID": "431810706623430657",
     "USERNAME": "the_timoti",
@@ -1659,12 +1990,15 @@
     "ATTACK_GOAL": "Discord accounts",
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
-    "SURFACE_URL": "discord.gg/xxxporn",
+    "SURFACE_URL": "https://discord.gg/xxxporn",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxxporn",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_112": {
+  "ACCOUNT_NUMBER_112": {
+    "CASE_NUMBER": "112",
     "FOUND_ON": "2024-02-28",
     "DISCORD_ID": "571375599164063754",
     "USERNAME": "wewion",
@@ -1675,11 +2009,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_113": {
+  "ACCOUNT_NUMBER_113": {
+    "CASE_NUMBER": "113",
     "FOUND_ON": "2024-02-29",
     "DISCORD_ID": "820188481711374336",
     "USERNAME": "iaiesutzu",
@@ -1689,12 +2026,15 @@
     "ATTACK_GOAL": "Discord accounts",
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
-    "SURFACE_URL": "discord.gg/spicymedia",
+    "SURFACE_URL": "https://discord.gg/spicymedia",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/spicymedia",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_114": {
+  "ACCOUNT_NUMBER_114": {
+    "CASE_NUMBER": "114",
     "FOUND_ON": "2024-02-29",
     "DISCORD_ID": "495645663330172928",
     "USERNAME": "chuerk2097",
@@ -1705,11 +2045,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_115": {
+  "ACCOUNT_NUMBER_115": {
+    "CASE_NUMBER": "115",
     "FOUND_ON": "2024-02-29",
     "DISCORD_ID": "1153834628931661844",
     "USERNAME": "marcel0360_58817",
@@ -1720,11 +2063,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/tiktokgirls",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/tiktokgirls",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_116": {
+  "ACCOUNT_NUMBER_116": {
+    "CASE_NUMBER": "116",
     "FOUND_ON": "2024-02-29",
     "DISCORD_ID": "398177371867578369",
     "USERNAME": "dei84",
@@ -1735,11 +2081,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_117": {
+  "ACCOUNT_NUMBER_117": {
+    "CASE_NUMBER": "117",
     "FOUND_ON": "2024-02-29",
     "DISCORD_ID": "1198514292480290919",
     "USERNAME": "grasia357",
@@ -1750,11 +2099,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/LY9rIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_118": {
+  "ACCOUNT_NUMBER_118": {
+    "CASE_NUMBER": "118",
     "FOUND_ON": "2024-02-29",
     "DISCORD_ID": "1140642919578083462",
     "USERNAME": "arlyhellowen",
@@ -1765,11 +2117,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/kHRrIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_119": {
+  "ACCOUNT_NUMBER_119": {
+    "CASE_NUMBER": "119",
     "FOUND_ON": "2024-02-29",
     "DISCORD_ID": "1078284621118197760",
     "USERNAME": "fabsi1231",
@@ -1780,11 +2135,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/xxxsexxx",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxxsexxx",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_120": {
+  "ACCOUNT_NUMBER_120": {
+    "CASE_NUMBER": "120",
     "FOUND_ON": "2024-03-01",
     "DISCORD_ID": "802960467911770173",
     "USERNAME": "adam7857#5890",
@@ -1795,11 +2153,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/3HejwuGyuX",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/3HejwuGyuX",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_121": {
+  "ACCOUNT_NUMBER_121": {
+    "CASE_NUMBER": "121",
     "FOUND_ON": "2024-03-01",
     "DISCORD_ID": "781812272795353088",
     "USERNAME": "Psych#1140",
@@ -1810,11 +2171,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://envs.sh/hEF",
+    "SURFACE_URL_DOMAIN": "envs.sh",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_122": {
+  "ACCOUNT_NUMBER_122": {
+    "CASE_NUMBER": "122",
     "FOUND_ON": "2024-03-03",
     "DISCORD_ID": "975311890169364510",
     "USERNAME": "i_love_shrek69",
@@ -1825,11 +2189,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/xxnude",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxnude",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_123": {
+  "ACCOUNT_NUMBER_123": {
+    "CASE_NUMBER": "123",
     "FOUND_ON": "2024-03-03",
     "DISCORD_ID": "909795631684542536",
     "USERNAME": "support_chinese_child_labor",
@@ -1840,11 +2207,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
     "SURFACE_URL": "https://discord.gg/CccGgacQE7",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/CccGgacQE7",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_124": {
+  "ACCOUNT_NUMBER_124": {
+    "CASE_NUMBER": "124",
     "FOUND_ON": "2024-03-03",
     "DISCORD_ID": "397538879374360587",
     "USERNAME": "callou28",
@@ -1855,11 +2225,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_125": {
+  "ACCOUNT_NUMBER_125": {
+    "CASE_NUMBER": "125",
     "FOUND_ON": "2024-03-03",
     "DISCORD_ID": "1171468776034803773",
     "USERNAME": "water_babik.",
@@ -1870,11 +2243,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/1sDvE",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_126": {
+  "ACCOUNT_NUMBER_126": {
+    "CASE_NUMBER": "126",
     "FOUND_ON": "2024-03-04",
     "DISCORD_ID": "416687584006242305",
     "USERNAME": "cengo25emin",
@@ -1885,11 +2261,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/mp6NV",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_127": {
+  "ACCOUNT_NUMBER_127": {
+    "CASE_NUMBER": "127",
     "FOUND_ON": "2024-03-04",
     "DISCORD_ID": "428988114870992896",
     "USERNAME": "leonardoschlawano",
@@ -1900,11 +2279,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/mp6NV",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_128": {
+  "ACCOUNT_NUMBER_128": {
+    "CASE_NUMBER": "128",
     "FOUND_ON": "2024-03-04",
     "DISCORD_ID": "326411443131908098",
     "USERNAME": "sipuks",
@@ -1915,11 +2297,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/1sDvE",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_129": {
+  "ACCOUNT_NUMBER_129": {
+    "CASE_NUMBER": "129",
     "FOUND_ON": "2024-03-04",
     "DISCORD_ID": "759513901061767168",
     "USERNAME": "airboy.",
@@ -1930,11 +2315,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/1sDvE",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_130": {
+  "ACCOUNT_NUMBER_130": {
+    "CASE_NUMBER": "130",
     "FOUND_ON": "2024-03-04",
     "DISCORD_ID": "463593195213815809",
     "USERNAME": "sandrodavinci",
@@ -1945,11 +2333,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_131": {
+  "ACCOUNT_NUMBER_131": {
+    "CASE_NUMBER": "131",
     "FOUND_ON": "2024-03-04",
     "DISCORD_ID": "930267264501022801",
     "USERNAME": "bugatxunga",
@@ -1960,11 +2351,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_132": {
+  "ACCOUNT_NUMBER_132": {
+    "CASE_NUMBER": "132",
     "FOUND_ON": "2024-03-05",
     "DISCORD_ID": "1193257868737130657",
     "USERNAME": "klej0430",
@@ -1975,11 +2369,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/a-NvIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_133": {
+  "ACCOUNT_NUMBER_133": {
+    "CASE_NUMBER": "133",
     "FOUND_ON": "2024-03-05",
     "DISCORD_ID": "533592559872638977",
     "USERNAME": "kustikvtrusikah",
@@ -1990,11 +2387,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/lIf7",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_134": {
+  "ACCOUNT_NUMBER_134": {
+    "CASE_NUMBER": "134",
     "FOUND_ON": "2024-03-05",
     "DISCORD_ID": "702413865618505780",
     "USERNAME": "numberone_1",
@@ -2005,11 +2405,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://goo.su/dis-drop",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_135": {
+  "ACCOUNT_NUMBER_135": {
+    "CASE_NUMBER": "135",
     "FOUND_ON": "2024-03-05",
     "DISCORD_ID": "624926487551934494",
     "USERNAME": "anemius",
@@ -2020,11 +2423,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/tiktoknsfw",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/tiktoknsfw",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_136": {
+  "ACCOUNT_NUMBER_136": {
+    "CASE_NUMBER": "136",
     "FOUND_ON": "2024-03-05",
     "DISCORD_ID": "973947433866387486",
     "USERNAME": "pazdik21",
@@ -2035,11 +2441,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/fS3twRAa",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/fS3twRAa",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_137": {
+  "ACCOUNT_NUMBER_137": {
+    "CASE_NUMBER": "137",
     "FOUND_ON": "2024-03-06",
     "DISCORD_ID": "833008906254548993",
     "USERNAME": "girafiik",
@@ -2050,11 +2459,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://envs.sh/hhN",
+    "SURFACE_URL_DOMAIN": "envs.sh",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_138": {
+  "ACCOUNT_NUMBER_138": {
+    "CASE_NUMBER": "138",
     "FOUND_ON": "2024-03-06",
     "DISCORD_ID": "279026115706880003",
     "USERNAME": "ignf2924",
@@ -2065,11 +2477,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_139": {
+  "ACCOUNT_NUMBER_139": {
+    "CASE_NUMBER": "139",
     "FOUND_ON": "2024-03-06",
     "DISCORD_ID": "786968960746520576",
     "USERNAME": "fuzetom",
@@ -2080,11 +2495,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/dcleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/dcleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_140": {
+  "ACCOUNT_NUMBER_140": {
+    "CASE_NUMBER": "140",
     "FOUND_ON": "2024-03-06",
     "DISCORD_ID": "1025527873676775584",
     "USERNAME": "_prokto_agresor_",
@@ -2095,11 +2513,14 @@
     "ATTACK_SURFACE": "Crypto",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://getdrops.org/$DeBank",
+    "SURFACE_URL_DOMAIN": "getdrops.org",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_141": {
+  "ACCOUNT_NUMBER_141": {
+    "CASE_NUMBER": "141",
     "FOUND_ON": "2024-03-07",
     "DISCORD_ID": "1203590400141430794",
     "USERNAME": "jorgeork",
@@ -2110,11 +2531,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/dcleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/dcleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_142": {
+  "ACCOUNT_NUMBER_142": {
+    "CASE_NUMBER": "142",
     "FOUND_ON": "2024-03-07",
     "DISCORD_ID": "1181374581978701844",
     "USERNAME": "cefiys",
@@ -2125,11 +2549,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/rzRyIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_143": {
+  "ACCOUNT_NUMBER_143": {
+    "CASE_NUMBER": "143",
     "FOUND_ON": "2024-03-07",
     "DISCORD_ID": "743021958282608652",
     "USERNAME": "ghosthit_100",
@@ -2140,11 +2567,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/xxnudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxnudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_144": {
+  "ACCOUNT_NUMBER_144": {
+    "CASE_NUMBER": "144",
     "FOUND_ON": "2024-03-07",
     "DISCORD_ID": "481760013484818432",
     "USERNAME": "hishiro1941",
@@ -2155,11 +2585,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/latinaleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/latinaleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_145": {
+  "ACCOUNT_NUMBER_145": {
+    "CASE_NUMBER": "145",
     "FOUND_ON": "2024-03-07",
     "DISCORD_ID": "1075441559203479622",
     "USERNAME": "abobicus",
@@ -2170,11 +2603,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_146": {
+  "ACCOUNT_NUMBER_146": {
+    "CASE_NUMBER": "146",
     "FOUND_ON": "2024-03-07",
     "DISCORD_ID": "960888558833516564",
     "USERNAME": "therivas17",
@@ -2185,11 +2621,14 @@
     "ATTACK_SURFACE": "Computers",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-28",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_147": {
+  "ACCOUNT_NUMBER_147": {
+    "CASE_NUMBER": "147",
     "FOUND_ON": "2024-03-08",
     "DISCORD_ID": "1117793274342670427",
     "USERNAME": "fury_f1nal_boss",
@@ -2200,11 +2639,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/jd5VZ",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_148": {
+  "ACCOUNT_NUMBER_148": {
+    "CASE_NUMBER": "148",
     "FOUND_ON": "2024-03-08",
     "DISCORD_ID": "667369863228031017",
     "USERNAME": "pipe9999",
@@ -2215,11 +2657,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://gg.gg/19bfby",
+    "SURFACE_URL_DOMAIN": "gg.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_149": {
+  "ACCOUNT_NUMBER_149": {
+    "CASE_NUMBER": "149",
     "FOUND_ON": "2024-03-08",
     "DISCORD_ID": "396341400419041316",
     "USERNAME": "lovemasin",
@@ -2230,11 +2675,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/latinaleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/latinaleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_150": {
+  "ACCOUNT_NUMBER_150": {
+    "CASE_NUMBER": "150",
     "FOUND_ON": "2024-03-08",
     "DISCORD_ID": "806878955277647903",
     "USERNAME": "steinie_1871",
@@ -2245,11 +2693,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nsfwcharlote",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nsfwcharlote",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_151": {
+  "ACCOUNT_NUMBER_151": {
+    "CASE_NUMBER": "151",
     "FOUND_ON": "2024-03-08",
     "DISCORD_ID": "670759217862279219",
     "USERNAME": "luiscmg",
@@ -2260,11 +2711,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/dcleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/dcleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_152": {
+  "ACCOUNT_NUMBER_152": {
+    "CASE_NUMBER": "152",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "624918581754200066",
     "USERNAME": "vladghost",
@@ -2275,11 +2729,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/leaks4you",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/leaks4you",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_153": {
+  "ACCOUNT_NUMBER_153": {
+    "CASE_NUMBER": "153",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "1056623413390757908",
     "USERNAME": "idk2357",
@@ -2290,11 +2747,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/teenporn18",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/teenporn18",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_154": {
+  "ACCOUNT_NUMBER_154": {
+    "CASE_NUMBER": "154",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "939074196368150578",
     "USERNAME": "optimus0521",
@@ -2305,11 +2765,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://envs.sh/h2l",
+    "SURFACE_URL_DOMAIN": "envs.sh",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_155": {
+  "ACCOUNT_NUMBER_155": {
+    "CASE_NUMBER": "155",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "759340870977323028",
     "USERNAME": "liahush",
@@ -2320,11 +2783,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/jd5VZ",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_156": {
+  "ACCOUNT_NUMBER_156": {
+    "CASE_NUMBER": "156",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "596504974280884224",
     "USERNAME": "demolitionman1",
@@ -2335,11 +2801,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_157": {
+  "ACCOUNT_NUMBER_157": {
+    "CASE_NUMBER": "157",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "687677489174282263",
     "USERNAME": "h1z1_ger",
@@ -2350,11 +2819,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/xxxvids",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxxvids",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_158": {
+  "ACCOUNT_NUMBER_158": {
+    "CASE_NUMBER": "158",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "889894878908149760",
     "USERNAME": "thepanda2137",
@@ -2365,11 +2837,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_159": {
+  "ACCOUNT_NUMBER_159": {
+    "CASE_NUMBER": "159",
     "FOUND_ON": "2024-03-09",
     "DISCORD_ID": "1066160331723902986",
     "USERNAME": "painakatsukiii",
@@ -2380,11 +2855,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_160": {
+  "ACCOUNT_NUMBER_160": {
+    "CASE_NUMBER": "160",
     "FOUND_ON": "2024-03-10",
     "DISCORD_ID": "736378597991907328",
     "USERNAME": "wrforsmallestpp",
@@ -2395,11 +2873,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/tiktokteens",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/tiktokteens",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_161": {
+  "ACCOUNT_NUMBER_161": {
+    "CASE_NUMBER": "161",
     "FOUND_ON": "2024-03-10",
     "DISCORD_ID": "743075853667139635",
     "USERNAME": "laidbackswift",
@@ -2410,11 +2891,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/P4VEB",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_162": {
+  "ACCOUNT_NUMBER_162": {
+    "CASE_NUMBER": "162",
     "FOUND_ON": "2024-03-10",
     "DISCORD_ID": "660840497463558147",
     "USERNAME": "bentabyss",
@@ -2425,11 +2909,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/A2zvFBGD",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/A2zvFBGD",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_163": {
+  "ACCOUNT_NUMBER_163": {
+    "CASE_NUMBER": "163",
     "FOUND_ON": "2024-03-10",
     "DISCORD_ID": "393586857340043274",
     "USERNAME": "anakwanartveddy",
@@ -2440,11 +2927,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://go-link.ru/P4VEB",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_164": {
+  "ACCOUNT_NUMBER_164": {
+    "CASE_NUMBER": "164",
     "FOUND_ON": "2024-03-10",
     "DISCORD_ID": "1195358527414337570",
     "USERNAME": "deutscherlennox_56045",
@@ -2455,11 +2945,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_165": {
+  "ACCOUNT_NUMBER_165": {
+    "CASE_NUMBER": "165",
     "FOUND_ON": "2024-03-10",
     "DISCORD_ID": "900857539242131497",
     "USERNAME": "alexander_lun",
@@ -2470,11 +2963,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://u.to/EFZ1IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_166": {
+  "ACCOUNT_NUMBER_166": {
+    "CASE_NUMBER": "166",
     "FOUND_ON": "2024-03-12",
     "DISCORD_ID": "1125504159219712163",
     "USERNAME": "d3r3k88",
@@ -2485,11 +2981,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://u.to/kPl1IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_167": {
+  "ACCOUNT_NUMBER_167": {
+    "CASE_NUMBER": "167",
     "FOUND_ON": "2024-03-12",
     "DISCORD_ID": "1034810786205417553",
     "USERNAME": "willy_0x",
@@ -2500,11 +2999,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/teenscp",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/teenscp",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_168": {
+  "ACCOUNT_NUMBER_168": {
+    "CASE_NUMBER": "168",
     "FOUND_ON": "2024-03-12",
     "DISCORD_ID": "706310341830639696",
     "USERNAME": "derturke4153",
@@ -2515,11 +3017,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/xxxvids",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xxxvids",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_169": {
+  "ACCOUNT_NUMBER_169": {
+    "CASE_NUMBER": "169",
     "FOUND_ON": "2024-03-12",
     "DISCORD_ID": "1153388733521989673",
     "USERNAME": "creepyy_18247",
@@ -2530,11 +3035,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_170": {
+  "ACCOUNT_NUMBER_170": {
+    "CASE_NUMBER": "170",
     "FOUND_ON": "2024-03-12",
     "DISCORD_ID": "756484826709753897",
     "USERNAME": "sir_vel",
@@ -2545,11 +3053,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_171": {
+  "ACCOUNT_NUMBER_171": {
+    "CASE_NUMBER": "171",
     "FOUND_ON": "2024-03-12",
     "DISCORD_ID": "312319200263667712",
     "USERNAME": ".xavio",
@@ -2560,11 +3071,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/SexyHot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/SexyHot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_172": {
+  "ACCOUNT_NUMBER_172": {
+    "CASE_NUMBER": "172",
     "FOUND_ON": "2024-03-12",
     "DISCORD_ID": "843990169350045696",
     "USERNAME": "el095",
@@ -2575,11 +3089,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/VeUVj68a8T",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/VeUVj68a8T",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_173": {
+  "ACCOUNT_NUMBER_173": {
+    "CASE_NUMBER": "173",
     "FOUND_ON": "2024-03-13",
     "DISCORD_ID": "720013840217145415",
     "USERNAME": "airbornepsycho",
@@ -2590,11 +3107,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/teensleaked",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/teensleaked",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_174": {
+  "ACCOUNT_NUMBER_174": {
+    "CASE_NUMBER": "174",
     "FOUND_ON": "2024-03-13",
     "DISCORD_ID": "465170201386680322",
     "USERNAME": "phantomx_69_420",
@@ -2605,11 +3125,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/teensleaked",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/teensleaked",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_175": {
+  "ACCOUNT_NUMBER_175": {
+    "CASE_NUMBER": "175",
     "FOUND_ON": "2024-03-13",
     "DISCORD_ID": "662212470240444436",
     "USERNAME": ".ejik.",
@@ -2620,11 +3143,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/233",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/233",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_176": {
+  "ACCOUNT_NUMBER_176": {
+    "CASE_NUMBER": "176",
     "FOUND_ON": "2024-03-15",
     "DISCORD_ID": "490258580033765396",
     "USERNAME": "warlog2k",
@@ -2635,11 +3161,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/xup2IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_177": {
+  "ACCOUNT_NUMBER_177": {
+    "CASE_NUMBER": "177",
     "FOUND_ON": "2024-03-15",
     "DISCORD_ID": "433737404323725322",
     "USERNAME": "rusiotive",
@@ -2650,11 +3179,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/oX8bE",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_178": {
+  "ACCOUNT_NUMBER_178": {
+    "CASE_NUMBER": "178",
     "FOUND_ON": "2024-03-15",
     "DISCORD_ID": "462379174967902208",
     "USERNAME": "xxkilldoggxx",
@@ -2665,11 +3197,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/Pwl28",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_179": {
+  "ACCOUNT_NUMBER_179": {
+    "CASE_NUMBER": "179",
     "FOUND_ON": "2024-03-16",
     "DISCORD_ID": "300801485787234304",
     "USERNAME": "ramius1668",
@@ -2680,11 +3215,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/BqWt8dqUAP",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/BqWt8dqUAP",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "TAKEN DOWN"
   },
-  "ACCOUNT_NO_180": {
+  "ACCOUNT_NUMBER_180": {
+    "CASE_NUMBER": "180",
     "FOUND_ON": "2024-03-16",
     "DISCORD_ID": "744770317611696178",
     "USERNAME": "krugerslayer",
@@ -2695,11 +3233,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nudeporn",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nudeporn",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_181": {
+  "ACCOUNT_NUMBER_181": {
+    "CASE_NUMBER": "181",
     "FOUND_ON": "2024-03-17",
     "DISCORD_ID": "649143761078583306",
     "USERNAME": "barash20103",
@@ -2710,11 +3251,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://envs.sh/hPa",
+    "SURFACE_URL_DOMAIN": "envs.sh",
     "SURFACE_URL_STATUS": "TAKEN DOWN",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_182": {
+  "ACCOUNT_NUMBER_182": {
+    "CASE_NUMBER": "182",
     "FOUND_ON": "2024-03-17",
     "DISCORD_ID": "357867686199296002",
     "USERNAME": "daddyalpha2k19",
@@ -2725,11 +3269,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/CTd7IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_183": {
+  "ACCOUNT_NUMBER_183": {
+    "CASE_NUMBER": "183",
     "FOUND_ON": "2024-03-17",
     "DISCORD_ID": "1089881503279886447",
     "USERNAME": ".ruffy2110",
@@ -2740,11 +3287,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/LKR8IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_184": {
+  "ACCOUNT_NUMBER_184": {
+    "CASE_NUMBER": "184",
     "FOUND_ON": "2024-03-18",
     "DISCORD_ID": "1002603248340967424",
     "USERNAME": "sticheese",
@@ -2755,11 +3305,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://rb.gy/mi0taf",
+    "SURFACE_URL_DOMAIN": "rb.gy",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_185": {
+  "ACCOUNT_NUMBER_185": {
+    "CASE_NUMBER": "185",
     "FOUND_ON": "2024-03-18",
     "DISCORD_ID": "413217883389427714",
     "USERNAME": "xthebetrayerx",
@@ -2770,11 +3323,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/oX8ZG",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_186": {
+  "ACCOUNT_NUMBER_186": {
+    "CASE_NUMBER": "186",
     "FOUND_ON": "2024-03-18",
     "DISCORD_ID": "1170924020972126248",
     "USERNAME": "iamnaim",
@@ -2785,11 +3341,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/babez",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/babez",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_187": {
+  "ACCOUNT_NUMBER_187": {
+    "CASE_NUMBER": "187",
     "FOUND_ON": "2024-03-18",
     "DISCORD_ID": "1170924020972126248",
     "USERNAME": "iamnaim",
@@ -2800,11 +3359,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/RN3EKZWk4G",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/RN3EKZWk4G",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_188": {
+  "ACCOUNT_NUMBER_188": {
+    "CASE_NUMBER": "188",
     "FOUND_ON": "2024-03-19",
     "DISCORD_ID": "326092564006567936",
     "USERNAME": "poundravac",
@@ -2815,11 +3377,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/ans6KXbseT",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/ans6KXbseT",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_189": {
+  "ACCOUNT_NUMBER_189": {
+    "CASE_NUMBER": "189",
     "FOUND_ON": "2024-03-19",
     "DISCORD_ID": "1188686808591122485",
     "USERNAME": "stellaz0541",
@@ -2830,11 +3395,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/tiktokteens",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/tiktokteens",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_190": {
+  "ACCOUNT_NUMBER_190": {
+    "CASE_NUMBER": "190",
     "FOUND_ON": "2024-03-19",
     "DISCORD_ID": "363955929776914432",
     "USERNAME": "mahmoud1983",
@@ -2845,11 +3413,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/girls18q",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/girls18q",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_191": {
+  "ACCOUNT_NUMBER_191": {
+    "CASE_NUMBER": "191",
     "FOUND_ON": "2024-03-19",
     "DISCORD_ID": "386168108303253525",
     "USERNAME": "jaygii",
@@ -2860,11 +3431,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/189_IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_192": {
+  "ACCOUNT_NUMBER_192": {
+    "CASE_NUMBER": "192",
     "FOUND_ON": "2024-03-19",
     "DISCORD_ID": "348536704916914177",
     "USERNAME": "frizovshik",
@@ -2875,11 +3449,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/189_IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_193": {
+  "ACCOUNT_NUMBER_193": {
+    "CASE_NUMBER": "193",
     "FOUND_ON": "2024-03-19",
     "DISCORD_ID": "1188824339261423625",
     "USERNAME": "sgt.taschentuch.",
@@ -2890,11 +3467,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/cpteens",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/cpteens",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_194": {
+  "ACCOUNT_NUMBER_194": {
+    "CASE_NUMBER": "194",
     "FOUND_ON": "2024-03-19",
     "DISCORD_ID": "533769228164005928",
     "USERNAME": "aac_the_shield",
@@ -2905,11 +3485,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nFbHU7KADq",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nFbHU7KADq",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_195": {
+  "ACCOUNT_NUMBER_195": {
+    "CASE_NUMBER": "195",
     "FOUND_ON": "2024-03-20",
     "DISCORD_ID": "917790133225398293",
     "USERNAME": "firestarter0563",
@@ -2920,11 +3503,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/B1l-IA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_196": {
+  "ACCOUNT_NUMBER_196": {
+    "CASE_NUMBER": "196",
     "FOUND_ON": "2024-03-20",
     "DISCORD_ID": "838125472029212752",
     "USERNAME": "lachu4062",
@@ -2935,11 +3521,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/XTCAIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_197": {
+  "ACCOUNT_NUMBER_197": {
+    "CASE_NUMBER": "197",
     "FOUND_ON": "2024-03-20",
     "DISCORD_ID": "401994465834827778",
     "USERNAME": "et0_oxyed0",
@@ -2950,11 +3539,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://shorturl.at/gkBK6",
+    "SURFACE_URL_DOMAIN": "shorturl.at",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_198": {
+  "ACCOUNT_NUMBER_198": {
+    "CASE_NUMBER": "198",
     "FOUND_ON": "2024-03-21",
     "DISCORD_ID": "279263991883235330",
     "USERNAME": "noveliumx",
@@ -2965,11 +3557,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://u.to/IBCBIA",
+    "SURFACE_URL_DOMAIN": "u.to",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_199": {
+  "ACCOUNT_NUMBER_199": {
+    "CASE_NUMBER": "199",
     "FOUND_ON": "2024-03-21",
     "DISCORD_ID": "616141580788826146",
     "USERNAME": "haf_iron",
@@ -2980,11 +3575,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nudeporn",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nudeporn",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_200": {
+  "ACCOUNT_NUMBER_200": {
+    "CASE_NUMBER": "200",
     "FOUND_ON": "2024-03-24",
     "DISCORD_ID": "929181780861403176",
     "USERNAME": "von_20",
@@ -2995,11 +3593,14 @@
     "ATTACK_SURFACE": "Adobe",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://telegra.ph/Adobe-GRATIS-2024-FULL-ESPANOL-02-20",
+    "SURFACE_URL_DOMAIN": "telegra.ph",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_201": {
+  "ACCOUNT_NUMBER_201": {
+    "CASE_NUMBER": "201",
     "FOUND_ON": "2024-03-25",
     "DISCORD_ID": "801837988618305566",
     "USERNAME": "csabesz4_",
@@ -3010,11 +3611,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nudeporn",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nudeporn",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_202": {
+  "ACCOUNT_NUMBER_202": {
+    "CASE_NUMBER": "202",
     "FOUND_ON": "2024-03-25",
     "DISCORD_ID": "1152213543370887249",
     "USERNAME": "monkeydelofiy_08849",
@@ -3025,11 +3629,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/s3xygirls",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/s3xygirls",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_203": {
+  "ACCOUNT_NUMBER_203": {
+    "CASE_NUMBER": "203",
     "FOUND_ON": "2024-03-25",
     "DISCORD_ID": "227952459161534464",
     "USERNAME": "aracombr",
@@ -3040,11 +3647,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://envs.sh/hWR",
+    "SURFACE_URL_DOMAIN": "envs.sh",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_204": {
+  "ACCOUNT_NUMBER_204": {
+    "CASE_NUMBER": "204",
     "FOUND_ON": "2024-03-27",
     "DISCORD_ID": "1056693101441318912",
     "USERNAME": "gavril0",
@@ -3055,11 +3665,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/mQLDX",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_205": {
+  "ACCOUNT_NUMBER_205": {
+    "CASE_NUMBER": "205",
     "FOUND_ON": "2024-03-27",
     "DISCORD_ID": "482380360303247360",
     "USERNAME": "zdrtgb123",
@@ -3070,11 +3683,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/twerks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/twerks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_206": {
+  "ACCOUNT_NUMBER_206": {
+    "CASE_NUMBER": "206",
     "FOUND_ON": "2024-03-27",
     "DISCORD_ID": "236173468780068875",
     "USERNAME": "wongalit",
@@ -3085,11 +3701,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/jAGQM",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_207": {
+  "ACCOUNT_NUMBER_207": {
+    "CASE_NUMBER": "207",
     "FOUND_ON": "2024-03-27",
     "DISCORD_ID": "839484591466741770",
     "USERNAME": "will.7307",
@@ -3100,11 +3719,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/medialeaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/medialeaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_208": {
+  "ACCOUNT_NUMBER_208": {
+    "CASE_NUMBER": "208",
     "FOUND_ON": "2024-03-27",
     "DISCORD_ID": "677165079229104148",
     "USERNAME": "biggest_dwarf",
@@ -3115,11 +3737,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/d836",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_209": {
+  "ACCOUNT_NUMBER_209": {
+    "CASE_NUMBER": "209",
     "FOUND_ON": "2024-03-27",
     "DISCORD_ID": "751670604457050122",
     "USERNAME": "macx0788",
@@ -3130,11 +3755,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/gg-nitro",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_210": {
+  "ACCOUNT_NUMBER_210": {
+    "CASE_NUMBER": "210",
     "FOUND_ON": "2024-03-27",
     "DISCORD_ID": "1056561238768885780",
     "USERNAME": "eviltrabl",
@@ -3145,11 +3773,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://shorturl.at/anBMS",
+    "SURFACE_URL_DOMAIN": "shorturl.at",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_211": {
+  "ACCOUNT_NUMBER_211": {
+    "CASE_NUMBER": "211",
     "FOUND_ON": "2024-03-28",
     "DISCORD_ID": "501812834221424640",
     "USERNAME": "sobciu_",
@@ -3160,11 +3791,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/d836",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_212": {
+  "ACCOUNT_NUMBER_212": {
+    "CASE_NUMBER": "212",
     "FOUND_ON": "2024-03-28",
     "DISCORD_ID": "776330931908771891",
     "USERNAME": "top4ik777",
@@ -3175,11 +3809,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/gg-nitro",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_213": {
+  "ACCOUNT_NUMBER_213": {
+    "CASE_NUMBER": "213",
     "FOUND_ON": "2024-03-28",
     "DISCORD_ID": "660808098046410753",
     "USERNAME": "buga4231",
@@ -3190,11 +3827,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/gg-nitro",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_214": {
+  "ACCOUNT_NUMBER_214": {
+    "CASE_NUMBER": "214",
     "FOUND_ON": "2024-03-29",
     "DISCORD_ID": "926779565110620170",
     "USERNAME": "dollar_rob",
@@ -3205,11 +3845,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/gg-nitro",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_215": {
+  "ACCOUNT_NUMBER_215": {
+    "CASE_NUMBER": "215",
     "FOUND_ON": "2024-03-29",
     "DISCORD_ID": "1110099582546890813",
     "USERNAME": "tps_420",
@@ -3220,11 +3863,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://souq-deals.website/6uh4",
+    "SURFACE_URL_DOMAIN": "souq-deals.website",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_216": {
+  "ACCOUNT_NUMBER_216": {
+    "CASE_NUMBER": "216",
     "FOUND_ON": "2024-03-29",
     "DISCORD_ID": "1046871336422752256",
     "USERNAME": "nukulargamer",
@@ -3235,11 +3881,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://souq-deals.website/6uh4",
+    "SURFACE_URL_DOMAIN": "souq-deals.website",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_217": {
+  "ACCOUNT_NUMBER_217": {
+    "CASE_NUMBER": "217",
     "FOUND_ON": "2024-03-29",
     "DISCORD_ID": "789157420906708992",
     "USERNAME": "maksimus1008",
@@ -3250,11 +3899,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://plhn.pw/HWR",
+    "SURFACE_URL_DOMAIN": "plhn.pw",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_218": {
+  "ACCOUNT_NUMBER_218": {
+    "CASE_NUMBER": "218",
     "FOUND_ON": "2024-03-30",
     "DISCORD_ID": "1223182714921025556",
     "USERNAME": "benjamincurry0800",
@@ -3265,11 +3917,14 @@
     "ATTACK_SURFACE": "Telegram",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://t.me/official_Benjamincurry",
+    "SURFACE_URL_DOMAIN": "t.me",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_219": {
+  "ACCOUNT_NUMBER_219": {
+    "CASE_NUMBER": "219",
     "FOUND_ON": "2024-03-30",
     "DISCORD_ID": "354248711075004416",
     "USERNAME": "vizi.",
@@ -3280,11 +3935,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://plhn.pw/HWR",
+    "SURFACE_URL_DOMAIN": "plhn.pw",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_220": {
+  "ACCOUNT_NUMBER_220": {
+    "CASE_NUMBER": "220",
     "FOUND_ON": "2024-03-30",
     "DISCORD_ID": "823810433731133450",
     "USERNAME": "houmii.",
@@ -3295,11 +3953,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://plhn.pw/fCi",
+    "SURFACE_URL_DOMAIN": "plhn.pw",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_221": {
+  "ACCOUNT_NUMBER_221": {
+    "CASE_NUMBER": "221",
     "FOUND_ON": "2024-03-31",
     "DISCORD_ID": "908549644026515466",
     "USERNAME": "comrade_mickey",
@@ -3310,11 +3971,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/xmedia",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/xmedia",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_222": {
+  "ACCOUNT_NUMBER_222": {
+    "CASE_NUMBER": "222",
     "FOUND_ON": "2024-03-31",
     "DISCORD_ID": "1161355259453657158",
     "USERNAME": "kuchazio",
@@ -3325,11 +3989,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/get",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/get",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_223": {
+  "ACCOUNT_NUMBER_223": {
+    "CASE_NUMBER": "223",
     "FOUND_ON": "2024-03-31",
     "DISCORD_ID": "1161355259453657158",
     "USERNAME": "kuchazio",
@@ -3340,11 +4007,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/twerking",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/twerking",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_224": {
+  "ACCOUNT_NUMBER_224": {
+    "CASE_NUMBER": "224",
     "FOUND_ON": "2024-03-31",
     "DISCORD_ID": "440574415407808512",
     "USERNAME": "crystalixx.",
@@ -3355,11 +4025,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.com/invite/eCZv75G6tB",
+    "SURFACE_URL_DOMAIN": "discord.com",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_225": {
+  "ACCOUNT_NUMBER_225": {
+    "CASE_NUMBER": "225",
     "FOUND_ON": "2024-04-01",
     "DISCORD_ID": "910116572213948436",
     "USERNAME": "tex4622",
@@ -3370,11 +4043,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/sexyhot",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/sexyhot",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_226": {
+  "ACCOUNT_NUMBER_226": {
+    "CASE_NUMBER": "226",
     "FOUND_ON": "2024-04-01",
     "DISCORD_ID": "1061767140304232548",
     "USERNAME": "mrsarco",
@@ -3385,11 +4061,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/oO3BR",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_227": {
+  "ACCOUNT_NUMBER_227": {
+    "CASE_NUMBER": "227",
     "FOUND_ON": "2024-04-01",
     "DISCORD_ID": "373212798760779777",
     "USERNAME": "emanudragon",
@@ -3400,11 +4079,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://souq-deals.website/6uh4",
+    "SURFACE_URL_DOMAIN": "souq-deals.website",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_228": {
+  "ACCOUNT_NUMBER_228": {
+    "CASE_NUMBER": "228",
     "FOUND_ON": "2024-04-01",
     "DISCORD_ID": "1061039761957064714",
     "USERNAME": "unfunny572",
@@ -3415,11 +4097,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://souq-deals.website/6uh4",
+    "SURFACE_URL_DOMAIN": "souq-deals.website",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_229": {
+  "ACCOUNT_NUMBER_229": {
+    "CASE_NUMBER": "229",
     "FOUND_ON": "2024-04-01",
     "DISCORD_ID": "944838538464223242",
     "USERNAME": "chato.1544",
@@ -3430,11 +4115,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://souq-deals.website/6uh4",
+    "SURFACE_URL_DOMAIN": "souq-deals.website",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_230": {
+  "ACCOUNT_NUMBER_230": {
+    "CASE_NUMBER": "230",
     "FOUND_ON": "2024-04-01",
     "DISCORD_ID": "669938332113043468",
     "USERNAME": "smite030318",
@@ -3445,11 +4133,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nnudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nnudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_231": {
+  "ACCOUNT_NUMBER_231": {
+    "CASE_NUMBER": "231",
     "FOUND_ON": "2024-04-01",
     "DISCORD_ID": "694596803672277002",
     "USERNAME": "protanki",
@@ -3460,11 +4151,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nnudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nnudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_232": {
+  "ACCOUNT_NUMBER_232": {
+    "CASE_NUMBER": "232",
     "FOUND_ON": "2024-04-02",
     "DISCORD_ID": "980056884931362856",
     "USERNAME": "fire_in_the_hole_dictator",
@@ -3475,11 +4169,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/jz8wJ",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_233": {
+  "ACCOUNT_NUMBER_233": {
+    "CASE_NUMBER": "233",
     "FOUND_ON": "2024-04-02",
     "DISCORD_ID": "1066456475930726580",
     "USERNAME": "raiden_ei_forever",
@@ -3490,11 +4187,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nnudes",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nnudes",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_234": {
+  "ACCOUNT_NUMBER_234": {
+    "CASE_NUMBER": "234",
     "FOUND_ON": "2024-04-02",
     "DISCORD_ID": "725746270919983177",
     "USERNAME": "qwezixee",
@@ -3505,11 +4205,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://goo.su/nitro-bas",
+    "SURFACE_URL_DOMAIN": "goo.su",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_235": {
+  "ACCOUNT_NUMBER_235": {
+    "CASE_NUMBER": "235",
     "FOUND_ON": "2024-04-03",
     "DISCORD_ID": "1190339824939434034",
     "USERNAME": "allpellaaa",
@@ -3520,11 +4223,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/jz8wJ",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_236": {
+  "ACCOUNT_NUMBER_236": {
+    "CASE_NUMBER": "236",
     "FOUND_ON": "2024-04-03",
     "DISCORD_ID": "458723978115285002",
     "USERNAME": "karabulkin",
@@ -3535,11 +4241,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/teenleakers",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/teenleakers",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_237": {
+  "ACCOUNT_NUMBER_237": {
+    "CASE_NUMBER": "237",
     "FOUND_ON": "2024-04-03",
     "DISCORD_ID": "360550455031496705",
     "USERNAME": "joao_paulo9361",
@@ -3550,11 +4259,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/RdO0",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_238": {
+  "ACCOUNT_NUMBER_238": {
+    "CASE_NUMBER": "238",
     "FOUND_ON": "2024-04-03",
     "DISCORD_ID": "699630177403273267",
     "USERNAME": "goferos8",
@@ -3565,11 +4277,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/seductivegirls",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/seductivegirls",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_239": {
+  "ACCOUNT_NUMBER_239": {
+    "CASE_NUMBER": "239",
     "FOUND_ON": "2024-04-03",
     "DISCORD_ID": "670286901659303946",
     "USERNAME": "progamerx",
@@ -3580,11 +4295,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/e-girlhub",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/e-girlhub",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_240": {
+  "ACCOUNT_NUMBER_240": {
+    "CASE_NUMBER": "240",
     "FOUND_ON": "2024-04-04",
     "DISCORD_ID": "1165307946977214475",
     "USERNAME": "adamek_exe_04795",
@@ -3595,11 +4313,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/jz8wJ",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_241": {
+  "ACCOUNT_NUMBER_241": {
+    "CASE_NUMBER": "241",
     "FOUND_ON": "2024-04-04",
     "DISCORD_ID": "675365167760146444",
     "USERNAME": "geprd.",
@@ -3610,11 +4331,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/seductivegirls",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/seductivegirls",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_242": {
+  "ACCOUNT_NUMBER_242": {
+    "CASE_NUMBER": "242",
     "FOUND_ON": "2024-04-05",
     "DISCORD_ID": "459905281372192779",
     "USERNAME": "shemar_2x",
@@ -3625,11 +4349,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/nudesx",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/nudesx",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_243": {
+  "ACCOUNT_NUMBER_243": {
+    "CASE_NUMBER": "243",
     "FOUND_ON": "2024-04-06",
     "DISCORD_ID": "1147569653330219071",
     "USERNAME": "masisikas_75994",
@@ -3640,11 +4367,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://f-link.me/MdCHn",
+    "SURFACE_URL_DOMAIN": "f-link.me",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_244": {
+  "ACCOUNT_NUMBER_244": {
+    "CASE_NUMBER": "244",
     "FOUND_ON": "2024-04-06",
     "DISCORD_ID": "749070737427529780",
     "USERNAME": "wujekluu",
@@ -3655,11 +4385,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://fairyte.ch/ty8v",
+    "SURFACE_URL_DOMAIN": "fairyte.ch",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_245": {
+  "ACCOUNT_NUMBER_245": {
+    "CASE_NUMBER": "245",
     "FOUND_ON": "2024-04-06",
     "DISCORD_ID": "494882203977777172",
     "USERNAME": "vineo0123",
@@ -3670,11 +4403,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/1VEO",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_246": {
+  "ACCOUNT_NUMBER_246": {
+    "CASE_NUMBER": "246",
     "FOUND_ON": "2024-04-06",
     "DISCORD_ID": "687989720608669913",
     "USERNAME": "dominikjandula",
@@ -3685,11 +4421,14 @@
     "ATTACK_SURFACE": "Discord",
     "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
     "SURFACE_URL": "https://discord.gg/dcleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
     "SURFACE_URL_STATUS": "ACTIVE",
-    "FINAL_URL": "",
-    "FINAL_URL_STATUS": ""
+    "FINAL_URL": "https://discord.gg/dcleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   },
-  "ACCOUNT_NO_247": {
+  "ACCOUNT_NUMBER_247": {
+    "CASE_NUMBER": "247",
     "FOUND_ON": "2024-04-06",
     "DISCORD_ID": "492321709219905543",
     "USERNAME": "eireannro",
@@ -3700,11 +4439,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://go-link.ru/o060M",
+    "SURFACE_URL_DOMAIN": "go-link.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_248": {
+  "ACCOUNT_NUMBER_248": {
+    "CASE_NUMBER": "248",
     "FOUND_ON": "2024-04-09",
     "DISCORD_ID": "1031202640543092796",
     "USERNAME": "max096358",
@@ -3715,11 +4457,14 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/EDcn",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   },
-  "ACCOUNT_NO_249": {
+  "ACCOUNT_NUMBER_249": {
+    "CASE_NUMBER": "249",
     "FOUND_ON": "2024-04-09",
     "DISCORD_ID": "871443753066455120",
     "USERNAME": "szefitek3422",
@@ -3730,8 +4475,10 @@
     "ATTACK_SURFACE": "Steam",
     "SUSPECTED_REGION_OF_ORIGIN": "RU",
     "SURFACE_URL": "https://qptr.ru/EDcn",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "",
+    "FINAL_URL_DOMAIN": "",
     "FINAL_URL_STATUS": ""
   }
 }
