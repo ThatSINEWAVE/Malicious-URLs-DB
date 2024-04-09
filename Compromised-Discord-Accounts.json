@@ -1,0 +1,28 @@
+{
+  "COMPROMISED_ACCOUNT_1": {
+    "FOUND_ON": "FOUND_ON",
+    "DISCORD_ID": "DISCORD_ID",
+    "USERNAME": "USERNAME",
+    "BEHAVIOUR": "BEHAVIOUR",
+    "TYPE": "TYPE",
+    "METHOD": "USAGE",
+    "TARGET": "TARGET",
+    "PLATFORM": "PLATFORM",
+    "REGION": "REGION",
+    "STATUS": "STATUS",
+    "URL": "URL"
+  },
+  "COMPROMISED_ACCOUNT_2": {
+    "FOUND_ON": "FOUND_ON",
+    "DISCORD_ID": "DISCORD_ID",
+    "USERNAME": "USERNAME",
+    "BEHAVIOUR": "BEHAVIOUR",
+    "TYPE": "TYPE",
+    "METHOD": "USAGE",
+    "TARGET": "TARGET",
+    "PLATFORM": "PLATFORM",
+    "REGION": "REGION",
+    "STATUS": "STATUS",
+    "URL": "URL"
+  }
+}
