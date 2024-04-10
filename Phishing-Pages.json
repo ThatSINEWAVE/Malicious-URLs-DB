@@ -898,5 +898,17 @@
     "FINAL_URL": "https://steamcommumtiy.com/gift/7585744834",
     "ATTACK_ATTACK_VECTOR": "Phishing Page",
     "ATTACK_VECTOR": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_151": {
+    "SURFACE_URL": "https://qptr.ru/RoP2",
+    "FINAL_URL": "https://steamcommunitn.com/gift/76561199218059944",
+    "ATTACK_ATTACK_VECTOR": "Phishing Page",
+    "ATTACK_VECTOR": "Fake Steam Gift Card"
+  },
+  "PHISHING_PAGE_152": {
+    "SURFACE_URL": "https://qptr.ru/1qie",
+    "FINAL_URL": "https://steamcommuniqy.com/gift/7656685934762396",
+    "ATTACK_ATTACK_VECTOR": "Phishing Page",
+    "ATTACK_VECTOR": "Fake Steam Gift Card"
   }
 }

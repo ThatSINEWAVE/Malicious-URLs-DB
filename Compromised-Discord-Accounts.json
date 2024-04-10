@@ -4480,5 +4480,41 @@
     "FINAL_URL": "https://steamcommumtiy.com/gift/7585744834",
     "FINAL_URL_DOMAIN": "steamcommumtiy.com",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_250": {
+    "CASE_NUMBER": "250",
+    "FOUND_ON": "2024-04-11",
+    "DISCORD_ID": "949542934515154984",
+    "USERNAME": "montana1398",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://qptr.ru/RoP2",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcommunitn.com/gift/76561199218059944",
+    "FINAL_URL_DOMAIN": "steamcommunitn.com",
+    "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_251": {
+    "CASE_NUMBER": "251",
+    "FOUND_ON": "2024-04-11",
+    "DISCORD_ID": "513491308325765145",
+    "USERNAME": "hans2.0",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://qptr.ru/1qie",
+    "SURFACE_URL_DOMAIN": "qptr.ru",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcommuniqy.com/gift/7656685934762396",
+    "FINAL_URL_DOMAIN": "steamcommuniqy.com",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
