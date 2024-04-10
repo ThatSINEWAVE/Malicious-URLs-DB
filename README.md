@@ -32,7 +32,7 @@ This repository serves as a curated collection of JSON files containing lists of
 |              FOUND_ON                |           The date when the compromised account was discovered.          |
 |             DISCORD_ID             |           The unique identifier associated with the user on Discord.          |
 |              USERNAME              |                 The username of the compromised account.                |
-|             BEHAVIOUR             |        Description of the suspicious activities associated with the compromised account.       |
+|             BEHAVIOUR             |        Description of the suspicious activities associated with the account.       |
 |          ATTACK_METHOD        |             The method used in the attack.             |
 |          ATTACK_VECTOR          |     The specific approach or technique used in the attack.     |
 |           ATTACK_GOAL           |          The objective of the attack.         |
