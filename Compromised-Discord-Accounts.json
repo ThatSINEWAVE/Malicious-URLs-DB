@@ -4732,5 +4732,41 @@
     "FINAL_URL": "https://discord.gg/VWffHaCpED",
     "FINAL_URL_DOMAIN": "discord.gg",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_264": {
+    "CASE_NUMBER": "264",
+    "FOUND_ON": "2024-04-15",
+    "DISCORD_ID": "773373981537075262",
+    "USERNAME": "morris1383",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://envs.sh/h5j",
+    "SURFACE_URL_DOMAIN": "envs.sh",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcommuniqy.com/digitalgiftcards",
+    "FINAL_URL_DOMAIN": "steamcommuniqy.com",
+    "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_265": {
+    "CASE_NUMBER": "265",
+    "FOUND_ON": "2024-04-16",
+    "DISCORD_ID": "1171775210521886740",
+    "USERNAME": "ihatepeoplethatleaveme",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://lnky.ru/v7xel",
+    "SURFACE_URL_DOMAIN": "lnky.ru",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcommuniqy.com/gift/765610",
+    "FINAL_URL_DOMAIN": "steamcommuniqy.com",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
