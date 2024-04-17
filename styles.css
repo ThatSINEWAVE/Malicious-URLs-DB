@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1f22;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto;
+  flex: 1;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1e1f22;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background-color: #1e1f22;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #333333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2b2d30;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #555;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #666;
+}
+
+#navbar {
+  background-color: #2b2d30;
+  color: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+#navbar.show {
+  transform: translateY(0);
+}
+
+footer {
+  background-color: #2b2d30;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
