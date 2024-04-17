@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #222;
+  background-color: #222222;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -16,9 +16,10 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 30px;
   overflow-x: auto;
   flex: 1;
+  margin-bottom: 30px;
 }
 
 ::-webkit-scrollbar {
@@ -27,7 +28,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #1e1f22;
+  background-color: #222222;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -70,7 +71,7 @@ body {
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #333;
+  background-color: #2b2d30;
   font-size: 0.9em;
 }
 
