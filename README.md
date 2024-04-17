@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Malicious-URLs-DB
+# [Malicious-URLs-DB](https://thatsinewave.github.io/Malicious-URLs-DB/)
 
 This repository serves as a curated JSON file containing lists of websites associated with malicious activities. 
 The list is compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.
