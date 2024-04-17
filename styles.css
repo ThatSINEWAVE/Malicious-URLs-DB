@@ -9,10 +9,12 @@ body {
   flex-direction: column;
   overflow: auto;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
+
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   overflow-x: auto;
@@ -51,7 +53,7 @@ body {
 }
 
 .nav-btn {
-  background-color: #1e1f22;
+  background-color: #950101;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -62,7 +64,7 @@ body {
 }
 
 .nav-btn:hover {
-  background-color: #333333;
+  background-color: #550000;
 }
 
 table {
