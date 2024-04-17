@@ -4784,7 +4784,7 @@
     "SURFACE_URL_DOMAIN": "sc.link",
     "SURFACE_URL_STATUS": "ACTIVE",
     "FINAL_URL": "https://steamcommunitn.com/gift/765610",
-    "FINAL_URL_DOMAIN": "ACTIVE",
-    "FINAL_URL_STATUS": "steamcommunitn.com"
+    "FINAL_URL_DOMAIN": "steamcommunitn.com",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
