@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # Malicious-URLs-DB
@@ -9,9 +10,15 @@ The list is compiled based on personal findings of the repository owner and are 
 
 ## Included Files:
 
-- `Tool/exporter_script.py`: Simple tool that allows me to convert excel sheets to the JSON format in this repo.
+- `Tool/exporter_script.py`: This Python script extracts data from an Excel file (`ExporterSheet.xlsx`) and converts it into JSON format, populating the `Compromised-Discord-Accounts.json` file with details of compromised accounts found over time.
 
-- `Compromised-Discord-Accounts.json`: This JSON file contains the full list of details and info about all the compromised accounts I have personally found over time. Most of the compromised accounts in this list were used / are actively used in phishing campaigns.
+- `Compromised-Discord-Accounts.json`: This JSON file contains the full list of details and info about all the compromised accounts found over time. Most of the compromised accounts in this list were used / are actively used in phishing campaigns.
+
+- `index.html`: HTML file for displaying the data in a table format.
+  
+- `script.js`: JavaScript file for loading and rendering the JSON data into the HTML table, with sorting and sticky navigation functionality.
+  
+- `styles.css`: CSS file for styling the HTML elements.
 
 <div align="center">
 
