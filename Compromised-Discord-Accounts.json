@@ -4768,5 +4768,23 @@
     "FINAL_URL": "https://steamcommuniqy.com/gift/765610",
     "FINAL_URL_DOMAIN": "steamcommuniqy.com",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_266": {
+    "CASE_NUMBER": "266",
+    "FOUND_ON": "2024-04-16",
+    "DISCORD_ID": "977171356791762944",
+    "USERNAME": "cocco94.",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://sc.link/mJpNp",
+    "SURFACE_URL_DOMAIN": "sc.link",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcommunitn.com/gift/765610",
+    "FINAL_URL_DOMAIN": "ACTIVE",
+    "FINAL_URL_STATUS": "steamcommunitn.com"
   }
 }
