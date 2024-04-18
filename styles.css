@@ -2,6 +2,11 @@ body {
   font-family: Arial, sans-serif;
   background-color: #222222;
   color: #fff;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -55,12 +60,15 @@ body {
 .nav-btn {
   background-color: #950101;
   color: #fff;
-  border: none;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: 600;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .nav-btn:hover {
@@ -99,6 +107,9 @@ th:hover {
   z-index: 1;
   transition: transform 0.3s ease-in-out;
   transform: translateY(-100%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 #navbar.show {
@@ -109,6 +120,9 @@ footer {
   background-color: #2b2d30;
   padding: 10px;
   text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .footer-container {
@@ -123,4 +137,36 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-buttons {
+    margin-top: 10px;
+  }
+
+  table {
+    font-size: 0.8em;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  /* New styles for mobile */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  th, td {
+    display: inline-block;
+    min-width: 150px; /* Adjust this value as needed */
+  }
 }
