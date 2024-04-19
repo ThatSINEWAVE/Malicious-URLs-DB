@@ -4786,5 +4786,41 @@
     "FINAL_URL": "https://steamcommunitn.com/gift/765610",
     "FINAL_URL_DOMAIN": "steamcommunitn.com",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_267": {
+    "CASE_NUMBER": "267",
+    "FOUND_ON": "2024-04-17",
+    "DISCORD_ID": "234294849723957248",
+    "USERNAME": "dheyaa_hdr",
+    "BEHAVIOUR": "Compromised account mass messaging in every channel via automated scripts",
+    "ATTACK_METHOD": "NSFW Discord Server Invite",
+    "ATTACK_VECTOR": "Malicious discord server",
+    "ATTACK_GOAL": "Discord accounts",
+    "ATTACK_SURFACE": "Discord",
+    "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
+    "SURFACE_URL": "https://discord.gg/ttnude",
+    "SURFACE_URL_DOMAIN": "discord.gg",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://discord.gg/ttnude",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_268": {
+    "CASE_NUMBER": "268",
+    "FOUND_ON": "2024-04-18",
+    "DISCORD_ID": "985219466524774420",
+    "USERNAME": "hardsurface",
+    "BEHAVIOUR": "Compromised account mass messaging in every channel via automated scripts",
+    "ATTACK_METHOD": "NSFW Discord Server Invite",
+    "ATTACK_VECTOR": "Malicious discord server",
+    "ATTACK_GOAL": "Discord accounts",
+    "ATTACK_SURFACE": "Discord",
+    "SUSPECTED_REGION_OF_ORIGIN": "GLOBAL",
+    "SURFACE_URL": "https://discord.gg/seductivegirls",
+    "SURFACE_URL_DOMAIN": "discord.gg",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://discord.gg/seductivegirls",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
