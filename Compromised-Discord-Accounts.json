@@ -5002,5 +5002,23 @@
     "FINAL_URL": "https://discord.gg/xsex",
     "FINAL_URL_DOMAIN": "discord.gg",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_279": {
+    "CASE_NUMBER": "279",
+    "FOUND_ON": "2024-04-21",
+    "DISCORD_ID": "1042049021679775774",
+    "USERNAME": "m6lone",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://kurl.ru/qTWGg",
+    "SURFACE_URL_DOMAIN": "kurl.ru",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcommunitn.com/gift/540284",
+    "FINAL_URL_DOMAIN": "steamcommunitn.com",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
