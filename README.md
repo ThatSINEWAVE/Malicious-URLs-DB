@@ -53,6 +53,12 @@ The list is compiled based on personal findings of the repository owner and are 
 
 </div>
 
+<div align="center">
+
+# [Join my discord server](https://discord.gg/2nHHHBWNDw)
+
+</div>
+
 ## Contributions:
 
 Contributions to this repository are not currently accepted. 
