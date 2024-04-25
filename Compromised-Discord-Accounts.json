@@ -8116,5 +8116,23 @@
     "FINAL_URL": "https://discord.gg/nsfwporn",
     "FINAL_URL_DOMAIN": "discord.gg",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_452": {
+    "CASE_NUMBER": "452",
+    "FOUND_ON": "2024-04-24",
+    "DISCORD_ID": "832349520992927764",
+    "USERNAME": "fr0d086",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://qh0m1b.cfd/hn0z",
+    "SURFACE_URL_DOMAIN": "qh0m1b.cfd",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcommuwity.com/gjft/7441553",
+    "FINAL_URL_DOMAIN": "steamcommuwity.com",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
