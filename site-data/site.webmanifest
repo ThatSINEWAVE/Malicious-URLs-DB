@@ -2,7 +2,7 @@
   "name": "Malicious Users DB",
   "description": "A large database of of compromised discord users.",
   "short_name": "Malicious-URLs-DB",
-  "start_url": "/",
+  "start_url": "/Malicious-URLs-DB",
   "orientation": "portrait",
   "lang": "en-US",
   "icons": [
