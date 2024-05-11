@@ -10564,5 +10564,41 @@
     "FINAL_URL": "https://discord.gg/sexygood",
     "FINAL_URL_DOMAIN": "discord.gg",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_588": {
+    "CASE_NUMBER": "588",
+    "FOUND_ON": "2024-05-09",
+    "DISCORD_ID": "356473488661282816",
+    "USERNAME": "xobot05",
+    "BEHAVIOUR": "Compromised account mass messaging in every channel via automated scripts",
+    "ATTACK_METHOD": "NSFW Discord Server Invite",
+    "ATTACK_VECTOR": "Malicious discord server",
+    "ATTACK_GOAL": "Discord accounts",
+    "ATTACK_SURFACE": "Discord",
+    "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
+    "SURFACE_URL": "https://discord.gg/sweetleaks",
+    "SURFACE_URL_DOMAIN": "discord.gg",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://discord.gg/sweetleaks",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_589": {
+    "CASE_NUMBER": "589",
+    "FOUND_ON": "2024-05-10",
+    "DISCORD_ID": "360704478909038593",
+    "USERNAME": "rainfenix",
+    "BEHAVIOUR": "Compromised account mass messaging in every channel via automated scripts",
+    "ATTACK_METHOD": "NSFW Discord Server Invite",
+    "ATTACK_VECTOR": "Malicious discord server",
+    "ATTACK_GOAL": "Discord accounts",
+    "ATTACK_SURFACE": "Discord",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://bitly.cx/NBVV",
+    "SURFACE_URL_DOMAIN": "bitly.cx",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://steamcomnunlilty.com/paycaro/gift/50",
+    "FINAL_URL_DOMAIN": "steamcomnunlilty.com",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
