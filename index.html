@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Malicious URLs Database</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
-  <link rel="manifest" href="site-data/site.webmanifest">
-</head>
-<body>
-  <nav id="navbar">
-    <div class="nav-container">
-      <h1>Malicious URLs Database</h1>
-      <div class="nav-buttons">
-      </a>
-      <a href="https://github.com/ThatSINEWAVE/Malicious-URLs-DB" target="_blank" class="nav-btn">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-      <a href="https://ko-fi.com/thatsinewave" target="_blank" class="nav-btn">
-        <i class="fas fa-heart"></i> Support
-      </a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malicious URLs Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-container">
+        <h1>Malicious URLs Database</h1>
+        <div class="nav-buttons">
+          </a>
+          <a href="https://github.com/ThatSINEWAVE/Malicious-URLs-DB" target="_blank" class="nav-btn">
+            <i class="fab fa-github"></i> GitHub </a>
+          <a href="https://ko-fi.com/thatsinewave" target="_blank" class="nav-btn">
+            <i class="fas fa-heart"></i> Support </a>
+        </div>
       </div>
+    </nav>
+    <div class="container">
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th data-sort="CASE_NUMBER">Case Number</th>
+            <th data-sort="FOUND_ON">Found On</th>
+            <th data-sort="DISCORD_ID">Discord ID</th>
+            <th data-sort="USERNAME">Username</th>
+            <th data-sort="BEHAVIOUR">Behavior</th>
+            <th data-sort="ATTACK_METHOD">Attack Method</th>
+            <th data-sort="ATTACK_VECTOR">Attack Vector</th>
+            <th data-sort="ATTACK_GOAL">Attack Goal</th>
+            <th data-sort="ATTACK_SURFACE">Attack Surface</th>
+            <th data-sort="SUSPECTED_REGION_OF_ORIGIN">Suspected Region</th>
+            <th data-sort="SURFACE_URL">Surface URL</th>
+            <th data-sort="SURFACE_URL_DOMAIN">Surface URL Domain</th>
+            <th data-sort="SURFACE_URL_STATUS">Surface URL Status</th>
+            <th data-sort="FINAL_URL">Final URL</th>
+            <th data-sort="FINAL_URL_DOMAIN">Final URL Domain</th>
+            <th data-sort="FINAL_URL_STATUS">Final URL Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
-  </nav>
-  <div class="container">
-    <table id="data-table">
-      <thead>
-        <tr>
-          <th data-sort="CASE_NUMBER">Case Number</th>
-          <th data-sort="FOUND_ON">Found On</th>
-          <th data-sort="DISCORD_ID">Discord ID</th>
-          <th data-sort="USERNAME">Username</th>
-          <th data-sort="BEHAVIOUR">Behavior</th>
-          <th data-sort="ATTACK_METHOD">Attack Method</th>
-          <th data-sort="ATTACK_VECTOR">Attack Vector</th>
-          <th data-sort="ATTACK_GOAL">Attack Goal</th>
-          <th data-sort="ATTACK_SURFACE">Attack Surface</th>
-          <th data-sort="SUSPECTED_REGION_OF_ORIGIN">Suspected Region</th>
-          <th data-sort="SURFACE_URL">Surface URL</th>
-          <th data-sort="SURFACE_URL_DOMAIN">Surface URL Domain</th>
-          <th data-sort="SURFACE_URL_STATUS">Surface URL Status</th>
-          <th data-sort="FINAL_URL">Final URL</th>
-          <th data-sort="FINAL_URL_DOMAIN">Final URL Domain</th>
-          <th data-sort="FINAL_URL_STATUS">Final URL Status</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </div>
-  <footer>
-    <div class="footer-container">
-     <p>MIT LICENSE &copy; 2024 - ThatSINEWAVE</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
+    <footer>
+      <div class="footer-container">
+        <p>MIT LICENSE &copy; 2024 - ThatSINEWAVE</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
