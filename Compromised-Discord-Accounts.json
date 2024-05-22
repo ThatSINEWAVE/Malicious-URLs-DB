@@ -11356,5 +11356,41 @@
     "FINAL_URL": "https://discord.gg/nsfwspot",
     "FINAL_URL_DOMAIN": "discord.gg",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_632": {
+    "CASE_NUMBER": "632",
+    "FOUND_ON": "2024-05-22",
+    "DISCORD_ID": "657663080481947648",
+    "USERNAME": "vlad5m9",
+    "BEHAVIOUR": "User sent message, possible source",
+    "ATTACK_METHOD": "Scam Telegram Channel",
+    "ATTACK_VECTOR": "Telegram Channel",
+    "ATTACK_GOAL": "Various Accounts",
+    "ATTACK_SURFACE": "Telegram",
+    "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
+    "SURFACE_URL": "https://t.me/hamster_kombat_bot?start=kentId617264738",
+    "SURFACE_URL_DOMAIN": "t.me",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://t.me/hamster_kombat_bot",
+    "FINAL_URL_DOMAIN": "t.me",
+    "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_633": {
+    "CASE_NUMBER": "633",
+    "FOUND_ON": "2024-05-22",
+    "DISCORD_ID": "359097526235824138",
+    "USERNAME": "prefranjo",
+    "BEHAVIOUR": "Compromised account mass messaging in every channel via automated scripts",
+    "ATTACK_METHOD": "NSFW Discord Server Invite",
+    "ATTACK_VECTOR": "Malicious discord server",
+    "ATTACK_GOAL": "Discord accounts",
+    "ATTACK_SURFACE": "Discord",
+    "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
+    "SURFACE_URL": "https://discord.gg/dW46ndaxR",
+    "SURFACE_URL_DOMAIN": "discord.gg",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://discord.gg/dW46ndaxR",
+    "FINAL_URL_DOMAIN": "discord.gg",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
