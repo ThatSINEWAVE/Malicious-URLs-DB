@@ -11392,5 +11392,23 @@
     "FINAL_URL": "https://discord.gg/dW46ndaxR",
     "FINAL_URL_DOMAIN": "discord.gg",
     "FINAL_URL_STATUS": "ACTIVE"
+  },
+  "ACCOUNT_NUMBER_634": {
+    "CASE_NUMBER": "634",
+    "FOUND_ON": "2024-05-22",
+    "DISCORD_ID": "639856562403541012",
+    "USERNAME": "vkycn9lshka",
+    "BEHAVIOUR": "Compromised account mass messaging and using Markdown formatting to hide the real link",
+    "ATTACK_METHOD": "Phishing site",
+    "ATTACK_VECTOR": "Cloned Steam login page",
+    "ATTACK_GOAL": "Steam accounts",
+    "ATTACK_SURFACE": "Steam",
+    "SUSPECTED_REGION_OF_ORIGIN": "RU",
+    "SURFACE_URL": "https://surl.pk/6sico",
+    "SURFACE_URL_DOMAIN": "surl.pk",
+    "SURFACE_URL_STATUS": "ACTIVE",
+    "FINAL_URL": "https://www.dilkarishta.com.pk/",
+    "FINAL_URL_DOMAIN": "dilkarishta.com",
+    "FINAL_URL_STATUS": "ACTIVE"
   }
 }
