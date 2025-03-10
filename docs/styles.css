@@ -416,6 +416,62 @@ body {
   }
 }
 
+/* Announcement Bar */
+.announcement-bar {
+  background-color: var(--gray-700);
+  color: white;
+  position: sticky;
+  top: 96px;
+  z-index: 25;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: var(--transition-normal);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles for announcement bar */
+body.bg-gray-900 .announcement-bar {
+  background-color: var(--gray-800);
+}
+
+/* Custom color variations */
+.announcement-bar.announcement-info {
+  background-color: var(--info);
+}
+
+.announcement-bar.announcement-warning {
+  background-color: var(--warning);
+}
+
+.announcement-bar.announcement-danger {
+  background-color: var(--danger);
+}
+
+.announcement-bar.announcement-success {
+  background-color: var(--success);
+}
+
+/* Allow for different icon/emoji at the start of announcement */
+.announcement-content p::before {
+  margin-right: 0.5rem;
+}
+
+/* Make announcement content more visible */
+.announcement-content p {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Style the close button */
+#closeAnnouncement {
+  padding: 4px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+#closeAnnouncement:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .chart-container {
