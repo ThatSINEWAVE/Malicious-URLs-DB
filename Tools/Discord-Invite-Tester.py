@@ -43,14 +43,14 @@ def check_discord_invite_status(url):
             print(f"Invite {invite_code} is ACTIVE.")
             return 'ACTIVE'
         elif response.status_code == 404:
-            print(f"Invite {invite_code} is TAKEN DOWN.")
-            return 'TAKEN DOWN'
+            print(f"Invite {invite_code} is INACTIVE.")
+            return 'INACTIVE'
         else:
-            print(f"Invite {invite_code} status is TAKEN DOWN (response code: {response.status_code}).")
-            return 'TAKEN DOWN'
+            print(f"Invite {invite_code} status is INACTIVE (response code: {response.status_code}).")
+            return 'INACTIVE'
     except requests.RequestException as e:
         print(f"Error checking invite {invite_code}: {e}")
-        return 'TAKEN DOWN'
+        return 'INACTIVE'
 
 
 # Process the compromised accounts
