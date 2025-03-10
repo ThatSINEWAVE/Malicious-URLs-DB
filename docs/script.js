@@ -123,6 +123,32 @@ function updateStats() {
     ).length;
     document.getElementById('activeUrls').textContent = activeUrls;
 
+    // Get status elements
+    const activeUrlsElement = document.getElementById('activeUrls');
+    const statusElement = document.getElementById('activeUrlsStatus');
+
+    // Remove existing color classes
+    activeUrlsElement.classList.remove('text-red-600', 'text-orange-500', 'text-green-600');
+
+    // Determine status and color
+    let statusText;
+    if (activeUrls === 0) {
+        activeUrlsElement.classList.add('text-green-600');
+        statusText = 'No risk - All URLs inactive';
+    } else if (activeUrls <= 100) {
+        activeUrlsElement.classList.add('text-green-600');
+        statusText = 'Low risk - Under monitoring';
+    } else if (activeUrls <= 200) {
+        activeUrlsElement.classList.add('text-orange-500');
+        statusText = 'Elevated risk - Needs attention';
+    } else {
+        activeUrlsElement.classList.add('text-red-600');
+        statusText = 'Critical risk - Requires immediate action';
+    }
+
+    // Update status text
+    statusElement.textContent = statusText;
+
     // Most common attack method
     const attackCounts = {};
     filteredData.forEach(account => {
@@ -167,6 +193,17 @@ function updateTable() {
 
     pageData.forEach(account => {
         const row = document.createElement('tr');
+
+        // Determine the status class based on FINAL_URL_STATUS
+        let statusClass = '';
+        if (account.FINAL_URL_STATUS === 'ACTIVE') {
+            statusClass = 'bg-red-100';
+        } else if (account.FINAL_URL_STATUS === 'TAKEN DOWN') {  // Fixed: Added space between TAKEN and DOWN
+            statusClass = 'bg-green-100';
+        } else if (account.FINAL_URL_STATUS === 'UNKNOWN') {
+            statusClass = 'bg-orange-100';
+        }
+
         row.innerHTML = `
             <td class="px-6 py-4 whitespace-nowrap">${account.CASE_NUMBER}</td>
             <td class="px-6 py-4 whitespace-nowrap">${formatDate(account.FOUND_ON)}</td>
@@ -174,9 +211,7 @@ function updateTable() {
             <td class="px-6 py-4 whitespace-nowrap">${account.ATTACK_METHOD}</td>
             <td class="px-6 py-4 whitespace-nowrap">${account.ATTACK_GOAL}</td>
             <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
-                    account.FINAL_URL_STATUS === 'ACTIVE' ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800'
-                }">
+                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${statusClass}">
                     ${account.FINAL_URL_STATUS}
                 </span>
             </td>

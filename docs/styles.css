@@ -102,6 +102,61 @@ body.bg-gray-900 .dashboard-card h3 {
 	transition: var(--transition-normal);
 }
 
+/* Status indicator colors for activeUrls element */
+#activeUrls.text-green-600 {
+	color: #10b981;
+}
+
+#activeUrls.text-orange-500 {
+	color: #f59e0b;
+}
+
+#activeUrls.text-red-600 {
+	color: #ef4444;
+}
+
+/* Status text styling */
+#activeUrlsStatus {
+	font-size: 0.875rem;
+	transition: color 0.3s ease;
+}
+
+/* Ensure proper transitions when colors change */
+#activeUrls {
+	transition: color 0.3s ease;
+}
+
+/* Enhanced styling for different risk levels */
+#activeUrlsStatus:contains("No risk"),
+#activeUrlsStatus:contains("Low risk") {
+	color: #10b981;
+	font-weight: 500;
+}
+
+#activeUrlsStatus:contains("Elevated risk") {
+	color: #f59e0b;
+	font-weight: 500;
+}
+
+#activeUrlsStatus:contains("Critical risk") {
+	color: #ef4444;
+	font-weight: 600;
+}
+
+/* Make status more visible on dark mode */
+body.bg-gray-900 #activeUrlsStatus:contains("No risk"),
+body.bg-gray-900 #activeUrlsStatus:contains("Low risk") {
+	color: #34d399;
+}
+
+body.bg-gray-900 #activeUrlsStatus:contains("Elevated risk") {
+	color: #fbbf24;
+}
+
+body.bg-gray-900 #activeUrlsStatus:contains("Critical risk") {
+	color: #f87171;
+}
+
 /* Chart containers */
 .chart-container {
 	position: relative;
@@ -345,15 +400,21 @@ button.bg-green-600:hover:not(:disabled) {
 
 /* Status indicators */
 .bg-red-100 {
-	background-color: #fee2e2;
-	color: #b91c1c;
-	font-weight: 600;
+    background-color: #fee2e2;
+    color: #b91c1c;
+    font-weight: 600;
+}
+
+.bg-orange-100 {
+    background-color: #ffedd5;
+    color: #c2410c;
+    font-weight: 600;
 }
 
 .bg-green-100 {
-	background-color: #d1fae5;
-	color: #047857;
-	font-weight: 600;
+    background-color: #d1fae5;
+    color: #047857;
+    font-weight: 600;
 }
 
 /* Dark mode adjustments */
