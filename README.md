@@ -111,6 +111,36 @@ A comprehensive security dashboard tracking malicious activities with advanced a
 | FINAL_URL_DOMAIN           | Domain      | Registered domain of final URL           | steallogin[.]xyz                   |
 | FINAL_URL_STATUS           | Enum        | Current status (ACTIVE/INACTIVE/UNKNOWN) | INACTIVE                           |
 
+## Repository Structure
+
+```markdown
+├── 📂 docs/                                      # Web dashboard and assets
+│   ├── 📜 index.html                             # Main web interface
+│   ├── 🎨 styles.css                             # Dashboard styling
+│   ├── 🎨 tailwind.min.css                       # Tailwind CSS framework
+│   ├── ⚙️ script.js                              # Interactive dashboard logic
+│   ├── 🕒 dayjs.min.js                           # Date handling library
+│   ├── 📊 chart.min.js                           # Chart.js for visualizations
+│   ├── 📂 site-data/                             # Miscellaneous site data
+│   │   ├── 🔗 social-share/                      # Social sharing related assets
+│   │   └── 🖼️ Malicious-URLs-DB.png              # Embed image for social sharing
+│   ├── 📂 icons/                                 # Various platform icons
+│   │   ├── 🤖 android-icon-*.png                 # Android icons (36x36 → 192x192)
+│   │   ├── 🍏 apple-icon-*.png                   # Apple icons (57x57 → 180x180)
+│   │   ├── 🏁 favicon-*.png                      # Favicons (16x16 → 96x96)
+│   │   ├── 🖥️ ms-icon-*.png                      # Microsoft icons (70x70 → 310x310)
+│   ├── 📝 site.manifest                          # Web app manifest
+├── 📂 data/                                      # Data storage
+│   └── 🔒 Compromised-Discord-Accounts.json      # Dataset of compromised accounts
+└── 📂 Tools/                                     # Utility scripts
+    ├── 🔄 XLSX-to-JSON.py                        # Excel to JSON converter
+    ├── 🌐 URL-Tester.py                          # Bulk URL tester via IPInfo API
+    ├── ✏️ Number-Editor.py                       # Script for editing case numbers
+    ├── 🔍 Discord-Invite-Tester.py               # Discord invite testing tool
+    ├── 📊 ExporterSheet.xlsx                     # Exported dataset from private Google Sheet
+    └── 🔒 Compromised-Discord-Accounts.json  # Backup copy of dataset that is used in edits
+```
+
 ## Deployment Options
 
 ### Local Development
