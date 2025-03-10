@@ -7,7 +7,7 @@ import time
 def load_json(filename):
     print(f"Loading JSON file: {filename}...")
     try:
-        with open(filename, 'r') as file:
+        with open(filename, 'r', encoding='utf-8') as file:  # Ensure the file is read with UTF-8 encoding
             data = json.load(file)
         print(f"Successfully loaded {len(data)} accounts.")
         return data
@@ -16,12 +16,12 @@ def load_json(filename):
         return {}
 
 
-# Save the updated JSON file
+# Save the updated JSON file with non-ASCII characters intact
 def save_json(data, filename):
     print(f"Saving updated data to {filename}...")
     try:
-        with open(filename, 'w') as file:
-            json.dump(data, file, indent=4)
+        with open(filename, 'w', encoding='utf-8') as file:  # Ensure the file is saved with UTF-8 encoding
+            json.dump(data, file, indent=4, ensure_ascii=False)  # Prevent ASCII escape sequences
         print(f"Successfully saved updated data to {filename}.")
     except Exception as e:
         print(f"Error saving JSON file: {e}")
@@ -46,15 +46,15 @@ def check_discord_invite_status(url):
             print(f"Invite {invite_code} is TAKEN DOWN.")
             return 'TAKEN DOWN'
         else:
-            print(f"Invite {invite_code} status is UNKNOWN (response code: {response.status_code}).")
-            return 'UNKNOWN'
+            print(f"Invite {invite_code} status is TAKEN DOWN (response code: {response.status_code}).")
+            return 'TAKEN DOWN'
     except requests.RequestException as e:
         print(f"Error checking invite {invite_code}: {e}")
-        return 'UNKNOWN'
+        return 'TAKEN DOWN'
 
 
 # Process the compromised accounts
-def process_accounts(data):
+def process_accounts(data, filename):
     print(f"Starting to process {len(data)} accounts...")
 
     for account_key, account_data in data.items():
@@ -78,9 +78,13 @@ def process_accounts(data):
         else:
             print(f"No valid Discord final URL found for {account_key}")
 
-        # Adding a small delay to avoid rate-limiting
-        print("Waiting for 2 seconds before checking next account...")
-        time.sleep(2)
+        # Save the data after each account is processed to reduce memory usage
+        save_json(data, filename)
+
+        # Only wait 2 seconds if the URLs are Discord URLs
+        if surface_url and ('discord.gg' in surface_url or 'discord.com' in surface_url):
+            print("Waiting for 2 seconds before checking next account...")
+            time.sleep(2)
 
     print("Finished processing all accounts.")
 
@@ -96,13 +100,11 @@ def main():
         return
 
     # Process the accounts
-    process_accounts(data)
+    process_accounts(data, filename)
 
-    # Save the updated data
-    save_json(data, filename)
+    print("Testing finished.")
 
 
 if __name__ == "__main__":
-    print("Starting the Discord invite status checker script...")
+    print("Starting the Discord invite status checker...")
     main()
-    print("Script finished.")
