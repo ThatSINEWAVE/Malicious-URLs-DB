@@ -166,7 +166,14 @@ body.bg-gray-900 #activeUrlsStatus:contains("Critical risk") {
 	height: 300px;
 	width: 100%;
 	margin: 0 auto;
-	border-radius: 0.25rem;
+	padding: 1rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 0.5rem;
+}
+
+body.bg-gray-900 .chart-container {
+	background: #1e293b;
+	border-color: #334155;
 }
 
 h2 {
@@ -181,22 +188,22 @@ h2+p {
 
 /* Loader */
 .loader {
-	border: 4px solid var(--gray-200);
-	border-top: 4px solid var(--primary);
+	width: 48px;
+	height: 48px;
+	border: 3px solid #e2e8f0;
+	border-bottom-color: var(--primary);
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	animation: spin 1s linear infinite;
-	margin: 40px auto;
+	display: inline-block;
+	animation: rotation 1s linear infinite;
 }
 
-@keyframes spin {
+@keyframes rotation {
 	0% {
-		transform: rotate(0deg);
+		transform: rotate(0deg)
 	}
 
 	100% {
-		transform: rotate(360deg);
+		transform: rotate(360deg)
 	}
 }
 
@@ -313,6 +320,15 @@ table th {
 	width: 100px;
 }
 
+/* Zebra Striping for Table */
+#dataTable tbody tr:nth-child(even) {
+	background-color: #f8fafc;
+}
+
+body.bg-gray-900 #dataTable tbody tr:nth-child(even) {
+	background-color: #1e293b;
+}
+
 /* Text truncation */
 .truncate {
 	white-space: nowrap;
@@ -328,19 +344,17 @@ table th {
 }
 
 .truncate-tooltip:hover::after {
-	content: attr(title);
-	position: absolute;
-	z-index: 100;
-	left: 0;
-	top: 100%;
-	background-color: #1f2937;
-	color: white;
-	padding: 5px 8px;
-	border-radius: 4px;
-	white-space: normal;
-	max-width: 250px;
-	font-size: 12px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	font-size: 0.875rem;
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.5rem;
+	z-index: 999;
+}
+
+/* Better Input Focus States */
+input:focus,
+select:focus {
+	box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+	border-color: #818cf8;
 }
 
 /* View details button */
@@ -420,8 +434,8 @@ select {
 
 /* Modal styles */
 #detailModal {
-	backdrop-filter: blur(4px);
-	transition: visibility 0s, opacity 0.25s ease;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
 }
 
 #detailModal.hidden {
