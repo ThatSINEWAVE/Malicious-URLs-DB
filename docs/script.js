@@ -198,7 +198,7 @@ function updateTable() {
         let statusClass = '';
         if (account.FINAL_URL_STATUS === 'ACTIVE') {
             statusClass = 'bg-red-100';
-        } else if (account.FINAL_URL_STATUS === 'TAKEN DOWN') {
+        } else if (account.FINAL_URL_STATUS === 'INACTIVE') {
             statusClass = 'bg-green-100';
         } else if (account.FINAL_URL_STATUS === 'UNKNOWN') {
             statusClass = 'bg-orange-100';
