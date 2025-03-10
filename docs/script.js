@@ -57,12 +57,15 @@ function processData() {
 // Populate filter dropdowns
 function populateFilters() {
     const attackMethods = new Set();
+    const attackMethodFilter = document.getElementById('attackMethodFilter');
+
+    // Clear existing options
+    attackMethodFilter.innerHTML = '<option value="">All Methods</option>';
 
     Object.values(accountsData).forEach(account => {
         attackMethods.add(account.ATTACK_METHOD);
     });
 
-    const attackMethodFilter = document.getElementById('attackMethodFilter');
     attackMethods.forEach(method => {
         const option = document.createElement('option');
         option.value = method;
