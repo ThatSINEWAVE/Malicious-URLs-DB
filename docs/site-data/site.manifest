@@ -1,7 +1,7 @@
 {
   "name": "Malicious Users DB",
   "short_name": "Malicious-URLs-DB",
-  "description": "A large database of compromised Discord users.",
+  "description": "A comprehensive security dashboard tracking malicious activities with advanced analytics capabilities",
   "start_url": "/Malicious-URLs-DB",
   "orientation": "portrait",
   "lang": "en-US",
