@@ -289,6 +289,143 @@ function createCharts() {
     createMethodsChart();
     createSurfacesChart();
     createRegionsChart();
+    createBehaviourChart();
+    createVectorsChart();
+    createStatusChart();
+}
+
+// Behaviour Type Distribution
+function createBehaviourChart() {
+    const canvas = document.getElementById('behaviourChart');
+    if (canvas.chart) canvas.chart.destroy();
+
+    const behaviourCounts = {};
+    filteredData.forEach(account => {
+        const behaviour = account.BEHAVIOUR || 'Unknown';
+        behaviourCounts[behaviour] = (behaviourCounts[behaviour] || 0) + 1;
+    });
+
+    canvas.chart = new Chart(canvas, {
+        type: 'pie',
+        data: {
+            labels: Object.keys(behaviourCounts),
+            datasets: [{
+                data: Object.values(behaviourCounts),
+                backgroundColor: Object.keys(behaviourCounts).map((_, i) =>
+                    `hsl(${(i * 197) % 360}, 70%, 60%)`
+                ),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'right' },
+                tooltip: {
+                    callbacks: {
+                        label: (context) => {
+                            const total = context.dataset.data.reduce((a, b) => a + b);
+                            const percentage = Math.round((context.raw / total) * 100);
+                            return `${context.label}: ${context.raw} (${percentage}%)`;
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Attack Vector Analysis
+function createVectorsChart() {
+    const canvas = document.getElementById('vectorsChart');
+    if (canvas.chart) canvas.chart.destroy();
+
+    const vectorCounts = {};
+    filteredData.forEach(account => {
+        const vector = account.ATTACK_VECTOR || 'Unknown';
+        vectorCounts[vector] = (vectorCounts[vector] || 0) + 1;
+    });
+
+    // Sort by count descending
+    const sortedVectors = Object.entries(vectorCounts)
+        .sort((a, b) => b[1] - a[1]);
+
+    canvas.chart = new Chart(canvas, {
+        type: 'bar',
+        data: {
+            labels: sortedVectors.map(v => v[0]),
+            datasets: [{
+                label: 'Number of Attacks',
+                data: sortedVectors.map(v => v[1]),
+                backgroundColor: 'rgba(255, 159, 64, 0.8)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false }
+            },
+            scales: {
+                x: { beginAtZero: true, ticks: { precision: 0 } },
+                y: { ticks: { autoSkip: false } }
+            }
+        }
+    });
+}
+
+// URL Status Comparison
+function createStatusChart() {
+    const canvas = document.getElementById('statusChart');
+    if (canvas.chart) canvas.chart.destroy();
+
+    const statusCounts = {
+        surfaceActive: 0,
+        surfaceInactive: 0,
+        finalActive: 0,
+        finalInactive: 0
+    };
+
+    filteredData.forEach(account => {
+        if (account.SURFACE_URL_STATUS === 'ACTIVE') statusCounts.surfaceActive++;
+        else statusCounts.surfaceInactive++;
+        if (account.FINAL_URL_STATUS === 'ACTIVE') statusCounts.finalActive++;
+        else statusCounts.finalInactive++;
+    });
+
+    canvas.chart = new Chart(canvas, {
+        type: 'bar',
+        data: {
+            labels: ['Surface URLs', 'Final URLs'],
+            datasets: [
+                {
+                    label: 'Active',
+                    data: [statusCounts.surfaceActive, statusCounts.finalActive],
+                    backgroundColor: 'rgba(239, 68, 68, 0.8)'
+                },
+                {
+                    label: 'Inactive',
+                    data: [statusCounts.surfaceInactive, statusCounts.finalInactive],
+                    backgroundColor: 'rgba(16, 185, 129, 0.8)'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { stacked: true },
+                y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } }
+            },
+            plugins: {
+                legend: { position: 'top' },
+                tooltip: { mode: 'index' }
+            }
+        }
+    });
 }
 
 // Create timeline chart

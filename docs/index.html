@@ -150,6 +150,29 @@
             </div>
           </div>
         </div>
+        <!-- Add this after the existing chart rows -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+          <div class="bg-white p-4 rounded-lg shadow">
+            <h2 class="text-lg font-semibold mb-4">Behaviour Types Distribution</h2>
+            <div class="chart-container">
+              <canvas id="behaviourChart"></canvas>
+            </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow">
+            <h2 class="text-lg font-semibold mb-4">Attack Vectors Analysis</h2>
+            <div class="chart-container">
+              <canvas id="vectorsChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 gap-6 mb-6">
+          <div class="bg-white p-4 rounded-lg shadow">
+            <h2 class="text-lg font-semibold mb-4">URL Status Comparison</h2>
+            <div class="chart-container">
+              <canvas id="statusChart"></canvas>
+            </div>
+          </div>
+        </div>
         <!-- Detailed Data Table -->
         <div class="bg-white p-4 rounded-lg shadow mb-6">
           <div class="flex justify-between items-center mb-4">
