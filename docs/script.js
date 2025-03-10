@@ -344,6 +344,7 @@ function createCharts() {
     createBehaviourChart();
     createVectorsChart();
     createStatusChart();
+    createTargetedPlatformsChart();
 }
 
 // Behaviour Type Distribution
@@ -364,6 +365,54 @@ function createBehaviourChart() {
             datasets: [{
                 data: Object.values(behaviourCounts),
                 backgroundColor: Object.keys(behaviourCounts).map((_, i) =>
+                    `hsl(${(i * 197) % 360}, 70%, 60%)`
+                ),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'right'
+                },
+                tooltip: {
+                    callbacks: {
+                        label: (context) => {
+                            const total = context.dataset.data.reduce((a, b) => a + b);
+                            const percentage = Math.round((context.raw / total) * 100);
+                            return `${context.label}: ${context.raw} (${percentage}%)`;
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Create Targeted Platforms Chart
+function createTargetedPlatformsChart() {
+    const canvas = document.getElementById('targetedPlatformsChart');
+    if (canvas.chart) canvas.chart.destroy();
+
+    const platformCounts = {};
+    filteredData.forEach(account => {
+        const platform = account.ATTACK_SURFACE || 'Unknown';
+        platformCounts[platform] = (platformCounts[platform] || 0) + 1;
+    });
+
+    // Sort platforms by count descending
+    const sortedPlatforms = Object.entries(platformCounts)
+        .sort((a, b) => b[1] - a[1]);
+
+    canvas.chart = new Chart(canvas, {
+        type: 'pie',
+        data: {
+            labels: sortedPlatforms.map(p => p[0]),
+            datasets: [{
+                data: sortedPlatforms.map(p => p[1]),
+                backgroundColor: sortedPlatforms.map((_, i) =>
                     `hsl(${(i * 197) % 360}, 70%, 60%)`
                 ),
                 borderWidth: 1
