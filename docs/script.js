@@ -198,30 +198,47 @@ function updateTable() {
         let statusClass = '';
         if (account.FINAL_URL_STATUS === 'ACTIVE') {
             statusClass = 'bg-red-100';
-        } else if (account.FINAL_URL_STATUS === 'TAKEN DOWN') {  // Fixed: Added space between TAKEN and DOWN
+        } else if (account.FINAL_URL_STATUS === 'TAKEN DOWN') {
             statusClass = 'bg-green-100';
         } else if (account.FINAL_URL_STATUS === 'UNKNOWN') {
             statusClass = 'bg-orange-100';
         }
 
+        // Build the row HTML
         row.innerHTML = `
-            <td class="px-6 py-4 whitespace-nowrap">${account.CASE_NUMBER}</td>
-            <td class="px-6 py-4 whitespace-nowrap">${formatDate(account.FOUND_ON)}</td>
-            <td class="px-6 py-4 whitespace-nowrap">${account.USERNAME}</td>
-            <td class="px-6 py-4 whitespace-nowrap">${account.ATTACK_METHOD}</td>
-            <td class="px-6 py-4 whitespace-nowrap">${account.ATTACK_GOAL}</td>
-            <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${statusClass}">
+            <td class="px-6 py-4"><span class="truncate truncate-tooltip" title="${account.CASE_NUMBER}">${account.CASE_NUMBER}</span></td>
+            <td class="px-6 py-4"><span class="truncate truncate-tooltip" title="${formatDate(account.FOUND_ON)}">${formatDate(account.FOUND_ON)}</span></td>
+            <td class="px-6 py-4"><span class="truncate truncate-tooltip" title="${account.USERNAME}">${account.USERNAME}</span></td>
+            <td class="px-6 py-4"><span class="truncate truncate-tooltip" title="${account.ATTACK_METHOD}">${account.ATTACK_METHOD}</span></td>
+            <td class="px-6 py-4"><span class="truncate truncate-tooltip" title="${account.ATTACK_GOAL}">${account.ATTACK_GOAL}</span></td>
+            <td class="px-6 py-4">
+                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${statusClass} truncate-tooltip" title="${account.FINAL_URL_STATUS}">
                     ${account.FINAL_URL_STATUS}
                 </span>
             </td>
-            <td class="px-6 py-4 whitespace-nowrap">
+            <td class="px-6 py-4">
                 <button class="text-indigo-600 hover:text-indigo-900 view-details" data-case="${account.CASE_NUMBER}">
                     View Details
                 </button>
             </td>
         `;
         tableBody.appendChild(row);
+    });
+
+    // Update pagination info
+    document.getElementById('tableInfo').textContent =
+        `Showing ${startIndex + 1}-${Math.min(endIndex, filteredData.length)} of ${filteredData.length} entries`;
+
+    // Update pagination buttons
+    document.getElementById('prevPage').disabled = currentPage === 1;
+    document.getElementById('nextPage').disabled = endIndex >= filteredData.length;
+
+    // Add event listeners to view details buttons
+    document.querySelectorAll('.view-details').forEach(button => {
+        button.addEventListener('click', () => {
+            const caseNumber = button.getAttribute('data-case');
+            showAccountDetails(caseNumber);
+        });
     });
 
     // Update pagination info
