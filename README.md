@@ -102,19 +102,47 @@ python3 Tool/exporter_script.py
 
 ## Data Definitions
 
-| Field          | Description                     |
-|----------------|---------------------------------|
-| CASE_NUMBER    | Unique case identifier          |
-| FOUND_ON       | Discovery date                  |
-| DISCORD_ID     | User's Discord Snowflake ID     |
-| USERNAME       | Account username                |
-| BEHAVIOUR      | Suspicious activity description |
-| ATTACK_METHOD  | Primary attack technique        |
-| ATTACK_VECTOR  | Implementation method           |
-| ATTACK_GOAL    | Campaign objective              |
-| ATTACK_SURFACE | Targeted platform/service       |
-| SURFACE_URL    | Initial phishing URL            |
-| FINAL_URL      | Endpoint malicious URL          |
+| Field                      | Description                                         |
+|----------------------------|-----------------------------------------------------|
+| CASE_NUMBER                | Unique case identifier                              |
+| FOUND_ON                   | Discovery date                                      |
+| DISCORD_ID                 | User's Discord Snowflake ID                         |
+| USERNAME                   | Account username                                    |
+| BEHAVIOUR                  | Suspicious activity description                     |
+| ATTACK_METHOD              | Primary attack technique                            |
+| ATTACK_VECTOR              | Implementation method                               |
+| ATTACK_GOAL                | Campaign objective                                  |
+| ATTACK_SURFACE             | Targeted platform/service                           |
+| SUSPECTED_REGION_OF_ORIGIN | Suspected region of origin                          |
+| SURFACE_URL                | Initial phishing URL                                |
+| SURFACE_URL_DOMAIN         | Domain of the initial phishing URL                  |
+| SURFACE_URL_STATUS         | Status of the initial phishing URL (e.g., ACTIVE)   |
+| FINAL_URL                  | Endpoint malicious URL                              |
+| FINAL_URL_DOMAIN           | Domain of the endpoint malicious URL                |
+| FINAL_URL_STATUS           | Status of the endpoint malicious URL (e.g., ACTIVE) |
+
+### Example Entry
+
+For instance, the entry you provided would look like this:
+
+| Field                      | Value                                                    |
+|----------------------------|----------------------------------------------------------|
+| CASE_NUMBER                | 123                                                      |
+| FOUND_ON                   | 2025-03-10                                               |
+| DISCORD_ID                 | 123456789012345678                                       |
+| USERNAME                   | exampleuser                                              |
+| BEHAVIOUR                  | User sending phishing links disguised as game promotions |
+| ATTACK_METHOD              | Phishing site                                            |
+| ATTACK_VECTOR              | Cloned login page for a popular game                     |
+| ATTACK_GOAL                | Stealing login credentials for in-game currency          |
+| ATTACK_SURFACE             | Online gaming platform                                   |
+| SUSPECTED_REGION_OF_ORIGIN | Canada                                                   |
+| SURFACE_URL                | https://example.com/xyz123                               |
+| SURFACE_URL_DOMAIN         | example.com                                              |
+| SURFACE_URL_STATUS         | ACTIVE                                                   |
+| FINAL_URL                  | https://malicioussite.com/login                          |
+| FINAL_URL_DOMAIN           | malicioussite.com                                        |
+| FINAL_URL_STATUS           | ACTIVE                                                   |
 
 ## Security Features
 
