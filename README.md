@@ -49,7 +49,7 @@ A web-based dashboard tracking compromised Discord accounts involved in phishing
 │   └── site.manifest               # Web app manifest
 ├── data/
 │   └── Compromised-Discord-Accounts.json  # Primary dataset of compromised accounts
-└── Tools/
+└── tools/
     ├── XLSX-to-JSON.py                    # Excel to JSON converter
     ├── URL-Tester.py                      # Mass tester for URLs using IPInfo API
     ├── Number-Editor.py                   # Script to edit case numbers
