@@ -26,7 +26,7 @@ def get_country_from_ip(ip):
 
 
 def check_url_status(url):
-    """Checks if a URL is active or taken down."""
+    """Checks if a URL is active or inactive."""
     print(f"[INFO] Checking status for URL: {url}")
     try:
         response = requests.head(
@@ -39,12 +39,12 @@ def check_url_status(url):
             }
         )
         final_url = response.url
-        status = "ACTIVE" if response.status_code < 400 else "TAKEN DOWN"
+        status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
         print(f"[SUCCESS] URL checked: {url} -> Status: {status}, Final URL: {final_url}")
         return status, final_url
     except Exception as e:
         print(f"[EXCEPTION] Failed to check URL: {url}, Error: {e}")
-        return "TAKEN DOWN", "UNKNOWN"
+        return "INACTIVE", "UNKNOWN"
 
 
 def update_accounts_data():
