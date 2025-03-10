@@ -167,13 +167,13 @@ body.bg-gray-900 #activeUrlsStatus:contains("Critical risk") {
 }
 
 h2 {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
-h2 + p {
-  margin-top: -1.0rem;
-  margin-bottom: 0.5rem;
-  opacity: 0.5;
+h2+p {
+	margin-top: -1.0rem;
+	margin-bottom: 0.5rem;
+	opacity: 0.5;
 }
 
 /* Loader */
