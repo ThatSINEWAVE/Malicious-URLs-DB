@@ -14,17 +14,18 @@ A web-based dashboard tracking compromised Discord accounts involved in phishing
 ├── docs/
 │   ├── index.html            # Main web interface
 │   ├── styles.css            # Dashboard styling
+│   ├── tailwind.min.css      # Tailwind CSS framework
 │   ├── script.js             # Interactive dashboard logic
-│   ├── dayjs.min.js         # Date handling library
-│   └── chart.min.js         # Chart.js library for visualizations
+│   ├── dayjs.min.js          # Date handling library
+│   └── chart.min.js          # Chart.js library for visualizations
 ├── data/
 │   └── Compromised-Discord-Accounts.json  # Primary dataset of compromised accounts
 └── Tool/
-    ├── XLSX-to-JSON.py      # Excel to JSON converter
-    ├── URL-Tester.py        # Mass tester for URLs using IPInfo API
-    ├── Number-Editor.py     # Script to edit case numbers
+    ├── XLSX-to-JSON.py       # Excel to JSON converter
+    ├── URL-Tester.py         # Mass tester for URLs using IPInfo API
+    ├── Number-Editor.py      # Script to edit case numbers
     ├── Discord-Invite-Tester.py # Test tool for Discord invites
-    ├── ExporterSheet.xlsx   # Exported Excel file from private Google sheet
+    ├── ExporterSheet.xlsx    # Exported Excel file from private Google sheet
     └── Compromised-Discord-Accounts.json    # Backup copy of primary dataset
 ```
 
