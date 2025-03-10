@@ -321,7 +321,9 @@ function createBehaviourChart() {
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
-                legend: { position: 'right' },
+                legend: {
+                    position: 'right'
+                },
                 tooltip: {
                     callbacks: {
                         label: (context) => {
@@ -367,11 +369,22 @@ function createVectorsChart() {
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
-                legend: { display: false }
+                legend: {
+                    display: false
+                }
             },
             scales: {
-                x: { beginAtZero: true, ticks: { precision: 0 } },
-                y: { ticks: { autoSkip: false } }
+                x: {
+                    beginAtZero: true,
+                    ticks: {
+                        precision: 0
+                    }
+                },
+                y: {
+                    ticks: {
+                        autoSkip: false
+                    }
+                }
             }
         }
     });
@@ -400,8 +413,7 @@ function createStatusChart() {
         type: 'bar',
         data: {
             labels: ['Surface URLs', 'Final URLs'],
-            datasets: [
-                {
+            datasets: [{
                     label: 'Active',
                     data: [statusCounts.surfaceActive, statusCounts.finalActive],
                     backgroundColor: 'rgba(239, 68, 68, 0.8)'
@@ -417,12 +429,24 @@ function createStatusChart() {
             responsive: true,
             maintainAspectRatio: false,
             scales: {
-                x: { stacked: true },
-                y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } }
+                x: {
+                    stacked: true
+                },
+                y: {
+                    stacked: true,
+                    beginAtZero: true,
+                    ticks: {
+                        precision: 0
+                    }
+                }
             },
             plugins: {
-                legend: { position: 'top' },
-                tooltip: { mode: 'index' }
+                legend: {
+                    position: 'top'
+                },
+                tooltip: {
+                    mode: 'index'
+                }
             }
         }
     });
@@ -658,7 +682,11 @@ function createRegionsChart() {
 
 // Format date to a more readable format
 function formatDate(dateString) {
-    const options = { year: 'numeric', month: 'short', day: 'numeric' };
+    const options = {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+    };
     return new Date(dateString).toLocaleDateString(undefined, options);
 }
 
@@ -707,7 +735,9 @@ function exportToCSV() {
         csvContent += row.join(',') + '\n';
     });
 
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const blob = new Blob([csvContent], {
+        type: 'text/csv;charset=utf-8;'
+    });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.setAttribute('href', url);
