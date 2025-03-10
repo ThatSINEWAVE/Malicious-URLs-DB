@@ -300,10 +300,10 @@ function showAccountDetails(caseNumber) {
                     <tbody>
                         <tr>
                             <td class="px-6 py-4 whitespace-nowrap">Surface URL</td>
-                            <td class="px-6 py-4 whitespace-nowrap">
-                                <a href="#" class="text-indigo-600 hover:text-indigo-900">${account.SURFACE_URL}</a>
+                            <td class="px-6 py-4 url-cell">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-900 break-all">${account.SURFACE_URL}</a>
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">${account.SURFACE_URL_DOMAIN}</td>
+                            <td class="px-6 py-4 domain-cell" title="${account.SURFACE_URL_DOMAIN}">${account.SURFACE_URL_DOMAIN}</td>
                             <td class="px-6 py-4 whitespace-nowrap">
                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
                                     account.SURFACE_URL_STATUS === 'ACTIVE' ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800'
@@ -314,10 +314,10 @@ function showAccountDetails(caseNumber) {
                         </tr>
                         <tr>
                             <td class="px-6 py-4 whitespace-nowrap">Final URL</td>
-                            <td class="px-6 py-4 whitespace-nowrap">
-                                <a href="#" class="text-indigo-600 hover:text-indigo-900">${account.FINAL_URL}</a>
+                            <td class="px-6 py-4 url-cell">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-900 break-all">${account.FINAL_URL}</a>
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">${account.FINAL_URL_DOMAIN}</td>
+                            <td class="px-6 py-4 domain-cell" title="${account.FINAL_URL_DOMAIN}">${account.FINAL_URL_DOMAIN}</td>
                             <td class="px-6 py-4 whitespace-nowrap">
                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
                                     account.FINAL_URL_STATUS === 'ACTIVE' ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800'

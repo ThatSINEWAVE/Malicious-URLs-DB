@@ -415,6 +415,45 @@ select {
 	opacity: 1;
 }
 
+#detailModal table td {
+  word-break: break-word;
+  vertical-align: top;
+}
+
+#detailModal .url-cell {
+  max-width: 250px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+#detailModal .domain-cell {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Ensure proper column width distribution */
+#detailModal table th:nth-child(1),
+#detailModal table td:nth-child(1) {
+  width: 100px;
+}
+
+#detailModal table th:nth-child(2),
+#detailModal table td:nth-child(2) {
+  width: 250px;
+}
+
+#detailModal table th:nth-child(3),
+#detailModal table td:nth-child(3) {
+  width: 150px;
+}
+
+#detailModal table th:nth-child(4),
+#detailModal table td:nth-child(4) {
+  width: 100px;
+}
+
 /* Button styles */
 button {
 	transition: var(--transition-normal);
