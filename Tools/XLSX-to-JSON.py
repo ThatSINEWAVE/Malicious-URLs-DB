@@ -4,7 +4,7 @@ from datetime import datetime
 from urllib.parse import urlparse
 
 # Open the Excel file
-workbook = openpyxl.load_workbook('ExporterSheet.xlsx')
+workbook = openpyxl.load_workbook("ExporterSheet.xlsx")
 worksheet = workbook.active
 
 # Create a dictionary to store the data
@@ -18,15 +18,30 @@ except FileNotFoundError:
     pass
 
 # Iterate over the rows in the worksheet
-for row_number, row in enumerate(worksheet.iter_rows(min_row=2, values_only=True), start=1):
+for row_number, row in enumerate(
+    worksheet.iter_rows(min_row=2, values_only=True), start=1
+):
     # Extract the values from the row
-    NOUMBER, FOUND_ON, DISCORD_ID, USERNAME, BEHAVIOUR, TYPE, METHOD, TARGET, PLATFORM, SURFACE_URL, REGION, STATUS = row
+    (
+        NOUMBER,
+        FOUND_ON,
+        DISCORD_ID,
+        USERNAME,
+        BEHAVIOUR,
+        TYPE,
+        METHOD,
+        TARGET,
+        PLATFORM,
+        SURFACE_URL,
+        REGION,
+        STATUS,
+    ) = row
 
     # Handle missing date values
     if FOUND_ON is None:
         found_on_str = "Unknown"
     else:
-        found_on_str = FOUND_ON.strftime('%Y-%m-%d')
+        found_on_str = FOUND_ON.strftime("%Y-%m-%d")
 
     # Get the domain from the SURFACE_URL
     surface_url_domain = ""
@@ -51,7 +66,7 @@ for row_number, row in enumerate(worksheet.iter_rows(min_row=2, values_only=True
         "SURFACE_URL_STATUS": STATUS if STATUS is not None else "Unknown",
         "FINAL_URL": "",
         "FINAL_URL_DOMAIN": "",
-        "FINAL_URL_STATUS": ""
+        "FINAL_URL_STATUS": "",
     }
 
     # Update the data dictionary with the new account
