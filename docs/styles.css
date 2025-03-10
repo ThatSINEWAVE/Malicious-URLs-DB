@@ -119,7 +119,7 @@ body.bg-gray-900 .dashboard-card h3 {
 #activeUrlsStatus {
 	font-size: 0.75rem;
 	line-height: 1.25rem;
-	margin-top: 0.5rem;
+	margin-top: -0.1rem;
 	transition: color 0.3s ease;
 	display: block;
 }
