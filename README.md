@@ -12,21 +12,50 @@ A web-based dashboard tracking compromised Discord accounts involved in phishing
 
 ```
 ├── docs/
-│   ├── index.html            # Main web interface
-│   ├── styles.css            # Dashboard styling
-│   ├── tailwind.min.css      # Tailwind CSS framework
-│   ├── script.js             # Interactive dashboard logic
-│   ├── dayjs.min.js          # Date handling library
-│   └── chart.min.js          # Chart.js library for visualizations
+│   ├── index.html                  # Main web interface
+│   ├── styles.css                  # Dashboard styling
+│   ├── tailwind.min.css            # Tailwind CSS framework
+│   ├── script.js                   # Interactive dashboard logic
+│   ├── dayjs.min.js                # Date handling library
+│   ├── chart.min.js                # Chart.js library for visualizations
+│   ├── site-data/
+│   │   ├── social-share/           # Social sharing related assets
+│   │   └── Malicious-URLs-DB.png   # Blank image for malicious URLs database
+│   ├── android-icon-36x36.png      # Android icon (36x36)
+│   ├── android-icon-48x48.png      # Android icon (48x48)
+│   ├── android-icon-72x72.png      # Android icon (72x72)
+│   ├── android-icon-96x96.png      # Android icon (96x96)
+│   ├── android-icon-144x144.png    # Android icon (144x144)
+│   ├── android-icon-192x192.png    # Android icon (192x192)
+│   ├── apple-icon.png              # Apple icon (default)
+│   ├── apple-icon-57x57.png        # Apple icon (57x57)
+│   ├── apple-icon-60x60.png        # Apple icon (60x60)
+│   ├── apple-icon-72x72.png        # Apple icon (72x72)
+│   ├── apple-icon-76x76.png        # Apple icon (76x76)
+│   ├── apple-icon-114x114.png      # Apple icon (114x114)
+│   ├── apple-icon-120x120.png      # Apple icon (120x120)
+│   ├── apple-icon-144x144.png      # Apple icon (144x144)
+│   ├── apple-icon-152x152.png      # Apple icon (152x152)
+│   ├── apple-icon-180x180.png      # Apple icon (180x180)
+│   ├── apple-icon-precomposed.png  # Apple icon (precomposed)
+│   ├── favicon.ico                 # Favicon (ICO format)
+│   ├── favicon-16x16.png           # Favicon (16x16)
+│   ├── favicon-32x32.png           # Favicon (32x32)
+│   ├── favicon-96x96.png           # Favicon (96x96)
+│   ├── ms-icon-70x70.png           # Microsoft icon (70x70)
+│   ├── ms-icon-144x144.png         # Microsoft icon (144x144)
+│   ├── ms-icon-150x150.png         # Microsoft icon (150x150)
+│   ├── ms-icon-310x310.png         # Microsoft icon (310x310)
+│   └── site.manifest               # Web app manifest
 ├── data/
 │   └── Compromised-Discord-Accounts.json  # Primary dataset of compromised accounts
-└── Tool/
-    ├── XLSX-to-JSON.py       # Excel to JSON converter
-    ├── URL-Tester.py         # Mass tester for URLs using IPInfo API
-    ├── Number-Editor.py      # Script to edit case numbers
-    ├── Discord-Invite-Tester.py # Test tool for Discord invites
-    ├── ExporterSheet.xlsx    # Exported Excel file from private Google sheet
-    └── Compromised-Discord-Accounts.json    # Backup copy of primary dataset
+└── Tools/
+    ├── XLSX-to-JSON.py                    # Excel to JSON converter
+    ├── URL-Tester.py                      # Mass tester for URLs using IPInfo API
+    ├── Number-Editor.py                   # Script to edit case numbers
+    ├── Discord-Invite-Tester.py           # Test tool for Discord invites
+    ├── ExporterSheet.xlsx                 # Exported Excel file from private Google sheet
+    └── Compromised-Discord-Accounts.json  # Backup copy of primary dataset
 ```
 
 ## Features
