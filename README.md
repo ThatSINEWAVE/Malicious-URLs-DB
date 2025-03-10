@@ -6,7 +6,7 @@
 This repository serves as a curated JSON file containing lists of websites associated with malicious activities. 
 The list is compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.
 
-![malicious-users](https://github.com/ThatSINEWAVE/Malicious-URLs-DB/assets/133239148/31fb42fc-35ef-4d00-bf27-636e18c6f7b7)
+![malicious-users](https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/.github/SCREENSHOTS/Malicious-URLs-DB.png)
 
 </div>
 
