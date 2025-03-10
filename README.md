@@ -1,81 +1,103 @@
-
 <div align="center">
 
-# [Malicious-Users-DB](https://thatsinewave.github.io/Malicious-URLs-DB/)
+# [Malicious URLs & Accounts DB](https://thatsinewave.github.io/Malicious-URLs-DB/)
 
-This repository serves as a curated JSON file containing lists of websites associated with malicious activities. 
-The list is compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.
+![Banner](https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/.github/SCREENSHOTS/Malicious-URLs-DB.png)
 
-![malicious-users](https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/.github/SCREENSHOTS/Malicious-URLs-DB.png)
+A web-based dashboard tracking compromised Discord accounts involved in phishing campaigns and malicious activities
 
 </div>
 
-## Included Files:
+## Repository Structure
 
-- `Tool/exporter_script.py`: This Python script extracts data from an Excel file (`ExporterSheet.xlsx`) and converts it into JSON format, populating the `Compromised-Discord-Accounts.json` file with details of compromised accounts found over time.
+```
+├── docs/
+│   ├── index.html            # Main web interface
+│   ├── styles.css            # Dashboard styling
+│   └── script.js             # Interactive dashboard logic
+├── data/
+│   └── Compromised-Discord-Accounts.json  # Primary dataset
+└── Tool/
+    ├── exporter_script.py    # Excel to JSON converter
+    └── ExporterSheet.xlsx    # Data collection template
+```
 
-- `Compromised-Discord-Accounts.json`: This JSON file contains the full list of details and info about all the compromised accounts found over time. Most of the compromised accounts in this list were used / are actively used in phishing campaigns.
+## Features
 
-- `index.html`: HTML file for displaying the data in a table format.
-  
-- `script.js`: JavaScript file for loading and rendering the JSON data into the HTML table, with sorting and sticky navigation functionality.
-  
-- `styles.css`: CSS file for styling the HTML elements.
+- **Dark/Light Mode Toggle** - Eye-friendly theme switching
+- **Interactive Analytics** - 4 real-time charts tracking:
+  - Attack timeline
+  - Method distribution
+  - Targeted platforms
+  - Geographic origins
+- **Advanced Filtering** - Search by:
+  - Username/Discord ID
+  - Attack method
+  - Date range
+- **CSV Export** - Download filtered data
+- **Pagination** - 10 entries per page
+- **Account Details Modal** - Full case overview
 
-<div align="center">
+## Quick Start
 
-## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+1. Clone repository:
+```bash
+git clone https://github.com/ThatSINEWAVE/Malicious-URLs-DB.git
+```
 
-</div>
+2. Host the web app:
+```bash
+cd docs && python3 -m http.server 8000
+```
 
-## Definitions:
+3. Access dashboard at:
+`http://localhost:8000`
 
-<div align="center">
+## 🔧 Data Management
 
-|            **Definition**            |                              **Description**                             |
-|:-----------------------------------:|:-----------------------------------------------------------------------:|
-|          CASE_NUMBER            |                 The unique identifier for the case.                |
-|              FOUND_ON                |           The date when the compromised account was discovered.          |
-|             DISCORD_ID             |           The unique identifier associated with the user on Discord.          |
-|              USERNAME              |                 The username of the compromised account.                |
-|             BEHAVIOUR             |        Description of the suspicious activities associated with the account.       |
-|          ATTACK_METHOD        |             The method used in the attack.             |
-|          ATTACK_VECTOR          |     The specific approach or technique used in the attack.     |
-|           ATTACK_GOAL           |          The objective of the attack.         |
-|        ATTACK_SURFACE        |           The platform or service targeted / used in the attack.           |
-| SUSPECTED_REGION_OF_ORIGIN | The suspected geographical location from which the attack originated. |
-|            SURFACE_URL            |      The URL associated with the initial interaction or surface level of the attack.      |
-|      SURFACE_URL_DOMAIN     |                    The domain of the surface URL.                    |
-|    SURFACE_URL_STATUS     |      The status of the surface URL, whether it is active or not.      |
-|              FINAL_URL               |       The URL to which the attack directs users after initial interaction.       |
-|        FINAL_URL_DOMAIN         |                    The domain of the final URL.                    |
-|      FINAL_URL_STATUS      |        The status of the final URL, whether it is active or not.        |
+1. Update Excel sheet in `Tool/ExporterSheet.xlsx`
 
-</div>
+2. Run exporter script:
+```bash
+python3 Tool/exporter_script.py
+```
 
-<div align="center">
+3. Updated JSON will be generated in root directory
 
-# [Join my discord server](https://discord.gg/2nHHHBWNDw)
+## Data Definitions
 
-</div>
+| Field          | Description                     |
+|----------------|---------------------------------|
+| CASE_NUMBER    | Unique case identifier          |
+| FOUND_ON       | Discovery date                  |
+| DISCORD_ID     | User's Discord Snowflake ID     |
+| USERNAME       | Account username                |
+| BEHAVIOUR      | Suspicious activity description |
+| ATTACK_METHOD  | Primary attack technique        |
+| ATTACK_VECTOR  | Implementation method           |
+| ATTACK_GOAL    | Campaign objective              |
+| ATTACK_SURFACE | Targeted platform/service       |
+| SURFACE_URL    | Initial phishing URL            |
+| FINAL_URL      | Endpoint malicious URL          |
 
-## Contributions:
+## Security Features
 
-Contributions to this repository are not currently accepted. 
-The list is based solely on my discoveries but If anyone wants to add other URLs and you have an extensive collection that you would like to add them to the repo feel free to submit a request.
+- Real-time URL status tracking (Active/Inactive)
+- Automatic data refresh button
+- Visual status indicators (🔴 Active/🟢 Neutral)
+- Malicious domain tracking
 
-## Usage:
+## Disclaimer
 
-The data within this JSON file can be used to enhance threat detection and protect users from encountering malicious online content. 
-Information provided here serves as a valuable resource for threat intelligence and cybersecurity analysis.
+This tool is provided "as-is" for educational and research purposes. Always:
+- Verify URL status independently
+- Exercise caution when interacting with listed domains
+- Follow platform ToS when investigating accounts
 
-## Disclaimer:
+## Contributing
 
-The information provided in this repository is for informational purposes only. 
-While efforts are made to ensure accuracy, the repository owner cannot guarantee the completeness or currentness of the data. 
-Users are advised to exercise caution when interacting with websites listed herein and to conduct their own investigations as necessary.
+Contributions are welcome! If you want to contribute, feel free to fork the repository, make your changes, and submit a pull request.
 
-## License:
+## License
 
-This repository is provided under the MIT License. 
-By utilizing the contents of this repository, you agree to abide by the terms of this license.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
