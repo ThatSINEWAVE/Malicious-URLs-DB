@@ -38,6 +38,12 @@ A comprehensive security dashboard tracking malicious activities with advanced a
   - Auto-updating "Most Common Attack Method" and "Top Targeted Platform" stats
   - Smart date range presets based on dataset
 
+<div align="center">
+
+## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
+</div>
+
 ## Technical Highlights
 
 ### PWA Architecture
@@ -160,7 +166,7 @@ Access via `http://localhost:8000`
 
 <div align="center">
 
-## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+## [Join my discord server](https://discord.gg/2nHHHBWNDw)
 
 </div>
 
