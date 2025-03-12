@@ -5,7 +5,6 @@ let currentPage = 1;
 const rowsPerPage = 10;
 
 // Dark mode toggle
-// Dark mode toggle
 const darkModeToggle = document.getElementById('darkModeToggle');
 darkModeToggle.addEventListener('click', () => {
     document.body.classList.toggle('bg-gray-900');
