@@ -43,6 +43,7 @@
     <meta name="twitter:image" content="https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/docs/site-data/social-share/Malicious-URLs-DB.png">
   </head>
   <body class="bg-gray-100 min-h-screen">
+    <!-- Header -->
     <nav class="bg-indigo-700 text-white p-4 shadow-md">
       <div class="container mx-auto flex justify-between items-center">
         <h1 class="text-2xl font-bold">Malicious User Database</h1>
@@ -56,6 +57,7 @@
         </div>
       </div>
     </nav>
+    <!-- Announcement Bar -->
     <div id="announcement-bar" class="announcement-bar">
       <div class="container mx-auto py-3 px-4">
         <div class="flex items-center justify-between">
@@ -70,6 +72,7 @@
         </div>
       </div>
     </div>
+    <!-- Loader -->
     <div class="container mx-auto px-4 py-8">
       <div id="loading" class="text-center">
         <div class="loader"></div>
@@ -100,16 +103,19 @@
         </div>
         <!-- Stats Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-6">
+          <!-- Compromised Accounts Stat Card -->
           <div class="bg-white p-4 rounded-lg shadow dashboard-card">
             <h3 class="text-gray-500 text-sm font-medium">Total Compromised Accounts</h3>
             <p id="totalAccounts" class="text-3xl font-bold text-indigo-600">-</p>
             <div class="mt-2 text-xs text-gray-500">Updated just now</div>
           </div>
+          <!-- Deleted Accounts Stat Card -->
           <div class="bg-white p-4 rounded-lg shadow dashboard-card">
             <h3 class="text-gray-500 text-sm font-medium">Deleted Accounts</h3>
             <p id="deletedAccounts" class="text-3xl font-bold text-purple-600">-</p>
             <div class="mt-2 text-xs text-gray-500">Identified by deleted_user pattern</div>
           </div>
+          <!-- Active URLs Stat Card -->
           <div class="bg-white p-4 rounded-lg shadow dashboard-card">
             <h3 class="text-gray-500 text-sm font-medium">Active Malicious URLs</h3>
             <p id="activeUrls" class="text-3xl font-bold">-</p>
@@ -117,17 +123,20 @@
               <span id="activeUrlsStatus">System status will update dynamically</span>
             </div>
           </div>
+          <!-- Common Attack Method Stat Card -->
           <div class="bg-white p-4 rounded-lg shadow dashboard-card">
             <h3 class="text-gray-500 text-sm font-medium">Most Common Attack Method</h3>
             <p id="commonAttack" class="text-3xl font-bold text-orange-500">-</p>
             <div class="mt-2 text-xs text-gray-500">Based on current data</div>
           </div>
+          <!-- Targeted Platform Stat Card -->
           <div class="bg-white p-4 rounded-lg shadow dashboard-card">
             <h3 class="text-gray-500 text-sm font-medium">Most Targeted Platform</h3>
             <p id="targetedPlatform" class="text-3xl font-bold text-blue-600">-</p>
             <div class="mt-2 text-xs text-gray-500">Based on attack surface</div>
           </div>
         </div>
+        <!-- Data Definitions Dropdown Box -->
         <div class="bg-white p-4 rounded-lg shadow mb-6 transition-all duration-300" id="infoBar">
           <div class="flex justify-between items-center cursor-pointer" id="infoHeader">
             <h3 class="text-lg font-semibold flex items-center gap-2">
@@ -143,6 +152,7 @@
           </div>
           <div class="mt-4 text-sm text-gray-600 overflow-hidden" id="infoContent">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+              <!-- Key Metric Definitions -->
               <div>
                 <p class="font-medium mb-2 text-indigo-600">
                   <b>Key Metrics Explained:</b>
@@ -165,6 +175,7 @@
                   </li>
                 </ul>
               </div>
+              <!-- Status Indicator Definitions -->
               <div>
                 <p class="font-medium mb-2 text-indigo-600">
                   <b>Status Indicators:</b>
@@ -187,6 +198,7 @@
                   </li>
                 </ul>
               </div>
+              <!--Charts Definitions -->
               <div>
                 <p class="font-medium mb-2 text-indigo-600">
                   <b>Chart Breakdown:</b>
@@ -209,6 +221,7 @@
                   </li>
                 </ul>
               </div>
+              <!-- URL Status Definitions -->
               <div>
                 <p class="font-medium mb-2 text-indigo-600">
                   <b>URL Status Comparison:</b>
@@ -231,6 +244,7 @@
                   </li>
                 </ul>
               </div>
+              <!-- Database Field Definitions -->
               <div>
                 <p class="font-medium mb-2 text-indigo-600">
                   <b>Database Fields Overview:</b>
@@ -253,6 +267,7 @@
                   </li>
                 </ul>
               </div>
+              <!-- Technical Definitions -->
               <div>
                 <p class="font-large mb-2 text-indigo-600">
                   <b>Technical Details:</b>
@@ -279,6 +294,7 @@
           </div>
         </div>
         <!-- First Row of Charts -->
+        <!-- methodsChart Chart -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Attack Methods Distribution</h2>
@@ -287,6 +303,7 @@
               <canvas id="methodsChart"></canvas>
             </div>
           </div>
+          <!-- timelineChart Chart -->
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Attacks Over Time</h2>
             <p>Hover over a point to see exact data</p>
@@ -296,6 +313,7 @@
           </div>
         </div>
         <!-- Second Row of Charts -->
+        <!-- surfacesChart Chart -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Attack Surfaces</h2>
@@ -304,6 +322,7 @@
               <canvas id="surfacesChart"></canvas>
             </div>
           </div>
+          <!-- regionsChart Chart -->
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Suspected Regions of Origin</h2>
             <p>Click any datapoint to switch views</p>
@@ -321,6 +340,7 @@
               <canvas id="behaviourChart"></canvas>
             </div>
           </div>
+          <!-- vectorsChart Chart -->
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Attack Vectors Analysis</h2>
             <p>Hover over a point to see exact data</p>
@@ -330,6 +350,7 @@
           </div>
         </div>
         <!-- Fourth Row of Charts -->
+        <!-- statusChart Chart -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">URL Status Comparison</h2>
@@ -338,6 +359,7 @@
               <canvas id="statusChart"></canvas>
             </div>
           </div>
+          <!-- goalsChart Chart -->
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Attack Goal Distribution</h2>
             <p>Click any datapoint to switch views</p>
@@ -347,6 +369,7 @@
           </div>
         </div>
         <!-- Fifth Row of Charts -->
+        <!-- statusAccountsChart Chart -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Compromised Account Status</h2>
@@ -355,6 +378,7 @@
               <canvas id="statusAccountsChart"></canvas>
             </div>
           </div>
+          <!-- methodGoalChart Chart -->
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Method vs Goal Matrix</h2>
             <p>Click any datapoint to switch views</p>
@@ -415,6 +439,7 @@
         </div>
       </div>
     </div>
+    <!-- Footer -->
     <footer class="bg-indigo-700 text-white p-4 shadow-lg mt-8">
       <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div class="mb-4 md:mb-0">
