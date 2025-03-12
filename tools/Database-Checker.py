@@ -2,18 +2,33 @@ import json
 import time
 import requests
 import os
+import socket
 import unicodedata
+from urllib.parse import urlparse
 from dotenv import load_dotenv
 from datetime import datetime
 
 # Load environment variables
 load_dotenv()
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
+IPINFO_API_TOKEN = os.getenv("IPINFO_API_TOKEN")
 DISCORD_RATE_LIMIT = 20  # Max API calls per second
+REQUEST_TIMEOUT = 10  # seconds
 
 # Ensure log directory and file exist
 LOG_DIR = "logs"
 LOG_FILE = os.path.join(LOG_DIR, "log.txt")
+
+
+def log_message(message):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    formatted_message = f"[{timestamp}] {message}"
+    print(formatted_message)
+    with open(LOG_FILE, "a", encoding="utf-8") as log_file:
+        log_file.write(formatted_message + "\n")
+        log_file.flush()
+        os.fsync(log_file.fileno())  # Ensure data is written to disk immediately
+
 
 # Check if log directory exists, create if it doesn't
 if not os.path.exists(LOG_DIR):
@@ -31,6 +46,15 @@ if not os.path.exists(LOG_FILE):
     print(f"Created {LOG_FILE} successfully.")
 else:
     print(f"Log file {LOG_FILE} already exists.")
+
+# Check for required API tokens
+if not DISCORD_BOT_TOKEN:
+    print("WARNING: DISCORD_BOT_TOKEN not found in .env file.")
+    log_message("WARNING: DISCORD_BOT_TOKEN not found in .env file.")
+
+if not IPINFO_API_TOKEN:
+    print("WARNING: IPINFO_API_TOKEN not found in .env file.")
+    log_message("WARNING: IPINFO_API_TOKEN not found in .env file.")
 
 
 def log_message(message):
@@ -96,6 +120,74 @@ def check_discord_invite_status(url, request_tracker, cache):
     cache[invite_code] = status
     log_message(f"Invite {invite_code} is {status}")
     return status
+
+
+def is_discord_url(url):
+    """Check if a URL is from Discord's domains."""
+    return "discord.com" in url or "discord.gg" in url
+
+
+def get_country_from_ip(ip):
+    """Fetches country information based on an IP address."""
+    log_message(f"Getting country for IP: {ip}")
+
+    if not IPINFO_API_TOKEN:
+        log_message(
+            "ERROR: IPINFO_API_TOKEN not set in .env file. Cannot determine country."
+        )
+        return "UNKNOWN"
+
+    try:
+        response = requests.get(
+            f"https://ipinfo.io/{ip}/country?token={IPINFO_API_TOKEN}",
+            timeout=REQUEST_TIMEOUT,
+        )
+        if response.status_code == 200:
+            country = response.text.strip()
+            log_message(f"Country found for IP {ip}: {country}")
+            return country
+        else:
+            log_message(
+                f"Failed to get country for IP {ip}, status code: {response.status_code}"
+            )
+    except Exception as e:
+        log_message(f"Error fetching country for IP {ip}: {e}")
+    return "UNKNOWN"
+
+
+def check_url_status(url):
+    """Checks if a URL is active or inactive and retrieves the final URL after all redirects."""
+    log_message(f"Checking status for URL: {url}")
+    try:
+        session = requests.Session()
+        session.headers.update(
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+            }
+        )
+
+        # Follow redirects and retrieve the final URL using GET
+        response = session.get(url, allow_redirects=True, timeout=REQUEST_TIMEOUT)
+        final_url = response.url  # Final URL after all redirects
+        status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
+
+        log_message(f"URL checked: {url} -> Status: {status}, Final URL: {final_url}")
+        return status, final_url
+    except Exception as e:
+        log_message(f"Failed to check URL: {url}, Error: {e}")
+        return "INACTIVE", "UNKNOWN"
+
+
+def get_domain_country(domain):
+    """Get the country associated with a domain's IP address."""
+    log_message(f"Resolving domain IP for: {domain}")
+    try:
+        domain_ip = socket.gethostbyname(domain)
+        return get_country_from_ip(domain_ip)
+    except Exception as e:
+        log_message(f"Failed to resolve domain {domain}: {e}")
+        return "UNKNOWN"
 
 
 def enforce_rate_limit(request_tracker):
@@ -172,9 +264,10 @@ def process_accounts(data, filename):
     for account_key, account in data.items():
         log_message(f"Processing account: {account_key}")
         discord_id = account.get("DISCORD_ID")
-        surface_url = account.get("SURFACE_URL")
-        final_url = account.get("FINAL_URL")
+        surface_url = account.get("SURFACE_URL", "").strip()
+        final_url = account.get("FINAL_URL", "").strip()
 
+        # Check Discord username if ID is provided
         if discord_id:
             new_username = get_discord_username(
                 discord_id, DISCORD_BOT_TOKEN, request_tracker
@@ -189,42 +282,84 @@ def process_accounts(data, filename):
                     f"Username for {discord_id} is already correct. Skipping update."
                 )
 
-        if surface_url:
-            discord_status = check_discord_invite_status(
-                surface_url, request_tracker, invite_cache
-            )
-            if (
-                discord_status is not None
-            ):  # Only update if it's a Discord URL and we got a status
-                account["SURFACE_URL_STATUS"] = discord_status
-                log_message(f"Updated SURFACE_URL_STATUS to {discord_status}")
-            else:
-                log_message(
-                    f"Not a Discord URL. Keeping existing SURFACE_URL_STATUS: {account.get('SURFACE_URL_STATUS', 'UNKNOWN')}"
+        # Process SURFACE_URL
+        if surface_url and surface_url != "UNKNOWN":
+            if is_discord_url(surface_url):
+                # Discord URL processing
+                discord_status = check_discord_invite_status(
+                    surface_url, request_tracker, invite_cache
                 )
-
-        if final_url:
-            final_status = check_discord_invite_status(
-                final_url, request_tracker, invite_cache
-            )
-            if (
-                final_status is not None
-            ):  # Only update if the function returns a valid status
-                account["FINAL_URL_STATUS"] = final_status
-                log_message(f"Updated FINAL_URL_STATUS to {final_status}")
-                if (
-                    final_status == "INACTIVE"
-                    and account.get("SURFACE_URL_STATUS") == "ACTIVE"
-                    and "discord" in surface_url.lower()
-                ):
-                    account["SURFACE_URL_STATUS"] = "INACTIVE"
+                if discord_status is not None:
+                    account["SURFACE_URL_STATUS"] = discord_status
+                    account["SUSPECTED_REGION_OF_ORIGIN"] = "US"
                     log_message(
-                        "Setting SURFACE_URL_STATUS to INACTIVE because FINAL_URL is INACTIVE"
+                        f"Updated SURFACE_URL_STATUS to {discord_status} (Discord URL - setting region to US)"
                     )
             else:
-                log_message(
-                    f"Not a Discord URL. Keeping existing FINAL_URL_STATUS: {account.get('FINAL_URL_STATUS', 'UNKNOWN')}"
+                # Non-Discord URL processing
+                log_message(f"Processing non-Discord URL: {surface_url}")
+                surface_status, redirected_final_url = check_url_status(surface_url)
+                account["SURFACE_URL_STATUS"] = surface_status
+
+                # Update FINAL_URL if it's unknown or empty
+                if not final_url or final_url == "UNKNOWN":
+                    account["FINAL_URL"] = redirected_final_url
+                    log_message(f"Updated FINAL_URL to {redirected_final_url}")
+                    # Also set the final_url for further processing
+                    final_url = redirected_final_url
+        else:
+            log_message(
+                f"No valid SURFACE_URL for account {account_key}, skipping URL check."
+            )
+
+        # Process FINAL_URL if it exists and is not a Discord URL
+        if final_url and final_url != "UNKNOWN":
+            if is_discord_url(final_url):
+                # Discord URL processing
+                final_status = check_discord_invite_status(
+                    final_url, request_tracker, invite_cache
                 )
+                if final_status is not None:
+                    account["FINAL_URL_STATUS"] = final_status
+                    account["SUSPECTED_REGION_OF_ORIGIN"] = "US"
+                    log_message(
+                        f"Updated FINAL_URL_STATUS to {final_status} (Discord URL - setting region to US)"
+                    )
+                    # Check for consistency between surface and final URLs
+                    if (
+                        final_status == "INACTIVE"
+                        and account.get("SURFACE_URL_STATUS") == "ACTIVE"
+                        and is_discord_url(surface_url)
+                    ):
+                        account["SURFACE_URL_STATUS"] = "INACTIVE"
+                        log_message(
+                            "Setting SURFACE_URL_STATUS to INACTIVE because FINAL_URL is INACTIVE"
+                        )
+            else:
+                # Non-Discord URL processing
+                log_message(f"Processing non-Discord FINAL_URL: {final_url}")
+                final_status, _ = check_url_status(final_url)
+                account["FINAL_URL_STATUS"] = final_status
+                log_message(f"Updated FINAL_URL_STATUS to {final_status}")
+
+                # Extract and store the domain
+                parsed_url = urlparse(final_url)
+                domain = parsed_url.netloc
+                if domain:
+                    account["FINAL_URL_DOMAIN"] = domain
+                    log_message(f"Updated FINAL_URL_DOMAIN to {domain}")
+
+                    # Get geolocation info for non-Discord domains
+                    if (
+                        not account.get("SUSPECTED_REGION_OF_ORIGIN")
+                        or account["SUSPECTED_REGION_OF_ORIGIN"] == "UNKNOWN"
+                    ):
+                        country = get_domain_country(domain)
+                        account["SUSPECTED_REGION_OF_ORIGIN"] = country
+                        log_message(f"Updated SUSPECTED_REGION_OF_ORIGIN to {country}")
+
+        # Save after each account to prevent data loss
+        save_json(data, filename)
 
     # Move the non-ASCII username check to the end
     data, non_ascii_count, non_ascii_cases = check_non_ascii_usernames(data)
@@ -244,7 +379,7 @@ def process_accounts(data, filename):
 
 
 def main():
-    log_message("Starting database checker...")
+    log_message("Starting enhanced database checker...")
 
     filename = "Compromised-Discord-Accounts.json"
     if not os.path.exists(filename):
