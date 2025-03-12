@@ -23,7 +23,7 @@ async function fetchData() {
         document.getElementById('dashboard').classList.add('hidden');
 
         // Change this line to use the GitHub raw URL
-        const response = await fetch('https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/data/Compromised-Discord-Accounts.json');
+        const response = await fetch('../data/Compromised-Discord-Accounts.json');
         if (!response.ok) {
             throw new Error('Failed to fetch data');
         }
@@ -118,6 +118,7 @@ function filterData() {
 
 // Update main stats
 function updateStats() {
+    // Existing stats code...
     document.getElementById('totalAccounts').textContent = filteredData.length;
 
     const activeUrls = filteredData.filter(account =>
@@ -137,16 +138,16 @@ function updateStats() {
     let statusText;
     if (activeUrls === 0) {
         activeUrlsElement.classList.add('text-green-600');
-        statusText = 'No risk - All URLs inactive';
+        statusText = 'No immediate risk detected';
     } else if (activeUrls <= 100) {
         activeUrlsElement.classList.add('text-green-600');
-        statusText = 'Low risk - Under monitoring';
+        statusText = 'Minimal risk detected now';
     } else if (activeUrls <= 200) {
         activeUrlsElement.classList.add('text-orange-500');
-        statusText = 'Elevated risk - Needs attention';
+        statusText = 'Moderate risk detected currently';
     } else {
         activeUrlsElement.classList.add('text-red-600');
-        statusText = 'Critical risk - Requires immediate action';
+        statusText = 'Severe critical risk detected';
     }
 
     // Update status text
@@ -183,6 +184,12 @@ function updateStats() {
         }
     }
     document.getElementById('targetedPlatform').textContent = targetedPlatform || 'N/A';
+
+    // Deleted accounts count
+    const deletedAccounts = filteredData.filter(account =>
+        account.USERNAME && account.USERNAME.toLowerCase().includes('deleted_user_')
+    ).length;
+    document.getElementById('deletedAccounts').textContent = deletedAccounts;
 }
 
 // Update the data table
@@ -348,6 +355,7 @@ function createCharts() {
     createVectorsChart();
     createStatusChart();
     createTargetedPlatformsChart();
+    createStatusAccountsChart();
 }
 
 // Behaviour Type Distribution
@@ -392,6 +400,65 @@ function createBehaviourChart() {
             }
         }
     });
+}
+
+// Account Status
+function createStatusAccountsChart() {
+  const canvas = document.getElementById('statusAccountsChart');
+  if (canvas.chart) canvas.chart.destroy();
+
+  let deletedCount = 0;
+  let activeCount = 0;
+
+  filteredData.forEach(account => {
+    if (account.USERNAME && account.USERNAME.toLowerCase().includes('deleted_user')) {
+      deletedCount++;
+    } else {
+      activeCount++;
+    }
+  });
+
+  canvas.chart = new Chart(canvas, {
+    type: 'bar',
+    data: {
+      labels: ['Account Status'],
+      datasets: [{
+          label: 'Deleted Accounts',
+          data: [deletedCount],
+          backgroundColor: 'rgba(147, 51, 234, 0.8)'
+        },
+        {
+          label: 'Active Accounts',
+          data: [activeCount],
+          backgroundColor: 'rgba(16, 185, 129, 0.8)'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          stacked: true
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          ticks: {
+            precision: 0
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'top'
+        },
+        tooltip: {
+          mode: 'index'
+        }
+      }
+    }
+  });
 }
 
 // Create Targeted Platforms Chart
