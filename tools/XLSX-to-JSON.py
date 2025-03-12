@@ -12,7 +12,7 @@ data = {}
 
 # Load existing data from the output.json file if it exists
 try:
-    with open("Compromised-Discord-Accounts.json", "r") as file:
+    with open("Compromised-Discord-Accounts.json", "r", encoding='utf-8') as file:
         data = json.load(file)
 except FileNotFoundError:
     pass
@@ -82,8 +82,8 @@ for row_number, row in enumerate(
     existing_discord_ids.add(str(DISCORD_ID))
 
 # Convert the data dictionary to JSON
-json_data = json.dumps(data, indent=2)
+json_data = json.dumps(data, indent=2, ensure_ascii=False)
 
 # Write the JSON data to a file
-with open("Compromised-Discord-Accounts.json", "w") as file:
+with open("Compromised-Discord-Accounts.json", "w", encoding='utf-8') as file:
     file.write(json_data)
