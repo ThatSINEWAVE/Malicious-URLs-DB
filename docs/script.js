@@ -117,12 +117,13 @@ function filterData() {
 }
 
 // Update main stats
+// Update main stats
 function updateStats() {
-    // Existing stats code...
+    // Update total accounts count
     document.getElementById('totalAccounts').textContent = filteredData.length;
 
+    // Count only SURFACE_URL_STATUS that are ACTIVE
     const activeUrls = filteredData.filter(account =>
-        account.FINAL_URL_STATUS === 'ACTIVE' ||
         account.SURFACE_URL_STATUS === 'ACTIVE'
     ).length;
     document.getElementById('activeUrls').textContent = activeUrls;
@@ -134,15 +135,20 @@ function updateStats() {
     // Remove existing color classes
     activeUrlsElement.classList.remove('text-red-600', 'text-orange-500', 'text-green-600');
 
-    // Determine status and color
+    // Calculate FINAL_URL_STATUS that are ACTIVE for risk assessment
+    const activeFinalUrls = filteredData.filter(account =>
+        account.FINAL_URL_STATUS === 'ACTIVE'
+    ).length;
+
+    // Determine status and color based on active final URLs
     let statusText;
-    if (activeUrls === 0) {
+    if (activeFinalUrls === 0) {
         activeUrlsElement.classList.add('text-green-600');
         statusText = 'No immediate risk detected';
-    } else if (activeUrls <= 100) {
+    } else if (activeFinalUrls <= 100) {
         activeUrlsElement.classList.add('text-green-600');
         statusText = 'Minimal risk detected now';
-    } else if (activeUrls <= 200) {
+    } else if (activeFinalUrls <= 200) {
         activeUrlsElement.classList.add('text-orange-500');
         statusText = 'Moderate risk detected currently';
     } else {
@@ -627,22 +633,28 @@ function createStatusChart() {
     const statusCounts = {
         surfaceActive: 0,
         surfaceInactive: 0,
+        surfaceUnknown: 0,
         finalActive: 0,
-        finalInactive: 0
+        finalInactive: 0,
+        finalUnknown: 0
     };
 
     filteredData.forEach(account => {
         if (account.SURFACE_URL_STATUS === 'ACTIVE') statusCounts.surfaceActive++;
-        else statusCounts.surfaceInactive++;
+        else if (account.SURFACE_URL_STATUS === 'INACTIVE') statusCounts.surfaceInactive++;
+        else statusCounts.surfaceUnknown++;
+
         if (account.FINAL_URL_STATUS === 'ACTIVE') statusCounts.finalActive++;
-        else statusCounts.finalInactive++;
+        else if (account.FINAL_URL_STATUS === 'INACTIVE') statusCounts.finalInactive++;
+        else statusCounts.finalUnknown++;
     });
 
     canvas.chart = new Chart(canvas, {
         type: 'bar',
         data: {
             labels: ['Surface URLs', 'Final URLs'],
-            datasets: [{
+            datasets: [
+                {
                     label: 'Active',
                     data: [statusCounts.surfaceActive, statusCounts.finalActive],
                     backgroundColor: 'rgba(239, 68, 68, 0.8)'
@@ -651,6 +663,11 @@ function createStatusChart() {
                     label: 'Inactive',
                     data: [statusCounts.surfaceInactive, statusCounts.finalInactive],
                     backgroundColor: 'rgba(16, 185, 129, 0.8)'
+                },
+                {
+                    label: 'Unknown',
+                    data: [statusCounts.surfaceUnknown, statusCounts.finalUnknown],
+                    backgroundColor: 'rgba(251, 191, 36, 0.8)'
                 }
             ]
         },
