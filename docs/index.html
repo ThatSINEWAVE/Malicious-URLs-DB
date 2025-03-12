@@ -128,7 +128,7 @@
             <div class="mt-2 text-xs text-gray-500">Based on attack surface</div>
           </div>
         </div>
-        <!-- Charts Row -->
+        <!-- First Row of Charts -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Attack Methods Distribution</h2>
@@ -162,7 +162,7 @@
             </div>
           </div>
         </div>
-        <!-- Add this after the existing chart rows -->
+        <!-- Third Row of Charts -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Behaviour Types Distribution</h2>
@@ -179,6 +179,7 @@
             </div>
           </div>
         </div>
+        <!-- Fourth Row of Charts -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">URL Status Comparison</h2>
@@ -188,22 +189,28 @@
             </div>
           </div>
           <div class="bg-white p-4 rounded-lg shadow">
-            <h2 class="text-lg font-semibold mb-4">Targeted Platforms</h2>
+            <h2 class="text-lg font-semibold mb-4">Attack Goal Distribution</h2>
             <p>Click any datapoint to switch views</p>
             <div class="chart-container">
-              <canvas id="targetedPlatformsChart"></canvas>
+              <canvas id="goalsChart"></canvas>
             </div>
           </div>
+        </div>
+        <!-- Fifth Row of Charts -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
             <h2 class="text-lg font-semibold mb-4">Compromised Account Status</h2>
-            <p>Hover over a point to see exact data</p>
+            <p>Click any datapoint to switch views</p>
             <div class="chart-container">
               <canvas id="statusAccountsChart"></canvas>
             </div>
           </div>
           <div class="bg-white p-4 rounded-lg shadow">
-            <h2 class="text-lg font-semibold mb-4">New Chart Coming Soon</h2>
-            <p>Stay tuned! We're currently working on a new data chart that will be coming soon.</p>
+            <h2 class="text-lg font-semibold mb-4">Method vs Goal Matrix</h2>
+            <p>Click any datapoint to switch views</p>
+            <div class="chart-container">
+              <canvas id="methodGoalChart"></canvas>
+            </div>
           </div>
         </div>
         <!-- Detailed Data Table -->

@@ -354,8 +354,122 @@ function createCharts() {
     createBehaviourChart();
     createVectorsChart();
     createStatusChart();
-    createTargetedPlatformsChart();
     createStatusAccountsChart();
+    createGoalsChart();
+    createMethodGoalChart();
+}
+
+// Attack Goal Distribution
+function createGoalsChart() {
+    const canvas = document.getElementById('goalsChart');
+    if (canvas.chart) canvas.chart.destroy();
+
+    const goalsCounts = {};
+    filteredData.forEach(account => {
+        const goal = account.ATTACK_GOAL || 'Unknown';
+        goalsCounts[goal] = (goalsCounts[goal] || 0) + 1;
+    });
+
+    const sortedGoals = Object.entries(goalsCounts).sort((a, b) => b[1] - a[1]);
+
+    canvas.chart = new Chart(canvas, {
+        type: 'doughnut',
+        data: {
+            labels: sortedGoals.map(g => g[0]),
+            datasets: [{
+                data: sortedGoals.map(g => g[1]),
+                backgroundColor: sortedGoals.map((_, i) =>
+                    `hsl(${(i * 137) % 360}, 70%, 60%)`
+                ),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'right'
+                },
+                tooltip: {
+                    callbacks: {
+                        label: (context) => {
+                            const total = context.dataset.data.reduce((a, b) => a + b);
+                            const percentage = ((context.raw / total) * 100).toFixed(1);
+                            return `${context.label}: ${context.raw} (${percentage}%)`;
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Attack Method vs Goal Matrix
+function createMethodGoalChart() {
+    const canvas = document.getElementById('methodGoalChart');
+    if (canvas.chart) canvas.chart.destroy();
+
+    // Create cross-tabulation matrix
+    const methodGoalCounts = {};
+    const allMethods = new Set();
+    const allGoals = new Set();
+
+    filteredData.forEach(account => {
+        const method = account.ATTACK_METHOD || 'Unknown';
+        const goal = account.ATTACK_GOAL || 'Unknown';
+
+        allMethods.add(method);
+        allGoals.add(goal);
+
+        if (!methodGoalCounts[method]) methodGoalCounts[method] = {};
+        methodGoalCounts[method][goal] = (methodGoalCounts[method][goal] || 0) + 1;
+    });
+
+    // Prepare datasets
+    const methods = Array.from(allMethods);
+    const goals = Array.from(allGoals);
+    const datasets = goals.map(goal => ({
+        label: goal,
+        data: methods.map(method => methodGoalCounts[method]?.[goal] || 0),
+        backgroundColor: `hsl(${(goals.indexOf(goal) * 137) % 360}, 70%, 60%)`
+    }));
+
+    canvas.chart = new Chart(canvas, {
+        type: 'bar',
+        data: {
+            labels: methods,
+            datasets: datasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    stacked: true,
+                    ticks: {
+                        autoSkip: false
+                    }
+                },
+                y: {
+                    stacked: true,
+                    beginAtZero: true,
+                    ticks: {
+                        precision: 0
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    position: 'top'
+                },
+                tooltip: {
+                    mode: 'index',
+                    intersect: false
+                }
+            }
+        }
+    });
 }
 
 // Behaviour Type Distribution
@@ -404,79 +518,31 @@ function createBehaviourChart() {
 
 // Account Status
 function createStatusAccountsChart() {
-  const canvas = document.getElementById('statusAccountsChart');
-  if (canvas.chart) canvas.chart.destroy();
-
-  let deletedCount = 0;
-  let activeCount = 0;
-
-  filteredData.forEach(account => {
-    if (account.USERNAME && account.USERNAME.toLowerCase().includes('deleted_user')) {
-      deletedCount++;
-    } else {
-      activeCount++;
-    }
-  });
-
-  canvas.chart = new Chart(canvas, {
-    type: 'pie',
-    data: {
-      labels: ['Deleted Accounts', 'Active Accounts'],
-      datasets: [{
-        label: 'Account Status',
-        data: [deletedCount, activeCount],
-        backgroundColor: [
-          'rgba(147, 51, 234, 0.8)', // Purple for deleted
-          'rgba(16, 185, 129, 0.8)'  // Green for active
-        ],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: {
-          position: 'top'
-        },
-        tooltip: {
-          callbacks: {
-            label: (context) => {
-              const total = context.dataset.data.reduce((a, b) => a + b);
-              const percentage = ((context.raw / total) * 100).toFixed(1);
-              return `${context.label}: ${context.raw} (${percentage}%)`;
-            }
-          }
-        }
-      }
-    }
-  });
-}
-
-// Create Targeted Platforms Chart
-function createTargetedPlatformsChart() {
-    const canvas = document.getElementById('targetedPlatformsChart');
+    const canvas = document.getElementById('statusAccountsChart');
     if (canvas.chart) canvas.chart.destroy();
 
-    const platformCounts = {};
-    filteredData.forEach(account => {
-        const platform = account.ATTACK_SURFACE || 'Unknown';
-        platformCounts[platform] = (platformCounts[platform] || 0) + 1;
-    });
+    let deletedCount = 0;
+    let activeCount = 0;
 
-    // Sort platforms by count descending
-    const sortedPlatforms = Object.entries(platformCounts)
-        .sort((a, b) => b[1] - a[1]);
+    filteredData.forEach(account => {
+        if (account.USERNAME && account.USERNAME.toLowerCase().includes('deleted_user')) {
+            deletedCount++;
+        } else {
+            activeCount++;
+        }
+    });
 
     canvas.chart = new Chart(canvas, {
         type: 'pie',
         data: {
-            labels: sortedPlatforms.map(p => p[0]),
+            labels: ['Deleted Accounts', 'Active Accounts'],
             datasets: [{
-                data: sortedPlatforms.map(p => p[1]),
-                backgroundColor: sortedPlatforms.map((_, i) =>
-                    `hsl(${(i * 197) % 360}, 70%, 60%)`
-                ),
+                label: 'Account Status',
+                data: [deletedCount, activeCount],
+                backgroundColor: [
+                    'rgba(147, 51, 234, 0.8)', // Purple for deleted
+                    'rgba(16, 185, 129, 0.8)' // Green for active
+                ],
                 borderWidth: 1
             }]
         },
@@ -485,13 +551,13 @@ function createTargetedPlatformsChart() {
             maintainAspectRatio: false,
             plugins: {
                 legend: {
-                    position: 'right'
+                    position: 'top'
                 },
                 tooltip: {
                     callbacks: {
                         label: (context) => {
                             const total = context.dataset.data.reduce((a, b) => a + b);
-                            const percentage = Math.round((context.raw / total) * 100);
+                            const percentage = ((context.raw / total) * 100).toFixed(1);
                             return `${context.label}: ${context.raw} (${percentage}%)`;
                         }
                     }

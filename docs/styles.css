@@ -581,15 +581,15 @@ body.bg-gray-900 ::-webkit-scrollbar-thumb {
 
 /* Chart color adjustments */
 #statusAccountsChart .deleted-accounts {
-  background-color: rgba(147, 51, 234, 0.8);
+	background-color: rgba(147, 51, 234, 0.8);
 }
 
 #statusAccountsChart .active-accounts {
-  background-color: rgba(16, 185, 129, 0.8);
+	background-color: rgba(16, 185, 129, 0.8);
 }
 
 .text-purple-600 {
-  color: #9333ea;
+	color: #9333ea;
 }
 
 /* Table Scrollbars */
