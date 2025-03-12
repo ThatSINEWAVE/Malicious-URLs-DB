@@ -7,6 +7,9 @@ const rowsPerPage = 10;
 // Dark mode toggle
 const darkModeToggle = document.getElementById('darkModeToggle');
 darkModeToggle.addEventListener('click', () => {
+    const isDarkMode = document.body.classList.contains('bg-gray-900');
+
+    // Toggle classes
     document.body.classList.toggle('bg-gray-900');
     document.body.classList.toggle('text-white');
     const cards = document.querySelectorAll('.bg-white');
@@ -14,12 +17,28 @@ darkModeToggle.addEventListener('click', () => {
         card.classList.toggle('bg-gray-800');
         card.classList.toggle('text-white');
     });
-
-    // Update glossary section colors
     const glossary = document.getElementById('infoBar');
     glossary.classList.toggle('bg-gray-800');
     glossary.classList.toggle('text-white');
+
+    // Save state to localStorage
+    localStorage.setItem('darkMode', isDarkMode ? 'disabled' : 'enabled');
 });
+
+// Handle Theme state
+function initializeTheme() {
+    const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+
+    if (isDarkMode) {
+        document.body.classList.add('bg-gray-900', 'text-white');
+        const cards = document.querySelectorAll('.bg-white');
+        cards.forEach(card => {
+            card.classList.add('bg-gray-800', 'text-white');
+        });
+        const glossary = document.getElementById('infoBar');
+        glossary.classList.add('bg-gray-800', 'text-white');
+    }
+}
 
 // Data Glossary Toggle
 const infoHeader = document.getElementById('infoHeader');
@@ -1096,8 +1115,13 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('refreshData').addEventListener('click', fetchData);
 
     // Data Glossary Toggle
+    const infoHeader = document.getElementById('infoHeader');
+    const expandButton = document.getElementById('expandButton');
     if (infoHeader && expandButton) {
         infoHeader.addEventListener('click', toggleGlossary);
         expandButton.addEventListener('click', toggleGlossary);
     }
+
+    // Initialize theme from localStorage
+    initializeTheme();
 });
