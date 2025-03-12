@@ -1,0 +1,2630 @@
+[2025-03-12 11:04:02] Loading data from Compromised-Discord-Accounts.json...
+[2025-03-12 11:04:02] Processing 657 accounts...
+[2025-03-12 11:04:02] Updating case numbers for accounts...
+[2025-03-12 11:04:02] Case numbers updated.
+[2025-03-12 11:04:02] Saving updated data to Compromised-Discord-Accounts.json...
+[2025-03-12 11:04:02] Processing account: ACCOUNT_NUMBER_1
+[2025-03-12 11:04:02] Fetching username for Discord ID: 363284446268620800
+[2025-03-12 11:04:03] Retrieved username: leo_2701
+[2025-03-12 11:04:03] Username for 363284446268620800 is already correct. Skipping update.
+[2025-03-12 11:04:03] Checking status for Discord invite: webslut
+[2025-03-12 11:04:03] Invite webslut is INACTIVE
+[2025-03-12 11:04:03] Using cached status for invite: webslut -> INACTIVE
+[2025-03-12 11:04:03] Processing account: ACCOUNT_NUMBER_2
+[2025-03-12 11:04:03] Fetching username for Discord ID: 982053353842434148
+[2025-03-12 11:04:03] Retrieved username: lione9390
+[2025-03-12 11:04:03] Username for 982053353842434148 is already correct. Skipping update.
+[2025-03-12 11:04:03] Processing account: ACCOUNT_NUMBER_3
+[2025-03-12 11:04:03] Fetching username for Discord ID: 1075640510494023740
+[2025-03-12 11:04:03] Retrieved username: fk_rabit
+[2025-03-12 11:04:03] Username for 1075640510494023740 is already correct. Skipping update.
+[2025-03-12 11:04:03] Processing account: ACCOUNT_NUMBER_4
+[2025-03-12 11:04:03] Fetching username for Discord ID: 948474704677715989
+[2025-03-12 11:04:03] Retrieved username: pryvyd.kyieva
+[2025-03-12 11:04:03] Username for 948474704677715989 is already correct. Skipping update.
+[2025-03-12 11:04:03] Processing account: ACCOUNT_NUMBER_5
+[2025-03-12 11:04:03] Fetching username for Discord ID: 347805289074130954
+[2025-03-12 11:04:03] Retrieved username: heyzash
+[2025-03-12 11:04:03] Username for 347805289074130954 is already correct. Skipping update.
+[2025-03-12 11:04:03] Processing account: ACCOUNT_NUMBER_6
+[2025-03-12 11:04:03] Fetching username for Discord ID: 331870997697396737
+[2025-03-12 11:04:04] Retrieved username: gudrik762
+[2025-03-12 11:04:04] Username for 331870997697396737 is already correct. Skipping update.
+[2025-03-12 11:04:04] Checking status for Discord invite: 8wjt2DbPH
+[2025-03-12 11:04:04] Invite 8wjt2DbPH is INACTIVE
+[2025-03-12 11:04:04] Using cached status for invite: 8wjt2DbPH -> INACTIVE
+[2025-03-12 11:04:04] Processing account: ACCOUNT_NUMBER_7
+[2025-03-12 11:04:04] Fetching username for Discord ID: 907610451762900992
+[2025-03-12 11:04:04] Retrieved username: argaik
+[2025-03-12 11:04:04] Username for 907610451762900992 is already correct. Skipping update.
+[2025-03-12 11:04:04] Processing account: ACCOUNT_NUMBER_8
+[2025-03-12 11:04:04] Fetching username for Discord ID: 792742887422820373
+[2025-03-12 11:04:04] Retrieved username: limon6182
+[2025-03-12 11:04:04] Username for 792742887422820373 is already correct. Skipping update.
+[2025-03-12 11:04:04] Processing account: ACCOUNT_NUMBER_9
+[2025-03-12 11:04:04] Fetching username for Discord ID: 1197998654120796332
+[2025-03-12 11:04:04] Retrieved username: disbalancereu
+[2025-03-12 11:04:04] Username for 1197998654120796332 is already correct. Skipping update.
+[2025-03-12 11:04:04] Processing account: ACCOUNT_NUMBER_10
+[2025-03-12 11:04:04] Fetching username for Discord ID: 1197961973544005735
+[2025-03-12 11:04:05] Retrieved username: deleted_user_4db78712fea2
+[2025-03-12 11:04:05] Username for 1197961973544005735 is already correct. Skipping update.
+[2025-03-12 11:04:05] Processing account: ACCOUNT_NUMBER_11
+[2025-03-12 11:04:05] Fetching username for Discord ID: 1198004453681414248
+[2025-03-12 11:04:05] Retrieved username: 4tamanwot
+[2025-03-12 11:04:05] Username for 1198004453681414248 is already correct. Skipping update.
+[2025-03-12 11:04:05] Processing account: ACCOUNT_NUMBER_12
+[2025-03-12 11:04:05] Fetching username for Discord ID: 1198021809363234967
+[2025-03-12 11:04:05] Retrieved username: claudettemild
+[2025-03-12 11:04:05] Username for 1198021809363234967 is already correct. Skipping update.
+[2025-03-12 11:04:05] Processing account: ACCOUNT_NUMBER_13
+[2025-03-12 11:04:05] Fetching username for Discord ID: 1180927388675231747
+[2025-03-12 11:04:05] Retrieved username: ratatui228228
+[2025-03-12 11:04:05] Username for 1180927388675231747 is already correct. Skipping update.
+[2025-03-12 11:04:05] Processing account: ACCOUNT_NUMBER_14
+[2025-03-12 11:04:05] Fetching username for Discord ID: 1198014505242861610
+[2025-03-12 11:04:06] Retrieved username: uglyduck33
+[2025-03-12 11:04:06] Username for 1198014505242861610 is already correct. Skipping update.
+[2025-03-12 11:04:06] Processing account: ACCOUNT_NUMBER_15
+[2025-03-12 11:04:06] Fetching username for Discord ID: 1198173904674492416
+[2025-03-12 11:04:06] Retrieved username: prodaza_kodov
+[2025-03-12 11:04:06] Username for 1198173904674492416 is already correct. Skipping update.
+[2025-03-12 11:04:06] Processing account: ACCOUNT_NUMBER_16
+[2025-03-12 11:04:06] Fetching username for Discord ID: 1198181353234112572
+[2025-03-12 11:04:06] Retrieved username: deleted_user_1674e548c702
+[2025-03-12 11:04:06] Username for 1198181353234112572 is already correct. Skipping update.
+[2025-03-12 11:04:06] Processing account: ACCOUNT_NUMBER_17
+[2025-03-12 11:04:06] Fetching username for Discord ID: 1198040842041053214
+[2025-03-12 11:04:06] Retrieved username: micromasha
+[2025-03-12 11:04:06] Username for 1198040842041053214 is already correct. Skipping update.
+[2025-03-12 11:04:06] Processing account: ACCOUNT_NUMBER_18
+[2025-03-12 11:04:06] Fetching username for Discord ID: 825287719952449536
+[2025-03-12 11:04:06] Retrieved username: deleted_user_976a3a33e326
+[2025-03-12 11:04:06] Username for 825287719952449536 is already correct. Skipping update.
+[2025-03-12 11:04:06] Processing account: ACCOUNT_NUMBER_19
+[2025-03-12 11:04:06] Fetching username for Discord ID: 1010833741263929417
+[2025-03-12 11:04:07] Retrieved username: deleted_user_7e52886fd0d6
+[2025-03-12 11:04:07] Updating username for 1010833741263929417: deleted_user_7e52886fd0d61 -> deleted_user_7e52886fd0d6
+[2025-03-12 11:04:07] Processing account: ACCOUNT_NUMBER_20
+[2025-03-12 11:04:07] Fetching username for Discord ID: 983254468235763762
+[2025-03-12 11:04:07] Retrieved username: afrodayt88
+[2025-03-12 11:04:07] Username for 983254468235763762 is already correct. Skipping update.
+[2025-03-12 11:04:07] Processing account: ACCOUNT_NUMBER_21
+[2025-03-12 11:04:07] Fetching username for Discord ID: 1198255059994148924
+[2025-03-12 11:04:07] Retrieved username: craigcodyy
+[2025-03-12 11:04:07] Username for 1198255059994148924 is already correct. Skipping update.
+[2025-03-12 11:04:07] Processing account: ACCOUNT_NUMBER_22
+[2025-03-12 11:04:07] Fetching username for Discord ID: 1198013745763463320
+[2025-03-12 11:04:07] Retrieved username: project_cw_key
+[2025-03-12 11:04:07] Username for 1198013745763463320 is already correct. Skipping update.
+[2025-03-12 11:04:07] Processing account: ACCOUNT_NUMBER_23
+[2025-03-12 11:04:07] Fetching username for Discord ID: 728212418177531946
+[2025-03-12 11:04:07] Username for 728212418177531946 is already correct. Skipping update.
+[2025-03-12 11:04:07] Processing account: ACCOUNT_NUMBER_24
+[2025-03-12 11:04:07] Fetching username for Discord ID: 1198196193126264972
+[2025-03-12 11:04:08] Username for 1198196193126264972 is already correct. Skipping update.
+[2025-03-12 11:04:08] Processing account: ACCOUNT_NUMBER_25
+[2025-03-12 11:04:08] Fetching username for Discord ID: 520096835365240834
+[2025-03-12 11:04:08] Username for 520096835365240834 is already correct. Skipping update.
+[2025-03-12 11:04:08] Processing account: ACCOUNT_NUMBER_26
+[2025-03-12 11:04:08] Fetching username for Discord ID: 548853653134376974
+[2025-03-12 11:04:08] Username for 548853653134376974 is already correct. Skipping update.
+[2025-03-12 11:04:08] Processing account: ACCOUNT_NUMBER_27
+[2025-03-12 11:04:08] Fetching username for Discord ID: 1156577423203250306
+[2025-03-12 11:04:08] Retrieved username: logdog_37009
+[2025-03-12 11:04:08] Username for 1156577423203250306 is already correct. Skipping update.
+[2025-03-12 11:04:08] Processing account: ACCOUNT_NUMBER_28
+[2025-03-12 11:04:08] Fetching username for Discord ID: 558286182375620629
+[2025-03-12 11:04:09] Username for 558286182375620629 is already correct. Skipping update.
+[2025-03-12 11:04:09] Using cached status for invite: 8wjt2DbPH -> INACTIVE
+[2025-03-12 11:04:09] Using cached status for invite: 8wjt2DbPH -> INACTIVE
+[2025-03-12 11:04:09] Processing account: ACCOUNT_NUMBER_29
+[2025-03-12 11:04:09] Fetching username for Discord ID: 673868861103276042
+[2025-03-12 11:04:09] Username for 673868861103276042 is already correct. Skipping update.
+[2025-03-12 11:04:09] Using cached status for invite: 8wjt2DbPH -> INACTIVE
+[2025-03-12 11:04:09] Using cached status for invite: 8wjt2DbPH -> INACTIVE
+[2025-03-12 11:04:09] Processing account: ACCOUNT_NUMBER_30
+[2025-03-12 11:04:09] Fetching username for Discord ID: 584977775111438351
+[2025-03-12 11:04:09] Username for 584977775111438351 is already correct. Skipping update.
+[2025-03-12 11:04:09] Processing account: ACCOUNT_NUMBER_31
+[2025-03-12 11:04:09] Fetching username for Discord ID: 595531360358105090
+[2025-03-12 11:04:09] Retrieved username: skilblody
+[2025-03-12 11:04:09] Username for 595531360358105090 is already correct. Skipping update.
+[2025-03-12 11:04:09] Processing account: ACCOUNT_NUMBER_32
+[2025-03-12 11:04:09] Fetching username for Discord ID: 514476567397793803
+[2025-03-12 11:04:09] Username for 514476567397793803 is already correct. Skipping update.
+[2025-03-12 11:04:09] Checking status for Discord invite: sexynude
+[2025-03-12 11:04:10] Invite sexynude is INACTIVE
+[2025-03-12 11:04:10] Using cached status for invite: sexynude -> INACTIVE
+[2025-03-12 11:04:10] Processing account: ACCOUNT_NUMBER_33
+[2025-03-12 11:04:10] Fetching username for Discord ID: 723824999248560138
+[2025-03-12 11:04:10] Username for 723824999248560138 is already correct. Skipping update.
+[2025-03-12 11:04:10] Processing account: ACCOUNT_NUMBER_34
+[2025-03-12 11:04:10] Fetching username for Discord ID: 900015795629850674
+[2025-03-12 11:04:10] Username for 900015795629850674 is already correct. Skipping update.
+[2025-03-12 11:04:10] Processing account: ACCOUNT_NUMBER_35
+[2025-03-12 11:04:10] Fetching username for Discord ID: 1114527533686325328
+[2025-03-12 11:04:10] Retrieved username: deleted_user_dd5eceb50539
+[2025-03-12 11:04:10] Username for 1114527533686325328 is already correct. Skipping update.
+[2025-03-12 11:04:10] Checking status for Discord invite: Eu46Ff6ZRy
+[2025-03-12 11:04:10] Invite Eu46Ff6ZRy is INACTIVE
+[2025-03-12 11:04:10] Using cached status for invite: Eu46Ff6ZRy -> INACTIVE
+[2025-03-12 11:04:10] Processing account: ACCOUNT_NUMBER_36
+[2025-03-12 11:04:10] Fetching username for Discord ID: 712767997797990461
+[2025-03-12 11:04:10] Username for 712767997797990461 is already correct. Skipping update.
+[2025-03-12 11:04:10] Checking status for Discord invite: lovelywhores
+[2025-03-12 11:04:10] Invite lovelywhores is INACTIVE
+[2025-03-12 11:04:10] Using cached status for invite: lovelywhores -> INACTIVE
+[2025-03-12 11:04:10] Processing account: ACCOUNT_NUMBER_37
+[2025-03-12 11:04:10] Fetching username for Discord ID: 1108466373308469299
+[2025-03-12 11:04:11] Username for 1108466373308469299 is already correct. Skipping update.
+[2025-03-12 11:04:11] Checking status for Discord invite: lovelyleaks
+[2025-03-12 11:04:11] Invite lovelyleaks is INACTIVE
+[2025-03-12 11:04:11] Using cached status for invite: lovelyleaks -> INACTIVE
+[2025-03-12 11:04:11] Processing account: ACCOUNT_NUMBER_38
+[2025-03-12 11:04:11] Fetching username for Discord ID: 932576171986681856
+[2025-03-12 11:04:11] Username for 932576171986681856 is already correct. Skipping update.
+[2025-03-12 11:04:11] Checking status for Discord invite: 8AnXKZpT
+[2025-03-12 11:04:11] Invite 8AnXKZpT is INACTIVE
+[2025-03-12 11:04:11] Using cached status for invite: 8AnXKZpT -> INACTIVE
+[2025-03-12 11:04:11] Processing account: ACCOUNT_NUMBER_39
+[2025-03-12 11:04:11] Fetching username for Discord ID: 1147220710851358790
+[2025-03-12 11:04:11] Username for 1147220710851358790 is already correct. Skipping update.
+[2025-03-12 11:04:11] Checking status for Discord invite: neednudes
+[2025-03-12 11:04:11] Invite neednudes is INACTIVE
+[2025-03-12 11:04:11] Using cached status for invite: neednudes -> INACTIVE
+[2025-03-12 11:04:11] Processing account: ACCOUNT_NUMBER_40
+[2025-03-12 11:04:11] Fetching username for Discord ID: 1140477841083994232
+[2025-03-12 11:04:11] Retrieved username: deleted_user_a5b14dfeaad1
+[2025-03-12 11:04:11] Username for 1140477841083994232 is already correct. Skipping update.
+[2025-03-12 11:04:11] Using cached status for invite: 8AnXKZpT -> INACTIVE
+[2025-03-12 11:04:11] Using cached status for invite: 8AnXKZpT -> INACTIVE
+[2025-03-12 11:04:11] Processing account: ACCOUNT_NUMBER_41
+[2025-03-12 11:04:11] Fetching username for Discord ID: 272041072857710593
+[2025-03-12 11:04:11] Username for 272041072857710593 is already correct. Skipping update.
+[2025-03-12 11:04:11] Using cached status for invite: 8AnXKZpT -> INACTIVE
+[2025-03-12 11:04:11] Using cached status for invite: 8AnXKZpT -> INACTIVE
+[2025-03-12 11:04:11] Processing account: ACCOUNT_NUMBER_42
+[2025-03-12 11:04:11] Fetching username for Discord ID: 635888753747034113
+[2025-03-12 11:04:12] Username for 635888753747034113 is already correct. Skipping update.
+[2025-03-12 11:04:12] Using cached status for invite: lovelyleaks -> INACTIVE
+[2025-03-12 11:04:12] Using cached status for invite: lovelyleaks -> INACTIVE
+[2025-03-12 11:04:12] Processing account: ACCOUNT_NUMBER_43
+[2025-03-12 11:04:12] Fetching username for Discord ID: 269124966765690891
+[2025-03-12 11:04:12] Username for 269124966765690891 is already correct. Skipping update.
+[2025-03-12 11:04:12] Using cached status for invite: lovelyleaks -> INACTIVE
+[2025-03-12 11:04:12] Using cached status for invite: lovelyleaks -> INACTIVE
+[2025-03-12 11:04:12] Processing account: ACCOUNT_NUMBER_44
+[2025-03-12 11:04:12] Fetching username for Discord ID: 731823147468324914
+[2025-03-12 11:04:12] Username for 731823147468324914 is already correct. Skipping update.
+[2025-03-12 11:04:12] Processing account: ACCOUNT_NUMBER_45
+[2025-03-12 11:04:12] Fetching username for Discord ID: 1052237422072696933
+[2025-03-12 11:04:12] Retrieved username: baljeet4355
+[2025-03-12 11:04:12] Username for 1052237422072696933 is already correct. Skipping update.
+[2025-03-12 11:04:12] Checking status for Discord invite: 8jzPaXFeHF
+[2025-03-12 11:04:12] Invite 8jzPaXFeHF is INACTIVE
+[2025-03-12 11:04:12] Using cached status for invite: 8jzPaXFeHF -> INACTIVE
+[2025-03-12 11:04:12] Processing account: ACCOUNT_NUMBER_46
+[2025-03-12 11:04:12] Fetching username for Discord ID: 1168612828140290099
+[2025-03-12 11:04:13] Username for 1168612828140290099 is already correct. Skipping update.
+[2025-03-12 11:04:13] Processing account: ACCOUNT_NUMBER_47
+[2025-03-12 11:04:13] Fetching username for Discord ID: 946809166125752330
+[2025-03-12 11:04:13] Username for 946809166125752330 is already correct. Skipping update.
+[2025-03-12 11:04:13] Checking status for Discord invite: dcnudes
+[2025-03-12 11:04:13] Invite dcnudes is INACTIVE
+[2025-03-12 11:04:13] Using cached status for invite: dcnudes -> INACTIVE
+[2025-03-12 11:04:13] Processing account: ACCOUNT_NUMBER_48
+[2025-03-12 11:04:13] Fetching username for Discord ID: 460508184625414174
+[2025-03-12 11:04:13] Username for 460508184625414174 is already correct. Skipping update.
+[2025-03-12 11:04:13] Using cached status for invite: dcnudes -> INACTIVE
+[2025-03-12 11:04:13] Using cached status for invite: dcnudes -> INACTIVE
+[2025-03-12 11:04:13] Processing account: ACCOUNT_NUMBER_49
+[2025-03-12 11:04:13] Fetching username for Discord ID: 700231924261584967
+[2025-03-12 11:04:13] Retrieved username: solars2_
+[2025-03-12 11:04:13] Username for 700231924261584967 is already correct. Skipping update.
+[2025-03-12 11:04:13] Processing account: ACCOUNT_NUMBER_50
+[2025-03-12 11:04:13] Fetching username for Discord ID: 722695116988350494
+[2025-03-12 11:04:14] Username for 722695116988350494 is already correct. Skipping update.
+[2025-03-12 11:04:14] Processing account: ACCOUNT_NUMBER_51
+[2025-03-12 11:04:14] Fetching username for Discord ID: 693518775554670704
+[2025-03-12 11:04:14] Username for 693518775554670704 is already correct. Skipping update.
+[2025-03-12 11:04:14] Processing account: ACCOUNT_NUMBER_52
+[2025-03-12 11:04:14] Fetching username for Discord ID: 1111619403830796319
+[2025-03-12 11:04:14] Username for 1111619403830796319 is already correct. Skipping update.
+[2025-03-12 11:04:14] Processing account: ACCOUNT_NUMBER_53
+[2025-03-12 11:04:14] Fetching username for Discord ID: 114230296811012103
+[2025-03-12 11:04:14] Username for 114230296811012103 is already correct. Skipping update.
+[2025-03-12 11:04:14] Processing account: ACCOUNT_NUMBER_54
+[2025-03-12 11:04:14] Fetching username for Discord ID: 637717585089134612
+[2025-03-12 11:04:14] Retrieved username: silentwolf5054
+[2025-03-12 11:04:14] Username for 637717585089134612 is already correct. Skipping update.
+[2025-03-12 11:04:14] Processing account: ACCOUNT_NUMBER_55
+[2025-03-12 11:04:14] Fetching username for Discord ID: 847831317461729280
+[2025-03-12 11:04:15] Username for 847831317461729280 is already correct. Skipping update.
+[2025-03-12 11:04:15] Processing account: ACCOUNT_NUMBER_56
+[2025-03-12 11:04:15] Fetching username for Discord ID: 1100533380363325440
+[2025-03-12 11:04:15] Username for 1100533380363325440 is already correct. Skipping update.
+[2025-03-12 11:04:15] Processing account: ACCOUNT_NUMBER_57
+[2025-03-12 11:04:15] Fetching username for Discord ID: 987824993201172530
+[2025-03-12 11:04:15] Username for 987824993201172530 is already correct. Skipping update.
+[2025-03-12 11:04:15] Checking status for Discord invite: DRj7RfqjV6
+[2025-03-12 11:04:15] Invite DRj7RfqjV6 is INACTIVE
+[2025-03-12 11:04:15] Using cached status for invite: DRj7RfqjV6 -> INACTIVE
+[2025-03-12 11:04:15] Processing account: ACCOUNT_NUMBER_58
+[2025-03-12 11:04:15] Fetching username for Discord ID: 859007231461687316
+[2025-03-12 11:04:15] Retrieved username: piopro.
+[2025-03-12 11:04:15] Username for 859007231461687316 is already correct. Skipping update.
+[2025-03-12 11:04:15] Processing account: ACCOUNT_NUMBER_59
+[2025-03-12 11:04:15] Fetching username for Discord ID: 412449287604273162
+[2025-03-12 11:04:15] Username for 412449287604273162 is already correct. Skipping update.
+[2025-03-12 11:04:15] Processing account: ACCOUNT_NUMBER_60
+[2025-03-12 11:04:15] Fetching username for Discord ID: 366232992802275328
+[2025-03-12 11:04:16] Username for 366232992802275328 is already correct. Skipping update.
+[2025-03-12 11:04:16] Processing account: ACCOUNT_NUMBER_61
+[2025-03-12 11:04:16] Fetching username for Discord ID: 332035436325109760
+[2025-03-12 11:04:16] Username for 332035436325109760 is already correct. Skipping update.
+[2025-03-12 11:04:16] Processing account: ACCOUNT_NUMBER_62
+[2025-03-12 11:04:16] Fetching username for Discord ID: 926950626175381614
+[2025-03-12 11:04:16] Username for 926950626175381614 is already correct. Skipping update.
+[2025-03-12 11:04:16] Processing account: ACCOUNT_NUMBER_63
+[2025-03-12 11:04:16] Fetching username for Discord ID: 834417445376229376
+[2025-03-12 11:04:16] Retrieved username: ikkyu2010
+[2025-03-12 11:04:16] Username for 834417445376229376 is already correct. Skipping update.
+[2025-03-12 11:04:16] Processing account: ACCOUNT_NUMBER_64
+[2025-03-12 11:04:16] Fetching username for Discord ID: 1192529251526778981
+[2025-03-12 11:04:17] Username for 1192529251526778981 is already correct. Skipping update.
+[2025-03-12 11:04:17] Processing account: ACCOUNT_NUMBER_65
+[2025-03-12 11:04:17] Fetching username for Discord ID: 492697000807235585
+[2025-03-12 11:04:17] Username for 492697000807235585 is already correct. Skipping update.
+[2025-03-12 11:04:17] Processing account: ACCOUNT_NUMBER_66
+[2025-03-12 11:04:17] Fetching username for Discord ID: 1148321073142702201
+[2025-03-12 11:04:17] Username for 1148321073142702201 is already correct. Skipping update.
+[2025-03-12 11:04:17] Processing account: ACCOUNT_NUMBER_67
+[2025-03-12 11:04:17] Fetching username for Discord ID: 403695478010675221
+[2025-03-12 11:04:17] Retrieved username: mleka.
+[2025-03-12 11:04:17] Username for 403695478010675221 is already correct. Skipping update.
+[2025-03-12 11:04:17] Processing account: ACCOUNT_NUMBER_68
+[2025-03-12 11:04:17] Fetching username for Discord ID: 777205860660281364
+[2025-03-12 11:04:17] Username for 777205860660281364 is already correct. Skipping update.
+[2025-03-12 11:04:17] Processing account: ACCOUNT_NUMBER_69
+[2025-03-12 11:04:17] Fetching username for Discord ID: 574583799787290624
+[2025-03-12 11:04:18] Username for 574583799787290624 is already correct. Skipping update.
+[2025-03-12 11:04:18] Processing account: ACCOUNT_NUMBER_70
+[2025-03-12 11:04:18] Fetching username for Discord ID: 530343817061203970
+[2025-03-12 11:04:18] Username for 530343817061203970 is already correct. Skipping update.
+[2025-03-12 11:04:18] Checking status for Discord invite: bestnuds
+[2025-03-12 11:04:18] Invite bestnuds is INACTIVE
+[2025-03-12 11:04:18] Using cached status for invite: bestnuds -> INACTIVE
+[2025-03-12 11:04:18] Processing account: ACCOUNT_NUMBER_71
+[2025-03-12 11:04:18] Fetching username for Discord ID: 584059960242077718
+[2025-03-12 11:04:18] Username for 584059960242077718 is already correct. Skipping update.
+[2025-03-12 11:04:18] Processing account: ACCOUNT_NUMBER_72
+[2025-03-12 11:04:18] Fetching username for Discord ID: 923950623836237826
+[2025-03-12 11:04:18] Retrieved username: lutecijum
+[2025-03-12 11:04:18] Username for 923950623836237826 is already correct. Skipping update.
+[2025-03-12 11:04:18] Processing account: ACCOUNT_NUMBER_73
+[2025-03-12 11:04:18] Fetching username for Discord ID: 516799700049854479
+[2025-03-12 11:04:18] Username for 516799700049854479 is already correct. Skipping update.
+[2025-03-12 11:04:18] Processing account: ACCOUNT_NUMBER_74
+[2025-03-12 11:04:18] Fetching username for Discord ID: 1079105701361754112
+[2025-03-12 11:04:19] Username for 1079105701361754112 is already correct. Skipping update.
+[2025-03-12 11:04:19] Processing account: ACCOUNT_NUMBER_75
+[2025-03-12 11:04:19] Fetching username for Discord ID: 500963449669681153
+[2025-03-12 11:04:19] Username for 500963449669681153 is already correct. Skipping update.
+[2025-03-12 11:04:19] Processing account: ACCOUNT_NUMBER_76
+[2025-03-12 11:04:19] Fetching username for Discord ID: 1084233182741798952
+[2025-03-12 11:04:19] Username for 1084233182741798952 is already correct. Skipping update.
+[2025-03-12 11:04:19] Processing account: ACCOUNT_NUMBER_77
+[2025-03-12 11:04:19] Fetching username for Discord ID: 976172338741641317
+[2025-03-12 11:04:19] Retrieved username: seepy2
+[2025-03-12 11:04:19] Username for 976172338741641317 is already correct. Skipping update.
+[2025-03-12 11:04:19] Processing account: ACCOUNT_NUMBER_78
+[2025-03-12 11:04:19] Fetching username for Discord ID: 302160083771719680
+[2025-03-12 11:04:20] Username for 302160083771719680 is already correct. Skipping update.
+[2025-03-12 11:04:20] Processing account: ACCOUNT_NUMBER_79
+[2025-03-12 11:04:20] Fetching username for Discord ID: 977853368020107298
+[2025-03-12 11:04:20] Username for 977853368020107298 is already correct. Skipping update.
+[2025-03-12 11:04:20] Checking status for Discord invite: dcleaks
+[2025-03-12 11:04:20] Invite dcleaks is INACTIVE
+[2025-03-12 11:04:20] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:20] Processing account: ACCOUNT_NUMBER_80
+[2025-03-12 11:04:20] Fetching username for Discord ID: 1064172952138027010
+[2025-03-12 11:04:20] Username for 1064172952138027010 is already correct. Skipping update.
+[2025-03-12 11:04:20] Processing account: ACCOUNT_NUMBER_81
+[2025-03-12 11:04:20] Fetching username for Discord ID: 714820492699107510
+[2025-03-12 11:04:20] Username for 714820492699107510 is already correct. Skipping update.
+[2025-03-12 11:04:20] Processing account: ACCOUNT_NUMBER_82
+[2025-03-12 11:04:20] Fetching username for Discord ID: 770589468524150786
+[2025-03-12 11:04:20] Retrieved username: bartek4927
+[2025-03-12 11:04:20] Username for 770589468524150786 is already correct. Skipping update.
+[2025-03-12 11:04:20] Checking status for Discord invite: xxxsexxx
+[2025-03-12 11:04:20] Invite xxxsexxx is INACTIVE
+[2025-03-12 11:04:20] Using cached status for invite: xxxsexxx -> INACTIVE
+[2025-03-12 11:04:20] Processing account: ACCOUNT_NUMBER_83
+[2025-03-12 11:04:20] Fetching username for Discord ID: 509122632336277505
+[2025-03-12 11:04:21] Username for 509122632336277505 is already correct. Skipping update.
+[2025-03-12 11:04:21] Processing account: ACCOUNT_NUMBER_84
+[2025-03-12 11:04:21] Fetching username for Discord ID: 536553427740786698
+[2025-03-12 11:04:21] Username for 536553427740786698 is already correct. Skipping update.
+[2025-03-12 11:04:21] Processing account: ACCOUNT_NUMBER_85
+[2025-03-12 11:04:21] Fetching username for Discord ID: 1174981167678754858
+[2025-03-12 11:04:21] Username for 1174981167678754858 is already correct. Skipping update.
+[2025-03-12 11:04:21] Processing account: ACCOUNT_NUMBER_86
+[2025-03-12 11:04:21] Fetching username for Discord ID: 918544110741246063
+[2025-03-12 11:04:21] Retrieved username: stef_blu
+[2025-03-12 11:04:21] Username for 918544110741246063 is already correct. Skipping update.
+[2025-03-12 11:04:21] Processing account: ACCOUNT_NUMBER_87
+[2025-03-12 11:04:21] Fetching username for Discord ID: 1197471903686864917
+[2025-03-12 11:04:21] Username for 1197471903686864917 is already correct. Skipping update.
+[2025-03-12 11:04:21] Checking status for Discord invite: JngvdUwM
+[2025-03-12 11:04:21] Invite JngvdUwM is INACTIVE
+[2025-03-12 11:04:21] Using cached status for invite: JngvdUwM -> INACTIVE
+[2025-03-12 11:04:21] Processing account: ACCOUNT_NUMBER_88
+[2025-03-12 11:04:21] Fetching username for Discord ID: 666986751906152476
+[2025-03-12 11:04:22] Username for 666986751906152476 is already correct. Skipping update.
+[2025-03-12 11:04:22] Processing account: ACCOUNT_NUMBER_89
+[2025-03-12 11:04:22] Fetching username for Discord ID: 420946031799304202
+[2025-03-12 11:04:22] Username for 420946031799304202 is already correct. Skipping update.
+[2025-03-12 11:04:22] Using cached status for invite: JngvdUwM -> INACTIVE
+[2025-03-12 11:04:22] Using cached status for invite: JngvdUwM -> INACTIVE
+[2025-03-12 11:04:22] Processing account: ACCOUNT_NUMBER_90
+[2025-03-12 11:04:22] Fetching username for Discord ID: 499259155127861251
+[2025-03-12 11:04:22] Retrieved username: son02951
+[2025-03-12 11:04:22] Username for 499259155127861251 is already correct. Skipping update.
+[2025-03-12 11:04:22] Processing account: ACCOUNT_NUMBER_91
+[2025-03-12 11:04:22] Fetching username for Discord ID: 1210841638189137940
+[2025-03-12 11:04:22] Username for 1210841638189137940 is already correct. Skipping update.
+[2025-03-12 11:04:22] Processing account: ACCOUNT_NUMBER_92
+[2025-03-12 11:04:22] Fetching username for Discord ID: 930848974007574539
+[2025-03-12 11:04:23] Username for 930848974007574539 is already correct. Skipping update.
+[2025-03-12 11:04:23] Processing account: ACCOUNT_NUMBER_93
+[2025-03-12 11:04:23] Fetching username for Discord ID: 354340237704429568
+[2025-03-12 11:04:23] Username for 354340237704429568 is already correct. Skipping update.
+[2025-03-12 11:04:23] Processing account: ACCOUNT_NUMBER_94
+[2025-03-12 11:04:23] Fetching username for Discord ID: 584059960242077718
+[2025-03-12 11:04:23] Retrieved username: embo28
+[2025-03-12 11:04:23] Username for 584059960242077718 is already correct. Skipping update.
+[2025-03-12 11:04:23] Processing account: ACCOUNT_NUMBER_95
+[2025-03-12 11:04:23] Fetching username for Discord ID: 923950623836237826
+[2025-03-12 11:04:23] Username for 923950623836237826 is already correct. Skipping update.
+[2025-03-12 11:04:23] Processing account: ACCOUNT_NUMBER_96
+[2025-03-12 11:04:23] Fetching username for Discord ID: 516799700049854479
+[2025-03-12 11:04:24] Username for 516799700049854479 is already correct. Skipping update.
+[2025-03-12 11:04:24] Processing account: ACCOUNT_NUMBER_97
+[2025-03-12 11:04:24] Fetching username for Discord ID: 777205860660281364
+[2025-03-12 11:04:24] Username for 777205860660281364 is already correct. Skipping update.
+[2025-03-12 11:04:24] Processing account: ACCOUNT_NUMBER_98
+[2025-03-12 11:04:24] Fetching username for Discord ID: 574583799787290624
+[2025-03-12 11:04:24] Username for 574583799787290624 is already correct. Skipping update.
+[2025-03-12 11:04:24] Processing account: ACCOUNT_NUMBER_99
+[2025-03-12 11:04:24] Fetching username for Discord ID: 731823147468324914
+[2025-03-12 11:04:24] Retrieved username: vmalmo
+[2025-03-12 11:04:24] Username for 731823147468324914 is already correct. Skipping update.
+[2025-03-12 11:04:24] Processing account: ACCOUNT_NUMBER_100
+[2025-03-12 11:04:24] Fetching username for Discord ID: 637717585089134612
+[2025-03-12 11:04:24] Username for 637717585089134612 is already correct. Skipping update.
+[2025-03-12 11:04:24] Processing account: ACCOUNT_NUMBER_101
+[2025-03-12 11:04:24] Fetching username for Discord ID: 693518775554670704
+[2025-03-12 11:04:25] Username for 693518775554670704 is already correct. Skipping update.
+[2025-03-12 11:04:25] Processing account: ACCOUNT_NUMBER_102
+[2025-03-12 11:04:25] Fetching username for Discord ID: 737666353724653569
+[2025-03-12 11:04:25] Username for 737666353724653569 is already correct. Skipping update.
+[2025-03-12 11:04:25] Processing account: ACCOUNT_NUMBER_103
+[2025-03-12 11:04:25] Fetching username for Discord ID: 1165085624588566560
+[2025-03-12 11:04:25] Username for 1165085624588566560 is already correct. Skipping update.
+[2025-03-12 11:04:25] Checking status for Discord invite: latinanudes
+[2025-03-12 11:04:25] Invite latinanudes is INACTIVE
+[2025-03-12 11:04:25] Using cached status for invite: latinanudes -> INACTIVE
+[2025-03-12 11:04:25] Processing account: ACCOUNT_NUMBER_104
+[2025-03-12 11:04:25] Fetching username for Discord ID: 760535976040071229
+[2025-03-12 11:04:25] Retrieved username: cerna_neni_dobra
+[2025-03-12 11:04:25] Username for 760535976040071229 is already correct. Skipping update.
+[2025-03-12 11:04:25] Checking status for Discord invite: luvsex
+[2025-03-12 11:04:25] Invite luvsex is INACTIVE
+[2025-03-12 11:04:25] Using cached status for invite: luvsex -> INACTIVE
+[2025-03-12 11:04:25] Processing account: ACCOUNT_NUMBER_105
+[2025-03-12 11:04:25] Fetching username for Discord ID: 568791276028166144
+[2025-03-12 11:04:25] Username for 568791276028166144 is already correct. Skipping update.
+[2025-03-12 11:04:25] Using cached status for invite: latinanudes -> INACTIVE
+[2025-03-12 11:04:25] Using cached status for invite: latinanudes -> INACTIVE
+[2025-03-12 11:04:25] Processing account: ACCOUNT_NUMBER_106
+[2025-03-12 11:04:25] Fetching username for Discord ID: 693410713745490022
+[2025-03-12 11:04:26] Username for 693410713745490022 is already correct. Skipping update.
+[2025-03-12 11:04:26] Processing account: ACCOUNT_NUMBER_107
+[2025-03-12 11:04:26] Fetching username for Discord ID: 536073806096105482
+[2025-03-12 11:04:26] Username for 536073806096105482 is already correct. Skipping update.
+[2025-03-12 11:04:26] Using cached status for invite: xxxsexxx -> INACTIVE
+[2025-03-12 11:04:26] Using cached status for invite: xxxsexxx -> INACTIVE
+[2025-03-12 11:04:26] Processing account: ACCOUNT_NUMBER_108
+[2025-03-12 11:04:26] Fetching username for Discord ID: 523493228570476556
+[2025-03-12 11:04:26] Retrieved username: wluniak
+[2025-03-12 11:04:26] Username for 523493228570476556 is already correct. Skipping update.
+[2025-03-12 11:04:26] Processing account: ACCOUNT_NUMBER_109
+[2025-03-12 11:04:26] Fetching username for Discord ID: 513750863018459136
+[2025-03-12 11:04:26] Username for 513750863018459136 is already correct. Skipping update.
+[2025-03-12 11:04:26] Processing account: ACCOUNT_NUMBER_110
+[2025-03-12 11:04:26] Fetching username for Discord ID: 955089251589062666
+[2025-03-12 11:04:27] Username for 955089251589062666 is already correct. Skipping update.
+[2025-03-12 11:04:27] Processing account: ACCOUNT_NUMBER_111
+[2025-03-12 11:04:27] Fetching username for Discord ID: 431810706623430657
+[2025-03-12 11:04:27] Username for 431810706623430657 is already correct. Skipping update.
+[2025-03-12 11:04:27] Checking status for Discord invite: xxxporn
+[2025-03-12 11:04:27] Invite xxxporn is INACTIVE
+[2025-03-12 11:04:27] Using cached status for invite: xxxporn -> INACTIVE
+[2025-03-12 11:04:27] Processing account: ACCOUNT_NUMBER_112
+[2025-03-12 11:04:27] Fetching username for Discord ID: 571375599164063754
+[2025-03-12 11:04:27] Username for 571375599164063754 is already correct. Skipping update.
+[2025-03-12 11:04:27] Processing account: ACCOUNT_NUMBER_113
+[2025-03-12 11:04:27] Fetching username for Discord ID: 820188481711374336
+[2025-03-12 11:04:27] Retrieved username: iaiesutzu
+[2025-03-12 11:04:27] Username for 820188481711374336 is already correct. Skipping update.
+[2025-03-12 11:04:27] Checking status for Discord invite: spicymedia
+[2025-03-12 11:04:27] Invite spicymedia is INACTIVE
+[2025-03-12 11:04:27] Using cached status for invite: spicymedia -> INACTIVE
+[2025-03-12 11:04:27] Processing account: ACCOUNT_NUMBER_114
+[2025-03-12 11:04:27] Fetching username for Discord ID: 495645663330172928
+[2025-03-12 11:04:28] Username for 495645663330172928 is already correct. Skipping update.
+[2025-03-12 11:04:28] Processing account: ACCOUNT_NUMBER_115
+[2025-03-12 11:04:28] Fetching username for Discord ID: 1153834628931661844
+[2025-03-12 11:04:28] Username for 1153834628931661844 is already correct. Skipping update.
+[2025-03-12 11:04:28] Checking status for Discord invite: tiktokgirls
+[2025-03-12 11:04:28] Invite tiktokgirls is INACTIVE
+[2025-03-12 11:04:28] Using cached status for invite: tiktokgirls -> INACTIVE
+[2025-03-12 11:04:28] Processing account: ACCOUNT_NUMBER_116
+[2025-03-12 11:04:28] Fetching username for Discord ID: 398177371867578369
+[2025-03-12 11:04:28] Username for 398177371867578369 is already correct. Skipping update.
+[2025-03-12 11:04:28] Processing account: ACCOUNT_NUMBER_117
+[2025-03-12 11:04:28] Fetching username for Discord ID: 1198514292480290919
+[2025-03-12 11:04:28] Retrieved username: grasia357
+[2025-03-12 11:04:28] Username for 1198514292480290919 is already correct. Skipping update.
+[2025-03-12 11:04:28] Processing account: ACCOUNT_NUMBER_118
+[2025-03-12 11:04:28] Fetching username for Discord ID: 1140642919578083462
+[2025-03-12 11:04:28] Username for 1140642919578083462 is already correct. Skipping update.
+[2025-03-12 11:04:28] Processing account: ACCOUNT_NUMBER_119
+[2025-03-12 11:04:28] Fetching username for Discord ID: 1078284621118197760
+[2025-03-12 11:04:29] Username for 1078284621118197760 is already correct. Skipping update.
+[2025-03-12 11:04:29] Using cached status for invite: xxxsexxx -> INACTIVE
+[2025-03-12 11:04:29] Using cached status for invite: xxxsexxx -> INACTIVE
+[2025-03-12 11:04:29] Processing account: ACCOUNT_NUMBER_120
+[2025-03-12 11:04:29] Fetching username for Discord ID: 802960467911770173
+[2025-03-12 11:04:29] Username for 802960467911770173 is already correct. Skipping update.
+[2025-03-12 11:04:29] Checking status for Discord invite: 3HejwuGyuX
+[2025-03-12 11:04:29] Invite 3HejwuGyuX is INACTIVE
+[2025-03-12 11:04:29] Using cached status for invite: 3HejwuGyuX -> INACTIVE
+[2025-03-12 11:04:29] Processing account: ACCOUNT_NUMBER_121
+[2025-03-12 11:04:29] Fetching username for Discord ID: 781812272795353088
+[2025-03-12 11:04:29] Username for 781812272795353088 is already correct. Skipping update.
+[2025-03-12 11:04:29] Processing account: ACCOUNT_NUMBER_122
+[2025-03-12 11:04:29] Fetching username for Discord ID: 975311890169364510
+[2025-03-12 11:04:29] Retrieved username: willesgamer
+[2025-03-12 11:04:29] Username for 975311890169364510 is already correct. Skipping update.
+[2025-03-12 11:04:29] Checking status for Discord invite: xxnude
+[2025-03-12 11:04:29] Invite xxnude is INACTIVE
+[2025-03-12 11:04:29] Using cached status for invite: xxnude -> INACTIVE
+[2025-03-12 11:04:29] Processing account: ACCOUNT_NUMBER_123
+[2025-03-12 11:04:29] Fetching username for Discord ID: 909795631684542536
+[2025-03-12 11:04:30] Username for 909795631684542536 is already correct. Skipping update.
+[2025-03-12 11:04:30] Checking status for Discord invite: CccGgacQE7
+[2025-03-12 11:04:30] Invite CccGgacQE7 is INACTIVE
+[2025-03-12 11:04:30] Using cached status for invite: CccGgacQE7 -> INACTIVE
+[2025-03-12 11:04:30] Processing account: ACCOUNT_NUMBER_124
+[2025-03-12 11:04:30] Fetching username for Discord ID: 397538879374360587
+[2025-03-12 11:04:30] Username for 397538879374360587 is already correct. Skipping update.
+[2025-03-12 11:04:30] Processing account: ACCOUNT_NUMBER_125
+[2025-03-12 11:04:30] Fetching username for Discord ID: 1171468776034803773
+[2025-03-12 11:04:30] Username for 1171468776034803773 is already correct. Skipping update.
+[2025-03-12 11:04:30] Processing account: ACCOUNT_NUMBER_126
+[2025-03-12 11:04:30] Fetching username for Discord ID: 416687584006242305
+[2025-03-12 11:04:30] Retrieved username: cengo25emin
+[2025-03-12 11:04:30] Username for 416687584006242305 is already correct. Skipping update.
+[2025-03-12 11:04:30] Processing account: ACCOUNT_NUMBER_127
+[2025-03-12 11:04:30] Fetching username for Discord ID: 428988114870992896
+[2025-03-12 11:04:30] Username for 428988114870992896 is already correct. Skipping update.
+[2025-03-12 11:04:30] Processing account: ACCOUNT_NUMBER_128
+[2025-03-12 11:04:30] Fetching username for Discord ID: 326411443131908098
+[2025-03-12 11:04:31] Username for 326411443131908098 is already correct. Skipping update.
+[2025-03-12 11:04:31] Processing account: ACCOUNT_NUMBER_129
+[2025-03-12 11:04:31] Fetching username for Discord ID: 759513901061767168
+[2025-03-12 11:04:31] Username for 759513901061767168 is already correct. Skipping update.
+[2025-03-12 11:04:31] Processing account: ACCOUNT_NUMBER_130
+[2025-03-12 11:04:31] Fetching username for Discord ID: 463593195213815809
+[2025-03-12 11:04:31] Username for 463593195213815809 is already correct. Skipping update.
+[2025-03-12 11:04:31] Processing account: ACCOUNT_NUMBER_131
+[2025-03-12 11:04:31] Fetching username for Discord ID: 930267264501022801
+[2025-03-12 11:04:31] Retrieved username: bugatxunga
+[2025-03-12 11:04:31] Username for 930267264501022801 is already correct. Skipping update.
+[2025-03-12 11:04:31] Processing account: ACCOUNT_NUMBER_132
+[2025-03-12 11:04:31] Fetching username for Discord ID: 1193257868737130657
+[2025-03-12 11:04:32] Username for 1193257868737130657 is already correct. Skipping update.
+[2025-03-12 11:04:32] Processing account: ACCOUNT_NUMBER_133
+[2025-03-12 11:04:32] Fetching username for Discord ID: 533592559872638977
+[2025-03-12 11:04:32] Username for 533592559872638977 is already correct. Skipping update.
+[2025-03-12 11:04:32] Processing account: ACCOUNT_NUMBER_134
+[2025-03-12 11:04:32] Fetching username for Discord ID: 702413865618505780
+[2025-03-12 11:04:32] Username for 702413865618505780 is already correct. Skipping update.
+[2025-03-12 11:04:32] Processing account: ACCOUNT_NUMBER_135
+[2025-03-12 11:04:32] Fetching username for Discord ID: 624926487551934494
+[2025-03-12 11:04:32] Retrieved username: deleted_user_5a7dfde4e743
+[2025-03-12 11:04:32] Username for 624926487551934494 is already correct. Skipping update.
+[2025-03-12 11:04:32] Checking status for Discord invite: tiktoknsfw
+[2025-03-12 11:04:32] Invite tiktoknsfw is INACTIVE
+[2025-03-12 11:04:32] Using cached status for invite: tiktoknsfw -> INACTIVE
+[2025-03-12 11:04:32] Processing account: ACCOUNT_NUMBER_136
+[2025-03-12 11:04:32] Fetching username for Discord ID: 973947433866387486
+[2025-03-12 11:04:32] Username for 973947433866387486 is already correct. Skipping update.
+[2025-03-12 11:04:32] Checking status for Discord invite: fS3twRAa
+[2025-03-12 11:04:32] Invite fS3twRAa is INACTIVE
+[2025-03-12 11:04:32] Using cached status for invite: fS3twRAa -> INACTIVE
+[2025-03-12 11:04:32] Processing account: ACCOUNT_NUMBER_137
+[2025-03-12 11:04:32] Fetching username for Discord ID: 833008906254548993
+[2025-03-12 11:04:33] Username for 833008906254548993 is already correct. Skipping update.
+[2025-03-12 11:04:33] Processing account: ACCOUNT_NUMBER_138
+[2025-03-12 11:04:33] Fetching username for Discord ID: 279026115706880003
+[2025-03-12 11:04:33] Username for 279026115706880003 is already correct. Skipping update.
+[2025-03-12 11:04:33] Processing account: ACCOUNT_NUMBER_139
+[2025-03-12 11:04:33] Fetching username for Discord ID: 786968960746520576
+[2025-03-12 11:04:33] Username for 786968960746520576 is already correct. Skipping update.
+[2025-03-12 11:04:33] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:33] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:33] Processing account: ACCOUNT_NUMBER_140
+[2025-03-12 11:04:33] Fetching username for Discord ID: 1025527873676775584
+[2025-03-12 11:04:33] Retrieved username: deleted_user_5359b56e11b6
+[2025-03-12 11:04:33] Username for 1025527873676775584 is already correct. Skipping update.
+[2025-03-12 11:04:33] Processing account: ACCOUNT_NUMBER_141
+[2025-03-12 11:04:33] Fetching username for Discord ID: 1203590400141430794
+[2025-03-12 11:04:33] Username for 1203590400141430794 is already correct. Skipping update.
+[2025-03-12 11:04:33] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:33] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:33] Processing account: ACCOUNT_NUMBER_142
+[2025-03-12 11:04:33] Fetching username for Discord ID: 1181374581978701844
+[2025-03-12 11:04:34] Username for 1181374581978701844 is already correct. Skipping update.
+[2025-03-12 11:04:34] Processing account: ACCOUNT_NUMBER_143
+[2025-03-12 11:04:34] Fetching username for Discord ID: 743021958282608652
+[2025-03-12 11:04:34] Username for 743021958282608652 is already correct. Skipping update.
+[2025-03-12 11:04:34] Checking status for Discord invite: xxnudes
+[2025-03-12 11:04:34] Invite xxnudes is INACTIVE
+[2025-03-12 11:04:34] Using cached status for invite: xxnudes -> INACTIVE
+[2025-03-12 11:04:34] Processing account: ACCOUNT_NUMBER_144
+[2025-03-12 11:04:34] Fetching username for Discord ID: 481760013484818432
+[2025-03-12 11:04:34] Username for 481760013484818432 is already correct. Skipping update.
+[2025-03-12 11:04:34] Checking status for Discord invite: latinaleaks
+[2025-03-12 11:04:34] Invite latinaleaks is INACTIVE
+[2025-03-12 11:04:34] Using cached status for invite: latinaleaks -> INACTIVE
+[2025-03-12 11:04:34] Processing account: ACCOUNT_NUMBER_145
+[2025-03-12 11:04:34] Fetching username for Discord ID: 1075441559203479622
+[2025-03-12 11:04:34] Retrieved username: deleted_user_f2dd4b399080
+[2025-03-12 11:04:34] Username for 1075441559203479622 is already correct. Skipping update.
+[2025-03-12 11:04:34] Checking status for Discord invite: SexyHot
+[2025-03-12 11:04:34] Invite SexyHot is INACTIVE
+[2025-03-12 11:04:34] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:34] Processing account: ACCOUNT_NUMBER_146
+[2025-03-12 11:04:34] Fetching username for Discord ID: 960888558833516564
+[2025-03-12 11:04:35] Username for 960888558833516564 is already correct. Skipping update.
+[2025-03-12 11:04:35] Processing account: ACCOUNT_NUMBER_147
+[2025-03-12 11:04:35] Fetching username for Discord ID: 1117793274342670427
+[2025-03-12 11:04:35] Username for 1117793274342670427 is already correct. Skipping update.
+[2025-03-12 11:04:35] Processing account: ACCOUNT_NUMBER_148
+[2025-03-12 11:04:35] Fetching username for Discord ID: 667369863228031017
+[2025-03-12 11:04:35] Username for 667369863228031017 is already correct. Skipping update.
+[2025-03-12 11:04:35] Processing account: ACCOUNT_NUMBER_149
+[2025-03-12 11:04:35] Fetching username for Discord ID: 396341400419041316
+[2025-03-12 11:04:35] Retrieved username: lovemasin
+[2025-03-12 11:04:35] Username for 396341400419041316 is already correct. Skipping update.
+[2025-03-12 11:04:35] Using cached status for invite: latinaleaks -> INACTIVE
+[2025-03-12 11:04:35] Using cached status for invite: latinaleaks -> INACTIVE
+[2025-03-12 11:04:35] Processing account: ACCOUNT_NUMBER_150
+[2025-03-12 11:04:35] Fetching username for Discord ID: 806878955277647903
+[2025-03-12 11:04:35] Username for 806878955277647903 is already correct. Skipping update.
+[2025-03-12 11:04:35] Checking status for Discord invite: nsfwcharlote
+[2025-03-12 11:04:35] Invite nsfwcharlote is INACTIVE
+[2025-03-12 11:04:35] Using cached status for invite: nsfwcharlote -> INACTIVE
+[2025-03-12 11:04:35] Processing account: ACCOUNT_NUMBER_151
+[2025-03-12 11:04:35] Fetching username for Discord ID: 670759217862279219
+[2025-03-12 11:04:36] Username for 670759217862279219 is already correct. Skipping update.
+[2025-03-12 11:04:36] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:36] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:36] Processing account: ACCOUNT_NUMBER_152
+[2025-03-12 11:04:36] Fetching username for Discord ID: 624918581754200066
+[2025-03-12 11:04:36] Username for 624918581754200066 is already correct. Skipping update.
+[2025-03-12 11:04:36] Checking status for Discord invite: leaks4you
+[2025-03-12 11:04:36] Invite leaks4you is INACTIVE
+[2025-03-12 11:04:36] Using cached status for invite: leaks4you -> INACTIVE
+[2025-03-12 11:04:36] Processing account: ACCOUNT_NUMBER_153
+[2025-03-12 11:04:36] Fetching username for Discord ID: 1056623413390757908
+[2025-03-12 11:04:36] Username for 1056623413390757908 is already correct. Skipping update.
+[2025-03-12 11:04:36] Checking status for Discord invite: teenporn18
+[2025-03-12 11:04:36] Invite teenporn18 is INACTIVE
+[2025-03-12 11:04:36] Using cached status for invite: teenporn18 -> INACTIVE
+[2025-03-12 11:04:36] Processing account: ACCOUNT_NUMBER_154
+[2025-03-12 11:04:36] Fetching username for Discord ID: 939074196368150578
+[2025-03-12 11:04:37] Retrieved username: optimus0521
+[2025-03-12 11:04:37] Username for 939074196368150578 is already correct. Skipping update.
+[2025-03-12 11:04:37] Processing account: ACCOUNT_NUMBER_155
+[2025-03-12 11:04:37] Fetching username for Discord ID: 759340870977323028
+[2025-03-12 11:04:37] Username for 759340870977323028 is already correct. Skipping update.
+[2025-03-12 11:04:37] Processing account: ACCOUNT_NUMBER_156
+[2025-03-12 11:04:37] Fetching username for Discord ID: 596504974280884224
+[2025-03-12 11:04:37] Username for 596504974280884224 is already correct. Skipping update.
+[2025-03-12 11:04:37] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:37] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:37] Processing account: ACCOUNT_NUMBER_157
+[2025-03-12 11:04:37] Fetching username for Discord ID: 687677489174282263
+[2025-03-12 11:04:37] Username for 687677489174282263 is already correct. Skipping update.
+[2025-03-12 11:04:37] Checking status for Discord invite: xxxvids
+[2025-03-12 11:04:37] Invite xxxvids is INACTIVE
+[2025-03-12 11:04:37] Using cached status for invite: xxxvids -> INACTIVE
+[2025-03-12 11:04:37] Processing account: ACCOUNT_NUMBER_158
+[2025-03-12 11:04:37] Fetching username for Discord ID: 889894878908149760
+[2025-03-12 11:04:37] Retrieved username: thepanda2137
+[2025-03-12 11:04:37] Username for 889894878908149760 is already correct. Skipping update.
+[2025-03-12 11:04:37] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:37] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:37] Processing account: ACCOUNT_NUMBER_159
+[2025-03-12 11:04:37] Fetching username for Discord ID: 1066160331723902986
+[2025-03-12 11:04:38] Username for 1066160331723902986 is already correct. Skipping update.
+[2025-03-12 11:04:38] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:38] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:38] Processing account: ACCOUNT_NUMBER_160
+[2025-03-12 11:04:38] Fetching username for Discord ID: 736378597991907328
+[2025-03-12 11:04:38] Username for 736378597991907328 is already correct. Skipping update.
+[2025-03-12 11:04:38] Checking status for Discord invite: tiktokteens
+[2025-03-12 11:04:38] Invite tiktokteens is INACTIVE
+[2025-03-12 11:04:38] Using cached status for invite: tiktokteens -> INACTIVE
+[2025-03-12 11:04:38] Processing account: ACCOUNT_NUMBER_161
+[2025-03-12 11:04:38] Fetching username for Discord ID: 743075853667139635
+[2025-03-12 11:04:38] Username for 743075853667139635 is already correct. Skipping update.
+[2025-03-12 11:04:38] Processing account: ACCOUNT_NUMBER_162
+[2025-03-12 11:04:38] Fetching username for Discord ID: 660840497463558147
+[2025-03-12 11:04:38] Retrieved username: bentabyss
+[2025-03-12 11:04:38] Username for 660840497463558147 is already correct. Skipping update.
+[2025-03-12 11:04:38] Checking status for Discord invite: A2zvFBGD
+[2025-03-12 11:04:38] Invite A2zvFBGD is INACTIVE
+[2025-03-12 11:04:38] Using cached status for invite: A2zvFBGD -> INACTIVE
+[2025-03-12 11:04:38] Processing account: ACCOUNT_NUMBER_163
+[2025-03-12 11:04:38] Fetching username for Discord ID: 393586857340043274
+[2025-03-12 11:04:39] Username for 393586857340043274 is already correct. Skipping update.
+[2025-03-12 11:04:39] Processing account: ACCOUNT_NUMBER_164
+[2025-03-12 11:04:39] Fetching username for Discord ID: 1195358527414337570
+[2025-03-12 11:04:39] Username for 1195358527414337570 is already correct. Skipping update.
+[2025-03-12 11:04:39] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:39] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:39] Processing account: ACCOUNT_NUMBER_165
+[2025-03-12 11:04:39] Fetching username for Discord ID: 900857539242131497
+[2025-03-12 11:04:39] Username for 900857539242131497 is already correct. Skipping update.
+[2025-03-12 11:04:39] Processing account: ACCOUNT_NUMBER_166
+[2025-03-12 11:04:39] Fetching username for Discord ID: 1125504159219712163
+[2025-03-12 11:04:39] Retrieved username: d3r3k88
+[2025-03-12 11:04:39] Username for 1125504159219712163 is already correct. Skipping update.
+[2025-03-12 11:04:39] Processing account: ACCOUNT_NUMBER_167
+[2025-03-12 11:04:39] Fetching username for Discord ID: 1034810786205417553
+[2025-03-12 11:04:39] Username for 1034810786205417553 is already correct. Skipping update.
+[2025-03-12 11:04:39] Checking status for Discord invite: teenscp
+[2025-03-12 11:04:39] Invite teenscp is INACTIVE
+[2025-03-12 11:04:39] Using cached status for invite: teenscp -> INACTIVE
+[2025-03-12 11:04:39] Processing account: ACCOUNT_NUMBER_168
+[2025-03-12 11:04:39] Fetching username for Discord ID: 706310341830639696
+[2025-03-12 11:04:40] Username for 706310341830639696 is already correct. Skipping update.
+[2025-03-12 11:04:40] Using cached status for invite: xxxvids -> INACTIVE
+[2025-03-12 11:04:40] Using cached status for invite: xxxvids -> INACTIVE
+[2025-03-12 11:04:40] Processing account: ACCOUNT_NUMBER_169
+[2025-03-12 11:04:40] Fetching username for Discord ID: 1153388733521989673
+[2025-03-12 11:04:40] Username for 1153388733521989673 is already correct. Skipping update.
+[2025-03-12 11:04:40] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:40] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:40] Processing account: ACCOUNT_NUMBER_170
+[2025-03-12 11:04:40] Fetching username for Discord ID: 756484826709753897
+[2025-03-12 11:04:40] Username for 756484826709753897 is already correct. Skipping update.
+[2025-03-12 11:04:40] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:40] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:40] Processing account: ACCOUNT_NUMBER_171
+[2025-03-12 11:04:40] Fetching username for Discord ID: 312319200263667712
+[2025-03-12 11:04:40] Retrieved username: .xavio
+[2025-03-12 11:04:40] Username for 312319200263667712 is already correct. Skipping update.
+[2025-03-12 11:04:40] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:40] Using cached status for invite: SexyHot -> INACTIVE
+[2025-03-12 11:04:40] Processing account: ACCOUNT_NUMBER_172
+[2025-03-12 11:04:40] Fetching username for Discord ID: 843990169350045696
+[2025-03-12 11:04:40] Username for 843990169350045696 is already correct. Skipping update.
+[2025-03-12 11:04:40] Checking status for Discord invite: VeUVj68a8T
+[2025-03-12 11:04:40] Invite VeUVj68a8T is INACTIVE
+[2025-03-12 11:04:40] Using cached status for invite: VeUVj68a8T -> INACTIVE
+[2025-03-12 11:04:40] Processing account: ACCOUNT_NUMBER_173
+[2025-03-12 11:04:40] Fetching username for Discord ID: 720013840217145415
+[2025-03-12 11:04:41] Username for 720013840217145415 is already correct. Skipping update.
+[2025-03-12 11:04:41] Checking status for Discord invite: teensleaked
+[2025-03-12 11:04:41] Invite teensleaked is INACTIVE
+[2025-03-12 11:04:41] Using cached status for invite: teensleaked -> INACTIVE
+[2025-03-12 11:04:41] Processing account: ACCOUNT_NUMBER_174
+[2025-03-12 11:04:41] Fetching username for Discord ID: 465170201386680322
+[2025-03-12 11:04:41] Username for 465170201386680322 is already correct. Skipping update.
+[2025-03-12 11:04:41] Using cached status for invite: teensleaked -> INACTIVE
+[2025-03-12 11:04:41] Using cached status for invite: teensleaked -> INACTIVE
+[2025-03-12 11:04:41] Processing account: ACCOUNT_NUMBER_175
+[2025-03-12 11:04:41] Fetching username for Discord ID: 662212470240444436
+[2025-03-12 11:04:41] Retrieved username: .ejik.
+[2025-03-12 11:04:41] Username for 662212470240444436 is already correct. Skipping update.
+[2025-03-12 11:04:41] Checking status for Discord invite: 233
+[2025-03-12 11:04:41] Invite 233 is INACTIVE
+[2025-03-12 11:04:41] Using cached status for invite: 233 -> INACTIVE
+[2025-03-12 11:04:41] Processing account: ACCOUNT_NUMBER_176
+[2025-03-12 11:04:41] Fetching username for Discord ID: 490258580033765396
+[2025-03-12 11:04:41] Username for 490258580033765396 is already correct. Skipping update.
+[2025-03-12 11:04:41] Processing account: ACCOUNT_NUMBER_177
+[2025-03-12 11:04:41] Fetching username for Discord ID: 433737404323725322
+[2025-03-12 11:04:42] Username for 433737404323725322 is already correct. Skipping update.
+[2025-03-12 11:04:42] Processing account: ACCOUNT_NUMBER_178
+[2025-03-12 11:04:42] Fetching username for Discord ID: 462379174967902208
+[2025-03-12 11:04:42] Username for 462379174967902208 is already correct. Skipping update.
+[2025-03-12 11:04:42] Processing account: ACCOUNT_NUMBER_179
+[2025-03-12 11:04:42] Fetching username for Discord ID: 300801485787234304
+[2025-03-12 11:04:42] Username for 300801485787234304 is already correct. Skipping update.
+[2025-03-12 11:04:42] Checking status for Discord invite: BqWt8dqUAP
+[2025-03-12 11:04:42] Invite BqWt8dqUAP is INACTIVE
+[2025-03-12 11:04:42] Using cached status for invite: BqWt8dqUAP -> INACTIVE
+[2025-03-12 11:04:42] Processing account: ACCOUNT_NUMBER_180
+[2025-03-12 11:04:42] Fetching username for Discord ID: 744770317611696178
+[2025-03-12 11:04:42] Retrieved username: krugerslayer
+[2025-03-12 11:04:42] Username for 744770317611696178 is already correct. Skipping update.
+[2025-03-12 11:04:42] Checking status for Discord invite: nudeporn
+[2025-03-12 11:04:42] Invite nudeporn is INACTIVE
+[2025-03-12 11:04:42] Using cached status for invite: nudeporn -> INACTIVE
+[2025-03-12 11:04:42] Processing account: ACCOUNT_NUMBER_181
+[2025-03-12 11:04:42] Fetching username for Discord ID: 649143761078583306
+[2025-03-12 11:04:42] Username for 649143761078583306 is already correct. Skipping update.
+[2025-03-12 11:04:42] Processing account: ACCOUNT_NUMBER_182
+[2025-03-12 11:04:42] Fetching username for Discord ID: 357867686199296002
+[2025-03-12 11:04:43] Username for 357867686199296002 is already correct. Skipping update.
+[2025-03-12 11:04:43] Processing account: ACCOUNT_NUMBER_183
+[2025-03-12 11:04:43] Fetching username for Discord ID: 1089881503279886447
+[2025-03-12 11:04:43] Username for 1089881503279886447 is already correct. Skipping update.
+[2025-03-12 11:04:43] Processing account: ACCOUNT_NUMBER_184
+[2025-03-12 11:04:43] Fetching username for Discord ID: 1002603248340967424
+[2025-03-12 11:04:43] Username for 1002603248340967424 is already correct. Skipping update.
+[2025-03-12 11:04:43] Processing account: ACCOUNT_NUMBER_185
+[2025-03-12 11:04:43] Fetching username for Discord ID: 413217883389427714
+[2025-03-12 11:04:43] Retrieved username: xthebetrayerx
+[2025-03-12 11:04:43] Username for 413217883389427714 is already correct. Skipping update.
+[2025-03-12 11:04:43] Processing account: ACCOUNT_NUMBER_186
+[2025-03-12 11:04:43] Fetching username for Discord ID: 1170924020972126248
+[2025-03-12 11:04:44] Username for 1170924020972126248 is already correct. Skipping update.
+[2025-03-12 11:04:44] Checking status for Discord invite: babez
+[2025-03-12 11:04:44] Invite babez is INACTIVE
+[2025-03-12 11:04:44] Using cached status for invite: babez -> INACTIVE
+[2025-03-12 11:04:44] Processing account: ACCOUNT_NUMBER_187
+[2025-03-12 11:04:44] Fetching username for Discord ID: 1170924020972126248
+[2025-03-12 11:04:44] Username for 1170924020972126248 is already correct. Skipping update.
+[2025-03-12 11:04:44] Checking status for Discord invite: RN3EKZWk4G
+[2025-03-12 11:04:44] Invite RN3EKZWk4G is INACTIVE
+[2025-03-12 11:04:44] Using cached status for invite: RN3EKZWk4G -> INACTIVE
+[2025-03-12 11:04:44] Processing account: ACCOUNT_NUMBER_188
+[2025-03-12 11:04:44] Fetching username for Discord ID: 326092564006567936
+[2025-03-12 11:04:44] Username for 326092564006567936 is already correct. Skipping update.
+[2025-03-12 11:04:44] Checking status for Discord invite: ans6KXbseT
+[2025-03-12 11:04:44] Invite ans6KXbseT is INACTIVE
+[2025-03-12 11:04:44] Using cached status for invite: ans6KXbseT -> INACTIVE
+[2025-03-12 11:04:44] Processing account: ACCOUNT_NUMBER_189
+[2025-03-12 11:04:44] Fetching username for Discord ID: 1188686808591122485
+[2025-03-12 11:04:44] Retrieved username: stellaz0541
+[2025-03-12 11:04:44] Username for 1188686808591122485 is already correct. Skipping update.
+[2025-03-12 11:04:44] Using cached status for invite: tiktokteens -> INACTIVE
+[2025-03-12 11:04:44] Using cached status for invite: tiktokteens -> INACTIVE
+[2025-03-12 11:04:44] Processing account: ACCOUNT_NUMBER_190
+[2025-03-12 11:04:44] Fetching username for Discord ID: 363955929776914432
+[2025-03-12 11:04:44] Username for 363955929776914432 is already correct. Skipping update.
+[2025-03-12 11:04:44] Checking status for Discord invite: girls18q
+[2025-03-12 11:04:44] Invite girls18q is INACTIVE
+[2025-03-12 11:04:44] Using cached status for invite: girls18q -> INACTIVE
+[2025-03-12 11:04:44] Processing account: ACCOUNT_NUMBER_191
+[2025-03-12 11:04:44] Fetching username for Discord ID: 386168108303253525
+[2025-03-12 11:04:45] Username for 386168108303253525 is already correct. Skipping update.
+[2025-03-12 11:04:45] Processing account: ACCOUNT_NUMBER_192
+[2025-03-12 11:04:45] Fetching username for Discord ID: 348536704916914177
+[2025-03-12 11:04:45] Username for 348536704916914177 is already correct. Skipping update.
+[2025-03-12 11:04:45] Processing account: ACCOUNT_NUMBER_193
+[2025-03-12 11:04:45] Fetching username for Discord ID: 1188824339261423625
+[2025-03-12 11:04:45] Username for 1188824339261423625 is already correct. Skipping update.
+[2025-03-12 11:04:45] Checking status for Discord invite: cpteens
+[2025-03-12 11:04:45] Invite cpteens is INACTIVE
+[2025-03-12 11:04:45] Using cached status for invite: cpteens -> INACTIVE
+[2025-03-12 11:04:45] Processing account: ACCOUNT_NUMBER_194
+[2025-03-12 11:04:45] Fetching username for Discord ID: 533769228164005928
+[2025-03-12 11:04:45] Retrieved username: aac_the_shield
+[2025-03-12 11:04:45] Username for 533769228164005928 is already correct. Skipping update.
+[2025-03-12 11:04:45] Checking status for Discord invite: nFbHU7KADq
+[2025-03-12 11:04:45] Invite nFbHU7KADq is INACTIVE
+[2025-03-12 11:04:45] Using cached status for invite: nFbHU7KADq -> INACTIVE
+[2025-03-12 11:04:45] Processing account: ACCOUNT_NUMBER_195
+[2025-03-12 11:04:45] Fetching username for Discord ID: 917790133225398293
+[2025-03-12 11:04:46] Username for 917790133225398293 is already correct. Skipping update.
+[2025-03-12 11:04:46] Processing account: ACCOUNT_NUMBER_196
+[2025-03-12 11:04:46] Fetching username for Discord ID: 838125472029212752
+[2025-03-12 11:04:46] Username for 838125472029212752 is already correct. Skipping update.
+[2025-03-12 11:04:46] Processing account: ACCOUNT_NUMBER_197
+[2025-03-12 11:04:46] Fetching username for Discord ID: 401994465834827778
+[2025-03-12 11:04:46] Username for 401994465834827778 is already correct. Skipping update.
+[2025-03-12 11:04:46] Processing account: ACCOUNT_NUMBER_198
+[2025-03-12 11:04:46] Fetching username for Discord ID: 279263991883235330
+[2025-03-12 11:04:46] Username for 279263991883235330 is already correct. Skipping update.
+[2025-03-12 11:04:46] Processing account: ACCOUNT_NUMBER_199
+[2025-03-12 11:04:46] Fetching username for Discord ID: 616141580788826146
+[2025-03-12 11:04:46] Retrieved username: haf_iron
+[2025-03-12 11:04:46] Username for 616141580788826146 is already correct. Skipping update.
+[2025-03-12 11:04:46] Using cached status for invite: nudeporn -> INACTIVE
+[2025-03-12 11:04:46] Using cached status for invite: nudeporn -> INACTIVE
+[2025-03-12 11:04:46] Processing account: ACCOUNT_NUMBER_200
+[2025-03-12 11:04:46] Fetching username for Discord ID: 929181780861403176
+[2025-03-12 11:04:47] Username for 929181780861403176 is already correct. Skipping update.
+[2025-03-12 11:04:47] Processing account: ACCOUNT_NUMBER_201
+[2025-03-12 11:04:47] Fetching username for Discord ID: 801837988618305566
+[2025-03-12 11:04:47] Username for 801837988618305566 is already correct. Skipping update.
+[2025-03-12 11:04:47] Using cached status for invite: nudeporn -> INACTIVE
+[2025-03-12 11:04:47] Using cached status for invite: nudeporn -> INACTIVE
+[2025-03-12 11:04:47] Processing account: ACCOUNT_NUMBER_202
+[2025-03-12 11:04:47] Fetching username for Discord ID: 1152213543370887249
+[2025-03-12 11:04:47] Username for 1152213543370887249 is already correct. Skipping update.
+[2025-03-12 11:04:47] Checking status for Discord invite: s3xygirls
+[2025-03-12 11:04:47] Invite s3xygirls is INACTIVE
+[2025-03-12 11:04:47] Using cached status for invite: s3xygirls -> INACTIVE
+[2025-03-12 11:04:47] Processing account: ACCOUNT_NUMBER_203
+[2025-03-12 11:04:47] Fetching username for Discord ID: 227952459161534464
+[2025-03-12 11:04:47] Retrieved username: aracombr
+[2025-03-12 11:04:47] Username for 227952459161534464 is already correct. Skipping update.
+[2025-03-12 11:04:47] Processing account: ACCOUNT_NUMBER_204
+[2025-03-12 11:04:47] Fetching username for Discord ID: 1056693101441318912
+[2025-03-12 11:04:47] Username for 1056693101441318912 is already correct. Skipping update.
+[2025-03-12 11:04:47] Processing account: ACCOUNT_NUMBER_205
+[2025-03-12 11:04:47] Fetching username for Discord ID: 482380360303247360
+[2025-03-12 11:04:48] Username for 482380360303247360 is already correct. Skipping update.
+[2025-03-12 11:04:48] Checking status for Discord invite: twerks
+[2025-03-12 11:04:48] Invite twerks is INACTIVE
+[2025-03-12 11:04:48] Using cached status for invite: twerks -> INACTIVE
+[2025-03-12 11:04:48] Processing account: ACCOUNT_NUMBER_206
+[2025-03-12 11:04:48] Fetching username for Discord ID: 236173468780068875
+[2025-03-12 11:04:48] Username for 236173468780068875 is already correct. Skipping update.
+[2025-03-12 11:04:48] Processing account: ACCOUNT_NUMBER_207
+[2025-03-12 11:04:48] Fetching username for Discord ID: 839484591466741770
+[2025-03-12 11:04:48] Username for 839484591466741770 is already correct. Skipping update.
+[2025-03-12 11:04:48] Checking status for Discord invite: medialeaks
+[2025-03-12 11:04:48] Invite medialeaks is INACTIVE
+[2025-03-12 11:04:48] Using cached status for invite: medialeaks -> INACTIVE
+[2025-03-12 11:04:48] Processing account: ACCOUNT_NUMBER_208
+[2025-03-12 11:04:48] Fetching username for Discord ID: 677165079229104148
+[2025-03-12 11:04:48] Retrieved username: biggest_dwarf
+[2025-03-12 11:04:48] Username for 677165079229104148 is already correct. Skipping update.
+[2025-03-12 11:04:48] Processing account: ACCOUNT_NUMBER_209
+[2025-03-12 11:04:48] Fetching username for Discord ID: 751670604457050122
+[2025-03-12 11:04:49] Username for 751670604457050122 is already correct. Skipping update.
+[2025-03-12 11:04:49] Processing account: ACCOUNT_NUMBER_210
+[2025-03-12 11:04:49] Fetching username for Discord ID: 1056561238768885780
+[2025-03-12 11:04:49] Username for 1056561238768885780 is already correct. Skipping update.
+[2025-03-12 11:04:49] Processing account: ACCOUNT_NUMBER_211
+[2025-03-12 11:04:49] Fetching username for Discord ID: 501812834221424640
+[2025-03-12 11:04:49] Username for 501812834221424640 is already correct. Skipping update.
+[2025-03-12 11:04:49] Processing account: ACCOUNT_NUMBER_212
+[2025-03-12 11:04:49] Fetching username for Discord ID: 776330931908771891
+[2025-03-12 11:04:49] Retrieved username: top4ik777
+[2025-03-12 11:04:49] Username for 776330931908771891 is already correct. Skipping update.
+[2025-03-12 11:04:49] Processing account: ACCOUNT_NUMBER_213
+[2025-03-12 11:04:49] Fetching username for Discord ID: 660808098046410753
+[2025-03-12 11:04:49] Username for 660808098046410753 is already correct. Skipping update.
+[2025-03-12 11:04:49] Processing account: ACCOUNT_NUMBER_214
+[2025-03-12 11:04:49] Fetching username for Discord ID: 926779565110620170
+[2025-03-12 11:04:50] Username for 926779565110620170 is already correct. Skipping update.
+[2025-03-12 11:04:50] Processing account: ACCOUNT_NUMBER_215
+[2025-03-12 11:04:50] Fetching username for Discord ID: 1110099582546890813
+[2025-03-12 11:04:50] Username for 1110099582546890813 is already correct. Skipping update.
+[2025-03-12 11:04:50] Processing account: ACCOUNT_NUMBER_216
+[2025-03-12 11:04:50] Fetching username for Discord ID: 1046871336422752256
+[2025-03-12 11:04:50] Username for 1046871336422752256 is already correct. Skipping update.
+[2025-03-12 11:04:50] Processing account: ACCOUNT_NUMBER_217
+[2025-03-12 11:04:50] Fetching username for Discord ID: 789157420906708992
+[2025-03-12 11:04:50] Retrieved username: maksimus1008
+[2025-03-12 11:04:50] Username for 789157420906708992 is already correct. Skipping update.
+[2025-03-12 11:04:50] Processing account: ACCOUNT_NUMBER_218
+[2025-03-12 11:04:50] Fetching username for Discord ID: 1223182714921025556
+[2025-03-12 11:04:50] Username for 1223182714921025556 is already correct. Skipping update.
+[2025-03-12 11:04:50] Processing account: ACCOUNT_NUMBER_219
+[2025-03-12 11:04:50] Fetching username for Discord ID: 354248711075004416
+[2025-03-12 11:04:51] Username for 354248711075004416 is already correct. Skipping update.
+[2025-03-12 11:04:51] Processing account: ACCOUNT_NUMBER_220
+[2025-03-12 11:04:51] Fetching username for Discord ID: 823810433731133450
+[2025-03-12 11:04:51] Username for 823810433731133450 is already correct. Skipping update.
+[2025-03-12 11:04:51] Processing account: ACCOUNT_NUMBER_221
+[2025-03-12 11:04:51] Fetching username for Discord ID: 908549644026515466
+[2025-03-12 11:04:51] Username for 908549644026515466 is already correct. Skipping update.
+[2025-03-12 11:04:51] Checking status for Discord invite: xmedia
+[2025-03-12 11:04:51] Invite xmedia is INACTIVE
+[2025-03-12 11:04:51] Using cached status for invite: xmedia -> INACTIVE
+[2025-03-12 11:04:51] Processing account: ACCOUNT_NUMBER_222
+[2025-03-12 11:04:51] Fetching username for Discord ID: 1161355259453657158
+[2025-03-12 11:04:51] Retrieved username: kuchazio
+[2025-03-12 11:04:51] Username for 1161355259453657158 is already correct. Skipping update.
+[2025-03-12 11:04:51] Checking status for Discord invite: get
+[2025-03-12 11:04:51] Invite get is INACTIVE
+[2025-03-12 11:04:51] Using cached status for invite: get -> INACTIVE
+[2025-03-12 11:04:51] Processing account: ACCOUNT_NUMBER_223
+[2025-03-12 11:04:51] Fetching username for Discord ID: 1161355259453657158
+[2025-03-12 11:04:52] Username for 1161355259453657158 is already correct. Skipping update.
+[2025-03-12 11:04:52] Checking status for Discord invite: twerking
+[2025-03-12 11:04:52] Invite twerking is INACTIVE
+[2025-03-12 11:04:52] Using cached status for invite: twerking -> INACTIVE
+[2025-03-12 11:04:52] Processing account: ACCOUNT_NUMBER_224
+[2025-03-12 11:04:52] Fetching username for Discord ID: 440574415407808512
+[2025-03-12 11:04:52] Username for 440574415407808512 is already correct. Skipping update.
+[2025-03-12 11:04:52] Checking status for Discord invite: eCZv75G6tB
+[2025-03-12 11:04:52] Invite eCZv75G6tB is INACTIVE
+[2025-03-12 11:04:52] Using cached status for invite: eCZv75G6tB -> INACTIVE
+[2025-03-12 11:04:52] Processing account: ACCOUNT_NUMBER_225
+[2025-03-12 11:04:52] Fetching username for Discord ID: 910116572213948436
+[2025-03-12 11:04:52] Username for 910116572213948436 is already correct. Skipping update.
+[2025-03-12 11:04:52] Checking status for Discord invite: sexyhot
+[2025-03-12 11:04:52] Invite sexyhot is INACTIVE
+[2025-03-12 11:04:52] Using cached status for invite: sexyhot -> INACTIVE
+[2025-03-12 11:04:52] Processing account: ACCOUNT_NUMBER_226
+[2025-03-12 11:04:52] Fetching username for Discord ID: 1061767140304232548
+[2025-03-12 11:04:52] Retrieved username: deleted_user_d5eba66571e6
+[2025-03-12 11:04:52] Username for 1061767140304232548 is already correct. Skipping update.
+[2025-03-12 11:04:52] Processing account: ACCOUNT_NUMBER_227
+[2025-03-12 11:04:52] Fetching username for Discord ID: 373212798760779777
+[2025-03-12 11:04:52] Username for 373212798760779777 is already correct. Skipping update.
+[2025-03-12 11:04:52] Processing account: ACCOUNT_NUMBER_228
+[2025-03-12 11:04:52] Fetching username for Discord ID: 1061039761957064714
+[2025-03-12 11:04:53] Username for 1061039761957064714 is already correct. Skipping update.
+[2025-03-12 11:04:53] Processing account: ACCOUNT_NUMBER_229
+[2025-03-12 11:04:53] Fetching username for Discord ID: 944838538464223242
+[2025-03-12 11:04:53] Username for 944838538464223242 is already correct. Skipping update.
+[2025-03-12 11:04:53] Processing account: ACCOUNT_NUMBER_230
+[2025-03-12 11:04:53] Fetching username for Discord ID: 669938332113043468
+[2025-03-12 11:04:53] Username for 669938332113043468 is already correct. Skipping update.
+[2025-03-12 11:04:53] Checking status for Discord invite: nnudes
+[2025-03-12 11:04:53] Invite nnudes is INACTIVE
+[2025-03-12 11:04:53] Using cached status for invite: nnudes -> INACTIVE
+[2025-03-12 11:04:53] Processing account: ACCOUNT_NUMBER_231
+[2025-03-12 11:04:53] Fetching username for Discord ID: 694596803672277002
+[2025-03-12 11:04:53] Retrieved username: protanki
+[2025-03-12 11:04:53] Username for 694596803672277002 is already correct. Skipping update.
+[2025-03-12 11:04:53] Using cached status for invite: nnudes -> INACTIVE
+[2025-03-12 11:04:53] Using cached status for invite: nnudes -> INACTIVE
+[2025-03-12 11:04:53] Processing account: ACCOUNT_NUMBER_232
+[2025-03-12 11:04:53] Fetching username for Discord ID: 980056884931362856
+[2025-03-12 11:04:53] Username for 980056884931362856 is already correct. Skipping update.
+[2025-03-12 11:04:53] Processing account: ACCOUNT_NUMBER_233
+[2025-03-12 11:04:53] Fetching username for Discord ID: 1066456475930726580
+[2025-03-12 11:04:54] Username for 1066456475930726580 is already correct. Skipping update.
+[2025-03-12 11:04:54] Using cached status for invite: nnudes -> INACTIVE
+[2025-03-12 11:04:54] Using cached status for invite: nnudes -> INACTIVE
+[2025-03-12 11:04:54] Processing account: ACCOUNT_NUMBER_234
+[2025-03-12 11:04:54] Fetching username for Discord ID: 725746270919983177
+[2025-03-12 11:04:54] Username for 725746270919983177 is already correct. Skipping update.
+[2025-03-12 11:04:54] Processing account: ACCOUNT_NUMBER_235
+[2025-03-12 11:04:54] Fetching username for Discord ID: 1190339824939434034
+[2025-03-12 11:04:54] Username for 1190339824939434034 is already correct. Skipping update.
+[2025-03-12 11:04:54] Processing account: ACCOUNT_NUMBER_236
+[2025-03-12 11:04:54] Fetching username for Discord ID: 458723978115285002
+[2025-03-12 11:04:54] Retrieved username: deleted_user_11d9fe342951
+[2025-03-12 11:04:54] Username for 458723978115285002 is already correct. Skipping update.
+[2025-03-12 11:04:54] Checking status for Discord invite: teenleakers
+[2025-03-12 11:04:54] Invite teenleakers is INACTIVE
+[2025-03-12 11:04:54] Using cached status for invite: teenleakers -> INACTIVE
+[2025-03-12 11:04:54] Processing account: ACCOUNT_NUMBER_237
+[2025-03-12 11:04:54] Fetching username for Discord ID: 360550455031496705
+[2025-03-12 11:04:55] Username for 360550455031496705 is already correct. Skipping update.
+[2025-03-12 11:04:55] Processing account: ACCOUNT_NUMBER_238
+[2025-03-12 11:04:55] Fetching username for Discord ID: 699630177403273267
+[2025-03-12 11:04:55] Username for 699630177403273267 is already correct. Skipping update.
+[2025-03-12 11:04:55] Checking status for Discord invite: seductivegirls
+[2025-03-12 11:04:55] Invite seductivegirls is INACTIVE
+[2025-03-12 11:04:55] Using cached status for invite: seductivegirls -> INACTIVE
+[2025-03-12 11:04:55] Processing account: ACCOUNT_NUMBER_239
+[2025-03-12 11:04:55] Fetching username for Discord ID: 670286901659303946
+[2025-03-12 11:04:55] Username for 670286901659303946 is already correct. Skipping update.
+[2025-03-12 11:04:55] Checking status for Discord invite: e-girlhub
+[2025-03-12 11:04:55] Invite e-girlhub is INACTIVE
+[2025-03-12 11:04:55] Using cached status for invite: e-girlhub -> INACTIVE
+[2025-03-12 11:04:55] Processing account: ACCOUNT_NUMBER_240
+[2025-03-12 11:04:55] Fetching username for Discord ID: 1165307946977214475
+[2025-03-12 11:04:55] Retrieved username: adamek_exe_04795
+[2025-03-12 11:04:55] Username for 1165307946977214475 is already correct. Skipping update.
+[2025-03-12 11:04:55] Processing account: ACCOUNT_NUMBER_241
+[2025-03-12 11:04:55] Fetching username for Discord ID: 675365167760146444
+[2025-03-12 11:04:55] Username for 675365167760146444 is already correct. Skipping update.
+[2025-03-12 11:04:55] Using cached status for invite: seductivegirls -> INACTIVE
+[2025-03-12 11:04:55] Using cached status for invite: seductivegirls -> INACTIVE
+[2025-03-12 11:04:55] Processing account: ACCOUNT_NUMBER_242
+[2025-03-12 11:04:55] Fetching username for Discord ID: 459905281372192779
+[2025-03-12 11:04:56] Username for 459905281372192779 is already correct. Skipping update.
+[2025-03-12 11:04:56] Checking status for Discord invite: nudesx
+[2025-03-12 11:04:56] Invite nudesx is INACTIVE
+[2025-03-12 11:04:56] Using cached status for invite: nudesx -> INACTIVE
+[2025-03-12 11:04:56] Processing account: ACCOUNT_NUMBER_243
+[2025-03-12 11:04:56] Fetching username for Discord ID: 1147569653330219071
+[2025-03-12 11:04:56] Username for 1147569653330219071 is already correct. Skipping update.
+[2025-03-12 11:04:56] Processing account: ACCOUNT_NUMBER_244
+[2025-03-12 11:04:56] Fetching username for Discord ID: 749070737427529780
+[2025-03-12 11:04:56] Username for 749070737427529780 is already correct. Skipping update.
+[2025-03-12 11:04:56] Processing account: ACCOUNT_NUMBER_245
+[2025-03-12 11:04:56] Fetching username for Discord ID: 494882203977777172
+[2025-03-12 11:04:56] Retrieved username: vineo0123
+[2025-03-12 11:04:56] Username for 494882203977777172 is already correct. Skipping update.
+[2025-03-12 11:04:56] Processing account: ACCOUNT_NUMBER_246
+[2025-03-12 11:04:56] Fetching username for Discord ID: 687989720608669913
+[2025-03-12 11:04:56] Username for 687989720608669913 is already correct. Skipping update.
+[2025-03-12 11:04:56] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:56] Using cached status for invite: dcleaks -> INACTIVE
+[2025-03-12 11:04:56] Processing account: ACCOUNT_NUMBER_247
+[2025-03-12 11:04:56] Fetching username for Discord ID: 492321709219905543
+[2025-03-12 11:04:57] Username for 492321709219905543 is already correct. Skipping update.
+[2025-03-12 11:04:57] Processing account: ACCOUNT_NUMBER_248
+[2025-03-12 11:04:57] Fetching username for Discord ID: 1031202640543092796
+[2025-03-12 11:04:57] Username for 1031202640543092796 is already correct. Skipping update.
+[2025-03-12 11:04:57] Processing account: ACCOUNT_NUMBER_249
+[2025-03-12 11:04:57] Fetching username for Discord ID: 871443753066455120
+[2025-03-12 11:04:57] Username for 871443753066455120 is already correct. Skipping update.
+[2025-03-12 11:04:57] Processing account: ACCOUNT_NUMBER_250
+[2025-03-12 11:04:57] Fetching username for Discord ID: 949542934515154984
+[2025-03-12 11:04:57] Retrieved username: montana1398
+[2025-03-12 11:04:57] Username for 949542934515154984 is already correct. Skipping update.
+[2025-03-12 11:04:57] Processing account: ACCOUNT_NUMBER_251
+[2025-03-12 11:04:57] Fetching username for Discord ID: 513491308325765145
+[2025-03-12 11:04:57] Username for 513491308325765145 is already correct. Skipping update.
+[2025-03-12 11:04:57] Processing account: ACCOUNT_NUMBER_252
+[2025-03-12 11:04:57] Fetching username for Discord ID: 783707159376035911
+[2025-03-12 11:04:58] Username for 783707159376035911 is already correct. Skipping update.
+[2025-03-12 11:04:58] Processing account: ACCOUNT_NUMBER_253
+[2025-03-12 11:04:58] Fetching username for Discord ID: 406421326903902219
+[2025-03-12 11:04:58] Username for 406421326903902219 is already correct. Skipping update.
+[2025-03-12 11:04:58] Checking status for Discord invite: 4tFCsJ5Jzw
+[2025-03-12 11:04:58] Invite 4tFCsJ5Jzw is INACTIVE
+[2025-03-12 11:04:58] Using cached status for invite: 4tFCsJ5Jzw -> INACTIVE
+[2025-03-12 11:04:58] Processing account: ACCOUNT_NUMBER_254
+[2025-03-12 11:04:58] Fetching username for Discord ID: 787420720519053352
+[2025-03-12 11:04:58] Username for 787420720519053352 is already correct. Skipping update.
+[2025-03-12 11:04:58] Processing account: ACCOUNT_NUMBER_255
+[2025-03-12 11:04:58] Fetching username for Discord ID: 275236010550493184
+[2025-03-12 11:04:58] Retrieved username: pkojak
+[2025-03-12 11:04:58] Username for 275236010550493184 is already correct. Skipping update.
+[2025-03-12 11:04:58] Processing account: ACCOUNT_NUMBER_256
+[2025-03-12 11:04:58] Fetching username for Discord ID: 325374288326819841
+[2025-03-12 11:04:58] Username for 325374288326819841 is already correct. Skipping update.
+[2025-03-12 11:04:58] Processing account: ACCOUNT_NUMBER_257
+[2025-03-12 11:04:58] Fetching username for Discord ID: 1198174378421141536
+[2025-03-12 11:04:59] Username for 1198174378421141536 is already correct. Skipping update.
+[2025-03-12 11:04:59] Checking status for Discord invite: teen-egirls
+[2025-03-12 11:04:59] Invite teen-egirls is INACTIVE
+[2025-03-12 11:04:59] Using cached status for invite: teen-egirls -> INACTIVE
+[2025-03-12 11:04:59] Processing account: ACCOUNT_NUMBER_258
+[2025-03-12 11:04:59] Fetching username for Discord ID: 577225084888940574
+[2025-03-12 11:04:59] Username for 577225084888940574 is already correct. Skipping update.
+[2025-03-12 11:04:59] Checking status for Discord invite: dailyleaks
+[2025-03-12 11:04:59] Invite dailyleaks is INACTIVE
+[2025-03-12 11:04:59] Using cached status for invite: dailyleaks -> INACTIVE
+[2025-03-12 11:04:59] Processing account: ACCOUNT_NUMBER_259
+[2025-03-12 11:04:59] Fetching username for Discord ID: 577225084888940574
+[2025-03-12 11:04:59] Retrieved username: ze_artur
+[2025-03-12 11:04:59] Username for 577225084888940574 is already correct. Skipping update.
+[2025-03-12 11:04:59] Checking status for Discord invite: d4PNHkPCPM
+[2025-03-12 11:04:59] Invite d4PNHkPCPM is INACTIVE
+[2025-03-12 11:04:59] Using cached status for invite: d4PNHkPCPM -> INACTIVE
+[2025-03-12 11:04:59] Processing account: ACCOUNT_NUMBER_260
+[2025-03-12 11:04:59] Fetching username for Discord ID: 724650551710842893
+[2025-03-12 11:05:00] Username for 724650551710842893 is already correct. Skipping update.
+[2025-03-12 11:05:00] Checking status for Discord invite: bestleaks
+[2025-03-12 11:05:00] Invite bestleaks is INACTIVE
+[2025-03-12 11:05:00] Using cached status for invite: bestleaks -> INACTIVE
+[2025-03-12 11:05:00] Processing account: ACCOUNT_NUMBER_261
+[2025-03-12 11:05:00] Fetching username for Discord ID: 237661863029112832
+[2025-03-12 11:05:00] Username for 237661863029112832 is already correct. Skipping update.
+[2025-03-12 11:05:00] Processing account: ACCOUNT_NUMBER_262
+[2025-03-12 11:05:00] Fetching username for Discord ID: 1133879101355208836
+[2025-03-12 11:05:00] Username for 1133879101355208836 is already correct. Skipping update.
+[2025-03-12 11:05:00] Checking status for Discord invite: ttnude
+[2025-03-12 11:05:00] Invite ttnude is INACTIVE
+[2025-03-12 11:05:00] Using cached status for invite: ttnude -> INACTIVE
+[2025-03-12 11:05:00] Processing account: ACCOUNT_NUMBER_263
+[2025-03-12 11:05:00] Fetching username for Discord ID: 1191085289783951360
+[2025-03-12 11:05:00] Retrieved username: deleted_user_3b632321cb62
+[2025-03-12 11:05:00] Username for 1191085289783951360 is already correct. Skipping update.
+[2025-03-12 11:05:00] Checking status for Discord invite: VWffHaCpED
+[2025-03-12 11:05:00] Invite VWffHaCpED is INACTIVE
+[2025-03-12 11:05:00] Using cached status for invite: VWffHaCpED -> INACTIVE
+[2025-03-12 11:05:00] Processing account: ACCOUNT_NUMBER_264
+[2025-03-12 11:05:00] Fetching username for Discord ID: 773373981537075262
+[2025-03-12 11:05:01] Username for 773373981537075262 is already correct. Skipping update.
+[2025-03-12 11:05:01] Processing account: ACCOUNT_NUMBER_265
+[2025-03-12 11:05:01] Fetching username for Discord ID: 1171775210521886740
+[2025-03-12 11:05:01] Username for 1171775210521886740 is already correct. Skipping update.
+[2025-03-12 11:05:01] Processing account: ACCOUNT_NUMBER_266
+[2025-03-12 11:05:01] Fetching username for Discord ID: 977171356791762944
+[2025-03-12 11:05:01] Username for 977171356791762944 is already correct. Skipping update.
+[2025-03-12 11:05:01] Processing account: ACCOUNT_NUMBER_267
+[2025-03-12 11:05:01] Fetching username for Discord ID: 234294849723957248
+[2025-03-12 11:05:01] Retrieved username: .jqq2
+[2025-03-12 11:05:01] Username for 234294849723957248 is already correct. Skipping update.
+[2025-03-12 11:05:01] Using cached status for invite: ttnude -> INACTIVE
+[2025-03-12 11:05:01] Using cached status for invite: ttnude -> INACTIVE
+[2025-03-12 11:05:01] Processing account: ACCOUNT_NUMBER_268
+[2025-03-12 11:05:01] Fetching username for Discord ID: 985219466524774420
+[2025-03-12 11:05:01] Username for 985219466524774420 is already correct. Skipping update.
+[2025-03-12 11:05:01] Using cached status for invite: seductivegirls -> INACTIVE
+[2025-03-12 11:05:01] Using cached status for invite: seductivegirls -> INACTIVE
+[2025-03-12 11:05:01] Processing account: ACCOUNT_NUMBER_269
+[2025-03-12 11:05:01] Fetching username for Discord ID: 631359143361642496
+[2025-03-12 11:05:02] Username for 631359143361642496 is already correct. Skipping update.
+[2025-03-12 11:05:02] Processing account: ACCOUNT_NUMBER_270
+[2025-03-12 11:05:02] Fetching username for Discord ID: 545314088599814164
+[2025-03-12 11:05:02] Username for 545314088599814164 is already correct. Skipping update.
+[2025-03-12 11:05:02] Processing account: ACCOUNT_NUMBER_271
+[2025-03-12 11:05:02] Fetching username for Discord ID: 703073121485324358
+[2025-03-12 11:05:02] Username for 703073121485324358 is already correct. Skipping update.
+[2025-03-12 11:05:02] Processing account: ACCOUNT_NUMBER_272
+[2025-03-12 11:05:02] Fetching username for Discord ID: 317265573098684417
+[2025-03-12 11:05:02] Retrieved username: tirexhuskys
+[2025-03-12 11:05:02] Username for 317265573098684417 is already correct. Skipping update.
+[2025-03-12 11:05:02] Processing account: ACCOUNT_NUMBER_273
+[2025-03-12 11:05:02] Fetching username for Discord ID: 603271680328204299
+[2025-03-12 11:05:02] Username for 603271680328204299 is already correct. Skipping update.
+[2025-03-12 11:05:02] Checking status for Discord invite: teengirls
+[2025-03-12 11:05:02] Invite teengirls is INACTIVE
+[2025-03-12 11:05:02] Using cached status for invite: teengirls -> INACTIVE
+[2025-03-12 11:05:02] Processing account: ACCOUNT_NUMBER_274
+[2025-03-12 11:05:02] Fetching username for Discord ID: 358798212355719200
+[2025-03-12 11:05:03] Username for 358798212355719200 is already correct. Skipping update.
+[2025-03-12 11:05:03] Using cached status for invite: teengirls -> INACTIVE
+[2025-03-12 11:05:03] Using cached status for invite: teengirls -> INACTIVE
+[2025-03-12 11:05:03] Processing account: ACCOUNT_NUMBER_275
+[2025-03-12 11:05:03] Fetching username for Discord ID: 1118473778951901186
+[2025-03-12 11:05:03] Username for 1118473778951901186 is already correct. Skipping update.
+[2025-03-12 11:05:03] Checking status for Discord invite: teen-girl
+[2025-03-12 11:05:03] Invite teen-girl is INACTIVE
+[2025-03-12 11:05:03] Using cached status for invite: teen-girl -> INACTIVE
+[2025-03-12 11:05:03] Processing account: ACCOUNT_NUMBER_276
+[2025-03-12 11:05:03] Fetching username for Discord ID: 617301932838748162
+[2025-03-12 11:05:03] Username for 617301932838748162 is already correct. Skipping update.
+[2025-03-12 11:05:03] Processing account: ACCOUNT_NUMBER_277
+[2025-03-12 11:05:03] Fetching username for Discord ID: 701862091929288795
+[2025-03-12 11:05:03] Retrieved username: aderzim
+[2025-03-12 11:05:03] Username for 701862091929288795 is already correct. Skipping update.
+[2025-03-12 11:05:03] Processing account: ACCOUNT_NUMBER_278
+[2025-03-12 11:05:03] Fetching username for Discord ID: 898460482581721150
+[2025-03-12 11:05:04] Username for 898460482581721150 is already correct. Skipping update.
+[2025-03-12 11:05:04] Checking status for Discord invite: xsex
+[2025-03-12 11:05:04] Invite xsex is INACTIVE
+[2025-03-12 11:05:04] Using cached status for invite: xsex -> INACTIVE
+[2025-03-12 11:05:04] Processing account: ACCOUNT_NUMBER_279
+[2025-03-12 11:05:04] Fetching username for Discord ID: 1042049021679775774
+[2025-03-12 11:05:04] Username for 1042049021679775774 is already correct. Skipping update.
+[2025-03-12 11:05:04] Processing account: ACCOUNT_NUMBER_280
+[2025-03-12 11:05:04] Fetching username for Discord ID: 782559954791170048
+[2025-03-12 11:05:04] Username for 782559954791170048 is already correct. Skipping update.
+[2025-03-12 11:05:04] Processing account: ACCOUNT_NUMBER_281
+[2025-03-12 11:05:04] Fetching username for Discord ID: 218707979166416896
+[2025-03-12 11:05:04] Retrieved username: mark.1001
+[2025-03-12 11:05:04] Username for 218707979166416896 is already correct. Skipping update.
+[2025-03-12 11:05:04] Processing account: ACCOUNT_NUMBER_282
+[2025-03-12 11:05:04] Fetching username for Discord ID: 830259092949303296
+[2025-03-12 11:05:04] Username for 830259092949303296 is already correct. Skipping update.
+[2025-03-12 11:05:04] Processing account: ACCOUNT_NUMBER_283
+[2025-03-12 11:05:04] Fetching username for Discord ID: 860860758937829377
+[2025-03-12 11:05:05] Username for 860860758937829377 is already correct. Skipping update.
+[2025-03-12 11:05:05] Processing account: ACCOUNT_NUMBER_284
+[2025-03-12 11:05:05] Fetching username for Discord ID: 846380952132386826
+[2025-03-12 11:05:05] Username for 846380952132386826 is already correct. Skipping update.
+[2025-03-12 11:05:05] Processing account: ACCOUNT_NUMBER_285
+[2025-03-12 11:05:05] Fetching username for Discord ID: 366212510090657792
+[2025-03-12 11:05:05] Username for 366212510090657792 is already correct. Skipping update.
+[2025-03-12 11:05:05] Processing account: ACCOUNT_NUMBER_286
+[2025-03-12 11:05:05] Fetching username for Discord ID: 900660364184805386
+[2025-03-12 11:05:05] Retrieved username: tanmk457
+[2025-03-12 11:05:05] Username for 900660364184805386 is already correct. Skipping update.
+[2025-03-12 11:05:05] Processing account: ACCOUNT_NUMBER_287
+[2025-03-12 11:05:05] Fetching username for Discord ID: 356525119322980354
+[2025-03-12 11:05:06] Username for 356525119322980354 is already correct. Skipping update.
+[2025-03-12 11:05:06] Using cached status for invite: teen-girl -> INACTIVE
+[2025-03-12 11:05:06] Using cached status for invite: teen-girl -> INACTIVE
+[2025-03-12 11:05:06] Processing account: ACCOUNT_NUMBER_288
+[2025-03-12 11:05:06] Fetching username for Discord ID: 283705622447390722
+[2025-03-12 11:05:06] Username for 283705622447390722 is already correct. Skipping update.
+[2025-03-12 11:05:06] Processing account: ACCOUNT_NUMBER_289
+[2025-03-12 11:05:06] Fetching username for Discord ID: 755835134728470548
+[2025-03-12 11:05:06] Username for 755835134728470548 is already correct. Skipping update.
+[2025-03-12 11:05:06] Processing account: ACCOUNT_NUMBER_290
+[2025-03-12 11:05:06] Fetching username for Discord ID: 696809683326861362
+[2025-03-12 11:05:06] Retrieved username: mdev_v
+[2025-03-12 11:05:06] Username for 696809683326861362 is already correct. Skipping update.
+[2025-03-12 11:05:06] Processing account: ACCOUNT_NUMBER_291
+[2025-03-12 11:05:06] Fetching username for Discord ID: 265447626286039040
+[2025-03-12 11:05:06] Username for 265447626286039040 is already correct. Skipping update.
+[2025-03-12 11:05:06] Checking status for Discord invite: hotgirlss
+[2025-03-12 11:05:07] Invite hotgirlss is INACTIVE
+[2025-03-12 11:05:07] Using cached status for invite: hotgirlss -> INACTIVE
+[2025-03-12 11:05:07] Processing account: ACCOUNT_NUMBER_292
+[2025-03-12 11:05:07] Fetching username for Discord ID: 875194608638885938
+[2025-03-12 11:05:07] Username for 875194608638885938 is already correct. Skipping update.
+[2025-03-12 11:05:07] Checking status for Discord invite: nsfwporn
+[2025-03-12 11:05:07] Invite nsfwporn is INACTIVE
+[2025-03-12 11:05:07] Using cached status for invite: nsfwporn -> INACTIVE
+[2025-03-12 11:05:07] Processing account: ACCOUNT_NUMBER_293
+[2025-03-12 11:05:07] Fetching username for Discord ID: 832349520992927764
+[2025-03-12 11:05:07] Username for 832349520992927764 is already correct. Skipping update.
+[2025-03-12 11:05:07] Processing account: ACCOUNT_NUMBER_294
+[2025-03-12 11:05:07] Fetching username for Discord ID: 283116752924049408
+[2025-03-12 11:05:07] Retrieved username: deleted_user_22a76772d9ac
+[2025-03-12 11:05:07] Username for 283116752924049408 is already correct. Skipping update.
+[2025-03-12 11:05:07] Processing account: ACCOUNT_NUMBER_295
+[2025-03-12 11:05:07] Fetching username for Discord ID: 301023404620906497
+[2025-03-12 11:05:07] Username for 301023404620906497 is already correct. Skipping update.
+[2025-03-12 11:05:07] Checking status for Discord invite: esexx
+[2025-03-12 11:05:07] Invite esexx is INACTIVE
+[2025-03-12 11:05:07] Using cached status for invite: esexx -> INACTIVE
+[2025-03-12 11:05:07] Processing account: ACCOUNT_NUMBER_296
+[2025-03-12 11:05:07] Fetching username for Discord ID: 892260845365653504
+[2025-03-12 11:05:08] Username for 892260845365653504 is already correct. Skipping update.
+[2025-03-12 11:05:08] Processing account: ACCOUNT_NUMBER_297
+[2025-03-12 11:05:08] Fetching username for Discord ID: 456449017610764302
+[2025-03-12 11:05:08] Username for 456449017610764302 is already correct. Skipping update.
+[2025-03-12 11:05:08] Processing account: ACCOUNT_NUMBER_298
+[2025-03-12 11:05:08] Fetching username for Discord ID: 1107606020911538207
+[2025-03-12 11:05:08] Username for 1107606020911538207 is already correct. Skipping update.
+[2025-03-12 11:05:08] Processing account: ACCOUNT_NUMBER_299
+[2025-03-12 11:05:08] Fetching username for Discord ID: 1045262704543281242
+[2025-03-12 11:05:08] Retrieved username: tomashu
+[2025-03-12 11:05:08] Username for 1045262704543281242 is already correct. Skipping update.
+[2025-03-12 11:05:08] Processing account: ACCOUNT_NUMBER_300
+[2025-03-12 11:05:08] Fetching username for Discord ID: 1208711388172656661
+[2025-03-12 11:05:08] Username for 1208711388172656661 is already correct. Skipping update.
+[2025-03-12 11:05:08] Using cached status for invite: teengirls -> INACTIVE
+[2025-03-12 11:05:08] Using cached status for invite: teengirls -> INACTIVE
+[2025-03-12 11:05:08] Processing account: ACCOUNT_NUMBER_301
+[2025-03-12 11:05:08] Fetching username for Discord ID: 1225259376131182672
+[2025-03-12 11:05:09] Username for 1225259376131182672 is already correct. Skipping update.
+[2025-03-12 11:05:09] Checking status for Discord invite: CYNumE8ABr
+[2025-03-12 11:05:09] Invite CYNumE8ABr is INACTIVE
+[2025-03-12 11:05:09] Using cached status for invite: CYNumE8ABr -> INACTIVE
+[2025-03-12 11:05:09] Processing account: ACCOUNT_NUMBER_302
+[2025-03-12 11:05:09] Fetching username for Discord ID: 252067835898101770
+[2025-03-12 11:05:09] Username for 252067835898101770 is already correct. Skipping update.
+[2025-03-12 11:05:09] Processing account: ACCOUNT_NUMBER_303
+[2025-03-12 11:05:09] Fetching username for Discord ID: 252067835898101770
+[2025-03-12 11:05:09] Username for 252067835898101770 is already correct. Skipping update.
+[2025-03-12 11:05:09] Processing account: ACCOUNT_NUMBER_304
+[2025-03-12 11:05:09] Fetching username for Discord ID: 829955290446692352
+[2025-03-12 11:05:09] Retrieved username: ltg6603
+[2025-03-12 11:05:09] Username for 829955290446692352 is already correct. Skipping update.
+[2025-03-12 11:05:09] Checking status for Discord invite: e-porns
+[2025-03-12 11:05:10] Invite e-porns is INACTIVE
+[2025-03-12 11:05:10] Using cached status for invite: e-porns -> INACTIVE
+[2025-03-12 11:05:10] Processing account: ACCOUNT_NUMBER_305
+[2025-03-12 11:05:10] Fetching username for Discord ID: 829955290446692352
+[2025-03-12 11:05:10] Username for 829955290446692352 is already correct. Skipping update.
+[2025-03-12 11:05:10] Processing account: ACCOUNT_NUMBER_306
+[2025-03-12 11:05:10] Fetching username for Discord ID: 140319810096594944
+[2025-03-12 11:05:10] Username for 140319810096594944 is already correct. Skipping update.
+[2025-03-12 11:05:10] Checking status for Discord invite: nsfwxxx
+[2025-03-12 11:05:10] Invite nsfwxxx is INACTIVE
+[2025-03-12 11:05:10] Using cached status for invite: nsfwxxx -> INACTIVE
+[2025-03-12 11:05:10] Processing account: ACCOUNT_NUMBER_307
+[2025-03-12 11:05:10] Fetching username for Discord ID: 395965755545616386
+[2025-03-12 11:05:10] Retrieved username: mc_aboba
+[2025-03-12 11:05:10] Username for 395965755545616386 is already correct. Skipping update.
+[2025-03-12 11:05:10] Processing account: ACCOUNT_NUMBER_308
+[2025-03-12 11:05:10] Fetching username for Discord ID: 395965755545616386
+[2025-03-12 11:05:10] Username for 395965755545616386 is already correct. Skipping update.
+[2025-03-12 11:05:10] Processing account: ACCOUNT_NUMBER_309
+[2025-03-12 11:05:10] Fetching username for Discord ID: 256139158190424065
+[2025-03-12 11:05:11] Username for 256139158190424065 is already correct. Skipping update.
+[2025-03-12 11:05:11] Processing account: ACCOUNT_NUMBER_310
+[2025-03-12 11:05:11] Fetching username for Discord ID: 1196843178943328306
+[2025-03-12 11:05:11] Username for 1196843178943328306 is already correct. Skipping update.
+[2025-03-12 11:05:11] Checking status for Discord invite: 4erGNtWE
+[2025-03-12 11:05:11] Invite 4erGNtWE is INACTIVE
+[2025-03-12 11:05:11] Using cached status for invite: 4erGNtWE -> INACTIVE
+[2025-03-12 11:05:11] Processing account: ACCOUNT_NUMBER_311
+[2025-03-12 11:05:11] Fetching username for Discord ID: 1017157065610899588
+[2025-03-12 11:05:11] Username for 1017157065610899588 is already correct. Skipping update.
+[2025-03-12 11:05:11] Using cached status for invite: e-porns -> INACTIVE
+[2025-03-12 11:05:11] Using cached status for invite: e-porns -> INACTIVE
+[2025-03-12 11:05:11] Processing account: ACCOUNT_NUMBER_312
+[2025-03-12 11:05:11] Fetching username for Discord ID: 305663970679848961
+[2025-03-12 11:05:11] Retrieved username: erhusha
+[2025-03-12 11:05:11] Username for 305663970679848961 is already correct. Skipping update.
+[2025-03-12 11:05:11] Processing account: ACCOUNT_NUMBER_313
+[2025-03-12 11:05:11] Fetching username for Discord ID: 1016282535879245896
+[2025-03-12 11:05:11] Username for 1016282535879245896 is already correct. Skipping update.
+[2025-03-12 11:05:11] Processing account: ACCOUNT_NUMBER_314
+[2025-03-12 11:05:11] Fetching username for Discord ID: 846348263603044372
+[2025-03-12 11:05:12] Username for 846348263603044372 is already correct. Skipping update.
+[2025-03-12 11:05:12] Checking status for Discord invite: VYtq9nhhYC
+[2025-03-12 11:05:12] Invite VYtq9nhhYC is INACTIVE
+[2025-03-12 11:05:12] Using cached status for invite: VYtq9nhhYC -> INACTIVE
+[2025-03-12 11:05:12] Processing account: ACCOUNT_NUMBER_315
+[2025-03-12 11:05:12] Fetching username for Discord ID: 1007610418530877492
+[2025-03-12 11:05:12] Username for 1007610418530877492 is already correct. Skipping update.
+[2025-03-12 11:05:12] Processing account: ACCOUNT_NUMBER_316
+[2025-03-12 11:05:12] Fetching username for Discord ID: 568780903510179842
+[2025-03-12 11:05:12] Username for 568780903510179842 is already correct. Skipping update.
+[2025-03-12 11:05:12] Processing account: ACCOUNT_NUMBER_317
+[2025-03-12 11:05:12] Fetching username for Discord ID: 418862287340961792
+[2025-03-12 11:05:12] Retrieved username: brandonlee523
+[2025-03-12 11:05:12] Username for 418862287340961792 is already correct. Skipping update.
+[2025-03-12 11:05:12] Processing account: ACCOUNT_NUMBER_318
+[2025-03-12 11:05:12] Fetching username for Discord ID: 356957135151562752
+[2025-03-12 11:05:12] Username for 356957135151562752 is already correct. Skipping update.
+[2025-03-12 11:05:12] Processing account: ACCOUNT_NUMBER_319
+[2025-03-12 11:05:12] Fetching username for Discord ID: 832018242200535061
+[2025-03-12 11:05:13] Username for 832018242200535061 is already correct. Skipping update.
+[2025-03-12 11:05:13] Processing account: ACCOUNT_NUMBER_320
+[2025-03-12 11:05:13] Fetching username for Discord ID: 1102027469038559323
+[2025-03-12 11:05:13] Username for 1102027469038559323 is already correct. Skipping update.
+[2025-03-12 11:05:13] Checking status for Discord invite: xxxpics
+[2025-03-12 11:05:13] Invite xxxpics is INACTIVE
+[2025-03-12 11:05:13] Using cached status for invite: xxxpics -> INACTIVE
+[2025-03-12 11:05:13] Processing account: ACCOUNT_NUMBER_321
+[2025-03-12 11:05:13] Fetching username for Discord ID: 642442442326540297
+[2025-03-12 11:05:13] Username for 642442442326540297 is already correct. Skipping update.
+[2025-03-12 11:05:13] Processing account: ACCOUNT_NUMBER_322
+[2025-03-12 11:05:13] Fetching username for Discord ID: 542716188548136960
+[2025-03-12 11:05:13] Retrieved username: call_me_bartek10
+[2025-03-12 11:05:13] Username for 542716188548136960 is already correct. Skipping update.
+[2025-03-12 11:05:13] Checking status for Discord invite: sexygood
+[2025-03-12 11:05:13] Invite sexygood is INACTIVE
+[2025-03-12 11:05:13] Using cached status for invite: sexygood -> INACTIVE
+[2025-03-12 11:05:13] Processing account: ACCOUNT_NUMBER_323
+[2025-03-12 11:05:13] Fetching username for Discord ID: 356473488661282816
+[2025-03-12 11:05:13] Username for 356473488661282816 is already correct. Skipping update.
+[2025-03-12 11:05:13] Checking status for Discord invite: sweetleaks
+[2025-03-12 11:05:14] Invite sweetleaks is INACTIVE
+[2025-03-12 11:05:14] Using cached status for invite: sweetleaks -> INACTIVE
+[2025-03-12 11:05:14] Processing account: ACCOUNT_NUMBER_324
+[2025-03-12 11:05:14] Fetching username for Discord ID: 360704478909038593
+[2025-03-12 11:05:14] Username for 360704478909038593 is already correct. Skipping update.
+[2025-03-12 11:05:14] Processing account: ACCOUNT_NUMBER_325
+[2025-03-12 11:05:14] Fetching username for Discord ID: 1070682364881145887
+[2025-03-12 11:05:14] Username for 1070682364881145887 is already correct. Skipping update.
+[2025-03-12 11:05:14] Checking status for Discord invite: h0tg1rls
+[2025-03-12 11:05:14] Invite h0tg1rls is INACTIVE
+[2025-03-12 11:05:14] Using cached status for invite: h0tg1rls -> INACTIVE
+[2025-03-12 11:05:14] Processing account: ACCOUNT_NUMBER_326
+[2025-03-12 11:05:14] Fetching username for Discord ID: 896635451950112781
+[2025-03-12 11:05:14] Username for 896635451950112781 is already correct. Skipping update.
+[2025-03-12 11:05:14] Using cached status for invite: h0tg1rls -> INACTIVE
+[2025-03-12 11:05:14] Using cached status for invite: h0tg1rls -> INACTIVE
+[2025-03-12 11:05:14] Processing account: ACCOUNT_NUMBER_327
+[2025-03-12 11:05:14] Fetching username for Discord ID: 960155698384228434
+[2025-03-12 11:05:14] Retrieved username: fox1t
+[2025-03-12 11:05:14] Username for 960155698384228434 is already correct. Skipping update.
+[2025-03-12 11:05:14] Processing account: ACCOUNT_NUMBER_328
+[2025-03-12 11:05:14] Fetching username for Discord ID: 889916048407691275
+[2025-03-12 11:05:15] Username for 889916048407691275 is already correct. Skipping update.
+[2025-03-12 11:05:15] Checking status for Discord invite: t9ejq7gs
+[2025-03-12 11:05:15] Invite t9ejq7gs is INACTIVE
+[2025-03-12 11:05:15] Using cached status for invite: t9ejq7gs -> INACTIVE
+[2025-03-12 11:05:15] Processing account: ACCOUNT_NUMBER_329
+[2025-03-12 11:05:15] Fetching username for Discord ID: 123042426641317889
+[2025-03-12 11:05:15] Username for 123042426641317889 is already correct. Skipping update.
+[2025-03-12 11:05:15] Processing account: ACCOUNT_NUMBER_330
+[2025-03-12 11:05:15] Fetching username for Discord ID: 519211416629149718
+[2025-03-12 11:05:15] Username for 519211416629149718 is already correct. Skipping update.
+[2025-03-12 11:05:15] Checking status for Discord invite: xxxhubs
+[2025-03-12 11:05:15] Invite xxxhubs is INACTIVE
+[2025-03-12 11:05:15] Using cached status for invite: xxxhubs -> INACTIVE
+[2025-03-12 11:05:15] Processing account: ACCOUNT_NUMBER_331
+[2025-03-12 11:05:15] Fetching username for Discord ID: 938139060680138854
+[2025-03-12 11:05:15] Retrieved username: neti12543
+[2025-03-12 11:05:15] Username for 938139060680138854 is already correct. Skipping update.
+[2025-03-12 11:05:15] Processing account: ACCOUNT_NUMBER_332
+[2025-03-12 11:05:15] Fetching username for Discord ID: 1002127268941926461
+[2025-03-12 11:05:15] Username for 1002127268941926461 is already correct. Skipping update.
+[2025-03-12 11:05:15] Processing account: ACCOUNT_NUMBER_333
+[2025-03-12 11:05:15] Fetching username for Discord ID: 660816070562545674
+[2025-03-12 11:05:16] Username for 660816070562545674 is already correct. Skipping update.
+[2025-03-12 11:05:16] Processing account: ACCOUNT_NUMBER_334
+[2025-03-12 11:05:16] Fetching username for Discord ID: 759678332576202762
+[2025-03-12 11:05:16] Username for 759678332576202762 is already correct. Skipping update.
+[2025-03-12 11:05:16] Processing account: ACCOUNT_NUMBER_335
+[2025-03-12 11:05:16] Fetching username for Discord ID: 360163598879948822
+[2025-03-12 11:05:16] Username for 360163598879948822 is already correct. Skipping update.
+[2025-03-12 11:05:16] Checking status for Discord invite: nsfwhubs
+[2025-03-12 11:05:16] Invite nsfwhubs is INACTIVE
+[2025-03-12 11:05:16] Using cached status for invite: nsfwhubs -> INACTIVE
+[2025-03-12 11:05:16] Processing account: ACCOUNT_NUMBER_336
+[2025-03-12 11:05:16] Fetching username for Discord ID: 511912577098579973
+[2025-03-12 11:05:16] Retrieved username: st4cchu
+[2025-03-12 11:05:16] Username for 511912577098579973 is already correct. Skipping update.
+[2025-03-12 11:05:16] Processing account: ACCOUNT_NUMBER_337
+[2025-03-12 11:05:16] Fetching username for Discord ID: 385767292862070794
+[2025-03-12 11:05:17] Username for 385767292862070794 is already correct. Skipping update.
+[2025-03-12 11:05:17] Processing account: ACCOUNT_NUMBER_338
+[2025-03-12 11:05:17] Fetching username for Discord ID: 458204051881066506
+[2025-03-12 11:05:17] Username for 458204051881066506 is already correct. Skipping update.
+[2025-03-12 11:05:17] Processing account: ACCOUNT_NUMBER_339
+[2025-03-12 11:05:17] Fetching username for Discord ID: 253848829260988416
+[2025-03-12 11:05:17] Username for 253848829260988416 is already correct. Skipping update.
+[2025-03-12 11:05:17] Processing account: ACCOUNT_NUMBER_340
+[2025-03-12 11:05:17] Fetching username for Discord ID: 476115736956502018
+[2025-03-12 11:05:17] Retrieved username: dejwick
+[2025-03-12 11:05:17] Username for 476115736956502018 is already correct. Skipping update.
+[2025-03-12 11:05:17] Processing account: ACCOUNT_NUMBER_341
+[2025-03-12 11:05:17] Fetching username for Discord ID: 452421490692980736
+[2025-03-12 11:05:17] Username for 452421490692980736 is already correct. Skipping update.
+[2025-03-12 11:05:17] Processing account: ACCOUNT_NUMBER_342
+[2025-03-12 11:05:17] Fetching username for Discord ID: 347860434411323404
+[2025-03-12 11:05:18] Username for 347860434411323404 is already correct. Skipping update.
+[2025-03-12 11:05:18] Processing account: ACCOUNT_NUMBER_343
+[2025-03-12 11:05:18] Fetching username for Discord ID: 1111231962888282113
+[2025-03-12 11:05:18] Username for 1111231962888282113 is already correct. Skipping update.
+[2025-03-12 11:05:18] Processing account: ACCOUNT_NUMBER_344
+[2025-03-12 11:05:18] Fetching username for Discord ID: 452421490692980736
+[2025-03-12 11:05:18] Username for 452421490692980736 is already correct. Skipping update.
+[2025-03-12 11:05:18] Processing account: ACCOUNT_NUMBER_345
+[2025-03-12 11:05:18] Fetching username for Discord ID: 1111231962888282113
+[2025-03-12 11:05:18] Retrieved username: motmikemsuy
+[2025-03-12 11:05:18] Username for 1111231962888282113 is already correct. Skipping update.
+[2025-03-12 11:05:18] Processing account: ACCOUNT_NUMBER_346
+[2025-03-12 11:05:18] Fetching username for Discord ID: 347860434411323404
+[2025-03-12 11:05:18] Username for 347860434411323404 is already correct. Skipping update.
+[2025-03-12 11:05:18] Processing account: ACCOUNT_NUMBER_347
+[2025-03-12 11:05:18] Fetching username for Discord ID: 888121624631578764
+[2025-03-12 11:05:19] Username for 888121624631578764 is already correct. Skipping update.
+[2025-03-12 11:05:19] Processing account: ACCOUNT_NUMBER_348
+[2025-03-12 11:05:19] Fetching username for Discord ID: 988805652031893505
+[2025-03-12 11:05:19] Username for 988805652031893505 is already correct. Skipping update.
+[2025-03-12 11:05:19] Processing account: ACCOUNT_NUMBER_349
+[2025-03-12 11:05:19] Fetching username for Discord ID: 448164619316625409
+[2025-03-12 11:05:21] Retrieved username: neronomk
+[2025-03-12 11:05:21] Username for 448164619316625409 is already correct. Skipping update.
+[2025-03-12 11:05:21] Processing account: ACCOUNT_NUMBER_350
+[2025-03-12 11:05:21] Fetching username for Discord ID: 790235586246082560
+[2025-03-12 11:05:21] Retrieved username: metzelmotte2009
+[2025-03-12 11:05:21] Username for 790235586246082560 is already correct. Skipping update.
+[2025-03-12 11:05:21] Using cached status for invite: xxxhubs -> INACTIVE
+[2025-03-12 11:05:21] Using cached status for invite: xxxhubs -> INACTIVE
+[2025-03-12 11:05:21] Processing account: ACCOUNT_NUMBER_351
+[2025-03-12 11:05:21] Fetching username for Discord ID: 274968874569695232
+[2025-03-12 11:05:21] Username for 274968874569695232 is already correct. Skipping update.
+[2025-03-12 11:05:21] Processing account: ACCOUNT_NUMBER_352
+[2025-03-12 11:05:21] Fetching username for Discord ID: 389144531544702986
+[2025-03-12 11:05:21] Retrieved username: sergeantbino
+[2025-03-12 11:05:21] Username for 389144531544702986 is already correct. Skipping update.
+[2025-03-12 11:05:21] Checking status for Discord invite: UmACwksH7G
+[2025-03-12 11:05:21] Invite UmACwksH7G is INACTIVE
+[2025-03-12 11:05:21] Using cached status for invite: UmACwksH7G -> INACTIVE
+[2025-03-12 11:05:21] Processing account: ACCOUNT_NUMBER_353
+[2025-03-12 11:05:21] Fetching username for Discord ID: 411603310722809867
+[2025-03-12 11:05:21] Username for 411603310722809867 is already correct. Skipping update.
+[2025-03-12 11:05:21] Processing account: ACCOUNT_NUMBER_354
+[2025-03-12 11:05:21] Fetching username for Discord ID: 900945131644002334
+[2025-03-12 11:05:22] Username for 900945131644002334 is already correct. Skipping update.
+[2025-03-12 11:05:22] Processing account: ACCOUNT_NUMBER_355
+[2025-03-12 11:05:22] Fetching username for Discord ID: 294760387172368384
+[2025-03-12 11:05:22] Username for 294760387172368384 is already correct. Skipping update.
+[2025-03-12 11:05:22] Processing account: ACCOUNT_NUMBER_356
+[2025-03-12 11:05:22] Fetching username for Discord ID: 414384434394169354
+[2025-03-12 11:05:22] Username for 414384434394169354 is already correct. Skipping update.
+[2025-03-12 11:05:22] Processing account: ACCOUNT_NUMBER_357
+[2025-03-12 11:05:22] Fetching username for Discord ID: 486468622059962369
+[2025-03-12 11:05:22] Retrieved username: deleted_user_e731ef222168
+[2025-03-12 11:05:22] Username for 486468622059962369 is already correct. Skipping update.
+[2025-03-12 11:05:22] Processing account: ACCOUNT_NUMBER_358
+[2025-03-12 11:05:22] Fetching username for Discord ID: 1099711205314146326
+[2025-03-12 11:05:22] Username for 1099711205314146326 is already correct. Skipping update.
+[2025-03-12 11:05:22] Processing account: ACCOUNT_NUMBER_359
+[2025-03-12 11:05:22] Fetching username for Discord ID: 639856562403541012
+[2025-03-12 11:05:23] Username for 639856562403541012 is already correct. Skipping update.
+[2025-03-12 11:05:23] Processing account: ACCOUNT_NUMBER_360
+[2025-03-12 11:05:23] Fetching username for Discord ID: 586270085845352474
+[2025-03-12 11:05:23] Username for 586270085845352474 is already correct. Skipping update.
+[2025-03-12 11:05:23] Processing account: ACCOUNT_NUMBER_361
+[2025-03-12 11:05:23] Fetching username for Discord ID: 522107951536930817
+[2025-03-12 11:05:23] Username for 522107951536930817 is already correct. Skipping update.
+[2025-03-12 11:05:23] Using cached status for invite: xxxhubs -> INACTIVE
+[2025-03-12 11:05:23] Using cached status for invite: xxxhubs -> INACTIVE
+[2025-03-12 11:05:23] Processing account: ACCOUNT_NUMBER_362
+[2025-03-12 11:05:23] Fetching username for Discord ID: 634691517126148096
+[2025-03-12 11:05:23] Retrieved username: jackal0217
+[2025-03-12 11:05:23] Username for 634691517126148096 is already correct. Skipping update.
+[2025-03-12 11:05:23] Checking status for Discord invite: xxxhub
+[2025-03-12 11:05:23] Invite xxxhub is INACTIVE
+[2025-03-12 11:05:23] Using cached status for invite: xxxhub -> INACTIVE
+[2025-03-12 11:05:23] Processing account: ACCOUNT_NUMBER_363
+[2025-03-12 11:05:23] Fetching username for Discord ID: 734106066031476790
+[2025-03-12 11:05:24] Username for 734106066031476790 is already correct. Skipping update.
+[2025-03-12 11:05:24] Checking status for Discord invite: k4pyNmkr
+[2025-03-12 11:05:24] Invite k4pyNmkr is INACTIVE
+[2025-03-12 11:05:24] Using cached status for invite: k4pyNmkr -> INACTIVE
+[2025-03-12 11:05:24] Processing account: ACCOUNT_NUMBER_364
+[2025-03-12 11:05:24] Fetching username for Discord ID: 734106066031476790
+[2025-03-12 11:05:24] Username for 734106066031476790 is already correct. Skipping update.
+[2025-03-12 11:05:24] Checking status for Discord invite: exclusivensfw
+[2025-03-12 11:05:24] Invite exclusivensfw is INACTIVE
+[2025-03-12 11:05:24] Using cached status for invite: exclusivensfw -> INACTIVE
+[2025-03-12 11:05:24] Processing account: ACCOUNT_NUMBER_365
+[2025-03-12 11:05:24] Fetching username for Discord ID: 734106066031476790
+[2025-03-12 11:05:24] Username for 734106066031476790 is already correct. Skipping update.
+[2025-03-12 11:05:24] Processing account: ACCOUNT_NUMBER_366
+[2025-03-12 11:05:24] Fetching username for Discord ID: 734106066031476790
+[2025-03-12 11:05:24] Retrieved username: at0m1xuuu
+[2025-03-12 11:05:24] Username for 734106066031476790 is already correct. Skipping update.
+[2025-03-12 11:05:24] Checking status for Discord invite: nsfwspot
+[2025-03-12 11:05:24] Invite nsfwspot is INACTIVE
+[2025-03-12 11:05:24] Using cached status for invite: nsfwspot -> INACTIVE
+[2025-03-12 11:05:24] Processing account: ACCOUNT_NUMBER_367
+[2025-03-12 11:05:24] Fetching username for Discord ID: 657663080481947648
+[2025-03-12 11:05:25] Username for 657663080481947648 is already correct. Skipping update.
+[2025-03-12 11:05:25] Processing account: ACCOUNT_NUMBER_368
+[2025-03-12 11:05:25] Fetching username for Discord ID: 359097526235824138
+[2025-03-12 11:05:25] Username for 359097526235824138 is already correct. Skipping update.
+[2025-03-12 11:05:25] Checking status for Discord invite: dW46ndaxR
+[2025-03-12 11:05:25] Invite dW46ndaxR is INACTIVE
+[2025-03-12 11:05:25] Using cached status for invite: dW46ndaxR -> INACTIVE
+[2025-03-12 11:05:25] Processing account: ACCOUNT_NUMBER_369
+[2025-03-12 11:05:25] Fetching username for Discord ID: 639856562403541012
+[2025-03-12 11:05:25] Username for 639856562403541012 is already correct. Skipping update.
+[2025-03-12 11:05:25] Processing account: ACCOUNT_NUMBER_370
+[2025-03-12 11:05:25] Fetching username for Discord ID: 956868131849134092
+[2025-03-12 11:05:25] Retrieved username: rnyeloh
+[2025-03-12 11:05:25] Username for 956868131849134092 is already correct. Skipping update.
+[2025-03-12 11:05:25] Processing account: ACCOUNT_NUMBER_371
+[2025-03-12 11:05:25] Fetching username for Discord ID: 823608825063407657
+[2025-03-12 11:05:25] Username for 823608825063407657 is already correct. Skipping update.
+[2025-03-12 11:05:25] Using cached status for invite: nsfwhubs -> INACTIVE
+[2025-03-12 11:05:25] Using cached status for invite: nsfwhubs -> INACTIVE
+[2025-03-12 11:05:25] Processing account: ACCOUNT_NUMBER_372
+[2025-03-12 11:05:25] Fetching username for Discord ID: 942026460988846101
+[2025-03-12 11:05:26] Username for 942026460988846101 is already correct. Skipping update.
+[2025-03-12 11:05:26] Processing account: ACCOUNT_NUMBER_373
+[2025-03-12 11:05:26] Fetching username for Discord ID: 1237671235131936811
+[2025-03-12 11:05:26] Username for 1237671235131936811 is already correct. Skipping update.
+[2025-03-12 11:05:26] Processing account: ACCOUNT_NUMBER_374
+[2025-03-12 11:05:26] Fetching username for Discord ID: 927220433646944267
+[2025-03-12 11:05:26] Username for 927220433646944267 is already correct. Skipping update.
+[2025-03-12 11:05:26] Processing account: ACCOUNT_NUMBER_375
+[2025-03-12 11:05:26] Fetching username for Discord ID: 398137036017762304
+[2025-03-12 11:05:26] Retrieved username: anonymousgamer5293
+[2025-03-12 11:05:26] Username for 398137036017762304 is already correct. Skipping update.
+[2025-03-12 11:05:26] Processing account: ACCOUNT_NUMBER_376
+[2025-03-12 11:05:26] Fetching username for Discord ID: 655293104013836298
+[2025-03-12 11:05:27] Username for 655293104013836298 is already correct. Skipping update.
+[2025-03-12 11:05:27] Processing account: ACCOUNT_NUMBER_377
+[2025-03-12 11:05:27] Fetching username for Discord ID: 933430500310274150
+[2025-03-12 11:05:27] Username for 933430500310274150 is already correct. Skipping update.
+[2025-03-12 11:05:27] Processing account: ACCOUNT_NUMBER_378
+[2025-03-12 11:05:27] Fetching username for Discord ID: 435962617958367267
+[2025-03-12 11:05:27] Username for 435962617958367267 is already correct. Skipping update.
+[2025-03-12 11:05:27] Processing account: ACCOUNT_NUMBER_379
+[2025-03-12 11:05:27] Fetching username for Discord ID: 393807661222723604
+[2025-03-12 11:05:27] Retrieved username: bon_it
+[2025-03-12 11:05:27] Username for 393807661222723604 is already correct. Skipping update.
+[2025-03-12 11:05:27] Checking status for Discord invite: uXDTXRhEmV
+[2025-03-12 11:05:27] Invite uXDTXRhEmV is INACTIVE
+[2025-03-12 11:05:27] Using cached status for invite: uXDTXRhEmV -> INACTIVE
+[2025-03-12 11:05:27] Processing account: ACCOUNT_NUMBER_380
+[2025-03-12 11:05:27] Fetching username for Discord ID: 535685566759436289
+[2025-03-12 11:05:28] Username for 535685566759436289 is already correct. Skipping update.
+[2025-03-12 11:05:28] Checking status for Discord invite: hottestnudes
+[2025-03-12 11:05:28] Invite hottestnudes is INACTIVE
+[2025-03-12 11:05:28] Using cached status for invite: hottestnudes -> INACTIVE
+[2025-03-12 11:05:28] Processing account: ACCOUNT_NUMBER_381
+[2025-03-12 11:05:28] Fetching username for Discord ID: 622363287509663755
+[2025-03-12 11:05:28] Username for 622363287509663755 is already correct. Skipping update.
+[2025-03-12 11:05:28] Checking status for Discord invite: QnxV8F3M4H
+[2025-03-12 11:05:28] Invite QnxV8F3M4H is INACTIVE
+[2025-03-12 11:05:28] Using cached status for invite: QnxV8F3M4H -> INACTIVE
+[2025-03-12 11:05:28] Processing account: ACCOUNT_NUMBER_382
+[2025-03-12 11:05:28] Fetching username for Discord ID: 1104009748157833248
+[2025-03-12 11:05:28] Username for 1104009748157833248 is already correct. Skipping update.
+[2025-03-12 11:05:28] Processing account: ACCOUNT_NUMBER_383
+[2025-03-12 11:05:28] Fetching username for Discord ID: 310600299985502229
+[2025-03-12 11:05:28] Retrieved username: asloluteman
+[2025-03-12 11:05:28] Username for 310600299985502229 is already correct. Skipping update.
+[2025-03-12 11:05:28] Processing account: ACCOUNT_NUMBER_384
+[2025-03-12 11:05:28] Fetching username for Discord ID: 110961894352773120
+[2025-03-12 11:05:28] Username for 110961894352773120 is already correct. Skipping update.
+[2025-03-12 11:05:28] Processing account: ACCOUNT_NUMBER_385
+[2025-03-12 11:05:28] Fetching username for Discord ID: 1184158972459094056
+[2025-03-12 11:05:29] Username for 1184158972459094056 is already correct. Skipping update.
+[2025-03-12 11:05:29] Checking status for Discord invite: needgirls
+[2025-03-12 11:05:29] Invite needgirls is INACTIVE
+[2025-03-12 11:05:29] Using cached status for invite: needgirls -> INACTIVE
+[2025-03-12 11:05:29] Processing account: ACCOUNT_NUMBER_386
+[2025-03-12 11:05:29] Fetching username for Discord ID: 378587045859295262
+[2025-03-12 11:05:29] Username for 378587045859295262 is already correct. Skipping update.
+[2025-03-12 11:05:29] Processing account: ACCOUNT_NUMBER_387
+[2025-03-12 11:05:29] Fetching username for Discord ID: 548537275483684874
+[2025-03-12 11:05:29] Username for 548537275483684874 is already correct. Skipping update.
+[2025-03-12 11:05:29] Processing account: ACCOUNT_NUMBER_388
+[2025-03-12 11:05:29] Fetching username for Discord ID: 790593040620322879
+[2025-03-12 11:05:29] Retrieved username: deleted_user_a52faa8a0658
+[2025-03-12 11:05:29] Username for 790593040620322879 is already correct. Skipping update.
+[2025-03-12 11:05:29] Checking status for Discord invite: aquacheats
+[2025-03-12 11:05:29] Invite aquacheats is INACTIVE
+[2025-03-12 11:05:29] Using cached status for invite: aquacheats -> INACTIVE
+[2025-03-12 11:05:29] Processing account: ACCOUNT_NUMBER_389
+[2025-03-12 11:05:29] Fetching username for Discord ID: 348140787881738242
+[2025-03-12 11:05:30] Username for 348140787881738242 is already correct. Skipping update.
+[2025-03-12 11:05:30] Checking status for Discord invite: teenhubs
+[2025-03-12 11:05:30] Invite teenhubs is INACTIVE
+[2025-03-12 11:05:30] Using cached status for invite: teenhubs -> INACTIVE
+[2025-03-12 11:05:30] Processing account: ACCOUNT_NUMBER_390
+[2025-03-12 11:05:30] Fetching username for Discord ID: 604744122099826705
+[2025-03-12 11:05:30] Username for 604744122099826705 is already correct. Skipping update.
+[2025-03-12 11:05:30] Processing account: ACCOUNT_NUMBER_391
+[2025-03-12 11:05:30] Fetching username for Discord ID: 1108822740141604874
+[2025-03-12 11:05:30] Username for 1108822740141604874 is already correct. Skipping update.
+[2025-03-12 11:05:30] Checking status for Discord invite: 5XJBNQNu9A
+[2025-03-12 11:05:30] Invite 5XJBNQNu9A is INACTIVE
+[2025-03-12 11:05:30] Using cached status for invite: 5XJBNQNu9A -> INACTIVE
+[2025-03-12 11:05:30] Processing account: ACCOUNT_NUMBER_392
+[2025-03-12 11:05:30] Fetching username for Discord ID: 755078480613474306
+[2025-03-12 11:05:30] Retrieved username: deleted_user_b243efcc5915
+[2025-03-12 11:05:30] Username for 755078480613474306 is already correct. Skipping update.
+[2025-03-12 11:05:30] Checking status for Discord invite: PUHPpZyp3p
+[2025-03-12 11:05:30] Invite PUHPpZyp3p is INACTIVE
+[2025-03-12 11:05:30] Using cached status for invite: PUHPpZyp3p -> INACTIVE
+[2025-03-12 11:05:30] Processing account: ACCOUNT_NUMBER_393
+[2025-03-12 11:05:30] Fetching username for Discord ID: 923264554010566767
+[2025-03-12 11:05:31] Username for 923264554010566767 is already correct. Skipping update.
+[2025-03-12 11:05:31] Using cached status for invite: VYtq9nhhYC -> INACTIVE
+[2025-03-12 11:05:31] Using cached status for invite: VYtq9nhhYC -> INACTIVE
+[2025-03-12 11:05:31] Processing account: ACCOUNT_NUMBER_394
+[2025-03-12 11:05:31] Fetching username for Discord ID: 980300487603667006
+[2025-03-12 11:05:31] Username for 980300487603667006 is already correct. Skipping update.
+[2025-03-12 11:05:31] Processing account: ACCOUNT_NUMBER_395
+[2025-03-12 11:05:31] Fetching username for Discord ID: 658050583600562200
+[2025-03-12 11:05:31] Username for 658050583600562200 is already correct. Skipping update.
+[2025-03-12 11:05:31] Checking status for Discord invite: XYeawwJwky
+[2025-03-12 11:05:31] Invite XYeawwJwky is INACTIVE
+[2025-03-12 11:05:31] Using cached status for invite: XYeawwJwky -> INACTIVE
+[2025-03-12 11:05:31] Processing account: ACCOUNT_NUMBER_396
+[2025-03-12 11:05:31] Fetching username for Discord ID: 658050583600562200
+[2025-03-12 11:05:31] Retrieved username: gmgl_
+[2025-03-12 11:05:31] Username for 658050583600562200 is already correct. Skipping update.
+[2025-03-12 11:05:31] Processing account: ACCOUNT_NUMBER_397
+[2025-03-12 11:05:31] Fetching username for Discord ID: 878012771407638528
+[2025-03-12 11:05:31] Username for 878012771407638528 is already correct. Skipping update.
+[2025-03-12 11:05:31] Using cached status for invite: teenhubs -> INACTIVE
+[2025-03-12 11:05:31] Using cached status for invite: teenhubs -> INACTIVE
+[2025-03-12 11:05:31] Processing account: ACCOUNT_NUMBER_398
+[2025-03-12 11:05:31] Fetching username for Discord ID: 478816097530019860
+[2025-03-12 11:05:32] Username for 478816097530019860 is already correct. Skipping update.
+[2025-03-12 11:05:32] Processing account: ACCOUNT_NUMBER_399
+[2025-03-12 11:05:32] Fetching username for Discord ID: 1118110218669277214
+[2025-03-12 11:05:32] Username for 1118110218669277214 is already correct. Skipping update.
+[2025-03-12 11:05:32] Processing account: ACCOUNT_NUMBER_400
+[2025-03-12 11:05:32] Fetching username for Discord ID: 432130145562787841
+[2025-03-12 11:05:32] Username for 432130145562787841 is already correct. Skipping update.
+[2025-03-12 11:05:32] Processing account: ACCOUNT_NUMBER_401
+[2025-03-12 11:05:32] Fetching username for Discord ID: 728764036316921936
+[2025-03-12 11:05:32] Retrieved username: deleted_user_bbc18c3f5fec
+[2025-03-12 11:05:32] Username for 728764036316921936 is already correct. Skipping update.
+[2025-03-12 11:05:32] Using cached status for invite: PUHPpZyp3p -> INACTIVE
+[2025-03-12 11:05:32] Using cached status for invite: PUHPpZyp3p -> INACTIVE
+[2025-03-12 11:05:32] Processing account: ACCOUNT_NUMBER_402
+[2025-03-12 11:05:32] Fetching username for Discord ID: 978497238743523358
+[2025-03-12 11:05:33] Username for 978497238743523358 is already correct. Skipping update.
+[2025-03-12 11:05:33] Checking status for Discord invite: egirl-haven
+[2025-03-12 11:05:33] Invite egirl-haven is INACTIVE
+[2025-03-12 11:05:33] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:33] Processing account: ACCOUNT_NUMBER_403
+[2025-03-12 11:05:33] Fetching username for Discord ID: 805069669874401280
+[2025-03-12 11:05:33] Username for 805069669874401280 is already correct. Skipping update.
+[2025-03-12 11:05:33] Processing account: ACCOUNT_NUMBER_404
+[2025-03-12 11:05:33] Fetching username for Discord ID: 855026873829556225
+[2025-03-12 11:05:33] Username for 855026873829556225 is already correct. Skipping update.
+[2025-03-12 11:05:33] Processing account: ACCOUNT_NUMBER_405
+[2025-03-12 11:05:33] Fetching username for Discord ID: 1042347518018719814
+[2025-03-12 11:05:33] Username for 1042347518018719814 is already correct. Skipping update.
+[2025-03-12 11:05:33] Processing account: ACCOUNT_NUMBER_406
+[2025-03-12 11:05:33] Fetching username for Discord ID: 1042347518018719814
+[2025-03-12 11:05:33] Retrieved username: mopsik76711beg
+[2025-03-12 11:05:33] Username for 1042347518018719814 is already correct. Skipping update.
+[2025-03-12 11:05:33] Processing account: ACCOUNT_NUMBER_407
+[2025-03-12 11:05:33] Fetching username for Discord ID: 1000599288310681681
+[2025-03-12 11:05:33] Username for 1000599288310681681 is already correct. Skipping update.
+[2025-03-12 11:05:33] Checking status for Discord invite: brhots
+[2025-03-12 11:05:34] Invite brhots is INACTIVE
+[2025-03-12 11:05:34] Using cached status for invite: brhots -> INACTIVE
+[2025-03-12 11:05:34] Processing account: ACCOUNT_NUMBER_408
+[2025-03-12 11:05:34] Fetching username for Discord ID: 1005792460213072038
+[2025-03-12 11:05:34] Username for 1005792460213072038 is already correct. Skipping update.
+[2025-03-12 11:05:34] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:34] Processing account: ACCOUNT_NUMBER_409
+[2025-03-12 11:05:34] Fetching username for Discord ID: 1167961426464342099
+[2025-03-12 11:05:34] Username for 1167961426464342099 is already correct. Skipping update.
+[2025-03-12 11:05:34] Processing account: ACCOUNT_NUMBER_410
+[2025-03-12 11:05:34] Fetching username for Discord ID: 1126852906059051008
+[2025-03-12 11:05:34] Username for 1126852906059051008 is already correct. Skipping update.
+[2025-03-12 11:05:34] Processing account: ACCOUNT_NUMBER_411
+[2025-03-12 11:05:34] Fetching username for Discord ID: 1167961426464342099
+[2025-03-12 11:05:34] Retrieved username: regrets69
+[2025-03-12 11:05:34] Username for 1167961426464342099 is already correct. Skipping update.
+[2025-03-12 11:05:34] Processing account: ACCOUNT_NUMBER_412
+[2025-03-12 11:05:34] Fetching username for Discord ID: 1167961426464342099
+[2025-03-12 11:05:35] Username for 1167961426464342099 is already correct. Skipping update.
+[2025-03-12 11:05:35] Processing account: ACCOUNT_NUMBER_413
+[2025-03-12 11:05:35] Fetching username for Discord ID: 917797900606640129
+[2025-03-12 11:05:35] Username for 917797900606640129 is already correct. Skipping update.
+[2025-03-12 11:05:35] Processing account: ACCOUNT_NUMBER_414
+[2025-03-12 11:05:35] Fetching username for Discord ID: 749291245817430126
+[2025-03-12 11:05:35] Username for 749291245817430126 is already correct. Skipping update.
+[2025-03-12 11:05:35] Processing account: ACCOUNT_NUMBER_415
+[2025-03-12 11:05:35] Fetching username for Discord ID: 686110587159183362
+[2025-03-12 11:05:35] Username for 686110587159183362 is already correct. Skipping update.
+[2025-03-12 11:05:35] Checking status for Discord invite: megafans
+[2025-03-12 11:05:35] Invite megafans is INACTIVE
+[2025-03-12 11:05:35] Using cached status for invite: megafans -> INACTIVE
+[2025-03-12 11:05:35] Processing account: ACCOUNT_NUMBER_416
+[2025-03-12 11:05:35] Fetching username for Discord ID: 792303731495534632
+[2025-03-12 11:05:35] Retrieved username: nightwolf6185
+[2025-03-12 11:05:35] Username for 792303731495534632 is already correct. Skipping update.
+[2025-03-12 11:05:35] Processing account: ACCOUNT_NUMBER_417
+[2025-03-12 11:05:35] Fetching username for Discord ID: 792303731495534632
+[2025-03-12 11:05:36] Username for 792303731495534632 is already correct. Skipping update.
+[2025-03-12 11:05:36] Processing account: ACCOUNT_NUMBER_418
+[2025-03-12 11:05:36] Fetching username for Discord ID: 898544182484959253
+[2025-03-12 11:05:36] Username for 898544182484959253 is already correct. Skipping update.
+[2025-03-12 11:05:36] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:36] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:36] Processing account: ACCOUNT_NUMBER_419
+[2025-03-12 11:05:36] Fetching username for Discord ID: 1070780159327752343
+[2025-03-12 11:05:36] Username for 1070780159327752343 is already correct. Skipping update.
+[2025-03-12 11:05:36] Checking status for Discord invite: girls18
+[2025-03-12 11:05:36] Invite girls18 is INACTIVE
+[2025-03-12 11:05:36] Using cached status for invite: girls18 -> INACTIVE
+[2025-03-12 11:05:36] Processing account: ACCOUNT_NUMBER_420
+[2025-03-12 11:05:36] Fetching username for Discord ID: 411512287426510868
+[2025-03-12 11:05:36] Retrieved username: mr_barnu
+[2025-03-12 11:05:36] Username for 411512287426510868 is already correct. Skipping update.
+[2025-03-12 11:05:36] Processing account: ACCOUNT_NUMBER_421
+[2025-03-12 11:05:36] Fetching username for Discord ID: 631722528179617802
+[2025-03-12 11:05:36] Username for 631722528179617802 is already correct. Skipping update.
+[2025-03-12 11:05:36] Checking status for Discord invite: YcdtMwNpMb
+[2025-03-12 11:05:36] Invite YcdtMwNpMb is INACTIVE
+[2025-03-12 11:05:36] Using cached status for invite: YcdtMwNpMb -> INACTIVE
+[2025-03-12 11:05:36] Processing account: ACCOUNT_NUMBER_422
+[2025-03-12 11:05:36] Fetching username for Discord ID: 559410877355261955
+[2025-03-12 11:05:37] Username for 559410877355261955 is already correct. Skipping update.
+[2025-03-12 11:05:37] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:37] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:37] Processing account: ACCOUNT_NUMBER_423
+[2025-03-12 11:05:37] Fetching username for Discord ID: 921365542466633748
+[2025-03-12 11:05:37] Username for 921365542466633748 is already correct. Skipping update.
+[2025-03-12 11:05:37] Processing account: ACCOUNT_NUMBER_424
+[2025-03-12 11:05:37] Fetching username for Discord ID: 1163074064835940433
+[2025-03-12 11:05:37] Retrieved username: zahrada77
+[2025-03-12 11:05:37] Username for 1163074064835940433 is already correct. Skipping update.
+[2025-03-12 11:05:37] Processing account: ACCOUNT_NUMBER_425
+[2025-03-12 11:05:37] Fetching username for Discord ID: 1163074064835940433
+[2025-03-12 11:05:37] Username for 1163074064835940433 is already correct. Skipping update.
+[2025-03-12 11:05:37] Processing account: ACCOUNT_NUMBER_426
+[2025-03-12 11:05:37] Fetching username for Discord ID: 1163074064835940433
+[2025-03-12 11:05:38] Username for 1163074064835940433 is already correct. Skipping update.
+[2025-03-12 11:05:38] Processing account: ACCOUNT_NUMBER_427
+[2025-03-12 11:05:38] Fetching username for Discord ID: 681146203122958389
+[2025-03-12 11:05:38] Username for 681146203122958389 is already correct. Skipping update.
+[2025-03-12 11:05:38] Processing account: ACCOUNT_NUMBER_428
+[2025-03-12 11:05:38] Fetching username for Discord ID: 1242484435203657901
+[2025-03-12 11:05:38] Username for 1242484435203657901 is already correct. Skipping update.
+[2025-03-12 11:05:38] Processing account: ACCOUNT_NUMBER_429
+[2025-03-12 11:05:38] Fetching username for Discord ID: 774359884963250207
+[2025-03-12 11:05:38] Retrieved username: deleted_user_8dd4b78334fb
+[2025-03-12 11:05:38] Username for 774359884963250207 is already correct. Skipping update.
+[2025-03-12 11:05:38] Processing account: ACCOUNT_NUMBER_430
+[2025-03-12 11:05:38] Fetching username for Discord ID: 774359884963250207
+[2025-03-12 11:05:38] Username for 774359884963250207 is already correct. Skipping update.
+[2025-03-12 11:05:38] Processing account: ACCOUNT_NUMBER_431
+[2025-03-12 11:05:38] Fetching username for Discord ID: 1232755001890308126
+[2025-03-12 11:05:39] Username for 1232755001890308126 is already correct. Skipping update.
+[2025-03-12 11:05:39] Processing account: ACCOUNT_NUMBER_432
+[2025-03-12 11:05:39] Fetching username for Discord ID: 710394675370000455
+[2025-03-12 11:05:39] Username for 710394675370000455 is already correct. Skipping update.
+[2025-03-12 11:05:39] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:39] Processing account: ACCOUNT_NUMBER_433
+[2025-03-12 11:05:39] Fetching username for Discord ID: 559152887150936084
+[2025-03-12 11:05:39] Username for 559152887150936084 is already correct. Skipping update.
+[2025-03-12 11:05:39] Processing account: ACCOUNT_NUMBER_434
+[2025-03-12 11:05:39] Fetching username for Discord ID: 716948399240511501
+[2025-03-12 11:05:39] Retrieved username: tablodaki_resim
+[2025-03-12 11:05:39] Username for 716948399240511501 is already correct. Skipping update.
+[2025-03-12 11:05:39] Processing account: ACCOUNT_NUMBER_435
+[2025-03-12 11:05:39] Fetching username for Discord ID: 101008667079360512
+[2025-03-12 11:05:40] Username for 101008667079360512 is already correct. Skipping update.
+[2025-03-12 11:05:40] Processing account: ACCOUNT_NUMBER_436
+[2025-03-12 11:05:40] Fetching username for Discord ID: 892763358963585116
+[2025-03-12 11:05:40] Username for 892763358963585116 is already correct. Skipping update.
+[2025-03-12 11:05:40] Checking status for Discord invite: xnudes
+[2025-03-12 11:05:40] Invite xnudes is INACTIVE
+[2025-03-12 11:05:40] Using cached status for invite: xnudes -> INACTIVE
+[2025-03-12 11:05:40] Processing account: ACCOUNT_NUMBER_437
+[2025-03-12 11:05:40] Fetching username for Discord ID: 981882582675374140
+[2025-03-12 11:05:40] Username for 981882582675374140 is already correct. Skipping update.
+[2025-03-12 11:05:40] Processing account: ACCOUNT_NUMBER_438
+[2025-03-12 11:05:40] Fetching username for Discord ID: 821799323929935892
+[2025-03-12 11:05:40] Retrieved username: deleted_user_19f22b27df97
+[2025-03-12 11:05:40] Username for 821799323929935892 is already correct. Skipping update.
+[2025-03-12 11:05:40] Processing account: ACCOUNT_NUMBER_439
+[2025-03-12 11:05:40] Fetching username for Discord ID: 1126852906059051008
+[2025-03-12 11:05:40] Username for 1126852906059051008 is already correct. Skipping update.
+[2025-03-12 11:05:40] Processing account: ACCOUNT_NUMBER_440
+[2025-03-12 11:05:40] Fetching username for Discord ID: 1007485743234560060
+[2025-03-12 11:05:41] Username for 1007485743234560060 is already correct. Skipping update.
+[2025-03-12 11:05:41] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:41] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:41] Processing account: ACCOUNT_NUMBER_441
+[2025-03-12 11:05:41] Fetching username for Discord ID: 431893053297393706
+[2025-03-12 11:05:41] Username for 431893053297393706 is already correct. Skipping update.
+[2025-03-12 11:05:41] Checking status for Discord invite: pornhuub
+[2025-03-12 11:05:41] Invite pornhuub is INACTIVE
+[2025-03-12 11:05:41] Using cached status for invite: pornhuub -> INACTIVE
+[2025-03-12 11:05:41] Processing account: ACCOUNT_NUMBER_442
+[2025-03-12 11:05:41] Fetching username for Discord ID: 889855891472543745
+[2025-03-12 11:05:41] Username for 889855891472543745 is already correct. Skipping update.
+[2025-03-12 11:05:41] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:41] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:41] Processing account: ACCOUNT_NUMBER_443
+[2025-03-12 11:05:41] Fetching username for Discord ID: 346289156789370893
+[2025-03-12 11:05:41] Retrieved username: le_numero_13
+[2025-03-12 11:05:41] Username for 346289156789370893 is already correct. Skipping update.
+[2025-03-12 11:05:41] Processing account: ACCOUNT_NUMBER_444
+[2025-03-12 11:05:41] Fetching username for Discord ID: 374646598656983040
+[2025-03-12 11:05:42] Username for 374646598656983040 is already correct. Skipping update.
+[2025-03-12 11:05:42] Processing account: ACCOUNT_NUMBER_445
+[2025-03-12 11:05:42] Fetching username for Discord ID: 1200374568108429362
+[2025-03-12 11:05:42] Username for 1200374568108429362 is already correct. Skipping update.
+[2025-03-12 11:05:42] Processing account: ACCOUNT_NUMBER_446
+[2025-03-12 11:05:42] Fetching username for Discord ID: 1025430437755109396
+[2025-03-12 11:05:42] Username for 1025430437755109396 is already correct. Skipping update.
+[2025-03-12 11:05:42] Processing account: ACCOUNT_NUMBER_447
+[2025-03-12 11:05:42] Fetching username for Discord ID: 887208872220164138
+[2025-03-12 11:05:42] Username for 887208872220164138 is already correct. Skipping update.
+[2025-03-12 11:05:42] Processing account: ACCOUNT_NUMBER_448
+[2025-03-12 11:05:42] Fetching username for Discord ID: 927268272070623314
+[2025-03-12 11:05:42] Retrieved username: deleted_user_7d1e247db6d5
+[2025-03-12 11:05:42] Username for 927268272070623314 is already correct. Skipping update.
+[2025-03-12 11:05:42] Checking status for Discord invite: xxxmilf
+[2025-03-12 11:05:42] Invite xxxmilf is INACTIVE
+[2025-03-12 11:05:42] Using cached status for invite: xxxmilf -> INACTIVE
+[2025-03-12 11:05:42] Processing account: ACCOUNT_NUMBER_449
+[2025-03-12 11:05:42] Fetching username for Discord ID: 879756103452356668
+[2025-03-12 11:05:43] Username for 879756103452356668 is already correct. Skipping update.
+[2025-03-12 11:05:43] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:43] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:43] Processing account: ACCOUNT_NUMBER_450
+[2025-03-12 11:05:43] Fetching username for Discord ID: 765617421272219689
+[2025-03-12 11:05:43] Username for 765617421272219689 is already correct. Skipping update.
+[2025-03-12 11:05:43] Processing account: ACCOUNT_NUMBER_451
+[2025-03-12 11:05:43] Fetching username for Discord ID: 979874824425967617
+[2025-03-12 11:05:43] Username for 979874824425967617 is already correct. Skipping update.
+[2025-03-12 11:05:43] Processing account: ACCOUNT_NUMBER_452
+[2025-03-12 11:05:43] Fetching username for Discord ID: 1177772313912016988
+[2025-03-12 11:05:43] Retrieved username: krambitz_34055
+[2025-03-12 11:05:43] Username for 1177772313912016988 is already correct. Skipping update.
+[2025-03-12 11:05:43] Processing account: ACCOUNT_NUMBER_453
+[2025-03-12 11:05:43] Fetching username for Discord ID: 1004078214467039336
+[2025-03-12 11:05:45] Retrieved username: rypezze
+[2025-03-12 11:05:45] Username for 1004078214467039336 is already correct. Skipping update.
+[2025-03-12 11:05:45] Checking status for Discord invite: xporn
+[2025-03-12 11:05:45] Invite xporn is INACTIVE
+[2025-03-12 11:05:45] Using cached status for invite: xporn -> INACTIVE
+[2025-03-12 11:05:45] Processing account: ACCOUNT_NUMBER_454
+[2025-03-12 11:05:45] Fetching username for Discord ID: 1185466179482034256
+[2025-03-12 11:05:45] Username for 1185466179482034256 is already correct. Skipping update.
+[2025-03-12 11:05:45] Processing account: ACCOUNT_NUMBER_455
+[2025-03-12 11:05:45] Fetching username for Discord ID: 692556379206057984
+[2025-03-12 11:05:45] Username for 692556379206057984 is already correct. Skipping update.
+[2025-03-12 11:05:45] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:45] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:45] Processing account: ACCOUNT_NUMBER_456
+[2025-03-12 11:05:45] Fetching username for Discord ID: 1054980277585326221
+[2025-03-12 11:05:45] Retrieved username: deleted_user_172367bd0156
+[2025-03-12 11:05:45] Username for 1054980277585326221 is already correct. Skipping update.
+[2025-03-12 11:05:45] Checking status for Discord invite: tiktokhomes
+[2025-03-12 11:05:45] Invite tiktokhomes is INACTIVE
+[2025-03-12 11:05:45] Using cached status for invite: tiktokhomes -> INACTIVE
+[2025-03-12 11:05:45] Processing account: ACCOUNT_NUMBER_457
+[2025-03-12 11:05:45] Fetching username for Discord ID: 647830247516930076
+[2025-03-12 11:05:47] Retrieved username: ardbeing
+[2025-03-12 11:05:47] Username for 647830247516930076 is already correct. Skipping update.
+[2025-03-12 11:05:47] Processing account: ACCOUNT_NUMBER_458
+[2025-03-12 11:05:47] Fetching username for Discord ID: 647830247516930076
+[2025-03-12 11:05:47] Username for 647830247516930076 is already correct. Skipping update.
+[2025-03-12 11:05:47] Processing account: ACCOUNT_NUMBER_459
+[2025-03-12 11:05:47] Fetching username for Discord ID: 1160616370006929479
+[2025-03-12 11:05:49] Retrieved username: andre1970_43066
+[2025-03-12 11:05:49] Username for 1160616370006929479 is already correct. Skipping update.
+[2025-03-12 11:05:49] Processing account: ACCOUNT_NUMBER_460
+[2025-03-12 11:05:49] Fetching username for Discord ID: 1160616370006929479
+[2025-03-12 11:05:50] Retrieved username: andre1970_43066
+[2025-03-12 11:05:50] Username for 1160616370006929479 is already correct. Skipping update.
+[2025-03-12 11:05:50] Processing account: ACCOUNT_NUMBER_461
+[2025-03-12 11:05:50] Fetching username for Discord ID: 415088012419006474
+[2025-03-12 11:05:50] Retrieved username: micha_b.
+[2025-03-12 11:05:50] Username for 415088012419006474 is already correct. Skipping update.
+[2025-03-12 11:05:50] Processing account: ACCOUNT_NUMBER_462
+[2025-03-12 11:05:50] Fetching username for Discord ID: 415088012419006474
+[2025-03-12 11:05:50] Username for 415088012419006474 is already correct. Skipping update.
+[2025-03-12 11:05:50] Processing account: ACCOUNT_NUMBER_463
+[2025-03-12 11:05:50] Fetching username for Discord ID: 1196896651688824882
+[2025-03-12 11:05:50] Retrieved username: maitre_lynx
+[2025-03-12 11:05:50] Username for 1196896651688824882 is already correct. Skipping update.
+[2025-03-12 11:05:50] Using cached status for invite: teenhubs -> INACTIVE
+[2025-03-12 11:05:50] Using cached status for invite: teenhubs -> INACTIVE
+[2025-03-12 11:05:50] Processing account: ACCOUNT_NUMBER_464
+[2025-03-12 11:05:50] Fetching username for Discord ID: 675027706177388545
+[2025-03-12 11:05:51] Username for 675027706177388545 is already correct. Skipping update.
+[2025-03-12 11:05:51] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:51] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:51] Processing account: ACCOUNT_NUMBER_465
+[2025-03-12 11:05:51] Fetching username for Discord ID: 927873782050328586
+[2025-03-12 11:05:51] Username for 927873782050328586 is already correct. Skipping update.
+[2025-03-12 11:05:51] Using cached status for invite: xporn -> INACTIVE
+[2025-03-12 11:05:51] Using cached status for invite: xporn -> INACTIVE
+[2025-03-12 11:05:51] Processing account: ACCOUNT_NUMBER_466
+[2025-03-12 11:05:51] Fetching username for Discord ID: 773500012423675964
+[2025-03-12 11:05:51] Username for 773500012423675964 is already correct. Skipping update.
+[2025-03-12 11:05:51] Processing account: ACCOUNT_NUMBER_467
+[2025-03-12 11:05:51] Fetching username for Discord ID: 979497473317928970
+[2025-03-12 11:05:51] Retrieved username: blackjacktdm10
+[2025-03-12 11:05:51] Username for 979497473317928970 is already correct. Skipping update.
+[2025-03-12 11:05:51] Processing account: ACCOUNT_NUMBER_468
+[2025-03-12 11:05:51] Fetching username for Discord ID: 615146473146810388
+[2025-03-12 11:05:51] Username for 615146473146810388 is already correct. Skipping update.
+[2025-03-12 11:05:51] Processing account: ACCOUNT_NUMBER_469
+[2025-03-12 11:05:51] Fetching username for Discord ID: 795143939765567528
+[2025-03-12 11:05:52] Username for 795143939765567528 is already correct. Skipping update.
+[2025-03-12 11:05:52] Processing account: ACCOUNT_NUMBER_470
+[2025-03-12 11:05:52] Fetching username for Discord ID: 797025687852548099
+[2025-03-12 11:05:52] Username for 797025687852548099 is already correct. Skipping update.
+[2025-03-12 11:05:52] Processing account: ACCOUNT_NUMBER_471
+[2025-03-12 11:05:52] Fetching username for Discord ID: 579379985782145035
+[2025-03-12 11:05:52] Username for 579379985782145035 is already correct. Skipping update.
+[2025-03-12 11:05:52] Processing account: ACCOUNT_NUMBER_472
+[2025-03-12 11:05:52] Fetching username for Discord ID: 545583882578427904
+[2025-03-12 11:05:52] Retrieved username: killthebooye
+[2025-03-12 11:05:52] Username for 545583882578427904 is already correct. Skipping update.
+[2025-03-12 11:05:52] Processing account: ACCOUNT_NUMBER_473
+[2025-03-12 11:05:52] Fetching username for Discord ID: 280002478882160640
+[2025-03-12 11:05:53] Username for 280002478882160640 is already correct. Skipping update.
+[2025-03-12 11:05:53] Processing account: ACCOUNT_NUMBER_474
+[2025-03-12 11:05:53] Fetching username for Discord ID: 532628214791536641
+[2025-03-12 11:05:53] Username for 532628214791536641 is already correct. Skipping update.
+[2025-03-12 11:05:53] Using cached status for invite: xxxmilf -> INACTIVE
+[2025-03-12 11:05:53] Using cached status for invite: xxxmilf -> INACTIVE
+[2025-03-12 11:05:53] Processing account: ACCOUNT_NUMBER_475
+[2025-03-12 11:05:53] Fetching username for Discord ID: 910587753169838170
+[2025-03-12 11:05:53] Username for 910587753169838170 is already correct. Skipping update.
+[2025-03-12 11:05:53] Processing account: ACCOUNT_NUMBER_476
+[2025-03-12 11:05:53] Fetching username for Discord ID: 659468230242467840
+[2025-03-12 11:05:53] Username for 659468230242467840 is already correct. Skipping update.
+[2025-03-12 11:05:53] Processing account: ACCOUNT_NUMBER_477
+[2025-03-12 11:05:53] Fetching username for Discord ID: 613747721278586897
+[2025-03-12 11:05:53] Retrieved username: deleted_user_bedfdf34aaf9
+[2025-03-12 11:05:53] Username for 613747721278586897 is already correct. Skipping update.
+[2025-03-12 11:05:53] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:53] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:53] Processing account: ACCOUNT_NUMBER_478
+[2025-03-12 11:05:53] Fetching username for Discord ID: 545941635083534337
+[2025-03-12 11:05:54] Username for 545941635083534337 is already correct. Skipping update.
+[2025-03-12 11:05:54] Processing account: ACCOUNT_NUMBER_479
+[2025-03-12 11:05:54] Fetching username for Discord ID: 473763068673785856
+[2025-03-12 11:05:54] Username for 473763068673785856 is already correct. Skipping update.
+[2025-03-12 11:05:54] Checking status for Discord invite: teen-sex
+[2025-03-12 11:05:54] Invite teen-sex is INACTIVE
+[2025-03-12 11:05:54] Using cached status for invite: teen-sex -> INACTIVE
+[2025-03-12 11:05:54] Processing account: ACCOUNT_NUMBER_480
+[2025-03-12 11:05:54] Fetching username for Discord ID: 339521721956564994
+[2025-03-12 11:05:54] Username for 339521721956564994 is already correct. Skipping update.
+[2025-03-12 11:05:54] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:54] Using cached status for invite: egirl-haven -> INACTIVE
+[2025-03-12 11:05:54] Processing account: ACCOUNT_NUMBER_481
+[2025-03-12 11:05:54] Fetching username for Discord ID: 1198319144253280267
+[2025-03-12 11:05:54] Retrieved username: atallmen
+[2025-03-12 11:05:54] Username for 1198319144253280267 is already correct. Skipping update.
+[2025-03-12 11:05:54] Checking status for Discord invite: e-womans
+[2025-03-12 11:05:54] Invite e-womans is INACTIVE
+[2025-03-12 11:05:54] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:54] Processing account: ACCOUNT_NUMBER_482
+[2025-03-12 11:05:54] Fetching username for Discord ID: 391683541592965120
+[2025-03-12 11:05:54] Username for 391683541592965120 is already correct. Skipping update.
+[2025-03-12 11:05:54] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:54] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:54] Processing account: ACCOUNT_NUMBER_483
+[2025-03-12 11:05:54] Fetching username for Discord ID: 1037110059840319618
+[2025-03-12 11:05:55] Username for 1037110059840319618 is already correct. Skipping update.
+[2025-03-12 11:05:55] Processing account: ACCOUNT_NUMBER_484
+[2025-03-12 11:05:55] Fetching username for Discord ID: 442910565610946560
+[2025-03-12 11:05:55] Username for 442910565610946560 is already correct. Skipping update.
+[2025-03-12 11:05:55] Processing account: ACCOUNT_NUMBER_485
+[2025-03-12 11:05:55] Fetching username for Discord ID: 304278505041035266
+[2025-03-12 11:05:55] Username for 304278505041035266 is already correct. Skipping update.
+[2025-03-12 11:05:55] Processing account: ACCOUNT_NUMBER_486
+[2025-03-12 11:05:55] Fetching username for Discord ID: 544833730251063316
+[2025-03-12 11:05:55] Retrieved username: kpacabaa
+[2025-03-12 11:05:55] Username for 544833730251063316 is already correct. Skipping update.
+[2025-03-12 11:05:55] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:55] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:55] Processing account: ACCOUNT_NUMBER_487
+[2025-03-12 11:05:55] Fetching username for Discord ID: 610110216825995264
+[2025-03-12 11:05:55] Username for 610110216825995264 is already correct. Skipping update.
+[2025-03-12 11:05:55] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:55] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:55] Processing account: ACCOUNT_NUMBER_488
+[2025-03-12 11:05:55] Fetching username for Discord ID: 900014919926313011
+[2025-03-12 11:05:56] Username for 900014919926313011 is already correct. Skipping update.
+[2025-03-12 11:05:56] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:56] Using cached status for invite: e-womans -> INACTIVE
+[2025-03-12 11:05:56] Processing account: ACCOUNT_NUMBER_489
+[2025-03-12 11:05:56] Fetching username for Discord ID: 1015522517340930110
+[2025-03-12 11:05:56] Username for 1015522517340930110 is already correct. Skipping update.
+[2025-03-12 11:05:56] Using cached status for invite: brhots -> INACTIVE
+[2025-03-12 11:05:56] Using cached status for invite: brhots -> INACTIVE
+[2025-03-12 11:05:56] Processing account: ACCOUNT_NUMBER_490
+[2025-03-12 11:05:56] Fetching username for Discord ID: 1033954678494466078
+[2025-03-12 11:05:56] Username for 1033954678494466078 is already correct. Skipping update.
+[2025-03-12 11:05:56] Using cached status for invite: brhots -> INACTIVE
+[2025-03-12 11:05:56] Using cached status for invite: brhots -> INACTIVE
+[2025-03-12 11:05:56] Processing account: ACCOUNT_NUMBER_491
+[2025-03-12 11:05:56] Fetching username for Discord ID: 1036563944720044104
+[2025-03-12 11:05:56] Retrieved username: vladislav8990
+[2025-03-12 11:05:56] Username for 1036563944720044104 is already correct. Skipping update.
+[2025-03-12 11:05:56] Checking status for Discord invite: freewave
+[2025-03-12 11:05:56] Invite freewave is INACTIVE
+[2025-03-12 11:05:56] Using cached status for invite: freewave -> INACTIVE
+[2025-03-12 11:05:56] Processing account: ACCOUNT_NUMBER_492
+[2025-03-12 11:05:56] Fetching username for Discord ID: 408060728876990466
+[2025-03-12 11:05:57] Username for 408060728876990466 is already correct. Skipping update.
+[2025-03-12 11:05:57] Processing account: ACCOUNT_NUMBER_493
+[2025-03-12 11:05:57] Fetching username for Discord ID: 1143932655331717242
+[2025-03-12 11:05:58] Username for 1143932655331717242 is already correct. Skipping update.
+[2025-03-12 11:05:58] Processing account: ACCOUNT_NUMBER_494
+[2025-03-12 11:05:58] Fetching username for Discord ID: 484988875111006208
+[2025-03-12 11:05:58] Retrieved username: r0nes
+[2025-03-12 11:05:58] Username for 484988875111006208 is already correct. Skipping update.
+[2025-03-12 11:05:58] Processing account: ACCOUNT_NUMBER_495
+[2025-03-12 11:05:58] Fetching username for Discord ID: 303957070707949569
+[2025-03-12 11:05:58] Retrieved username: sleven32
+[2025-03-12 11:05:58] Username for 303957070707949569 is already correct. Skipping update.
+[2025-03-12 11:05:58] Processing account: ACCOUNT_NUMBER_496
+[2025-03-12 11:05:58] Fetching username for Discord ID: 1178695311900807188
+[2025-03-12 11:05:59] Username for 1178695311900807188 is already correct. Skipping update.
+[2025-03-12 11:05:59] Processing account: ACCOUNT_NUMBER_497
+[2025-03-12 11:05:59] Fetching username for Discord ID: 647115064754831360
+[2025-03-12 11:05:59] Username for 647115064754831360 is already correct. Skipping update.
+[2025-03-12 11:05:59] Checking status for Discord invite: Kgs4TzDWPS
+[2025-03-12 11:05:59] Invite Kgs4TzDWPS is INACTIVE
+[2025-03-12 11:05:59] Using cached status for invite: Kgs4TzDWPS -> INACTIVE
+[2025-03-12 11:05:59] Processing account: ACCOUNT_NUMBER_498
+[2025-03-12 11:05:59] Fetching username for Discord ID: 699541521891852389
+[2025-03-12 11:05:59] Username for 699541521891852389 is already correct. Skipping update.
+[2025-03-12 11:05:59] Processing account: ACCOUNT_NUMBER_499
+[2025-03-12 11:05:59] Fetching username for Discord ID: 1246063848084209769
+[2025-03-12 11:05:59] Retrieved username: elon_tesla124
+[2025-03-12 11:05:59] Username for 1246063848084209769 is already correct. Skipping update.
+[2025-03-12 11:05:59] Processing account: ACCOUNT_NUMBER_500
+[2025-03-12 11:05:59] Fetching username for Discord ID: 407654803921960961
+[2025-03-12 11:05:59] Username for 407654803921960961 is already correct. Skipping update.
+[2025-03-12 11:05:59] Processing account: ACCOUNT_NUMBER_501
+[2025-03-12 11:05:59] Fetching username for Discord ID: 940963702541279272
+[2025-03-12 11:06:00] Username for 940963702541279272 is already correct. Skipping update.
+[2025-03-12 11:06:00] Processing account: ACCOUNT_NUMBER_502
+[2025-03-12 11:06:00] Fetching username for Discord ID: 1129878203448688661
+[2025-03-12 11:06:00] Username for 1129878203448688661 is already correct. Skipping update.
+[2025-03-12 11:06:00] Processing account: ACCOUNT_NUMBER_503
+[2025-03-12 11:06:00] Fetching username for Discord ID: 377104745577316353
+[2025-03-12 11:06:00] Username for 377104745577316353 is already correct. Skipping update.
+[2025-03-12 11:06:00] Processing account: ACCOUNT_NUMBER_504
+[2025-03-12 11:06:00] Fetching username for Discord ID: 892800651397070878
+[2025-03-12 11:06:00] Retrieved username: maxim_wacty
+[2025-03-12 11:06:00] Username for 892800651397070878 is already correct. Skipping update.
+[2025-03-12 11:06:00] Processing account: ACCOUNT_NUMBER_505
+[2025-03-12 11:06:00] Fetching username for Discord ID: 1098700341039603814
+[2025-03-12 11:06:01] Username for 1098700341039603814 is already correct. Skipping update.
+[2025-03-12 11:06:01] Checking status for Discord invite: T8ce2H4wkS
+[2025-03-12 11:06:01] Invite T8ce2H4wkS is INACTIVE
+[2025-03-12 11:06:01] Using cached status for invite: T8ce2H4wkS -> INACTIVE
+[2025-03-12 11:06:01] Processing account: ACCOUNT_NUMBER_506
+[2025-03-12 11:06:01] Fetching username for Discord ID: 707900460547178596
+[2025-03-12 11:06:01] Username for 707900460547178596 is already correct. Skipping update.
+[2025-03-12 11:06:01] Processing account: ACCOUNT_NUMBER_507
+[2025-03-12 11:06:01] Fetching username for Discord ID: 723073795849453578
+[2025-03-12 11:06:01] Username for 723073795849453578 is already correct. Skipping update.
+[2025-03-12 11:06:01] Processing account: ACCOUNT_NUMBER_508
+[2025-03-12 11:06:01] Fetching username for Discord ID: 546452140370165782
+[2025-03-12 11:06:01] Retrieved username: .officer_ua
+[2025-03-12 11:06:01] Username for 546452140370165782 is already correct. Skipping update.
+[2025-03-12 11:06:01] Processing account: ACCOUNT_NUMBER_509
+[2025-03-12 11:06:01] Fetching username for Discord ID: 209314246671073281
+[2025-03-12 11:06:01] Username for 209314246671073281 is already correct. Skipping update.
+[2025-03-12 11:06:01] Processing account: ACCOUNT_NUMBER_510
+[2025-03-12 11:06:01] Fetching username for Discord ID: 1086684837823397908
+[2025-03-12 11:06:02] Username for 1086684837823397908 is already correct. Skipping update.
+[2025-03-12 11:06:02] Processing account: ACCOUNT_NUMBER_511
+[2025-03-12 11:06:02] Fetching username for Discord ID: 756510908728999958
+[2025-03-12 11:06:02] Username for 756510908728999958 is already correct. Skipping update.
+[2025-03-12 11:06:02] Processing account: ACCOUNT_NUMBER_512
+[2025-03-12 11:06:02] Fetching username for Discord ID: 213791571676626944
+[2025-03-12 11:06:02] Username for 213791571676626944 is already correct. Skipping update.
+[2025-03-12 11:06:02] Processing account: ACCOUNT_NUMBER_513
+[2025-03-12 11:06:02] Fetching username for Discord ID: 821843903409029190
+[2025-03-12 11:06:02] Retrieved username: finik0419
+[2025-03-12 11:06:02] Username for 821843903409029190 is already correct. Skipping update.
+[2025-03-12 11:06:02] Processing account: ACCOUNT_NUMBER_514
+[2025-03-12 11:06:02] Fetching username for Discord ID: 702203321653526549
+[2025-03-12 11:06:02] Username for 702203321653526549 is already correct. Skipping update.
+[2025-03-12 11:06:02] Processing account: ACCOUNT_NUMBER_515
+[2025-03-12 11:06:02] Fetching username for Discord ID: 690915728496525344
+[2025-03-12 11:06:03] Username for 690915728496525344 is already correct. Skipping update.
+[2025-03-12 11:06:03] Processing account: ACCOUNT_NUMBER_516
+[2025-03-12 11:06:03] Fetching username for Discord ID: 1028685842018992190
+[2025-03-12 11:06:03] Username for 1028685842018992190 is already correct. Skipping update.
+[2025-03-12 11:06:03] Processing account: ACCOUNT_NUMBER_517
+[2025-03-12 11:06:03] Fetching username for Discord ID: 756112348711747627
+[2025-03-12 11:06:03] Username for 756112348711747627 is already correct. Skipping update.
+[2025-03-12 11:06:03] Processing account: ACCOUNT_NUMBER_518
+[2025-03-12 11:06:03] Fetching username for Discord ID: 385921644742574090
+[2025-03-12 11:06:03] Retrieved username: 8bitsmokes
+[2025-03-12 11:06:03] Username for 385921644742574090 is already correct. Skipping update.
+[2025-03-12 11:06:03] Processing account: ACCOUNT_NUMBER_519
+[2025-03-12 11:06:03] Fetching username for Discord ID: 385921644742574090
+[2025-03-12 11:06:04] Username for 385921644742574090 is already correct. Skipping update.
+[2025-03-12 11:06:04] Processing account: ACCOUNT_NUMBER_520
+[2025-03-12 11:06:04] Fetching username for Discord ID: 488374087643693077
+[2025-03-12 11:06:04] Username for 488374087643693077 is already correct. Skipping update.
+[2025-03-12 11:06:04] Processing account: ACCOUNT_NUMBER_521
+[2025-03-12 11:06:04] Fetching username for Discord ID: 1144283530159996979
+[2025-03-12 11:06:04] Username for 1144283530159996979 is already correct. Skipping update.
+[2025-03-12 11:06:04] Processing account: ACCOUNT_NUMBER_522
+[2025-03-12 11:06:04] Fetching username for Discord ID: 385921644742574090
+[2025-03-12 11:06:04] Retrieved username: 8bitsmokes
+[2025-03-12 11:06:04] Username for 385921644742574090 is already correct. Skipping update.
+[2025-03-12 11:06:04] Processing account: ACCOUNT_NUMBER_523
+[2025-03-12 11:06:04] Fetching username for Discord ID: 1198485463091138642
+[2025-03-12 11:06:04] Username for 1198485463091138642 is already correct. Skipping update.
+[2025-03-12 11:06:04] Processing account: ACCOUNT_NUMBER_524
+[2025-03-12 11:06:04] Fetching username for Discord ID: 1194981295797833789
+[2025-03-12 11:06:05] Username for 1194981295797833789 is already correct. Skipping update.
+[2025-03-12 11:06:05] Processing account: ACCOUNT_NUMBER_525
+[2025-03-12 11:06:05] Fetching username for Discord ID: 414851904728858643
+[2025-03-12 11:06:05] Username for 414851904728858643 is already correct. Skipping update.
+[2025-03-12 11:06:05] Processing account: ACCOUNT_NUMBER_526
+[2025-03-12 11:06:05] Fetching username for Discord ID: 683369245542973504
+[2025-03-12 11:06:05] Username for 683369245542973504 is already correct. Skipping update.
+[2025-03-12 11:06:05] Processing account: ACCOUNT_NUMBER_527
+[2025-03-12 11:06:05] Fetching username for Discord ID: 1081436445207711814
+[2025-03-12 11:06:05] Retrieved username: mixkuraki
+[2025-03-12 11:06:05] Username for 1081436445207711814 is already correct. Skipping update.
+[2025-03-12 11:06:05] Processing account: ACCOUNT_NUMBER_528
+[2025-03-12 11:06:05] Fetching username for Discord ID: 1195830589518008373
+[2025-03-12 11:06:05] Username for 1195830589518008373 is already correct. Skipping update.
+[2025-03-12 11:06:05] Processing account: ACCOUNT_NUMBER_529
+[2025-03-12 11:06:05] Fetching username for Discord ID: 703759870150705163
+[2025-03-12 11:06:06] Username for 703759870150705163 is already correct. Skipping update.
+[2025-03-12 11:06:06] Processing account: ACCOUNT_NUMBER_530
+[2025-03-12 11:06:06] Fetching username for Discord ID: 984139266395365426
+[2025-03-12 11:06:06] Username for 984139266395365426 is already correct. Skipping update.
+[2025-03-12 11:06:06] Processing account: ACCOUNT_NUMBER_531
+[2025-03-12 11:06:06] Fetching username for Discord ID: 331401683315851264
+[2025-03-12 11:06:06] Username for 331401683315851264 is already correct. Skipping update.
+[2025-03-12 11:06:06] Processing account: ACCOUNT_NUMBER_532
+[2025-03-12 11:06:06] Fetching username for Discord ID: 264403592746762240
+[2025-03-12 11:06:06] Retrieved username: bartif
+[2025-03-12 11:06:06] Username for 264403592746762240 is already correct. Skipping update.
+[2025-03-12 11:06:06] Processing account: ACCOUNT_NUMBER_533
+[2025-03-12 11:06:06] Fetching username for Discord ID: 459050679147954178
+[2025-03-12 11:06:06] Username for 459050679147954178 is already correct. Skipping update.
+[2025-03-12 11:06:06] Processing account: ACCOUNT_NUMBER_534
+[2025-03-12 11:06:06] Fetching username for Discord ID: 528220210520522753
+[2025-03-12 11:06:07] Username for 528220210520522753 is already correct. Skipping update.
+[2025-03-12 11:06:07] Processing account: ACCOUNT_NUMBER_535
+[2025-03-12 11:06:07] Fetching username for Discord ID: 352219834538393623
+[2025-03-12 11:06:07] Username for 352219834538393623 is already correct. Skipping update.
+[2025-03-12 11:06:07] Processing account: ACCOUNT_NUMBER_536
+[2025-03-12 11:06:07] Fetching username for Discord ID: UNKNOWN
+[2025-03-12 11:06:07] Username for UNKNOWN is already correct. Skipping update.
+[2025-03-12 11:06:07] Processing account: ACCOUNT_NUMBER_537
+[2025-03-12 11:06:07] Fetching username for Discord ID: 715515828279443548
+[2025-03-12 11:06:07] Retrieved username: dyrex14
+[2025-03-12 11:06:07] Username for 715515828279443548 is already correct. Skipping update.
+[2025-03-12 11:06:07] Processing account: ACCOUNT_NUMBER_538
+[2025-03-12 11:06:07] Fetching username for Discord ID: 1276498474304667650
+[2025-03-12 11:06:07] Username for 1276498474304667650 is already correct. Skipping update.
+[2025-03-12 11:06:07] Processing account: ACCOUNT_NUMBER_539
+[2025-03-12 11:06:07] Fetching username for Discord ID: 453528793345163276
+[2025-03-12 11:06:08] Username for 453528793345163276 is already correct. Skipping update.
+[2025-03-12 11:06:08] Processing account: ACCOUNT_NUMBER_540
+[2025-03-12 11:06:08] Fetching username for Discord ID: UNKNOWN
+[2025-03-12 11:06:08] Username for UNKNOWN is already correct. Skipping update.
+[2025-03-12 11:06:08] Processing account: ACCOUNT_NUMBER_541
+[2025-03-12 11:06:08] Fetching username for Discord ID: 613356074350673980
+[2025-03-12 11:06:08] Username for 613356074350673980 is already correct. Skipping update.
+[2025-03-12 11:06:08] Processing account: ACCOUNT_NUMBER_542
+[2025-03-12 11:06:08] Fetching username for Discord ID: 597376378173915157
+[2025-03-12 11:06:08] Retrieved username: ruo_unavailable
+[2025-03-12 11:06:08] Username for 597376378173915157 is already correct. Skipping update.
+[2025-03-12 11:06:08] Processing account: ACCOUNT_NUMBER_543
+[2025-03-12 11:06:08] Fetching username for Discord ID: 1280508688230256682
+[2025-03-12 11:06:09] Username for 1280508688230256682 is already correct. Skipping update.
+[2025-03-12 11:06:09] Processing account: ACCOUNT_NUMBER_544
+[2025-03-12 11:06:09] Fetching username for Discord ID: 1058765878650474538
+[2025-03-12 11:06:09] Username for 1058765878650474538 is already correct. Skipping update.
+[2025-03-12 11:06:09] Processing account: ACCOUNT_NUMBER_545
+[2025-03-12 11:06:09] Fetching username for Discord ID: 191999821702365184
+[2025-03-12 11:06:09] Username for 191999821702365184 is already correct. Skipping update.
+[2025-03-12 11:06:09] Processing account: ACCOUNT_NUMBER_546
+[2025-03-12 11:06:09] Fetching username for Discord ID: 893736393073885184
+[2025-03-12 11:06:09] Retrieved username: skacka1
+[2025-03-12 11:06:09] Username for 893736393073885184 is already correct. Skipping update.
+[2025-03-12 11:06:09] Processing account: ACCOUNT_NUMBER_547
+[2025-03-12 11:06:09] Fetching username for Discord ID: 431124187512307714
+[2025-03-12 11:06:09] Username for 431124187512307714 is already correct. Skipping update.
+[2025-03-12 11:06:09] Checking status for Discord invite: m8DZqGvYTm
+[2025-03-12 11:06:09] Invite m8DZqGvYTm is INACTIVE
+[2025-03-12 11:06:09] Using cached status for invite: m8DZqGvYTm -> INACTIVE
+[2025-03-12 11:06:09] Processing account: ACCOUNT_NUMBER_548
+[2025-03-12 11:06:09] Fetching username for Discord ID: 1288545825617743896
+[2025-03-12 11:06:10] Username for 1288545825617743896 is already correct. Skipping update.
+[2025-03-12 11:06:10] Processing account: ACCOUNT_NUMBER_549
+[2025-03-12 11:06:10] Fetching username for Discord ID: 1290672922280722487
+[2025-03-12 11:06:10] Username for 1290672922280722487 is already correct. Skipping update.
+[2025-03-12 11:06:10] Processing account: ACCOUNT_NUMBER_550
+[2025-03-12 11:06:10] Fetching username for Discord ID: 799830188938625034
+[2025-03-12 11:06:10] Username for 799830188938625034 is already correct. Skipping update.
+[2025-03-12 11:06:10] Processing account: ACCOUNT_NUMBER_551
+[2025-03-12 11:06:10] Fetching username for Discord ID: 391838560946225153
+[2025-03-12 11:06:10] Retrieved username: _cz75
+[2025-03-12 11:06:10] Username for 391838560946225153 is already correct. Skipping update.
+[2025-03-12 11:06:10] Processing account: ACCOUNT_NUMBER_552
+[2025-03-12 11:06:10] Fetching username for Discord ID: 609757169088331786
+[2025-03-12 11:06:10] Username for 609757169088331786 is already correct. Skipping update.
+[2025-03-12 11:06:10] Processing account: ACCOUNT_NUMBER_553
+[2025-03-12 11:06:10] Fetching username for Discord ID: 540454653289037824
+[2025-03-12 11:06:11] Username for 540454653289037824 is already correct. Skipping update.
+[2025-03-12 11:06:11] Processing account: ACCOUNT_NUMBER_554
+[2025-03-12 11:06:11] Fetching username for Discord ID: 663144559739666453
+[2025-03-12 11:06:11] Username for 663144559739666453 is already correct. Skipping update.
+[2025-03-12 11:06:11] Processing account: ACCOUNT_NUMBER_555
+[2025-03-12 11:06:11] Fetching username for Discord ID: 488595449507348491
+[2025-03-12 11:06:11] Username for 488595449507348491 is already correct. Skipping update.
+[2025-03-12 11:06:11] Processing account: ACCOUNT_NUMBER_556
+[2025-03-12 11:06:11] Fetching username for Discord ID: 441961295969779712
+[2025-03-12 11:06:11] Retrieved username: .nacpany227
+[2025-03-12 11:06:11] Username for 441961295969779712 is already correct. Skipping update.
+[2025-03-12 11:06:11] Processing account: ACCOUNT_NUMBER_557
+[2025-03-12 11:06:11] Fetching username for Discord ID: 602217280390299687
+[2025-03-12 11:06:11] Username for 602217280390299687 is already correct. Skipping update.
+[2025-03-12 11:06:11] Processing account: ACCOUNT_NUMBER_558
+[2025-03-12 11:06:11] Fetching username for Discord ID: UNKNOWN
+[2025-03-12 11:06:12] Username for UNKNOWN is already correct. Skipping update.
+[2025-03-12 11:06:12] Processing account: ACCOUNT_NUMBER_559
+[2025-03-12 11:06:12] Fetching username for Discord ID: 1068872126418919444
+[2025-03-12 11:06:12] Username for 1068872126418919444 is already correct. Skipping update.
+[2025-03-12 11:06:12] Processing account: ACCOUNT_NUMBER_560
+[2025-03-12 11:06:12] Fetching username for Discord ID: 1302732889548525689
+[2025-03-12 11:06:12] Username for 1302732889548525689 is already correct. Skipping update.
+[2025-03-12 11:06:12] Processing account: ACCOUNT_NUMBER_561
+[2025-03-12 11:06:12] Fetching username for Discord ID: 886444678772301885
+[2025-03-12 11:06:12] Retrieved username: noobywankenoobi
+[2025-03-12 11:06:12] Username for 886444678772301885 is already correct. Skipping update.
+[2025-03-12 11:06:12] Processing account: ACCOUNT_NUMBER_562
+[2025-03-12 11:06:12] Fetching username for Discord ID: 1306250805212610564
+[2025-03-12 11:06:13] Username for 1306250805212610564 is already correct. Skipping update.
+[2025-03-12 11:06:13] Processing account: ACCOUNT_NUMBER_563
+[2025-03-12 11:06:13] Fetching username for Discord ID: 1306934551750381580
+[2025-03-12 11:06:13] Username for 1306934551750381580 is already correct. Skipping update.
+[2025-03-12 11:06:13] Processing account: ACCOUNT_NUMBER_564
+[2025-03-12 11:06:13] Fetching username for Discord ID: 1311811050995449938
+[2025-03-12 11:06:13] Username for 1311811050995449938 is already correct. Skipping update.
+[2025-03-12 11:06:13] Processing account: ACCOUNT_NUMBER_565
+[2025-03-12 11:06:13] Fetching username for Discord ID: 311874995699712000
+[2025-03-12 11:06:13] Retrieved username: calliisto
+[2025-03-12 11:06:13] Username for 311874995699712000 is already correct. Skipping update.
+[2025-03-12 11:06:13] Processing account: ACCOUNT_NUMBER_566
+[2025-03-12 11:06:13] Fetching username for Discord ID: 487412438996746250
+[2025-03-12 11:06:13] Username for 487412438996746250 is already correct. Skipping update.
+[2025-03-12 11:06:13] Processing account: ACCOUNT_NUMBER_567
+[2025-03-12 11:06:13] Fetching username for Discord ID: 210713024053510144
+[2025-03-12 11:06:14] Username for 210713024053510144 is already correct. Skipping update.
+[2025-03-12 11:06:14] Processing account: ACCOUNT_NUMBER_568
+[2025-03-12 11:06:14] Fetching username for Discord ID: 733613745896685640
+[2025-03-12 11:06:14] Username for 733613745896685640 is already correct. Skipping update.
+[2025-03-12 11:06:14] Processing account: ACCOUNT_NUMBER_569
+[2025-03-12 11:06:14] Fetching username for Discord ID: 557955956609122304
+[2025-03-12 11:06:14] Username for 557955956609122304 is already correct. Skipping update.
+[2025-03-12 11:06:14] Processing account: ACCOUNT_NUMBER_570
+[2025-03-12 11:06:14] Fetching username for Discord ID: 866313135191228458
+[2025-03-12 11:06:14] Retrieved username: wiesel71
+[2025-03-12 11:06:14] Username for 866313135191228458 is already correct. Skipping update.
+[2025-03-12 11:06:14] Processing account: ACCOUNT_NUMBER_571
+[2025-03-12 11:06:14] Fetching username for Discord ID: 358309905356029962
+[2025-03-12 11:06:15] Username for 358309905356029962 is already correct. Skipping update.
+[2025-03-12 11:06:15] Processing account: ACCOUNT_NUMBER_572
+[2025-03-12 11:06:15] Fetching username for Discord ID: 372472706353987584
+[2025-03-12 11:06:15] Username for 372472706353987584 is already correct. Skipping update.
+[2025-03-12 11:06:15] Processing account: ACCOUNT_NUMBER_573
+[2025-03-12 11:06:15] Fetching username for Discord ID: 1198856202231238756
+[2025-03-12 11:06:15] Username for 1198856202231238756 is already correct. Skipping update.
+[2025-03-12 11:06:15] Processing account: ACCOUNT_NUMBER_574
+[2025-03-12 11:06:15] Fetching username for Discord ID: 583983011469721601
+[2025-03-12 11:06:15] Username for 583983011469721601 is already correct. Skipping update.
+[2025-03-12 11:06:15] Processing account: ACCOUNT_NUMBER_575
+[2025-03-12 11:06:15] Fetching username for Discord ID: 430172918765322242
+[2025-03-12 11:06:15] Retrieved username: odsldaniel
+[2025-03-12 11:06:15] Username for 430172918765322242 is already correct. Skipping update.
+[2025-03-12 11:06:15] Processing account: ACCOUNT_NUMBER_576
+[2025-03-12 11:06:15] Fetching username for Discord ID: 1001122128608899163
+[2025-03-12 11:06:16] Username for 1001122128608899163 is already correct. Skipping update.
+[2025-03-12 11:06:16] Processing account: ACCOUNT_NUMBER_577
+[2025-03-12 11:06:16] Fetching username for Discord ID: 1313419389487415307
+[2025-03-12 11:06:16] Username for 1313419389487415307 is already correct. Skipping update.
+[2025-03-12 11:06:16] Processing account: ACCOUNT_NUMBER_578
+[2025-03-12 11:06:16] Fetching username for Discord ID: 372012170524753921
+[2025-03-12 11:06:16] Username for 372012170524753921 is already correct. Skipping update.
+[2025-03-12 11:06:16] Checking status for Discord invite: RE5hp9W2
+[2025-03-12 11:06:16] Invite RE5hp9W2 is INACTIVE
+[2025-03-12 11:06:16] Using cached status for invite: RE5hp9W2 -> INACTIVE
+[2025-03-12 11:06:16] Processing account: ACCOUNT_NUMBER_579
+[2025-03-12 11:06:16] Fetching username for Discord ID: 1324660577594769463
+[2025-03-12 11:06:16] Retrieved username: nicholas095237
+[2025-03-12 11:06:16] Username for 1324660577594769463 is already correct. Skipping update.
+[2025-03-12 11:06:16] Processing account: ACCOUNT_NUMBER_580
+[2025-03-12 11:06:16] Fetching username for Discord ID: 738756241773297736
+[2025-03-12 11:06:16] Username for 738756241773297736 is already correct. Skipping update.
+[2025-03-12 11:06:16] Checking status for Discord invite: q7PJsCWN
+[2025-03-12 11:06:16] Invite q7PJsCWN is INACTIVE
+[2025-03-12 11:06:16] Using cached status for invite: q7PJsCWN -> INACTIVE
+[2025-03-12 11:06:16] Processing account: ACCOUNT_NUMBER_581
+[2025-03-12 11:06:16] Fetching username for Discord ID: 275354933778186242
+[2025-03-12 11:06:18] Retrieved username: diaako
+[2025-03-12 11:06:18] Username for 275354933778186242 is already correct. Skipping update.
+[2025-03-12 11:06:18] Processing account: ACCOUNT_NUMBER_582
+[2025-03-12 11:06:18] Fetching username for Discord ID: 286421155550593024
+[2025-03-12 11:06:18] Username for 286421155550593024 is already correct. Skipping update.
+[2025-03-12 11:06:18] Processing account: ACCOUNT_NUMBER_583
+[2025-03-12 11:06:18] Fetching username for Discord ID: 885354478243557408
+[2025-03-12 11:06:18] Retrieved username: bull3ttt
+[2025-03-12 11:06:18] Username for 885354478243557408 is already correct. Skipping update.
+[2025-03-12 11:06:18] Processing account: ACCOUNT_NUMBER_584
+[2025-03-12 11:06:18] Fetching username for Discord ID: 222981255359102976
+[2025-03-12 11:06:18] Username for 222981255359102976 is already correct. Skipping update.
+[2025-03-12 11:06:18] Processing account: ACCOUNT_NUMBER_585
+[2025-03-12 11:06:18] Fetching username for Discord ID: 1296332762139066401
+[2025-03-12 11:06:19] Username for 1296332762139066401 is already correct. Skipping update.
+[2025-03-12 11:06:19] Processing account: ACCOUNT_NUMBER_586
+[2025-03-12 11:06:19] Fetching username for Discord ID: 677203903086985237
+[2025-03-12 11:06:19] Username for 677203903086985237 is already correct. Skipping update.
+[2025-03-12 11:06:19] Processing account: ACCOUNT_NUMBER_587
+[2025-03-12 11:06:19] Fetching username for Discord ID: 880038983856431204
+[2025-03-12 11:06:19] Username for 880038983856431204 is already correct. Skipping update.
+[2025-03-12 11:06:19] Processing account: ACCOUNT_NUMBER_588
+[2025-03-12 11:06:19] Fetching username for Discord ID: 350648899687415810
+[2025-03-12 11:06:19] Retrieved username: slash1954
+[2025-03-12 11:06:19] Username for 350648899687415810 is already correct. Skipping update.
+[2025-03-12 11:06:19] Processing account: ACCOUNT_NUMBER_589
+[2025-03-12 11:06:19] Fetching username for Discord ID: 446980143593029632
+[2025-03-12 11:06:19] Username for 446980143593029632 is already correct. Skipping update.
+[2025-03-12 11:06:19] Processing account: ACCOUNT_NUMBER_590
+[2025-03-12 11:06:19] Fetching username for Discord ID: 217685652769210368
+[2025-03-12 11:06:20] Username for 217685652769210368 is already correct. Skipping update.
+[2025-03-12 11:06:20] Processing account: ACCOUNT_NUMBER_591
+[2025-03-12 11:06:20] Fetching username for Discord ID: UNKNOWN
+[2025-03-12 11:06:20] Username for UNKNOWN is already correct. Skipping update.
+[2025-03-12 11:06:20] Processing account: ACCOUNT_NUMBER_592
+[2025-03-12 11:06:20] Fetching username for Discord ID: 1185356987656044585
+[2025-03-12 11:06:20] Retrieved username: simp_for_my_iq_59656
+[2025-03-12 11:06:20] Username for 1185356987656044585 is already correct. Skipping update.
+[2025-03-12 11:06:20] Processing account: ACCOUNT_NUMBER_593
+[2025-03-12 11:06:20] Fetching username for Discord ID: 1119687344946172014
+[2025-03-12 11:06:20] Username for 1119687344946172014 is already correct. Skipping update.
+[2025-03-12 11:06:20] Processing account: ACCOUNT_NUMBER_594
+[2025-03-12 11:06:20] Fetching username for Discord ID: 1188143594079522981
+[2025-03-12 11:06:21] Username for 1188143594079522981 is already correct. Skipping update.
+[2025-03-12 11:06:21] Processing account: ACCOUNT_NUMBER_595
+[2025-03-12 11:06:21] Fetching username for Discord ID: 805125765011865632
+[2025-03-12 11:06:21] Username for 805125765011865632 is already correct. Skipping update.
+[2025-03-12 11:06:21] Processing account: ACCOUNT_NUMBER_596
+[2025-03-12 11:06:21] Fetching username for Discord ID: 939541694267916358
+[2025-03-12 11:06:21] Username for 939541694267916358 is already correct. Skipping update.
+[2025-03-12 11:06:21] Processing account: ACCOUNT_NUMBER_597
+[2025-03-12 11:06:21] Fetching username for Discord ID: 435782913682833408
+[2025-03-12 11:06:21] Retrieved username: czarny4535
+[2025-03-12 11:06:21] Username for 435782913682833408 is already correct. Skipping update.
+[2025-03-12 11:06:21] Processing account: ACCOUNT_NUMBER_598
+[2025-03-12 11:06:21] Fetching username for Discord ID: 1192539940983160938
+[2025-03-12 11:06:22] Username for 1192539940983160938 is already correct. Skipping update.
+[2025-03-12 11:06:22] Processing account: ACCOUNT_NUMBER_599
+[2025-03-12 11:06:22] Fetching username for Discord ID: 932356958672003133
+[2025-03-12 11:06:22] Username for 932356958672003133 is already correct. Skipping update.
+[2025-03-12 11:06:22] Processing account: ACCOUNT_NUMBER_600
+[2025-03-12 11:06:22] Fetching username for Discord ID: 508367714834972704
+[2025-03-12 11:06:22] Username for 508367714834972704 is already correct. Skipping update.
+[2025-03-12 11:06:22] Processing account: ACCOUNT_NUMBER_601
+[2025-03-12 11:06:22] Fetching username for Discord ID: 813385796567564328
+[2025-03-12 11:06:22] Username for 813385796567564328 is already correct. Skipping update.
+[2025-03-12 11:06:22] Processing account: ACCOUNT_NUMBER_602
+[2025-03-12 11:06:22] Fetching username for Discord ID: 944717999179460668
+[2025-03-12 11:06:22] Retrieved username: bokica_krokodilica
+[2025-03-12 11:06:22] Username for 944717999179460668 is already correct. Skipping update.
+[2025-03-12 11:06:22] Processing account: ACCOUNT_NUMBER_603
+[2025-03-12 11:06:22] Fetching username for Discord ID: 350624598343024641
+[2025-03-12 11:06:23] Username for 350624598343024641 is already correct. Skipping update.
+[2025-03-12 11:06:23] Processing account: ACCOUNT_NUMBER_604
+[2025-03-12 11:06:23] Fetching username for Discord ID: 599670359863853089
+[2025-03-12 11:06:23] Username for 599670359863853089 is already correct. Skipping update.
+[2025-03-12 11:06:23] Processing account: ACCOUNT_NUMBER_605
+[2025-03-12 11:06:23] Fetching username for Discord ID: 406560928641843200
+[2025-03-12 11:06:23] Username for 406560928641843200 is already correct. Skipping update.
+[2025-03-12 11:06:23] Processing account: ACCOUNT_NUMBER_606
+[2025-03-12 11:06:23] Fetching username for Discord ID: 674648578773352511
+[2025-03-12 11:06:23] Retrieved username: kiralycobra
+[2025-03-12 11:06:23] Username for 674648578773352511 is already correct. Skipping update.
+[2025-03-12 11:06:23] Processing account: ACCOUNT_NUMBER_607
+[2025-03-12 11:06:23] Fetching username for Discord ID: 1213594174029430828
+[2025-03-12 11:06:23] Username for 1213594174029430828 is already correct. Skipping update.
+[2025-03-12 11:06:23] Processing account: ACCOUNT_NUMBER_608
+[2025-03-12 11:06:23] Fetching username for Discord ID: 997586046080532530
+[2025-03-12 11:06:24] Username for 997586046080532530 is already correct. Skipping update.
+[2025-03-12 11:06:24] Processing account: ACCOUNT_NUMBER_609
+[2025-03-12 11:06:24] Fetching username for Discord ID: 472137196963627038
+[2025-03-12 11:06:24] Username for 472137196963627038 is already correct. Skipping update.
+[2025-03-12 11:06:24] Processing account: ACCOUNT_NUMBER_610
+[2025-03-12 11:06:24] Fetching username for Discord ID: 323157282256846858
+[2025-03-12 11:06:24] Username for 323157282256846858 is already correct. Skipping update.
+[2025-03-12 11:06:24] Processing account: ACCOUNT_NUMBER_611
+[2025-03-12 11:06:24] Fetching username for Discord ID: 233676894493605888
+[2025-03-12 11:06:24] Retrieved username: youry_eas_
+[2025-03-12 11:06:24] Username for 233676894493605888 is already correct. Skipping update.
+[2025-03-12 11:06:24] Processing account: ACCOUNT_NUMBER_612
+[2025-03-12 11:06:24] Fetching username for Discord ID: 1144968074525679636
+[2025-03-12 11:06:24] Username for 1144968074525679636 is already correct. Skipping update.
+[2025-03-12 11:06:24] Processing account: ACCOUNT_NUMBER_613
+[2025-03-12 11:06:24] Fetching username for Discord ID: 1181662158602391626
+[2025-03-12 11:06:25] Username for 1181662158602391626 is already correct. Skipping update.
+[2025-03-12 11:06:25] Processing account: ACCOUNT_NUMBER_614
+[2025-03-12 11:06:25] Fetching username for Discord ID: 191695529674145794
+[2025-03-12 11:06:25] Username for 191695529674145794 is already correct. Skipping update.
+[2025-03-12 11:06:25] Processing account: ACCOUNT_NUMBER_615
+[2025-03-12 11:06:25] Fetching username for Discord ID: 1175766097618813029
+[2025-03-12 11:06:25] Username for 1175766097618813029 is already correct. Skipping update.
+[2025-03-12 11:06:25] Checking status for Discord invite: ppd4U35TGQ
+[2025-03-12 11:06:25] Invite ppd4U35TGQ is INACTIVE
+[2025-03-12 11:06:25] Using cached status for invite: ppd4U35TGQ -> INACTIVE
+[2025-03-12 11:06:25] Processing account: ACCOUNT_NUMBER_616
+[2025-03-12 11:06:25] Fetching username for Discord ID: 1175766097618813029
+[2025-03-12 11:06:25] Retrieved username: bartekfoch_88091
+[2025-03-12 11:06:25] Username for 1175766097618813029 is already correct. Skipping update.
+[2025-03-12 11:06:25] Processing account: ACCOUNT_NUMBER_617
+[2025-03-12 11:06:25] Fetching username for Discord ID: UNKNOWN
+[2025-03-12 11:06:26] Username for UNKNOWN is already correct. Skipping update.
+[2025-03-12 11:06:26] Using cached status for invite: ppd4U35TGQ -> INACTIVE
+[2025-03-12 11:06:26] Using cached status for invite: ppd4U35TGQ -> INACTIVE
+[2025-03-12 11:06:26] Processing account: ACCOUNT_NUMBER_618
+[2025-03-12 11:06:26] Fetching username for Discord ID: UNKNOWN
+[2025-03-12 11:06:26] Username for UNKNOWN is already correct. Skipping update.
+[2025-03-12 11:06:26] Processing account: ACCOUNT_NUMBER_619
+[2025-03-12 11:06:26] Fetching username for Discord ID: 389812437118877716
+[2025-03-12 11:06:26] Username for 389812437118877716 is already correct. Skipping update.
+[2025-03-12 11:06:26] Processing account: ACCOUNT_NUMBER_620
+[2025-03-12 11:06:26] Fetching username for Discord ID: 765833862692601867
+[2025-03-12 11:06:26] Username for 765833862692601867 is already correct. Skipping update.
+[2025-03-12 11:06:26] Processing account: ACCOUNT_NUMBER_621
+[2025-03-12 11:06:26] Fetching username for Discord ID: 880320842737786880
+[2025-03-12 11:06:26] Retrieved username: unidentified_err
+[2025-03-12 11:06:26] Username for 880320842737786880 is already correct. Skipping update.
+[2025-03-12 11:06:26] Processing account: ACCOUNT_NUMBER_622
+[2025-03-12 11:06:26] Fetching username for Discord ID: 431875994039615489
+[2025-03-12 11:06:27] Username for 431875994039615489 is already correct. Skipping update.
+[2025-03-12 11:06:27] Processing account: ACCOUNT_NUMBER_623
+[2025-03-12 11:06:27] Fetching username for Discord ID: 321562173774102528
+[2025-03-12 11:06:27] Username for 321562173774102528 is already correct. Skipping update.
+[2025-03-12 11:06:27] Processing account: ACCOUNT_NUMBER_624
+[2025-03-12 11:06:27] Fetching username for Discord ID: 477276493718749194
+[2025-03-12 11:06:27] Username for 477276493718749194 is already correct. Skipping update.
+[2025-03-12 11:06:27] Processing account: ACCOUNT_NUMBER_625
+[2025-03-12 11:06:27] Fetching username for Discord ID: 524553126116851743
+[2025-03-12 11:06:27] Retrieved username: wodnymis
+[2025-03-12 11:06:27] Username for 524553126116851743 is already correct. Skipping update.
+[2025-03-12 11:06:27] Processing account: ACCOUNT_NUMBER_626
+[2025-03-12 11:06:27] Fetching username for Discord ID: 180817756067725312
+[2025-03-12 11:06:27] Username for 180817756067725312 is already correct. Skipping update.
+[2025-03-12 11:06:27] Processing account: ACCOUNT_NUMBER_627
+[2025-03-12 11:06:27] Fetching username for Discord ID: 1290388779940446335
+[2025-03-12 11:06:28] Username for 1290388779940446335 is already correct. Skipping update.
+[2025-03-12 11:06:28] Processing account: ACCOUNT_NUMBER_628
+[2025-03-12 11:06:28] Fetching username for Discord ID: 304995372198133762
+[2025-03-12 11:06:28] Username for 304995372198133762 is already correct. Skipping update.
+[2025-03-12 11:06:28] Processing account: ACCOUNT_NUMBER_629
+[2025-03-12 11:06:28] Fetching username for Discord ID: 257629396800765952
+[2025-03-12 11:06:28] Username for 257629396800765952 is already correct. Skipping update.
+[2025-03-12 11:06:28] Processing account: ACCOUNT_NUMBER_630
+[2025-03-12 11:06:28] Fetching username for Discord ID: 1342274717159260191
+[2025-03-12 11:06:28] Retrieved username: liam57699
+[2025-03-12 11:06:28] Username for 1342274717159260191 is already correct. Skipping update.
+[2025-03-12 11:06:28] Processing account: ACCOUNT_NUMBER_631
+[2025-03-12 11:06:28] Fetching username for Discord ID: 336536870618136577
+[2025-03-12 11:06:28] Username for 336536870618136577 is already correct. Skipping update.
+[2025-03-12 11:06:28] Processing account: ACCOUNT_NUMBER_632
+[2025-03-12 11:06:28] Fetching username for Discord ID: 879050350160646145
+[2025-03-12 11:06:29] Username for 879050350160646145 is already correct. Skipping update.
+[2025-03-12 11:06:29] Processing account: ACCOUNT_NUMBER_633
+[2025-03-12 11:06:29] Fetching username for Discord ID: 231810808131092480
+[2025-03-12 11:06:29] Username for 231810808131092480 is already correct. Skipping update.
+[2025-03-12 11:06:29] Processing account: ACCOUNT_NUMBER_634
+[2025-03-12 11:06:29] Fetching username for Discord ID: 308568944686399488
+[2025-03-12 11:06:29] Username for 308568944686399488 is already correct. Skipping update.
+[2025-03-12 11:06:29] Processing account: ACCOUNT_NUMBER_635
+[2025-03-12 11:06:29] Fetching username for Discord ID: 1157936675402563685
+[2025-03-12 11:06:29] Retrieved username: _vanillach4n_
+[2025-03-12 11:06:29] Username for 1157936675402563685 is already correct. Skipping update.
+[2025-03-12 11:06:29] Processing account: ACCOUNT_NUMBER_636
+[2025-03-12 11:06:29] Fetching username for Discord ID: 1202765196658212897
+[2025-03-12 11:06:29] Username for 1202765196658212897 is already correct. Skipping update.
+[2025-03-12 11:06:29] Processing account: ACCOUNT_NUMBER_637
+[2025-03-12 11:06:29] Fetching username for Discord ID: 754039350219505855
+[2025-03-12 11:06:30] Username for 754039350219505855 is already correct. Skipping update.
+[2025-03-12 11:06:30] Processing account: ACCOUNT_NUMBER_638
+[2025-03-12 11:06:30] Fetching username for Discord ID: 560431434179805207
+[2025-03-12 11:06:30] Username for 560431434179805207 is already correct. Skipping update.
+[2025-03-12 11:06:30] Processing account: ACCOUNT_NUMBER_639
+[2025-03-12 11:06:30] Fetching username for Discord ID: 698707707884208159
+[2025-03-12 11:06:30] Username for 698707707884208159 is already correct. Skipping update.
+[2025-03-12 11:06:30] Processing account: ACCOUNT_NUMBER_640
+[2025-03-12 11:06:30] Fetching username for Discord ID: 488205722560102422
+[2025-03-12 11:06:30] Retrieved username: holishixisheng
+[2025-03-12 11:06:30] Username for 488205722560102422 is already correct. Skipping update.
+[2025-03-12 11:06:30] Processing account: ACCOUNT_NUMBER_641
+[2025-03-12 11:06:30] Fetching username for Discord ID: 522910326510059521
+[2025-03-12 11:06:30] Username for 522910326510059521 is already correct. Skipping update.
+[2025-03-12 11:06:30] Processing account: ACCOUNT_NUMBER_642
+[2025-03-12 11:06:30] Fetching username for Discord ID: 355781628540223488
+[2025-03-12 11:06:31] Username for 355781628540223488 is already correct. Skipping update.
+[2025-03-12 11:06:31] Processing account: ACCOUNT_NUMBER_643
+[2025-03-12 11:06:31] Fetching username for Discord ID: 1199486866265755751
+[2025-03-12 11:06:31] Username for 1199486866265755751 is already correct. Skipping update.
+[2025-03-12 11:06:31] Processing account: ACCOUNT_NUMBER_644
+[2025-03-12 11:06:31] Fetching username for Discord ID: 1146865375145885737
+[2025-03-12 11:06:31] Username for 1146865375145885737 is already correct. Skipping update.
+[2025-03-12 11:06:31] Processing account: ACCOUNT_NUMBER_645
+[2025-03-12 11:06:31] Fetching username for Discord ID: 1067042285029707788
+[2025-03-12 11:06:31] Retrieved username: nooskill_44208
+[2025-03-12 11:06:31] Username for 1067042285029707788 is already correct. Skipping update.
+[2025-03-12 11:06:31] Processing account: ACCOUNT_NUMBER_646
+[2025-03-12 11:06:31] Fetching username for Discord ID: 388774081899790337
+[2025-03-12 11:06:31] Username for 388774081899790337 is already correct. Skipping update.
+[2025-03-12 11:06:31] Processing account: ACCOUNT_NUMBER_647
+[2025-03-12 11:06:31] Fetching username for Discord ID: 427566053175066642
+[2025-03-12 11:06:32] Username for 427566053175066642 is already correct. Skipping update.
+[2025-03-12 11:06:32] Processing account: ACCOUNT_NUMBER_648
+[2025-03-12 11:06:32] Fetching username for Discord ID: 682420811277271130
+[2025-03-12 11:06:32] Username for 682420811277271130 is already correct. Skipping update.
+[2025-03-12 11:06:32] Processing account: ACCOUNT_NUMBER_649
+[2025-03-12 11:06:32] Fetching username for Discord ID: 1188813024295923737
+[2025-03-12 11:06:32] Username for 1188813024295923737 is already correct. Skipping update.
+[2025-03-12 11:06:32] Processing account: ACCOUNT_NUMBER_650
+[2025-03-12 11:06:32] Fetching username for Discord ID: 905873360410538036
+[2025-03-12 11:06:32] Retrieved username: razor_rene
+[2025-03-12 11:06:32] Username for 905873360410538036 is already correct. Skipping update.
+[2025-03-12 11:06:32] Processing account: ACCOUNT_NUMBER_651
+[2025-03-12 11:06:32] Fetching username for Discord ID: 977549234712760390
+[2025-03-12 11:06:32] Username for 977549234712760390 is already correct. Skipping update.
+[2025-03-12 11:06:32] Processing account: ACCOUNT_NUMBER_652
+[2025-03-12 11:06:32] Fetching username for Discord ID: 648874646774611978
+[2025-03-12 11:06:33] Username for 648874646774611978 is already correct. Skipping update.
+[2025-03-12 11:06:33] Processing account: ACCOUNT_NUMBER_653
+[2025-03-12 11:06:33] Fetching username for Discord ID: 336920691880361986
+[2025-03-12 11:06:33] Username for 336920691880361986 is already correct. Skipping update.
+[2025-03-12 11:06:33] Processing account: ACCOUNT_NUMBER_654
+[2025-03-12 11:06:33] Fetching username for Discord ID: 841766080211976193
+[2025-03-12 11:06:33] Username for 841766080211976193 is already correct. Skipping update.
+[2025-03-12 11:06:33] Processing account: ACCOUNT_NUMBER_655
+[2025-03-12 11:06:33] Fetching username for Discord ID: 757057161242214460
+[2025-03-12 11:06:33] Retrieved username: mr.nicskyy
+[2025-03-12 11:06:33] Username for 757057161242214460 is already correct. Skipping update.
+[2025-03-12 11:06:33] Processing account: ACCOUNT_NUMBER_656
+[2025-03-12 11:06:33] Fetching username for Discord ID: 1342150059483070506
+[2025-03-12 11:06:33] Username for 1342150059483070506 is already correct. Skipping update.
+[2025-03-12 11:06:33] Processing account: ACCOUNT_NUMBER_657
+[2025-03-12 11:06:33] Fetching username for Discord ID: 217922266577502208
+[2025-03-12 11:06:34] Username for 217922266577502208 is already correct. Skipping update.
+[2025-03-12 11:06:34] Saving updated data to Compromised-Discord-Accounts.json...
+[2025-03-12 11:06:34] Finished processing all accounts.
+[2025-03-12 11:06:34] Total processing time: 151.40 seconds.
+[2025-03-12 11:06:34] Processing completed.
