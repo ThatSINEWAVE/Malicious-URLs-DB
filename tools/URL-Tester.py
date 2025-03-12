@@ -31,24 +31,23 @@ def get_country_from_ip(ip):
 
 
 def check_url_status(url):
-    """Checks if a URL is active or inactive and follows redirects."""
+    """Checks if a URL is active or inactive and retrieves the final URL after all redirects."""
     print(f"[INFO] Checking status for URL: {url}")
     try:
-        response = requests.head(
-            url,
-            allow_redirects=True,
-            timeout=REQUEST_TIMEOUT,
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-            },
-        )
-        # Ensure we follow redirects to the final URL
-        final_url = response.url
+        session = requests.Session()
+        session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+        })
+
+        # Follow redirects and retrieve the final URL using GET
+        response = session.get(url, allow_redirects=True, timeout=REQUEST_TIMEOUT)
+        final_url = response.url  # Final URL after all redirects
         status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
+
         print(f"[SUCCESS] URL checked: {url} -> Status: {status}, Final URL: {final_url}")
         return status, final_url
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         print(f"[EXCEPTION] Failed to check URL: {url}, Error: {e}")
         return "INACTIVE", "UNKNOWN"
 
@@ -103,22 +102,22 @@ def update_accounts_data():
             print(f"[INFO] Parsing final URL: {account_data['FINAL_URL']}")
             parsed_url = urlparse(account_data["FINAL_URL"])
             if (
-                not account_data.get("FINAL_URL_DOMAIN")
-                or account_data["FINAL_URL_DOMAIN"] == "UNKNOWN"
+                    not account_data.get("FINAL_URL_DOMAIN")
+                    or account_data["FINAL_URL_DOMAIN"] == "UNKNOWN"
             ):
                 account_data["FINAL_URL_DOMAIN"] = parsed_url.netloc
 
             final_status, _ = check_url_status(account_data["FINAL_URL"])
             if (
-                not account_data.get("FINAL_URL_STATUS")
-                or account_data["FINAL_URL_STATUS"] == "UNKNOWN"
+                    not account_data.get("FINAL_URL_STATUS")
+                    or account_data["FINAL_URL_STATUS"] == "UNKNOWN"
             ):
                 account_data["FINAL_URL_STATUS"] = final_status
 
             # Get geolocation for the final URL domain if not set
             if (
-                not account_data.get("SUSPECTED_REGION_OF_ORIGIN")
-                or account_data["SUSPECTED_REGION_OF_ORIGIN"] == "UNKNOWN"
+                    not account_data.get("SUSPECTED_REGION_OF_ORIGIN")
+                    or account_data["SUSPECTED_REGION_OF_ORIGIN"] == "UNKNOWN"
             ):
                 try:
                     print(f"[INFO] Resolving domain IP for: {parsed_url.netloc}")
@@ -126,8 +125,10 @@ def update_accounts_data():
                     account_data["SUSPECTED_REGION_OF_ORIGIN"] = get_country_from_ip(
                         domain_ip
                     )
-                except socket.gaierror as e:
-                    print(f"[EXCEPTION] Failed to resolve domain {parsed_url.netloc}: {e}")
+                except Exception as e:
+                    print(
+                        f"[EXCEPTION] Failed to resolve domain {parsed_url.netloc}: {e}"
+                    )
                     account_data["SUSPECTED_REGION_OF_ORIGIN"] = "UNKNOWN"
         else:
             print(f"[WARNING] Final URL is UNKNOWN, setting default values.")
