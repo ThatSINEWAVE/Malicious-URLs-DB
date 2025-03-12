@@ -49,7 +49,7 @@ async function fetchData() {
         document.getElementById('dashboard').classList.add('hidden');
 
         // Change this line to use the GitHub raw URL
-        const response = await fetch('https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/data/Compromised-Discord-Accounts.json');
+        const response = await fetch('../data/Compromised-Discord-Accounts.json');
         if (!response.ok) {
             throw new Error('Failed to fetch data');
         }
@@ -143,7 +143,6 @@ function filterData() {
 }
 
 // Update main stats
-// Update main stats
 function updateStats() {
     // Update total accounts count
     document.getElementById('totalAccounts').textContent = filteredData.length;
@@ -222,6 +221,38 @@ function updateStats() {
         account.USERNAME && account.USERNAME.toLowerCase().includes('deleted_user_')
     ).length;
     document.getElementById('deletedAccounts').textContent = deletedAccounts;
+
+    // New last VT check calculation
+    const timestamps = filteredData
+        .filter(account => account.LAST_VT_CHECK)
+        .map(account => new Date(account.LAST_VT_CHECK).getTime());
+
+    const latestTimestamp = timestamps.length > 0 ? Math.max(...timestamps) : null;
+    const lastUpdatedElement = document.getElementById('lastUpdated');
+
+    if (latestTimestamp) {
+        const latestDate = new Date(latestTimestamp);
+        const now = dayjs();
+        const lastUpdate = dayjs(latestDate);
+
+        const diffMinutes = now.diff(lastUpdate, 'minute');
+        const diffHours = now.diff(lastUpdate, 'hour');
+        const diffDays = now.diff(lastUpdate, 'day');
+
+        let timeAgo;
+        if (diffMinutes < 1) {
+            timeAgo = 'just now';
+        } else if (diffMinutes < 60) {
+            timeAgo = `${diffMinutes} minute${diffMinutes !== 1 ? 's' : ''} ago`;
+        } else if (diffHours < 24) {
+            timeAgo = `${diffHours} hour${diffHours !== 1 ? 's' : ''} ago`;
+        } else {
+            timeAgo = `${diffDays} day${diffDays !== 1 ? 's' : ''} ago`;
+        }
+        lastUpdatedElement.textContent = `Updated ${timeAgo}`;
+    } else {
+        lastUpdatedElement.textContent = 'Updated: data not available';
+    }
 }
 
 // Update the data table
