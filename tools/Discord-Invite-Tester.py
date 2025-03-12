@@ -71,24 +71,33 @@ def process_accounts(data, filename):
         # Only process accounts with discord.gg or discord.com URLs
         surface_url = account_data.get("SURFACE_URL")
         final_url = account_data.get("FINAL_URL")
+        surface_status = account_data.get("SURFACE_URL_STATUS")
+        final_status = account_data.get("FINAL_URL_STATUS")
 
-        if surface_url and (
-            "discord.gg" in surface_url or "discord.com" in surface_url
-        ):
+        # Process Surface URL
+        if surface_url and ("discord.gg" in surface_url or "discord.com" in surface_url):
             print(f"Found Discord surface URL: {surface_url}")
-            surface_status = check_discord_invite_status(surface_url)
+            if not surface_status:
+                surface_status = check_discord_invite_status(surface_url)
             account_data["SURFACE_URL_STATUS"] = (
                 surface_status if surface_status else "UNKNOWN"
             )
         else:
             print(f"No valid Discord surface URL found for {account_key}")
 
+        # Process Final URL
         if final_url and ("discord.gg" in final_url or "discord.com" in final_url):
             print(f"Found Discord final URL: {final_url}")
-            final_status = check_discord_invite_status(final_url)
+            if not final_status:
+                final_status = check_discord_invite_status(final_url)
             account_data["FINAL_URL_STATUS"] = (
                 final_status if final_status else "UNKNOWN"
             )
+
+            # If FINAL_URL_STATUS is INACTIVE, update SURFACE_URL_STATUS
+            if final_status == "INACTIVE":
+                print(f"FINAL_URL_STATUS for {account_key} is INACTIVE, updating SURFACE_URL_STATUS.")
+                account_data["SURFACE_URL_STATUS"] = "INACTIVE"
         else:
             print(f"No valid Discord final URL found for {account_key}")
 
@@ -96,9 +105,7 @@ def process_accounts(data, filename):
         save_json(data, filename)
 
         # Only wait 2 seconds if the URLs are Discord URLs
-        if surface_url and (
-            "discord.gg" in surface_url or "discord.com" in surface_url
-        ):
+        if surface_url and ("discord.gg" in surface_url or "discord.com" in surface_url):
             print("Waiting for 2 seconds before checking next account...")
             time.sleep(2)
 
