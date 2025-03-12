@@ -39,23 +39,24 @@ def load_json_data(file_path):
 # Function to update the account username if needed
 def update_account_username(accounts, file_path, bot_token):
     for account_key, account_data in accounts.items():
+        case_number = account_data.get("CASE_NUMBER", "Unknown")
         discord_id = account_data.get("DISCORD_ID")
         current_username = account_data.get("USERNAME")
 
         if discord_id:
-            print(f"Processing {discord_id}...")
+            print(f"Processing case number {case_number} ({discord_id})...")
 
             # Fetch current username from Discord API
             new_username = get_discord_username(discord_id, bot_token)
 
             if new_username and new_username != current_username:
-                print(f"Updating username for {discord_id}: {current_username} -> {new_username}")
+                print(f"Case {case_number}: Updating username for {discord_id}: {current_username} -> {new_username}")
                 account_data["USERNAME"] = new_username
                 # Write changes to file after each update to save RAM usage
                 with open(file_path, 'w', encoding='utf-8') as file:
                     json.dump(accounts, file, ensure_ascii=False, indent=4)
             else:
-                print(f"No update needed for {discord_id}, username is correct.")
+                print(f"Case {case_number}: No update needed for {discord_id}, username is correct.")
 
         # Slow down the loop to avoid hitting rate limits
         time.sleep(1)
