@@ -74,6 +74,7 @@ def get_discord_username(discord_id, bot_token, request_tracker):
 
 def check_discord_invite_status(url, request_tracker, cache):
     if "discord.gg" not in url and "discord.com" not in url:
+        log_message(f"URL {url} is not a Discord invite. Skipping check.")
         return None
 
     invite_code = url.split("/")[-1]
@@ -189,10 +190,18 @@ def process_accounts(data, filename):
                 )
 
         if surface_url:
-            account["SURFACE_URL_STATUS"] = (
-                check_discord_invite_status(surface_url, request_tracker, invite_cache)
-                or "UNKNOWN"
+            discord_status = check_discord_invite_status(
+                surface_url, request_tracker, invite_cache
             )
+            if (
+                discord_status is not None
+            ):  # Only update if it's a Discord URL and we got a status
+                account["SURFACE_URL_STATUS"] = discord_status
+                log_message(f"Updated SURFACE_URL_STATUS to {discord_status}")
+            else:
+                log_message(
+                    f"Not a Discord URL. Keeping existing SURFACE_URL_STATUS: {account.get('SURFACE_URL_STATUS', 'UNKNOWN')}"
+                )
 
         if final_url:
             final_status = check_discord_invite_status(
@@ -202,8 +211,20 @@ def process_accounts(data, filename):
                 final_status is not None
             ):  # Only update if the function returns a valid status
                 account["FINAL_URL_STATUS"] = final_status
-            if final_status == "INACTIVE":
-                account["SURFACE_URL_STATUS"] = "INACTIVE"
+                log_message(f"Updated FINAL_URL_STATUS to {final_status}")
+                if (
+                    final_status == "INACTIVE"
+                    and account.get("SURFACE_URL_STATUS") == "ACTIVE"
+                    and "discord" in surface_url.lower()
+                ):
+                    account["SURFACE_URL_STATUS"] = "INACTIVE"
+                    log_message(
+                        "Setting SURFACE_URL_STATUS to INACTIVE because FINAL_URL is INACTIVE"
+                    )
+            else:
+                log_message(
+                    f"Not a Discord URL. Keeping existing FINAL_URL_STATUS: {account.get('FINAL_URL_STATUS', 'UNKNOWN')}"
+                )
 
     # Move the non-ASCII username check to the end
     data, non_ascii_count, non_ascii_cases = check_non_ascii_usernames(data)
