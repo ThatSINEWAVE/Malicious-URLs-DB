@@ -17,6 +17,9 @@ try:
 except FileNotFoundError:
     pass
 
+# Create a set of existing DISCORD_IDs from the loaded JSON data
+existing_discord_ids = {account["DISCORD_ID"] for account in data.values()}
+
 # Iterate over the rows in the worksheet
 for row_number, row in enumerate(
     worksheet.iter_rows(min_row=2, values_only=True), start=1
@@ -36,6 +39,10 @@ for row_number, row in enumerate(
         REGION,
         STATUS,
     ) = row
+
+    # Skip the row if the DISCORD_ID already exists in the JSON data
+    if str(DISCORD_ID) in existing_discord_ids:
+        continue
 
     # Handle missing date values
     if FOUND_ON is None:
@@ -71,6 +78,8 @@ for row_number, row in enumerate(
 
     # Update the data dictionary with the new account
     data[f"ACCOUNT_NUMBER_{row_number}"] = account
+    # Add the new DISCORD_ID to the set of existing DISCORD_IDs
+    existing_discord_ids.add(str(DISCORD_ID))
 
 # Convert the data dictionary to JSON
 json_data = json.dumps(data, indent=2)
