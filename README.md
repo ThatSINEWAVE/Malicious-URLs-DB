@@ -21,7 +21,7 @@ A comprehensive security dashboard tracking malicious activities with advanced a
 
 ### Advanced Visualization Suite
 
-- **8 Interactive Charts** including:
+- **7 Interactive Charts** including:
   - Attack timeline with date filtering
   - Method distribution (doughnut/pie charts)
   - Geographic origin analysis
@@ -30,6 +30,7 @@ A comprehensive security dashboard tracking malicious activities with advanced a
   - Platform targeting trends
   - URL status comparison (surface vs final)
   - Attack surface distribution
+  - Compromised account status
 
 ### Intelligent Data Handling
 
