@@ -1,7 +1,14 @@
 import json
 import requests
 import time
+import os
+from dotenv import load_dotenv
 
+# Load the environment variables from the .env file
+load_dotenv()
+
+# Fetch the bot token from the .env file
+DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 
 # Load the JSON file
 def load_json(filename):
@@ -9,7 +16,7 @@ def load_json(filename):
     try:
         with open(
             filename, "r", encoding="utf-8"
-        ) as file:  # Ensure the file is read with UTF-8 encoding
+        ) as file:
             data = json.load(file)
         print(f"Successfully loaded {len(data)} accounts.")
         return data
@@ -17,23 +24,21 @@ def load_json(filename):
         print(f"Error loading JSON file: {e}")
         return {}
 
-
 # Save the updated JSON file with non-ASCII characters intact
 def save_json(data, filename):
     print(f"Saving updated data to {filename}...")
     try:
         with open(
             filename, "w", encoding="utf-8"
-        ) as file:  # Ensure the file is saved with UTF-8 encoding
+        ) as file:
             json.dump(
                 data, file, indent=4, ensure_ascii=False
-            )  # Prevent ASCII escape sequences
+            )
         print(f"Successfully saved updated data to {filename}.")
     except Exception as e:
         print(f"Error saving JSON file: {e}")
 
-
-# Check if a Discord invite is still active
+# Check if a Discord invite is still active using the bot API
 def check_discord_invite_status(url):
     print(f"Checking status of invite URL: {url}...")
     if "discord.gg" not in url and "discord.com" not in url:
@@ -41,10 +46,14 @@ def check_discord_invite_status(url):
         return None
 
     invite_code = url.split("/")[-1]
-    api_url = f"https://discord.com/api/v9/invites/{invite_code}"
+    api_url = f"https://discord.com/api/v10/invites/{invite_code}"
+
+    headers = {
+        "Authorization": f"Bot {DISCORD_BOT_TOKEN}"
+    }
 
     try:
-        response = requests.get(api_url)
+        response = requests.get(api_url, headers=headers)
         if response.status_code == 200:
             print(f"Invite {invite_code} is ACTIVE.")
             return "ACTIVE"
@@ -60,7 +69,6 @@ def check_discord_invite_status(url):
         print(f"Error checking invite {invite_code}: {e}")
         return "INACTIVE"
 
-
 # Process the compromised accounts
 def process_accounts(data, filename):
     print(f"Starting to process {len(data)} accounts...")
@@ -68,7 +76,6 @@ def process_accounts(data, filename):
     for account_key, account_data in data.items():
         print(f"\nProcessing account: {account_key}")
 
-        # Only process accounts with discord.gg or discord.com URLs
         surface_url = account_data.get("SURFACE_URL")
         final_url = account_data.get("FINAL_URL")
         surface_status = account_data.get("SURFACE_URL_STATUS")
@@ -111,7 +118,6 @@ def process_accounts(data, filename):
 
     print("Finished processing all accounts.")
 
-
 # Main function
 def main():
     filename = "Compromised-Discord-Accounts.json"
@@ -126,7 +132,6 @@ def main():
     process_accounts(data, filename)
 
     print("Testing finished.")
-
 
 if __name__ == "__main__":
     print("Starting the Discord invite status checker...")
