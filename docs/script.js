@@ -5,6 +5,7 @@ let currentPage = 1;
 const rowsPerPage = 10;
 
 // Dark mode toggle
+// Dark mode toggle
 const darkModeToggle = document.getElementById('darkModeToggle');
 darkModeToggle.addEventListener('click', () => {
     document.body.classList.toggle('bg-gray-900');
@@ -14,7 +15,26 @@ darkModeToggle.addEventListener('click', () => {
         card.classList.toggle('bg-gray-800');
         card.classList.toggle('text-white');
     });
+
+    // Update glossary section colors
+    const glossary = document.getElementById('infoBar');
+    glossary.classList.toggle('bg-gray-800');
+    glossary.classList.toggle('text-white');
 });
+
+// Data Glossary Toggle
+const infoHeader = document.getElementById('infoHeader');
+const expandButton = document.getElementById('expandButton');
+const infoContent = document.getElementById('infoContent');
+
+function toggleGlossary() {
+    infoContent.classList.toggle('hidden');
+    expandButton.classList.toggle('rotate-180');
+}
+
+// Event Listeners for Glossary
+infoHeader.addEventListener('click', toggleGlossary);
+expandButton.addEventListener('click', toggleGlossary);
 
 // Fetch data from JSON file
 async function fetchData() {
@@ -653,8 +673,7 @@ function createStatusChart() {
         type: 'bar',
         data: {
             labels: ['Surface URLs', 'Final URLs'],
-            datasets: [
-                {
+            datasets: [{
                     label: 'Active',
                     data: [statusCounts.surfaceActive, statusCounts.finalActive],
                     backgroundColor: 'rgba(239, 68, 68, 0.8)'
@@ -1038,4 +1057,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Refresh data
     document.getElementById('refreshData').addEventListener('click', fetchData);
+
+    // Data Glossary Toggle
+    if (infoHeader && expandButton) {
+        infoHeader.addEventListener('click', toggleGlossary);
+        expandButton.addEventListener('click', toggleGlossary);
+    }
 });

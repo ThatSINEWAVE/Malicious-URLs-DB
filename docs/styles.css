@@ -93,6 +93,14 @@ footer a:hover {
 	transform: translateY(-2px);
 }
 
+#infoHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
 /* Announcement Bar */
 .announcement-bar {
 	background-color: var(--gray-700);
@@ -659,6 +667,21 @@ body.bg-gray-900 ::-webkit-scrollbar-thumb {
 
 	.bg-white.p-4.rounded-lg.shadow.mb-6 .flex.flex-wrap.gap-4 {
 		gap: 0.5rem;
+	}
+
+	.chart-help .tooltip {
+		width: 180px;
+		font-size: 0.875rem;
+		left: 100%;
+		transform: translateX(-90%);
+	}
+
+	#infoContent ul {
+		font-size: 0.875rem;
+	}
+
+	#infoHeader h3 {
+		font-size: 1rem;
 	}
 }
 

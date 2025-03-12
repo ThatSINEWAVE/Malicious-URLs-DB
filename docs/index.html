@@ -128,6 +128,156 @@
             <div class="mt-2 text-xs text-gray-500">Based on attack surface</div>
           </div>
         </div>
+        <div class="bg-white p-4 rounded-lg shadow mb-6 transition-all duration-300" id="infoBar">
+          <div class="flex justify-between items-center cursor-pointer" id="infoHeader">
+            <h3 class="text-lg font-semibold flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+              </svg> Data Glossary & Explanations
+            </h3>
+            <button class="text-gray-500 hover:text-indigo-600 transition-colors transform rotate-0" id="expandButton">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
+          <div class="mt-4 text-sm text-gray-600 hidden overflow-hidden transition-all duration-300" id="infoContent">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <p class="font-medium mb-2 text-indigo-600">
+                  <b>Key Metrics Explained:</b>
+                </p>
+                <ul class="space-y-2">
+                  <li>
+                    <b>Key metrics provide insights into detected threats and attack trends.</b>
+                  </li>
+                  <li>
+                    <span class="font-medium">Total Compromised Accounts:</span> Number of detected hacked accounts.
+                  </li>
+                  <li>
+                    <span class="font-medium">Deleted Accounts:</span> Accounts identified as deleted or inactive.
+                  </li>
+                  <li>
+                    <span class="font-medium">Active Malicious URLs:</span> Currently active phishing or attack links.
+                  </li>
+                  <li>
+                    <span class="font-medium">Most Common Attack Method:</span> Predominant technique used by attackers.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium mb-2 text-indigo-600">
+                  <b>Status Indicators:</b>
+                </p>
+                <ul class="space-y-2">
+                  <li>
+                    <b>Indicators help classify the threat level of detected URLs.</b>
+                  </li>
+                  <li>
+                    <span class="px-2 bg-green-100 text-green-800 rounded-full">INACTIVE</span> - URL is no longer a threat.
+                  </li>
+                  <li>
+                    <span class="px-2 bg-red-100 text-red-800 rounded-full">ACTIVE</span> - URL is currently a risk.
+                  </li>
+                  <li>
+                    <span class="px-2 bg-orange-100 text-orange-800 rounded-full">UNKNOWN</span> - URL status is uncertain.
+                  </li>
+                  <li>
+                    <span class="px-2 bg-gray-100 text-gray-800 rounded-full">UNDER REVIEW</span> - Investigation is ongoing. (Not in use)
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium mb-2 text-indigo-600">
+                  <b>Chart Breakdown:</b>
+                </p>
+                <ul class="space-y-2">
+                  <li>
+                    <b>Charts provide a visual representation of attack patterns.</b>
+                  </li>
+                  <li>
+                    <span class="font-medium">Attack Methods:</span> Breakdown of attack techniques used.
+                  </li>
+                  <li>
+                    <span class="font-medium">Attacks Over Time:</span> Historical trend analysis of attack frequency.
+                  </li>
+                  <li>
+                    <span class="font-medium">Targeted Platforms:</span> Most affected applications and services.
+                  </li>
+                  <li>
+                    <span class="font-medium">Behavior Types:</span> Classification of common malicious behaviors.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium mb-2 text-indigo-600">
+                  <b>URL Status Comparison:</b>
+                </p>
+                <ul class="space-y-2">
+                  <li>
+                    <b>Comparison of URL threat statuses based on detected risks.</b>
+                  </li>
+                  <li>
+                    <span class="font-medium">Attack Goals:</span> Intent behind identified cyber threats.
+                  </li>
+                  <li>
+                    <span class="font-medium">Compromised Accounts:</span> Categorization of affected accounts.
+                  </li>
+                  <li>
+                    <span class="font-medium">Method vs. Goal:</span> Relationship between attack type and objective.
+                  </li>
+                  <li>
+                    <span class="font-medium">Resolution Status:</span> Final determination of detected URLs.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-medium mb-2 text-indigo-600">
+                  <b>Database Fields Overview:</b>
+                </p>
+                <ul class="space-y-2">
+                  <li>
+                    <b>Database fields store detailed records of detected threats.</b>
+                  </li>
+                  <li>
+                    <span class="font-medium">DISCORD_ID:</span> Unique identifier for the compromised user.
+                  </li>
+                  <li>
+                    <span class="font-medium">USERNAME:</span> Name associated with the detected account.
+                  </li>
+                  <li>
+                    <span class="font-medium">ATTACK_METHOD:</span> Technique used for account compromise.
+                  </li>
+                  <li>
+                    <span class="font-medium">ATTACK_GOAL:</span> Purpose behind the attack, such as credential theft.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="font-large mb-2 text-indigo-600">
+                  <b>Technical Details:</b>
+                </p>
+                <ul class="space-y-2">
+                  <li>
+                    <b>Detailed description of the technologies and protocols involved in the attack analysis.</b>
+                  </li>
+                  <li>
+                    <span class="font-medium">Malware Signature:</span> Unique identifiers for malicious files or software.
+                  </li>
+                  <li>
+                    <span class="font-medium">IP Addresses:</span> Identified malicious IP addresses involved in the attack.
+                  </li>
+                  <li>
+                    <span class="font-medium">Network Protocols:</span> Communication protocols used in the attack.
+                  </li>
+                  <li>
+                    <span class="font-medium">Geolocation Data:</span> Physical location of identified attack sources.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- First Row of Charts -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div class="bg-white p-4 rounded-lg shadow">
