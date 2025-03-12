@@ -4,7 +4,7 @@
 
 ![Banner](https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/.github/SCREENSHOTS/Malicious-URLs-DB.png)
 
-A comprehensive security dashboard tracking malicious activities with advanced analytics capabilities
+A comprehensive security dashboard tracking malicious activities with advanced analytics capabilities and unified processing engine
 
 </div>
 
@@ -18,6 +18,12 @@ A comprehensive security dashboard tracking malicious activities with advanced a
   - Desktop/mobile screenshots for app stores
   - Dark/light theme adaptation
   - Standalone display mode
+  - Dynamic risk level indicators
+  - API status monitoring panel
+  - Cached invite status display
+  - Username character analysis
+  - Last check timestamp tracking
+  - Dual-layer URL validation status
 
 ### Advanced Visualization Suite
 
@@ -32,6 +38,12 @@ A comprehensive security dashboard tracking malicious activities with advanced a
   - Attack goal distribution
   - Compromised account status
   - Method vs goal matrix analysis
+  - Non-ASCII username tracker
+  - VirusTotal check timestamps
+  - Regional attribution mapping
+  - URL status lifecycle tracking (planned)
+  - API call metrics monitoring
+  - Username change history (planned)
 
 ### Intelligent Data Handling
 
@@ -39,6 +51,19 @@ A comprehensive security dashboard tracking malicious activities with advanced a
   - Real-time Active URL counter with risk level indicators (Low/Med/High/Critical)
   - Auto-updating "Most Common Attack Method" and "Top Targeted Platform" stats
   - Smart date range presets based on dataset
+
+### Unified Processing Engine
+
+- **All-in-One Security Tool** (`Database-Checker.py`):
+  - Discord invite validation with caching
+  - VirusTotal API integration
+  - IP geolocation tracking
+  - Non-ASCII username detection
+  - Automated case number sequencing
+  - Dual URL checking (Surface + Final)
+  - Smart rate limiting (Discord/VirusTotal APIs)
+  - Real-time data persistence
+  - Comprehensive logging system
 
 <div align="center">
 
@@ -58,19 +83,6 @@ A comprehensive security dashboard tracking malicious activities with advanced a
 - **Service Worker Ready** structure
 - **App-like Navigation** with sticky elements
 
-### Security Infrastructure
-
-- **Automated Testing Suite**:
-  - `Discord-Invite-Tester.py`: Specialized Discord link validator
-  - `URL-Tester.py`: Bulk URL checker with geolocation
-  - `Number-Editor.py`: Data normalization tool
-  - `XLSX-to-JSON.py`: Data importer tool
-- **Data Integrity Checks**:
-  - Case number validation
-  - URL domain parsing
-  - Automatic status updates
-  - Regional attribution system
-
 ### Visualization Engine
 
 - **Dynamic Theme Support**:
@@ -82,14 +94,58 @@ A comprehensive security dashboard tracking malicious activities with advanced a
   - Responsive chart destruction/regeneration
   - Percentage-based tooltip calculations
 
-## Complete Tool Suite
+### Core Processing Engine
 
-| Tool                       | Purpose                | Key Features                                          |
-|----------------------------|------------------------|-------------------------------------------------------|
-| `Discord-Invite-Tester.py` | Validate Discord links | API integration, Rate limiting, Status tracking       |
-| `URL-Tester.py`            | Bulk URL analysis      | IP geolocation, Redirect tracking, Domain parsing     |
-| `Number-Editor.py`         | Data normalization     | Case number sequencing, UTF-8 preservation            |
-| `XLSX-to-JSON.py`          | Data import            | Excel conversion, Domain extraction, Field validation |
+- **Unified Security Tool**:
+  - Integrated Discord API handling
+  - VirusTotal malicious URL detection
+  - IPInfo geolocation services
+  - Automated username normalization
+  - Configurable rate limits
+  - Multi-API error handling
+  - Compressed Base64 URL encoding
+
+### Advanced Data Management
+
+- **Enhanced JSON Schema**:
+  - `NON_ASCII_USERNAME` flag
+  - `LAST_VT_CHECK` timestamps
+  - Dual URL status tracking
+  - Automated case numbering
+  - Regional attribution system
+  - API call counters
+
+### Security Infrastructure
+
+- **Protection Mechanisms**:
+  - Request throttling (20/sec Discord, 4/min VirusTotal)
+  - Automatic API token validation
+  - Immediate disk writes for audit trails
+  - Invite status caching system
+  - Automatic username synchronization
+  - Multi-layer URL validation
+
+## Complete Tool Integration
+
+The `Database-Checker.py` tool represents a significant advancement in our threat detection capabilities, combining previously separate utilities into one powerful security engine. This Python script offers an intelligent multi-API orchestration layer that maintains optimal performance while respecting rate limits of external services.
+
+Key capabilities include:
+- **Smart API Management**: Automated token rotation and request throttling to prevent API lockouts
+- **Parallel Processing**: Concurrent validation of surface and final URLs for faster analysis
+- **Persistent Caching**: Memory-efficient storage of Discord invite validations to reduce API calls
+- **Intelligent Retry Logic**: Exponential backoff for failed requests with customizable parameters
+- **Comprehensive Reporting**: Real-time terminal output and structured JSON logging for audit trails
+
+The tool implements a robust state machine that tracks the complete lifecycle of each malicious URL, from initial detection through validation to final disposition. Every action is meticulously logged with timestamps and attribution information, creating a detailed forensic record that can be used for trend analysis and incident response.
+
+| Feature                      | Implementation         | Key Technologies                          |
+|------------------------------|------------------------|-------------------------------------------|
+| Unified Processing           | Database-Checker.py    | Requests, VirusTotal API, Discord API     |
+| Data Validation              | Built-in checks        | Unicode normalization, Base64 encoding    |
+| Threat Intelligence          | Integrated APIs        | IPInfo, VirusTotal, Discord API           |
+| Persistent Logging           | Rotating log system    | Python logging, Immediate fsync           |
+| Rate Limit Management        | Adaptive throttling    | Time.perf_counter, Request tracking       |
+
 
 ## Repository Structure
 
@@ -113,10 +169,7 @@ A comprehensive security dashboard tracking malicious activities with advanced a
 ├── 📂 data/                                      # Data storage
 │   └── 🔒 Compromised-Discord-Accounts.json      # Dataset of compromised accounts
 └── 📂 Tools/                                     # Utility scripts
-    ├── 🔄 XLSX-to-JSON.py                        # Excel to JSON converter
-    ├── 🌐 URL-Tester.py                          # Bulk URL tester via IPInfo API
-    ├── ✏️ Number-Editor.py                       # Script for editing case numbers
-    ├── 🔍 Discord-Invite-Tester.py               # Discord invite testing tool
+    ├── 📜 Database-Checker.py                    # Unified processing engine
     ├── 📊 ExporterSheet.xlsx                     # Exported dataset from private Google Sheet
     └── 🔒 Compromised-Discord-Accounts.json      # Backup copy of dataset that is used in edits
 ```
@@ -141,6 +194,12 @@ A comprehensive security dashboard tracking malicious activities with advanced a
 | FINAL_URL                  | URL         | Endpoint malicious URL                   | https://steallogin[.]xyz/submit    |
 | FINAL_URL_DOMAIN           | Domain      | Registered domain of final URL           | steallogin[.]xyz                   |
 | FINAL_URL_STATUS           | Enum        | Current status (ACTIVE/INACTIVE/UNKNOWN) | INACTIVE                           |
+| NON_ASCII_USERNAME         | Boolean     | Unicode character detection flag         | true                               |
+| LAST_VT_CHECK              | ISO 8601    | Last VirusTotal verification timestamp   | 2025-03-11T14:28:33Z               |
+| ACCOUNT_STATUS             | Enum        | Account investigation status             | COMPROMISED                        |
+| SURFACE_URL_STATUS         | Enum        | URL status with Discord checks           | ACTIVE                             |
+| FINAL_URL_STATUS           | Enum        | URL status with VT verification          | INACTIVE                           |
+| INVITE_CACHE               | Object      | Cached Discord invite statuses           | 2025-03-11T12:45:19Z               |
 
 ## Deployment Options
 
@@ -149,22 +208,15 @@ A comprehensive security dashboard tracking malicious activities with advanced a
 1. Visit [Live Demo](https://thatsinewave.github.io/Malicious-URLs-DB/)
 2. Click "Install" in browser controls (Chrome/Edge on desktop or mobile)
 3. Launch as a standalone application
-4. 
-### Development Setup
-
-```bash
-git clone https://github.com/ThatSINEWAVE/Malicious-URLs-DB.git
-cd docs && python3 -m http.server 8000
-```
-Access via `http://localhost:8000`
 
 ## Data Lifecycle
 
 1. **Import** via XLSX-to-JSON.py
-2. **Normalize** with Number-Editor.py
-3. **Validate** using URL-Tester.py
-4. **Monitor** with Discord-Invite-Tester.py
-5. **Visualize** in web dashboard
+2. **Automated Collection** via Database-Checker.py
+3. **API Validation** (Discord + VirusTotal)
+4. **Geolocation Tagging**
+5. **Username Analysis**
+6. **Real-Time Dashboard Updates**
 
 <div align="center">
 
@@ -182,15 +234,23 @@ Access via `http://localhost:8000`
   - Screen reader support
   - Keyboard navigation
   - Color contrast compliance
+- **Extended Security**:
+  - API token encryption
+  - Request signature validation
+  - Audit trail preservation
+  - Memory-safe operations
+- **Privacy Features**:
+  - Anonymized logging
+  - Data minimization
+  - Secure token handling
 
 ## Maintenance Protocols
 
-These are the procedures followed by Cybersight Security team members during project updates.
-
-1. Weekly automated URL testing
-2. Bi-weekly data normalization
-3. Monthly PWA validation
-4. Quarterly icon set updates
+1. Daily automated API checks
+2. Weekly log rotation
+3. Monthly cache purges
+4. Quarterly schema validation
+5. Bi-annual rate limit audits
 
 ## Contributing
 
@@ -198,6 +258,12 @@ Contributions are welcome! If you would like to contribute:
 1. Fork the repository.
 2. Make your changes.
 3. Submit a pull request.
+
+This project welcomes contributions through:
+- API service integrations
+- Enhanced visualization modules
+- Localization support
+- Additional security checks
 
 ## License
 
