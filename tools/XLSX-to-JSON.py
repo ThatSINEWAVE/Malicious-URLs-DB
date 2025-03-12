@@ -82,7 +82,7 @@ for row_number, row in enumerate(
     existing_discord_ids.add(str(DISCORD_ID))
 
 # Convert the data dictionary to JSON
-json_data = json.dumps(data, indent=2, ensure_ascii=False)
+json_data = json.dumps(data, indent=4, ensure_ascii=False)
 
 # Write the JSON data to a file
 with open("Compromised-Discord-Accounts.json", "w", encoding='utf-8') as file:
