@@ -12495,5 +12495,23 @@
         "FINAL_URL": "https://staemconmmuntiy.com/gift/id=533832",
         "FINAL_URL_DOMAIN": "staemconmmuntiy.com",
         "FINAL_URL_STATUS": "ACTIVE"
+    },
+    "ACCOUNT_NUMBER_661": {
+        "CASE_NUMBER": "661",
+        "FOUND_ON": "2025-03-12",
+        "DISCORD_ID": "541872543573999616",
+        "USERNAME": "e50ausf.m",
+        "BEHAVIOUR": "Markdown URL Obfuscation",
+        "ATTACK_METHOD": "Phishing Website",
+        "ATTACK_VECTOR": "Cloned Steam Pages",
+        "ATTACK_GOAL": "Steam Accounts",
+        "ATTACK_SURFACE": "Steam",
+        "SUSPECTED_REGION_OF_ORIGIN": "RU",
+        "SURFACE_URL": "https://steanmnscommunity.com/105381409",
+        "SURFACE_URL_DOMAIN": "steanmnscommunity.com",
+        "SURFACE_URL_STATUS": "ACTIVE",
+        "FINAL_URL": "https://steanmnscommunity.com/105381409",
+        "FINAL_URL_DOMAIN": "steanmnscommunity.com",
+        "FINAL_URL_STATUS": "ACTIVE"
     }
 }
