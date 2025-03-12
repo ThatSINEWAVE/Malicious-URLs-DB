@@ -31,7 +31,7 @@ def get_country_from_ip(ip):
 
 
 def check_url_status(url):
-    """Checks if a URL is active or inactive."""
+    """Checks if a URL is active or inactive and follows redirects."""
     print(f"[INFO] Checking status for URL: {url}")
     try:
         response = requests.head(
@@ -43,13 +43,12 @@ def check_url_status(url):
                 "(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
             },
         )
+        # Ensure we follow redirects to the final URL
         final_url = response.url
         status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
-        print(
-            f"[SUCCESS] URL checked: {url} -> Status: {status}, Final URL: {final_url}"
-        )
+        print(f"[SUCCESS] URL checked: {url} -> Status: {status}, Final URL: {final_url}")
         return status, final_url
-    except Exception as e:
+    except requests.exceptions.RequestException as e:
         print(f"[EXCEPTION] Failed to check URL: {url}, Error: {e}")
         return "INACTIVE", "UNKNOWN"
 
@@ -127,10 +126,8 @@ def update_accounts_data():
                     account_data["SUSPECTED_REGION_OF_ORIGIN"] = get_country_from_ip(
                         domain_ip
                     )
-                except Exception as e:
-                    print(
-                        f"[EXCEPTION] Failed to resolve domain {parsed_url.netloc}: {e}"
-                    )
+                except socket.gaierror as e:
+                    print(f"[EXCEPTION] Failed to resolve domain {parsed_url.netloc}: {e}")
                     account_data["SUSPECTED_REGION_OF_ORIGIN"] = "UNKNOWN"
         else:
             print(f"[WARNING] Final URL is UNKNOWN, setting default values.")
