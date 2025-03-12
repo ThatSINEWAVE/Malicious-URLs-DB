@@ -75,6 +75,12 @@ def update_accounts_data():
     for account_id, account_data in data.items():
         print(f"\n[INFO] Processing account: {account_id}")
 
+        # Skip username modification if it contains Cyrillic or non-ASCII characters
+        username = account_data.get("USERNAME", "")
+        if username and any(ord(c) > 128 for c in username):
+            print(f"[INFO] Username contains non-ASCII characters, skipping change: {username}")
+            continue
+
         # Check and fill empty fields
         surface_url = account_data.get("SURFACE_URL", "").strip()
         if not surface_url or surface_url == "UNKNOWN":
@@ -136,6 +142,7 @@ def update_accounts_data():
         print(f"[INFO] Saving updated account {account_id} data to {data_path}")
         try:
             with open(data_path, "w", encoding="utf-8") as f:
+                # Ensure the JSON is saved with correct formatting
                 json.dump(data, f, indent=4, ensure_ascii=False)
             print(f"[SUCCESS] Account {account_id} data updated successfully!")
         except Exception as e:
