@@ -39,8 +39,7 @@ def get_discord_username(discord_id, bot_token, request_tracker):
         log_message(f"Retrieved username: {username}")
         return username
     elif response.status_code == 401:
-        log_message(
-            f"ERROR: Unauthorized access for Discord ID {discord_id}. Invalid token or insufficient permissions.")
+        log_message(f"ERROR: Unauthorized access for Discord ID {discord_id}. Invalid token or insufficient permissions.")
     return None
 
 def check_discord_invite_status(url, request_tracker, cache):
@@ -87,8 +86,7 @@ def save_json(data, filename):
 def update_case_numbers(data):
     log_message("Updating case numbers for accounts...")
     sorted_accounts = sorted(data.items(), key=lambda x: int(x[1].get("CASE_NUMBER", "0")))
-    updated_data = {f"ACCOUNT_NUMBER_{i + 1}": {**account, "CASE_NUMBER": str(i + 1)} for i, (_, account) in
-                    enumerate(sorted_accounts)}
+    updated_data = {f"ACCOUNT_NUMBER_{i + 1}": {**account, "CASE_NUMBER": str(i + 1)} for i, (_, account) in enumerate(sorted_accounts)}
     log_message("Case numbers updated.")
     return updated_data
 
@@ -116,12 +114,12 @@ def process_accounts(data, filename):
                 log_message(f"Username for {discord_id} is already correct. Skipping update.")
 
         if surface_url:
-            account["SURFACE_URL_STATUS"] = check_discord_invite_status(surface_url, request_tracker,
-                                                                        invite_cache) or "UNKNOWN"
+            account["SURFACE_URL_STATUS"] = check_discord_invite_status(surface_url, request_tracker, invite_cache) or "UNKNOWN"
 
         if final_url:
             final_status = check_discord_invite_status(final_url, request_tracker, invite_cache)
-            account["FINAL_URL_STATUS"] = final_status
+            if final_status is not None:  # Only update if the function returns a valid status
+                account["FINAL_URL_STATUS"] = final_status
             if final_status == "INACTIVE":
                 account["SURFACE_URL_STATUS"] = "INACTIVE"
 
@@ -143,7 +141,7 @@ def main():
         return
 
     process_accounts(data, filename)
-    log_message("Processing completed.")
+    log_message("Processing completed.\n")
 
 if __name__ == "__main__":
     main()
