@@ -4,6 +4,7 @@ import requests
 import os
 import socket
 import unicodedata
+import base64
 from urllib.parse import urlparse
 from dotenv import load_dotenv
 from datetime import datetime
@@ -12,8 +13,11 @@ from datetime import datetime
 load_dotenv()
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 IPINFO_API_TOKEN = os.getenv("IPINFO_API_TOKEN")
+VIRUSTOTAL_API_TOKEN = os.getenv("VIRUSTOTAL_API_TOKEN")
 DISCORD_RATE_LIMIT = 20  # Max API calls per second
 REQUEST_TIMEOUT = 10  # seconds
+VIRUSTOTAL_RATE_LIMIT = 4  # 4 requests per minute
+VIRUSTOTAL_RATE_LIMIT_PERIOD = 60  # 60 seconds
 
 # Ensure log directory and file exist
 LOG_DIR = "logs"
@@ -49,22 +53,13 @@ else:
 
 # Check for required API tokens
 if not DISCORD_BOT_TOKEN:
-    print("WARNING: DISCORD_BOT_TOKEN not found in .env file.")
     log_message("WARNING: DISCORD_BOT_TOKEN not found in .env file.")
 
 if not IPINFO_API_TOKEN:
-    print("WARNING: IPINFO_API_TOKEN not found in .env file.")
     log_message("WARNING: IPINFO_API_TOKEN not found in .env file.")
 
-
-def log_message(message):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    formatted_message = f"[{timestamp}] {message}"
-    print(formatted_message)
-    with open(LOG_FILE, "a", encoding="utf-8") as log_file:
-        log_file.write(formatted_message + "\n")
-        log_file.flush()
-        os.fsync(log_file.fileno())  # Ensure data is written to disk immediately
+if not VIRUSTOTAL_API_TOKEN:
+    log_message("WARNING: VIRUSTOTAL_API_TOKEN not found in .env file.")
 
 
 def is_non_ascii(username):
@@ -155,18 +150,115 @@ def get_country_from_ip(ip):
     return "UNKNOWN"
 
 
-def check_url_status(url):
-    """Checks if a URL is active or inactive."""
-    print(f"[INFO] Checking status for URL: {url}")
-    try:
-        response = requests.head(url, allow_redirects=True, timeout=REQUEST_TIMEOUT)
-        final_url = response.url
-        status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
-        print(f"[SUCCESS] URL checked: {url} -> Status: {status}, Final URL: {final_url}")
-        return status, final_url
-    except Exception as e:
-        print(f"[EXCEPTION] Failed to check URL: {url}, Error: {e}")
-        return "INACTIVE", "UNKNOWN"
+def count_excluded_domains(data, excluded_domains):
+    """Counts accounts whose SURFACE_URL_DOMAIN does not contain any of the excluded domains."""
+    count = 0
+    for account in data.values():
+        surface_url_domain = account.get("SURFACE_URL_DOMAIN", "").lower()
+        if not any(domain in surface_url_domain for domain in excluded_domains):
+            count += 1
+    return count
+
+
+def check_url_status(url, vt_request_tracker, data, filename, account_key):
+    """Checks URL status using VirusTotal and saves data immediately"""
+    global vt_response
+    excluded_domains = {"t.me", "discord.com", "discord.gg", "funpay.com"}
+    parsed = urlparse(url)
+    domain = parsed.netloc
+
+    # Handle excluded domains first
+    if any(excluded in domain for excluded in excluded_domains):
+        try:
+            response = requests.head(url, allow_redirects=True, timeout=REQUEST_TIMEOUT)
+            final_url = response.url
+            status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
+            log_message(f"Excluded domain check: {url} → {status}")
+            return status, final_url
+        except Exception as e:
+            log_message(f"Excluded domain check failed: {url}, Error: {e}")
+            return "INACTIVE", "UNKNOWN"
+
+    vt_malicious = False
+    final_url = url
+    vt_data = None
+
+    if VIRUSTOTAL_API_TOKEN:
+        try:
+            # Normalize and encode URL
+            parsed = urlparse(url)
+            if not parsed.scheme:
+                url = f"http://{url}"
+                parsed = urlparse(url)
+
+            clean_url = parsed.geturl()
+            url_bytes = clean_url.encode("utf-8")
+            encoded_url = base64.urlsafe_b64encode(url_bytes).decode("utf-8").strip("=")
+
+            # Enforce rate limit
+            vt_request_tracker["count"] += 1
+            enforce_vt_rate_limit(vt_request_tracker)
+
+            headers = {"x-apikey": VIRUSTOTAL_API_TOKEN}
+            vt_response = requests.get(
+                f"https://www.virustotal.com/api/v3/urls/{encoded_url}",
+                headers=headers,
+                timeout=REQUEST_TIMEOUT,
+            )
+
+            if vt_response.status_code == 200:
+                vt_data = vt_response.json()
+                stats = (
+                    vt_data.get("data", {})
+                    .get("attributes", {})
+                    .get("last_analysis_stats", {})
+                )
+                vt_malicious = stats.get("malicious", 0) > 0
+
+                # Extract final URL from VirusTotal data
+                redirection_chain = (
+                    vt_data.get("data", {})
+                    .get("attributes", {})
+                    .get("redirection_chain", [])
+                )
+                last_final_url = (
+                    vt_data.get("data", {})
+                    .get("attributes", {})
+                    .get("last_final_url", url)
+                )
+                final_url = (
+                    last_final_url
+                    if last_final_url
+                    else (redirection_chain[-1] if redirection_chain else url)
+                )
+
+                log_message(
+                    f"VirusTotal check: {url} → Malicious: {vt_malicious}, Final URL: {final_url}"
+                )
+
+                # Immediate save after getting VT data
+                data[account_key]["LAST_VT_CHECK"] = datetime.now().isoformat()
+                save_json(data, filename)
+
+        except Exception as e:
+            log_message(f"VirusTotal API error for {url}: {e}")
+
+    if vt_malicious:
+        return "INACTIVE", final_url
+
+    # Fallback check if no VT data
+    if not vt_data or vt_response.status_code != 200:
+        try:
+            response = requests.head(url, allow_redirects=True, timeout=REQUEST_TIMEOUT)
+            final_url = response.url
+            status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
+            log_message(f"HTTP check: {url} → {status}")
+            return status, final_url
+        except Exception as e:
+            log_message(f"HTTP check failed: {url}, Error: {e}")
+            return "INACTIVE", "UNKNOWN"
+
+    return "ACTIVE", final_url
 
 
 def get_domain_country(domain):
@@ -190,6 +282,27 @@ def enforce_rate_limit(request_tracker):
         request_tracker["count"] = 0
 
 
+def enforce_vt_rate_limit(vt_request_tracker):
+    """Enforces VirusTotal's rate limit of 4 requests per minute"""
+    current_time = time.perf_counter()
+    elapsed_time = current_time - vt_request_tracker["start_time"]
+
+    if vt_request_tracker["count"] >= VIRUSTOTAL_RATE_LIMIT:
+        if elapsed_time < VIRUSTOTAL_RATE_LIMIT_PERIOD:
+            sleep_time = VIRUSTOTAL_RATE_LIMIT_PERIOD - elapsed_time
+            log_message(
+                f"VirusTotal rate limit reached. Sleeping for {sleep_time:.2f} seconds."
+            )
+            time.sleep(sleep_time)
+            # Reset tracker after waiting
+            vt_request_tracker["start_time"] = time.perf_counter()
+            vt_request_tracker["count"] = 0
+        else:
+            # Reset tracker if period has expired
+            vt_request_tracker["start_time"] = current_time
+            vt_request_tracker["count"] = 0
+
+
 def load_json_data(file_path):
     log_message(f"Loading data from {file_path}...")
     with open(file_path, "r", encoding="utf-8") as file:
@@ -204,13 +317,18 @@ def save_json(data, filename):
 
 def update_case_numbers(data):
     log_message("Updating case numbers for accounts...")
+
+    # Ensure sorting works even if "CASE_NUMBER" is missing
     sorted_accounts = sorted(
         data.items(), key=lambda x: int(x[1].get("CASE_NUMBER", "0"))
     )
+
+    # Ensure 'sorted_accounts' is not empty before enumeration
     updated_data = {
         f"ACCOUNT_NUMBER_{i + 1}": {**account, "CASE_NUMBER": str(i + 1)}
         for i, (_, account) in enumerate(sorted_accounts)
     }
+
     log_message("Case numbers updated.")
     return updated_data
 
@@ -242,16 +360,38 @@ def check_non_ascii_usernames(data):
     return data, non_ascii_count, non_ascii_cases
 
 
-def process_accounts(data, filename):
+def process_accounts(data, filename, starting_case=1):
     start_time = time.perf_counter()
-    log_message(f"Processing {len(data)} accounts...")
+    log_message(f"Processing accounts starting from case {starting_case}...")
+
+    # Calculate and log excluded domain count
+    excluded_domains = ["t.me", "discord.com", "discord.gg", "mediafire.com"]
+    count = count_excluded_domains(data, excluded_domains)
+    log_message(
+        f"Total cases without {', '.join(excluded_domains)} in SURFACE_URL_DOMAIN: {count}"
+    )
+
     request_tracker = {"count": 0, "start_time": time.perf_counter()}
+    vt_request_tracker = {"count": 0, "start_time": time.perf_counter()}
     invite_cache = {}
 
-    data = update_case_numbers(data)
-    save_json(data, filename)
+    # Sort accounts by CASE_NUMBER
+    sorted_accounts = sorted(
+        data.items(), key=lambda x: int(x[1].get("CASE_NUMBER", "0"))
+    )
 
-    for account_key, account in data.items():
+    # Filter accounts based on starting_case
+    filtered_accounts = []
+    for account_key, account in sorted_accounts:
+        case_number = int(account.get("CASE_NUMBER", "0"))
+        if case_number >= starting_case:
+            filtered_accounts.append((account_key, account))
+
+    log_message(
+        f"Processing {len(filtered_accounts)} accounts starting from case {starting_case}."
+    )
+
+    for account_key, account in filtered_accounts:
         log_message(f"Processing account: {account_key}")
         discord_id = account.get("DISCORD_ID")
         surface_url = account.get("SURFACE_URL", "").strip()
@@ -275,7 +415,6 @@ def process_accounts(data, filename):
         # Process SURFACE_URL
         if surface_url and surface_url != "UNKNOWN":
             if is_discord_url(surface_url):
-                # Discord URL processing
                 discord_status = check_discord_invite_status(
                     surface_url, request_tracker, invite_cache
                 )
@@ -286,26 +425,26 @@ def process_accounts(data, filename):
                         f"Updated SURFACE_URL_STATUS to {discord_status} (Discord URL - setting region to US)"
                     )
             else:
-                # Non-Discord URL processing
                 log_message(f"Processing non-Discord URL: {surface_url}")
-                surface_status, redirected_final_url = check_url_status(surface_url)
+                surface_status, redirected_final_url = check_url_status(
+                    surface_url, vt_request_tracker, data, filename, account_key
+                )
                 account["SURFACE_URL_STATUS"] = surface_status
 
-                # Update FINAL_URL if it's unknown or empty
                 if not final_url or final_url == "UNKNOWN":
                     account["FINAL_URL"] = redirected_final_url
                     log_message(f"Updated FINAL_URL to {redirected_final_url}")
-                    # Also set the final_url for further processing
                     final_url = redirected_final_url
+                    save_json(data, filename)  # Additional save
+
         else:
             log_message(
                 f"No valid SURFACE_URL for account {account_key}, skipping URL check."
             )
 
-        # Process FINAL_URL if it exists and is not a Discord URL
+        # Process FINAL_URL
         if final_url and final_url != "UNKNOWN":
             if is_discord_url(final_url):
-                # Discord URL processing
                 final_status = check_discord_invite_status(
                     final_url, request_tracker, invite_cache
                 )
@@ -315,7 +454,6 @@ def process_accounts(data, filename):
                     log_message(
                         f"Updated FINAL_URL_STATUS to {final_status} (Discord URL - setting region to US)"
                     )
-                    # Check for consistency between surface and final URLs
                     if (
                         final_status == "INACTIVE"
                         and account.get("SURFACE_URL_STATUS") == "ACTIVE"
@@ -326,20 +464,20 @@ def process_accounts(data, filename):
                             "Setting SURFACE_URL_STATUS to INACTIVE because FINAL_URL is INACTIVE"
                         )
             else:
-                # Non-Discord URL processing
                 log_message(f"Processing non-Discord FINAL_URL: {final_url}")
-                final_status, _ = check_url_status(final_url)
+                final_status, _ = check_url_status(
+                    final_url, vt_request_tracker, data, filename, account_key
+                )
                 account["FINAL_URL_STATUS"] = final_status
                 log_message(f"Updated FINAL_URL_STATUS to {final_status}")
+                save_json(data, filename)  # Additional save
 
-                # Extract and store the domain
                 parsed_url = urlparse(final_url)
                 domain = parsed_url.netloc
                 if domain:
                     account["FINAL_URL_DOMAIN"] = domain
                     log_message(f"Updated FINAL_URL_DOMAIN to {domain}")
 
-                    # Get geolocation info for non-Discord domains
                     if (
                         not account.get("SUSPECTED_REGION_OF_ORIGIN")
                         or account["SUSPECTED_REGION_OF_ORIGIN"] == "UNKNOWN"
@@ -348,16 +486,12 @@ def process_accounts(data, filename):
                         account["SUSPECTED_REGION_OF_ORIGIN"] = country
                         log_message(f"Updated SUSPECTED_REGION_OF_ORIGIN to {country}")
 
-        # Save after each account to prevent data loss
         save_json(data, filename)
 
-    # Move the non-ASCII username check to the end
     data, non_ascii_count, non_ascii_cases = check_non_ascii_usernames(data)
     save_json(data, filename)
 
     total_time = time.perf_counter() - start_time
-
-    # Final summary
     log_message("Finished processing all accounts.")
     if non_ascii_count > 0:
         log_message(
@@ -381,7 +515,23 @@ def main():
         log_message("No data to process.")
         return
 
-    process_accounts(data, filename)
+    # Prompt user for starting point
+    print("\nDo you want to start processing from the beginning or a specific case?")
+    start_choice = input("Enter 'beginning' or 'specific': ").strip().lower()
+    starting_case = 1
+    if start_choice == "specific":
+        while True:
+            try:
+                starting_case = int(input("Enter the case number to start from: "))
+                break
+            except ValueError:
+                print("Invalid input. Please enter a number.")
+    else:
+        # Update case numbers to start fresh
+        data = update_case_numbers(data)
+        save_json(data, filename)
+
+    process_accounts(data, filename, starting_case)
     log_message("Processing completed.\n")
 
 
