@@ -156,26 +156,16 @@ def get_country_from_ip(ip):
 
 
 def check_url_status(url):
-    """Checks if a URL is active or inactive and retrieves the final URL after all redirects."""
-    log_message(f"Checking status for URL: {url}")
+    """Checks if a URL is active or inactive."""
+    print(f"[INFO] Checking status for URL: {url}")
     try:
-        session = requests.Session()
-        session.headers.update(
-            {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-            }
-        )
-
-        # Follow redirects and retrieve the final URL using GET
-        response = session.get(url, allow_redirects=True, timeout=REQUEST_TIMEOUT)
-        final_url = response.url  # Final URL after all redirects
+        response = requests.head(url, allow_redirects=True, timeout=REQUEST_TIMEOUT)
+        final_url = response.url
         status = "ACTIVE" if response.status_code < 400 else "INACTIVE"
-
-        log_message(f"URL checked: {url} -> Status: {status}, Final URL: {final_url}")
+        print(f"[SUCCESS] URL checked: {url} -> Status: {status}, Final URL: {final_url}")
         return status, final_url
     except Exception as e:
-        log_message(f"Failed to check URL: {url}, Error: {e}")
+        print(f"[EXCEPTION] Failed to check URL: {url}, Error: {e}")
         return "INACTIVE", "UNKNOWN"
 
 
