@@ -98,7 +98,24 @@ footer a:hover {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+#infoContent {
+	max-height: 0;
+	opacity: 0;
+	overflow: hidden;
+	transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+		opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#infoContent.open {
+	max-height: 1500px;
+	opacity: 1;
+}
+
+#expandButton {
+	transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Announcement Bar */

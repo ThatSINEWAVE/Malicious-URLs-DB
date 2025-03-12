@@ -27,8 +27,15 @@ const expandButton = document.getElementById('expandButton');
 const infoContent = document.getElementById('infoContent');
 
 function toggleGlossary() {
-    infoContent.classList.toggle('hidden');
+    const infoContent = document.getElementById('infoContent');
+    const expandButton = document.getElementById('expandButton');
+
+    infoContent.classList.toggle('open');
     expandButton.classList.toggle('rotate-180');
+
+    // Handle aria-expanded for accessibility
+    const isExpanded = infoContent.classList.contains('open');
+    expandButton.setAttribute('aria-expanded', isExpanded);
 }
 
 // Event Listeners for Glossary
@@ -42,7 +49,7 @@ async function fetchData() {
         document.getElementById('dashboard').classList.add('hidden');
 
         // Change this line to use the GitHub raw URL
-        const response = await fetch('https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/data/Compromised-Discord-Accounts.json');
+        const response = await fetch('../data/Compromised-Discord-Accounts.json');
         if (!response.ok) {
             throw new Error('Failed to fetch data');
         }
