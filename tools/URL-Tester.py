@@ -141,9 +141,11 @@ def update_accounts_data():
         # Save updated account data after each account is processed to save on RAM usage
         print(f"[INFO] Saving updated account {account_id} data to {data_path}")
         try:
-            with open(data_path, "w", encoding="utf-8") as f:
+            with open(data_path, "r+", encoding="utf-8") as f:
                 # Ensure the JSON is saved with correct formatting
+                f.seek(0)
                 json.dump(data, f, indent=4, ensure_ascii=False)
+                f.truncate()  # To ensure no old content remains if file size changes
             print(f"[SUCCESS] Account {account_id} data updated successfully!")
         except Exception as e:
             print(f"[ERROR] Failed to save updated data for account {account_id}: {e}")
