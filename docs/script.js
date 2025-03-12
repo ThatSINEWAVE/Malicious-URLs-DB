@@ -419,42 +419,34 @@ function createStatusAccountsChart() {
   });
 
   canvas.chart = new Chart(canvas, {
-    type: 'bar',
+    type: 'pie',
     data: {
-      labels: ['Account Status'],
+      labels: ['Deleted Accounts', 'Active Accounts'],
       datasets: [{
-          label: 'Deleted Accounts',
-          data: [deletedCount],
-          backgroundColor: 'rgba(147, 51, 234, 0.8)'
-        },
-        {
-          label: 'Active Accounts',
-          data: [activeCount],
-          backgroundColor: 'rgba(16, 185, 129, 0.8)'
-        }
-      ]
+        label: 'Account Status',
+        data: [deletedCount, activeCount],
+        backgroundColor: [
+          'rgba(147, 51, 234, 0.8)', // Purple for deleted
+          'rgba(16, 185, 129, 0.8)'  // Green for active
+        ],
+        borderWidth: 1
+      }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      scales: {
-        x: {
-          stacked: true
-        },
-        y: {
-          stacked: true,
-          beginAtZero: true,
-          ticks: {
-            precision: 0
-          }
-        }
-      },
       plugins: {
         legend: {
           position: 'top'
         },
         tooltip: {
-          mode: 'index'
+          callbacks: {
+            label: (context) => {
+              const total = context.dataset.data.reduce((a, b) => a + b);
+              const percentage = ((context.raw / total) * 100).toFixed(1);
+              return `${context.label}: ${context.raw} (${percentage}%)`;
+            }
+          }
         }
       }
     }
