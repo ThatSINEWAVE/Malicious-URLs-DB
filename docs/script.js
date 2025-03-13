@@ -166,9 +166,9 @@ function updateStats() {
     // Update total accounts count
     document.getElementById('totalAccounts').textContent = filteredData.length;
 
-    // Count only SURFACE_URL_STATUS that are ACTIVE
+    // Count only FINAL_URL_STATUS that are ACTIVE
     const activeUrls = filteredData.filter(account =>
-        account.SURFACE_URL_STATUS === 'ACTIVE'
+        account.FINAL_URL_STATUS === 'ACTIVE'
     ).length;
     document.getElementById('activeUrls').textContent = activeUrls;
 
