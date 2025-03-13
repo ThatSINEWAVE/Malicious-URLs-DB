@@ -163,7 +163,7 @@ def count_excluded_domains(data, excluded_domains):
 def check_url_status(url, vt_request_tracker, data, filename, account_key):
     """Checks URL status using VirusTotal and saves data immediately"""
     global vt_response
-    excluded_domains = {"t.me", "discord.com", "discord.gg", "funpay.com"}
+    excluded_domains = {"t.me", "discord.com", "discord.gg", "funpay.com", "mediafire.com"}
     parsed = urlparse(url)
     domain = parsed.netloc
 
