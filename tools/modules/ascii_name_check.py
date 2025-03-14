@@ -9,7 +9,7 @@ def is_ascii(s):
 
 
 # Load the JSON data from the file
-with open("../Compromised-Discord-Accounts.json", "r") as file:
+with open("Compromised-Discord-Accounts.json", "r") as file:
     data = json.load(file)
 
 # Get the current timestamp in the desired format
@@ -51,5 +51,5 @@ print(
 )
 
 # Save the updated data back to the file
-with open("../Compromised-Discord-Accounts.json", "w") as file:
+with open("Compromised-Discord-Accounts.json", "w") as file:
     json.dump(data, file, indent=4)

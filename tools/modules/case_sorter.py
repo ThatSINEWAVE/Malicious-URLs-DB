@@ -10,7 +10,7 @@ def log(message):
 # Load existing data from the JSON file
 log("Loading JSON data...")
 try:
-    with open("../Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
+    with open("Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
         data = json.load(file)
 except FileNotFoundError:
     log("JSON file not found. Exiting.")
@@ -45,7 +45,7 @@ log(f"Unknown dates: {unknown_dates}")
 
 # Write the sorted data back to the JSON file
 log("Saving sorted JSON data...")
-with open("../Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
+with open("Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
     json.dump(sorted_data, file, indent=4, ensure_ascii=False)
 
 log("Sorting complete.")

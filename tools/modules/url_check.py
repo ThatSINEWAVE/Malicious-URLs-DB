@@ -25,7 +25,7 @@ def is_valid_url(url):
 
 
 # Load the JSON data
-with open("../Compromised-Discord-Accounts.json", "r") as file:
+with open("Compromised-Discord-Accounts.json", "r") as file:
     data = json.load(file)
 
 # Initialize counters and lists for statistics
@@ -116,5 +116,5 @@ if fixed_urls:
 print(f"Processed {total_urls} total URLs in {total_cases} cases successfully!")
 
 # Save the updated data back to the same JSON file
-with open("../Compromised-Discord-Accounts.json", "w") as file:
+with open("Compromised-Discord-Accounts.json", "w") as file:
     json.dump(data, file, indent=4)
