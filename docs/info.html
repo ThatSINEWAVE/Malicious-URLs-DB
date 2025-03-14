@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDA Dashboard - Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tailwind.min.css">
+    <!-- Favicon for all browsers -->
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <!-- Apple Touch Icons (for iOS home screen bookmarks) -->
+    <link rel="apple-touch-icon" sizes="57x57" href="site-data/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="site-data/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="site-data/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="site-data/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="site-data/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="site-data/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="site-data/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="site-data/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-icon-180x180.png">
+    <!-- Favicons for different devices -->
+    <link rel="icon" type="image/png" sizes="192x192" href="site-data/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="site-data/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <!-- Web Manifest -->
+    <link rel="manifest" href="site-data/site.manifest">
+    <!-- Windows-specific tiles (for pinned sites in Windows Start menu) -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="site-data/ms-icon-144x144.png">
+    <!-- Defines the color of the browser UI elements -->
+    <meta name="theme-color" content="#ffffff">
+    <!-- Open Graph Meta Tags (for social media sharing, mainly Facebook) -->
+    <meta property="og:title" content="CDA Dashboard - Info">
+    <meta property="og:description" content="A comprehensive security dashboard tracking malicious activities with advanced analytics capabilities and unified processing engine">
+    <meta property="og:image" content="https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/docs/site-data/social-share/Malicious-URLs-DB.png">
+    <meta property="og:url" content="https://thatsinewave.github.io/Malicious-URLs-DB">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags (for better sharing on Twitter) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CDA Dashboard - Info">
+    <meta name="twitter:description" content="A comprehensive security dashboard tracking malicious activities with advanced analytics capabilities and unified processing engine">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/docs/site-data/social-share/Malicious-URLs-DB.png">
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <!-- Header -->
+    <nav class="bg-indigo-700 text-white p-4 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <div>
+          <a href="/index.html" class="block">
+            <h1 class="text-2xl font-bold">CDA Dashboard</h1>
+            <p class="text-sm text-gray-200">Tracking Threats, Protecting Communities</p>
+          </a>
+        </div>
+        <div class="flex items-center space-x-2">
+          <!-- Dark Mode Toggle -->
+          <button id="darkModeToggle" class="p-2 rounded hover:bg-indigo-600">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+            </svg>
+          </button>
+          <!-- Info Button -->
+          <button id="infoButton" class="p-2 rounded hover:bg-indigo-600">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <!-- Refresh Button -->
+          <button id="refreshData" class="bg-indigo-600 hover:bg-indigo-500 px-3 py-1 rounded"> Refresh Data </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Announcement Bar -->
+    <div id="announcement-bar" class="announcement-bar">
+      <div class="container mx-auto py-3 px-4">
+        <div class="flex items-center justify-between">
+          <div class="announcement-content">
+            <p class="text-sm md:text-base font-medium">🔔 UPDATE 12.03.2025 19:47 GMT+2: We are currently performing database maintenance to enhance the accuracy of our URL checking processes. These improvements will help ensure better detection of malicious URLs and overall database quality. Thank you for your patience!</p>
+          </div>
+          <button id="closeAnnouncement" class="ml-4 text-white opacity-70 hover:opacity-100 transition-opacity">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Info Content -->
+    <div class="container mx-auto px-4 py-8">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-indigo-700 mb-6">Information Center</h2>
+        <!-- About the Database Section -->
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">About the Database</h3>
+          <p class="text-gray-600 mb-4">The Malicious URLs & Accounts DB is an advanced security dashboard that tracks, categorizes, and analyzes malicious activities, including compromised accounts, phishing campaigns, and suspicious URLs. The platform provides a real-time threat monitoring system with advanced analytics and a unified processing engine. </p>
+          <p class="text-gray-600 mb-4">This database is continuously updated with new threat intelligence, ensuring users have access to the most current information on emerging threats and attack vectors. The platform employs advanced analytics to identify patterns and correlations between different malicious activities, providing valuable insights for security professionals, researchers, and organizations looking to enhance their defensive capabilities.</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Purpose</h4>
+              <p class="text-gray-600">To offer a comprehensive security intelligence hub for tracking malicious activities across different platforms, helping users detect and prevent threats.</p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Scope</h4>
+              <p class="text-gray-600">Includes data on Compromised accounts, Malicious URLs, Attack vectors and distribution, Risk level assessment and a suite of data visualisation methods.</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">Project Timeline</h3>
+          <p class="text-gray-600 mb-4">The development of the Malicious URLs & Accounts DB has evolved significantly over the years. Here's a brief timeline of its journey:</p>
+          <div class="bg-gray-50 p-4 rounded-lg mb-6">
+            <h4 class="text-lg font-semibold text-indigo-600 mb-2">The Beginning</h4>
+            <p class="text-gray-600">This project began in January 2014 when I first decided to explore the use of compromised Discord accounts and analyze how their campaigns evolved over time.</p>
+            <p class="text-gray-600">As I started logging each case, I began noticing patterns and similarities that sparked my deeper interest in this subject making me want to find out more.</p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded-lg mb-6">
+            <h4 class="text-lg font-semibold text-indigo-600 mb-2">First Iteration</h4>
+            <p class="text-gray-600">By March 2024, I released the first iteration of the repository, where I experimented with various formats and methods to sort the data regarding the behavior of these accounts. A month later, in April 2024, I launched the first, very rudimentary web application to display the data.</p>
+            <p class="text-gray-600">At the time, the implementation was far from ideal—looking back, it was a poor design and didn't serve much purpose other than displaying an overwhelming list of information. Seriously, I don't know why I haven't written anything better at that time, you can <a href="https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/.github/SCREENSHOTS/Old-UI.png" class="text-indigo-600" target="_blank">click here</a> if you want to see how bad it was. </p>
+          </div>
+          <div class="bg-gray-50 p-4 rounded-lg mb-6">
+            <h4 class="text-lg font-semibold text-indigo-600 mb-2">Rework & Overhaul</h4>
+            <p class="text-gray-600">The project stagnated for nearly a year, but in February 2025, I decided it was time for a complete overhaul. I wanted to create a proper analysis dashboard that would visualize and process data about the malicious activity of compromised Discord accounts across various servers.</p>
+            <p class="text-gray-600">On March 10, 2025, I released the CDA Dashboard—what you see here today. Its goal is to provide a comprehensive, insightful tool for visualizing and analyzing the malicious activity related to these compromised accounts as they engage in their campaigns.</p>
+          </div>
+        </div>
+        <!-- About Me Section -->
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">About Me</h3>
+          <p class="text-gray-600 mb-4">I'm known as ThatSINEWAVE or just SINEWAVE_, an entrepreneur with a passion for cybersecurity and coding. When I'm not running my various local businesses (online shops, real estate agency, and more), I'm diving into projects like this one, sparked by my cybersecurity company experiences.</p>
+          <p class="text-gray-600 mb-4">As a self-taught programmer, I enjoy sitting down at my computer during free time to create random projects, tools, or really anything that catches my interest. If something seems useful, whether for myself or others, I'll probably build it just for the fun of it.</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Work Life</h4>
+              <p class="text-gray-600">Running multiple businesses keeps me busy, but my cybersecurity company holds a special place, it's what inspired this database project and continues to fuel my interest in tracking malicious activities.</p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Personal Life</h4>
+              <p class="text-gray-600">When I'm not coding or working, I'm spending quality time with my amazing family, my wife and two wonderful kids. They're my biggest supporters and the reason I keep pushing forward on projects like this.</p>
+            </div>
+          </div>
+        </div>
+        <!-- How to Use Section -->
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">How to Use</h3>
+          <p class="text-gray-600 mb-4">The dashboard provides powerful tools for searching, filtering, and analyzing malicious data. Users can look up specific usernames, domains, or attack methods, apply filters based on attack type or timeframe, and explore interactive charts that visualize attack timelines, method distributions, and URL status tracking.</p>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Search & Filters</h4>
+              <p class="text-gray-600">• Search usernames, domains, or attack methods easily.</p>
+              <p class="text-gray-600">• Filter by type, region, and timeframe efficiently.</p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Interactive Charts</h4>
+              <p class="text-gray-600">• Visualize attack timelines with various charts.</p>
+              <p class="text-gray-600">• Method distribution and behavioral analysis</p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Risk Indicators</h4>
+              <p class="text-gray-600">• Risk assessment system: Low, Medium, High, Critical.</p>
+              <p class="text-gray-600">• Smart updates based on evolving threat trends.</p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="text-lg font-semibold text-indigo-600 mb-2">Data Export</h4>
+              <p class="text-gray-600">• Export results in CSV format for external analysis.</p>
+              <p class="text-gray-600">• Customize exports with specific columns and data.</p>
+            </div>
+          </div>
+        </div>
+        <!-- How to Contribute Section -->
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">How Can I Contribute?</h3>
+          <p class="text-gray-600 mb-4">Server owners and staff can play a vital role in enhancing this project by contributing their automod logs that help identify and block malicious messages <a href="https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/.github/SCREENSHOTS/Old-UI.png" class="text-indigo-600" target="_blank">like these</a>. These logs, which contain data on URLs and accounts involved in suspicious activities, will be parsed, validated, and added to the database to further strengthen the security measures. </p>
+          <p class="text-gray-600 mb-4">The contributions can be kept anonymous, or if the server owners prefer, they can be credited. Importantly, while the data from the logs will be included in the database, the specific source (the server in which the malicious activity was detected) will not be disclosed on the public-facing site. However, it may be stored in the database for internal purposes.</p>
+          <p class="text-gray-600 mb-4">I haven't figured out a way to efficiently accept external automod logs yet, but if you're interested, feel free to contact me on Discord below, and we can discuss further.</p>
+        </div>
+        <!-- Contact Section -->
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">Contact</h3>
+          <p class="text-gray-600 mb-4">If you have any questions, feedback, or just want to chat, the best way to contact me is over Discord. I'm always happy to connect and engage with the community. You can reach me directly at <b>sinewave_</b>. Whether you're looking for assistance, share ideas, or want to discuss a potential collaboration, feel free to send me a message! </p>
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="text-lg font-semibold text-indigo-600 mb-2">Support Hours</h4>
+            <p class="text-gray-600">I strive to be available for support during the following hours: Monday to Friday, 9:00 AM - 5:00 PM GMT+2. Outside these hours, responses may be slower, but I'll do my best to get back to you as quickly as possible. Your inquiries are important to me!</p>
+          </div>
+        </div>
+        <!-- Additional Resources Section -->
+        <div>
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">Additional Resources</h3>
+          <p class="text-gray-600 mb-4">If you're interested in diving deeper into the project or want to explore more of what I do, be sure to check out my GitHub repository. It's regularly updated with new information, tools, and resources related to my work. From bug fixes to new features, you'll find everything you need right there.</p>
+          <div class="flex justify-center space-x-8 mt-4">
+            <a href="https://github.com/ThatSINEWAVE/Malicious-URLs-DB" class="inline-flex items-center text-indigo-600 hover:text-indigo-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg> Project Repository </a>
+            <a href="https://github.com/ThatSINEWAVE" class="inline-flex items-center text-indigo-600 hover:text-indigo-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg> GitHub Profile </a>
+          </div>
+        </div>
+        <!-- Support & Donations Section -->
+        <div class="mt-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">Support the Project</h3>
+          <p class="text-gray-600 mb-4">As mentioned earlier in the <b>About Me</b> section, monetary gains are not the goal of this project. I'm an entrepreneur with several local businesses, so I don't rely on donations for income and I won't ask for money for any project like this one ever - it's also why this Ko-fi link is so far down the page. However, if you'd still like to show your support, feel free to do so through Ko-fi. While it won't impact the project directly, your gesture is always appreciated! </p>
+          <div class="flex justify-center mt-4">
+            <a href="https://ko-fi.com/thatsinewave" class="inline-flex items-center text-indigo-600 hover:text-indigo-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19.5 4h-15C3.672 4 3 4.672 3 5.5v13c0 .828.672 1.5 1.5 1.5h15c.828 0 1.5-.672 1.5-1.5v-13c0-.828-.672-1.5-1.5-1.5zM18 16.5c0 .276-.224.5-.5.5h-12c-.276 0-.5-.224-.5-.5v-9c0-.276.224-.5.5-.5h12c.276 0 .5.224.5.5v9zM9 10h6v2H9v-2z" />
+              </svg> Ko-fi Donations </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-indigo-700 text-white p-4 shadow-lg mt-8">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <p>Created by ThatSINEWAVE - Cybersight Security</p>
+          <p>© 2025 CDA - Compromised Discord Accounts Dashboard</p>
+        </div>
+        <div class="flex space-x-4">
+          <a href="https://github.com/ThatSINEWAVE/Malicious-URLs-DB" class="hover:text-indigo-200 transition-colors" title="GitHub Repository">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+          </a>
+          <a href="https://ko-fi.com/thatsinewave" class="hover:text-indigo-200 transition-colors" title="Support">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+          </a>
+          <a href="https://discord.gg/2nHHHBWNDw" class="hover:text-indigo-200 transition-colors" title="Discord">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3847-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        // Initialize theme when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+
+            if (isDarkMode) {
+                document.body.classList.add('bg-gray-900', 'text-white');
+                const cards = document.querySelectorAll('.bg-white');
+                cards.forEach(card => {
+                    card.classList.add('bg-gray-800', 'text-white');
+                });
+                const glossary = document.getElementById('infoBar');
+                if (glossary) {
+                    glossary.classList.add('bg-gray-800', 'text-white');
+                }
+            }
+        });
+    </script>
+    <script>
+      // Set a version ID for current announcement
+      // Change this whenever the announcement content gets updated
+      const CURRENT_ANNOUNCEMENT_VERSION = "2025-03-12";
+      document.getElementById('closeAnnouncement').addEventListener('click', function() {
+        document.getElementById('announcement-bar').classList.add('hidden');
+        // Save both the closed state and the version of the announcement that was closed
+        localStorage.setItem('announcementClosed', 'true');
+        localStorage.setItem('lastClosedAnnouncementVersion', CURRENT_ANNOUNCEMENT_VERSION);
+      });
+      // Check if announcement was previously closed AND if it's the same version
+      document.addEventListener('DOMContentLoaded', function() {
+        const announcementClosed = localStorage.getItem('announcementClosed') === 'true';
+        const lastClosedVersion = localStorage.getItem('lastClosedAnnouncementVersion');
+        // Only hide if it was closed AND it's the same version
+        if (announcementClosed && lastClosedVersion === CURRENT_ANNOUNCEMENT_VERSION) {
+          document.getElementById('announcement-bar').classList.add('hidden');
+        } else {
+          // Show the bar if either it was never closed or it's a new version
+          document.getElementById('announcement-bar').classList.remove('hidden');
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -18,8 +18,10 @@ darkModeToggle.addEventListener('click', () => {
         card.classList.toggle('text-white');
     });
     const glossary = document.getElementById('infoBar');
-    glossary.classList.toggle('bg-gray-800');
-    glossary.classList.toggle('text-white');
+    if (glossary) {
+        glossary.classList.toggle('bg-gray-800');
+        glossary.classList.toggle('text-white');
+    }
 
     // Save state to localStorage
     localStorage.setItem('darkMode', isDarkMode ? 'disabled' : 'enabled');
@@ -36,7 +38,9 @@ function initializeTheme() {
             card.classList.add('bg-gray-800', 'text-white');
         });
         const glossary = document.getElementById('infoBar');
-        glossary.classList.add('bg-gray-800', 'text-white');
+        if (glossary) {
+            glossary.classList.add('bg-gray-800', 'text-white');
+        }
     }
 }
 

@@ -68,8 +68,30 @@ nav button {
 	transition: var(--transition-normal);
 }
 
+nav a {
+	text-decoration: none;
+	/* Remove underline from the link */
+}
+
 nav h1 {
 	letter-spacing: -0.025em;
+	text-decoration: none;
+	/* Ensure no underline on hover */
+}
+
+nav h1:hover {
+	text-decoration: none;
+	/* Ensure no underline on hover */
+}
+
+nav p {
+	text-decoration: none;
+	/* Ensure no underline on hover */
+}
+
+nav p:hover {
+	text-decoration: none;
+	/* Ensure no underline on hover */
 }
 
 /* Footer */
@@ -521,6 +543,19 @@ body.bg-gray-900 table th {
 body.bg-gray-900 .bg-white {
 	background-color: var(--gray-800);
 	color: var(--gray-100);
+}
+
+body.bg-gray-900 .bg-gray-50 {
+	background-color: var(--gray-700);
+	color: var(--gray-100);
+}
+
+body.bg-gray-900 .text-gray-800 {
+	color: var(--gray-200);
+}
+
+body.bg-gray-900 .text-indigo-600 {
+	color: var(--primary-light);
 }
 
 body.bg-gray-900 input,
