@@ -46,22 +46,51 @@ function initializeTheme() {
 
 // Update breadcrumbs based on the current page
 function updateBreadcrumbs() {
-  const breadcrumbCurrent = document.getElementById('breadcrumb-current');
+  const breadcrumbContainer = document.querySelector('.breadcrumbs');
   const currentPage = window.location.pathname.split('/').pop();
+
+  // Clear existing breadcrumbs
+  breadcrumbContainer.innerHTML = '';
+
+  // Add Home link
+  const homeLink = document.createElement('a');
+  homeLink.href = '/CDA-Project/index.html';
+  homeLink.textContent = 'Home';
+  breadcrumbContainer.appendChild(homeLink);
+
+  // Add separator
+  const separator = document.createElement('span');
+  separator.textContent = '/';
+  separator.classList.add('text-gray-300');
+  breadcrumbContainer.appendChild(separator);
+
+  // Add current page
+  const currentPageSpan = document.createElement('span');
+  currentPageSpan.id = 'breadcrumb-current';
+  currentPageSpan.classList.add('font-medium');
 
   switch (currentPage) {
     case 'index.html':
-      breadcrumbCurrent.textContent = 'Home';
+      currentPageSpan.textContent = 'Home';
       break;
     case 'dashboard.html':
-      breadcrumbCurrent.textContent = 'Dashboard';
+      currentPageSpan.textContent = 'Dashboard';
       break;
     case 'info.html':
-      breadcrumbCurrent.textContent = 'Information';
+      currentPageSpan.textContent = 'Information';
       break;
     default:
-      breadcrumbCurrent.textContent = 'Current Page';
+      currentPageSpan.textContent = 'Current Page';
   }
+
+  breadcrumbContainer.appendChild(currentPageSpan);
+}
+
+// Function to handle navigation and update breadcrumbs
+function navigateToPage(page) {
+  // Update breadcrumbs before navigating
+  updateBreadcrumbs();
+  window.location.href = page;
 }
 
 // Data Glossary Toggle
@@ -1156,4 +1185,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize theme from localStorage
     initializeTheme();
+
+    // Event listeners for navigation buttons
+    document.getElementById('infoButton').addEventListener('click', () => {
+        navigateToPage('info.html');
+    });
+
+    document.getElementById('dashboardButton').addEventListener('click', () => {
+        navigateToPage('dashboard.html');
+    });
 });
