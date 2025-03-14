@@ -72,7 +72,7 @@ async function fetchData() {
         document.getElementById('dashboard').classList.add('hidden');
 
         // Change this line to use the GitHub raw URL
-        const response = await fetch('https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/data/Compromised-Discord-Accounts.json');
+        const response = await fetch('https://raw.githubusercontent.com/ThatSINEWAVE/CDA-Project/refs/heads/main/data/Compromised-Discord-Accounts.json');
         if (!response.ok) {
             throw new Error('Failed to fetch data');
         }
