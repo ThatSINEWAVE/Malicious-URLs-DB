@@ -72,6 +72,21 @@
         </div>
       </div>
     </nav>
+    <!-- Announcement Bar -->
+    <div id="announcement-bar" class="announcement-bar">
+      <div class="container mx-auto py-3 px-4">
+        <div class="flex items-center justify-between">
+          <div class="announcement-content">
+            <p class="text-sm md:text-base font-medium">🔔 UPDATE 12.03.2025 19:47 GMT+2: We are currently performing database maintenance to enhance the accuracy of our URL checking processes. These improvements will help ensure better detection of malicious URLs and overall database quality. Thank you for your patience!</p>
+          </div>
+          <button id="closeAnnouncement" class="ml-4 text-white opacity-70 hover:opacity-100 transition-opacity">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
     <!-- Main Content -->
     <div class="container mx-auto px-4 py-8 flex flex-col items-center justify-center h-[calc(100vh-8rem)]">
       <div class="text-center">
@@ -117,7 +132,9 @@
       </div>
     </footer>
     <!-- Scripts -->
+    <!-- Main Script -->
     <script src="script.js"></script>
+    <!-- Theme Script -->
     <script>
       // Initialize theme when the page loads
       document.addEventListener('DOMContentLoaded', () => {
@@ -128,6 +145,30 @@
           cards.forEach(card => {
             card.classList.add('bg-gray-800', 'text-white');
           });
+        }
+      });
+    </script>
+    <!-- Announcement Script -->
+    <script>
+      // Set a version ID for current announcement
+      // Change this whenever the announcement content gets updated
+      const CURRENT_ANNOUNCEMENT_VERSION = "2025-03-12";
+      document.getElementById('closeAnnouncement').addEventListener('click', function() {
+        document.getElementById('announcement-bar').classList.add('hidden');
+        // Save both the closed state and the version of the announcement that was closed
+        localStorage.setItem('announcementClosed', 'true');
+        localStorage.setItem('lastClosedAnnouncementVersion', CURRENT_ANNOUNCEMENT_VERSION);
+      });
+      // Check if announcement was previously closed AND if it's the same version
+      document.addEventListener('DOMContentLoaded', function() {
+        const announcementClosed = localStorage.getItem('announcementClosed') === 'true';
+        const lastClosedVersion = localStorage.getItem('lastClosedAnnouncementVersion');
+        // Only hide if it was closed AND it's the same version
+        if (announcementClosed && lastClosedVersion === CURRENT_ANNOUNCEMENT_VERSION) {
+          document.getElementById('announcement-bar').classList.add('hidden');
+        } else {
+          // Show the bar if either it was never closed or it's a new version
+          document.getElementById('announcement-bar').classList.remove('hidden');
         }
       });
     </script>
