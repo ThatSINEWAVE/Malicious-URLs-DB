@@ -146,11 +146,6 @@ async function fetchData() {
     }
 }
 
-// Add event listener for the info button
-document.getElementById('infoButton').addEventListener('click', () => {
-    window.location.href = 'info.html';
-});
-
 // Process data and initialize charts
 function processData() {
     // Populate filter dropdowns
@@ -1141,48 +1136,90 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update breadcrumbs
     updateBreadcrumbs();
 
-    // Fetch data when page loads
-    fetchData();
+    // Fetch data when page loads (only on dashboard.html)
+    if (window.location.pathname.includes('dashboard.html')) {
+        fetchData();
+    }
+
+    // Add event listener for the info button
+    const infoButton = document.getElementById('infoButton');
+    if (infoButton) {
+        infoButton.addEventListener('click', () => {
+            window.location.href = 'info.html';
+        });
+    }
 
     // Search and filter events
-    document.getElementById('searchInput').addEventListener('input', filterData);
-    document.getElementById('attackMethodFilter').addEventListener('change', filterData);
-    document.getElementById('dateFrom').addEventListener('change', filterData);
-    document.getElementById('dateTo').addEventListener('change', filterData);
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', filterData);
+    }
+
+    const attackMethodFilter = document.getElementById('attackMethodFilter');
+    if (attackMethodFilter) {
+        attackMethodFilter.addEventListener('change', filterData);
+    }
+
+    const dateFrom = document.getElementById('dateFrom');
+    if (dateFrom) {
+        dateFrom.addEventListener('change', filterData);
+    }
+
+    const dateTo = document.getElementById('dateTo');
+    if (dateTo) {
+        dateTo.addEventListener('change', filterData);
+    }
 
     // Pagination events
-    document.getElementById('prevPage').addEventListener('click', () => {
-        if (currentPage > 1) {
-            currentPage--;
-            updateTable();
-        }
-    });
+    const prevPage = document.getElementById('prevPage');
+    if (prevPage) {
+        prevPage.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                updateTable();
+            }
+        });
+    }
 
-    document.getElementById('nextPage').addEventListener('click', () => {
-        const maxPage = Math.ceil(filteredData.length / rowsPerPage);
-        if (currentPage < maxPage) {
-            currentPage++;
-            updateTable();
-        }
-    });
+    const nextPage = document.getElementById('nextPage');
+    if (nextPage) {
+        nextPage.addEventListener('click', () => {
+            const maxPage = Math.ceil(filteredData.length / rowsPerPage);
+            if (currentPage < maxPage) {
+                currentPage++;
+                updateTable();
+            }
+        });
+    }
 
     // Modal events
-    document.getElementById('closeModal').addEventListener('click', () => {
-        document.getElementById('detailModal').classList.add('hidden');
-    });
-
-    // Close modal when clicking outside
-    document.getElementById('detailModal').addEventListener('click', (e) => {
-        if (e.target === document.getElementById('detailModal')) {
+    const closeModal = document.getElementById('closeModal');
+    if (closeModal) {
+        closeModal.addEventListener('click', () => {
             document.getElementById('detailModal').classList.add('hidden');
-        }
-    });
+        });
+    }
+
+    const detailModal = document.getElementById('detailModal');
+    if (detailModal) {
+        detailModal.addEventListener('click', (e) => {
+            if (e.target === detailModal) {
+                detailModal.classList.add('hidden');
+            }
+        });
+    }
 
     // Export CSV
-    document.getElementById('exportCSV').addEventListener('click', exportToCSV);
+    const exportCSV = document.getElementById('exportCSV');
+    if (exportCSV) {
+        exportCSV.addEventListener('click', exportToCSV);
+    }
 
     // Refresh data
-    document.getElementById('refreshData').addEventListener('click', fetchData);
+    const refreshData = document.getElementById('refreshData');
+    if (refreshData) {
+        refreshData.addEventListener('click', fetchData);
+    }
 
     // Data Glossary Toggle
     const infoHeader = document.getElementById('infoHeader');
