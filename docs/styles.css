@@ -875,7 +875,7 @@ body.bg-gray-900 .bg-white.p-4.rounded-lg.shadow.mb-6 label {
 	background-color: #f8fafc;
 }
 
-/* Breadcrumbs Container */
+/* Breadcrumbs */
 .breadcrumb-container {
 	position: sticky;
 	top: 1px;
@@ -885,32 +885,8 @@ body.bg-gray-900 .bg-white.p-4.rounded-lg.shadow.mb-6 label {
 	box-shadow: none;
 	border: none;
 	margin-bottom: -30px;
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
-}
-
-/* Breadcrumbs Container */
-.breadcrumb-container {
-	position: sticky;
-	top: 1px;
-	z-index: 20;
-	background-color: transparent;
-	padding: 0.5rem 0;
-	box-shadow: none;
-	border: none;
-	margin-bottom: -30px;
-}
-
-/* Breadcrumbs */
-/* Breadcrumbs Container */
-.breadcrumb-container {
-	position: sticky;
-	top: 1px;
-	z-index: 20;
-	background-color: transparent;
-	padding: 0.5rem 0;
-	box-shadow: none;
-	border: none;
 	margin-bottom: -30px;
 }
 
