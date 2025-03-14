@@ -252,8 +252,8 @@ function updateStats() {
 
     // New last VT check calculation
     const timestamps = filteredData
-        .filter(account => account.LAST_VT_CHECK)
-        .map(account => new Date(account.LAST_VT_CHECK).getTime());
+        .filter(account => account.LAST_CHECK)
+        .map(account => new Date(account.LAST_CHECK).getTime());
 
     const latestTimestamp = timestamps.length > 0 ? Math.max(...timestamps) : null;
     const lastUpdatedElement = document.getElementById('lastUpdated');
