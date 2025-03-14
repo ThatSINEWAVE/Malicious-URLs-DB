@@ -6,6 +6,7 @@ const rowsPerPage = 10;
 
 // Existing DOMContentLoaded event listener
 document.addEventListener('DOMContentLoaded', () => {
+    updateBreadcrumbs(); // Call updateBreadcrumbs on DOMContentLoaded
 
     // Add event listener for the info button
     const infoButton = document.getElementById('infoButton');
