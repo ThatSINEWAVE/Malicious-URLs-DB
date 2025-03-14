@@ -44,55 +44,6 @@ function initializeTheme() {
     }
 }
 
-// Update breadcrumbs based on the current page
-function updateBreadcrumbs() {
-  const breadcrumbContainer = document.querySelector('.breadcrumbs');
-  const currentPage = window.location.pathname.split('/').pop();
-
-  // Clear existing breadcrumbs
-  breadcrumbContainer.innerHTML = '';
-
-  // Add Home link
-  const homeLink = document.createElement('a');
-  homeLink.href = '/CDA-Project/index.html';
-  homeLink.textContent = 'Home';
-  breadcrumbContainer.appendChild(homeLink);
-
-  // Add separator
-  const separator = document.createElement('span');
-  separator.textContent = '/';
-  separator.classList.add('text-gray-300');
-  breadcrumbContainer.appendChild(separator);
-
-  // Add current page
-  const currentPageSpan = document.createElement('span');
-  currentPageSpan.id = 'breadcrumb-current';
-  currentPageSpan.classList.add('font-medium');
-
-  switch (currentPage) {
-    case 'index.html':
-      currentPageSpan.textContent = 'Home';
-      break;
-    case 'dashboard.html':
-      currentPageSpan.textContent = 'Dashboard';
-      break;
-    case 'info.html':
-      currentPageSpan.textContent = 'Information';
-      break;
-    default:
-      currentPageSpan.textContent = 'Current Page';
-  }
-
-  breadcrumbContainer.appendChild(currentPageSpan);
-}
-
-// Function to handle navigation and update breadcrumbs
-function navigateToPage(page) {
-  // Update breadcrumbs before navigating
-  updateBreadcrumbs();
-  window.location.href = page;
-}
-
 // Data Glossary Toggle
 const infoHeader = document.getElementById('infoHeader');
 const expandButton = document.getElementById('expandButton');
@@ -1131,9 +1082,6 @@ function exportToCSV() {
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch data when page loads
     fetchData();
-
-    // Update breadcrumbs
-    updateBreadcrumbs();
 
     // Search and filter events
     document.getElementById('searchInput').addEventListener('input', filterData);

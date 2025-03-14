@@ -828,29 +828,3 @@ body.bg-gray-900 .bg-white.p-4.rounded-lg.shadow.mb-6 label {
 #dataTable tbody tr:nth-child(even) {
 	background-color: #f8fafc;
 }
-
-/* Breadcrumbs Styles */
-.breadcrumbs {
-  background-color: var(--primary);
-  padding: 0.5rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.breadcrumbs a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.breadcrumbs a:hover {
-  color: var(--primary-light);
-}
-
-.breadcrumbs span {
-  color: var(--gray-300);
-}
-
-#breadcrumb-current {
-  color: white;
-  font-weight: 500;
-}
