@@ -1,8 +1,8 @@
 <div align="center">
 
-# [Malicious URLs & Accounts DB](https://thatsinewave.github.io/Malicious-URLs-DB/)
+# [CDA - Compromised Discord Accounts Project](https://thatsinewave.github.io/CDA-Project/)
 
-![Banner](https://raw.githubusercontent.com/ThatSINEWAVE/Malicious-URLs-DB/refs/heads/main/.github/SCREENSHOTS/Malicious-URLs-DB.png)
+![Banner](https://raw.githubusercontent.com/ThatSINEWAVE/CDA-Project/refs/heads/main/.github/SCREENSHOTS/CDA-Project.png)
 
 A comprehensive security dashboard tracking malicious activities with advanced analytics capabilities and unified processing engine
 
@@ -152,6 +152,7 @@ The tool implements a robust state machine that tracks the complete lifecycle of
 ```markdown
 ├── 📂 docs/                                      # Web dashboard and assets
 │   ├── 📜 index.html                             # Main web interface
+│   ├── 📜 info.html                              # Project information page
 │   ├── 🎨 styles.css                             # Dashboard styling
 │   ├── 🎨 tailwind.min.css                       # Tailwind CSS framework
 │   ├── ⚙️ script.js                              # Interactive dashboard logic
@@ -159,7 +160,7 @@ The tool implements a robust state machine that tracks the complete lifecycle of
 │   ├── 📊 chart.min.js                           # Chart.js for visualizations
 │   ├── 📂 site-data/                             # Miscellaneous site data
 │   │   ├── 🔗 social-share/                      # Social sharing related assets
-│   │   └── 🖼️ Malicious-URLs-DB.png              # Embed image for social sharing
+│   │   └── 🖼️ CDA-Project.png                    # Embed image for social sharing
 │   ├── 📂 icons/                                 # Various platform icons
 │   │   ├── 🤖 android-icon-*.png                 # Android icons (36x36 → 192x192)
 │   │   ├── 🍏 apple-icon-*.png                   # Apple icons (57x57 → 180x180)
@@ -205,7 +206,7 @@ The tool implements a robust state machine that tracks the complete lifecycle of
 
 ### PWA Installation
 
-1. Visit [Live Demo](https://thatsinewave.github.io/Malicious-URLs-DB/)
+1. Visit [Live Demo](https://thatsinewave.github.io/CDA-Project/)
 2. Click "Install" in browser controls (Chrome/Edge on desktop or mobile)
 3. Launch as a standalone application
 
