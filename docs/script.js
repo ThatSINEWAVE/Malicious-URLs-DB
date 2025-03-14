@@ -1133,23 +1133,25 @@ function exportToCSV() {
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
-    // Update breadcrumbs
-    updateBreadcrumbs();
-
-    // Fetch data when page loads (only on dashboard.html)
-    if (window.location.pathname.includes('dashboard.html')) {
-        fetchData();
-    }
+    console.log('DOM fully loaded and parsed'); // Debug log
 
     // Add event listener for the info button
     const infoButton = document.getElementById('infoButton');
     if (infoButton) {
+        console.log('infoButton found'); // Debug log
         infoButton.addEventListener('click', () => {
+            console.log('infoButton clicked'); // Debug log
             window.location.href = 'info.html';
         });
+    } else {
+        console.log('infoButton not found'); // Debug log
     }
 
-    // Search and filter events
+    // Other event listeners and initialization code...
+    if (window.location.pathname.includes('dashboard.html')) {
+        fetchData();
+    }
+
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {
         searchInput.addEventListener('input', filterData);
@@ -1170,7 +1172,6 @@ document.addEventListener('DOMContentLoaded', () => {
         dateTo.addEventListener('change', filterData);
     }
 
-    // Pagination events
     const prevPage = document.getElementById('prevPage');
     if (prevPage) {
         prevPage.addEventListener('click', () => {
@@ -1192,7 +1193,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Modal events
     const closeModal = document.getElementById('closeModal');
     if (closeModal) {
         closeModal.addEventListener('click', () => {
@@ -1209,19 +1209,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Export CSV
     const exportCSV = document.getElementById('exportCSV');
     if (exportCSV) {
         exportCSV.addEventListener('click', exportToCSV);
     }
 
-    // Refresh data
     const refreshData = document.getElementById('refreshData');
     if (refreshData) {
         refreshData.addEventListener('click', fetchData);
     }
 
-    // Data Glossary Toggle
     const infoHeader = document.getElementById('infoHeader');
     const expandButton = document.getElementById('expandButton');
     if (infoHeader && expandButton) {
@@ -1229,6 +1226,5 @@ document.addEventListener('DOMContentLoaded', () => {
         expandButton.addEventListener('click', toggleGlossary);
     }
 
-    // Initialize theme from localStorage
     initializeTheme();
 });
