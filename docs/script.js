@@ -156,39 +156,31 @@ function updateBreadcrumbs() {
     `;
     breadcrumbContainer.appendChild(homeBreadcrumb);
 
-    // Dashboard breadcrumb (if on dashboard or info page)
-    if (window.location.pathname.includes('dashboard.html')) {
+    // Check if the current page is the dashboard or information page
+    const isDashboardPage = window.location.pathname.includes('dashboard.html');
+    const isInfoPage = window.location.pathname.includes('info.html');
+
+    // Add the appropriate breadcrumb based on the current page
+    if (isDashboardPage) {
         const dashboardBreadcrumb = document.createElement('li');
         dashboardBreadcrumb.setAttribute('aria-current', 'page');
         dashboardBreadcrumb.innerHTML = `
             <div class="flex items-center">
-                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Dashboard</span>
+                <span class="text-gray-400 mx-2">></span>
+                <span class="text-sm font-medium text-gray-500">Dashboard</span>
             </div>
         `;
         breadcrumbContainer.appendChild(dashboardBreadcrumb);
-    }
-
-    // Info breadcrumb (if on info page)
-    if (window.location.pathname.includes('info.html')) {
+    } else if (isInfoPage) {
         const infoBreadcrumb = document.createElement('li');
+        infoBreadcrumb.setAttribute('aria-current', 'page');
         infoBreadcrumb.innerHTML = `
             <div class="flex items-center">
-                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                <a href="/CDA-Project/dashboard.html" class="ml-1 text-sm font-medium text-gray-700 hover:text-indigo-600 md:ml-2">Dashboard</a>
+                <span class="text-gray-400 mx-2">></span>
+                <span class="text-sm font-medium text-gray-500">Information</span>
             </div>
         `;
         breadcrumbContainer.appendChild(infoBreadcrumb);
-
-        const currentBreadcrumb = document.createElement('li');
-        currentBreadcrumb.setAttribute('aria-current', 'page');
-        currentBreadcrumb.innerHTML = `
-            <div class="flex items-center">
-                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Information</span>
-            </div>
-        `;
-        breadcrumbContainer.appendChild(currentBreadcrumb);
     }
 }
 
