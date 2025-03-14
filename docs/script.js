@@ -44,6 +44,26 @@ function initializeTheme() {
     }
 }
 
+// Update breadcrumbs based on the current page
+function updateBreadcrumbs() {
+  const breadcrumbCurrent = document.getElementById('breadcrumb-current');
+  const currentPage = window.location.pathname.split('/').pop();
+
+  switch (currentPage) {
+    case 'index.html':
+      breadcrumbCurrent.textContent = 'Home';
+      break;
+    case 'dashboard.html':
+      breadcrumbCurrent.textContent = 'Dashboard';
+      break;
+    case 'info.html':
+      breadcrumbCurrent.textContent = 'Information';
+      break;
+    default:
+      breadcrumbCurrent.textContent = 'Current Page';
+  }
+}
+
 // Data Glossary Toggle
 const infoHeader = document.getElementById('infoHeader');
 const expandButton = document.getElementById('expandButton');
@@ -1082,6 +1102,9 @@ function exportToCSV() {
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch data when page loads
     fetchData();
+
+    // Update breadcrumbs
+    updateBreadcrumbs();
 
     // Search and filter events
     document.getElementById('searchInput').addEventListener('input', filterData);
