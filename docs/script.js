@@ -44,6 +44,64 @@ function initializeTheme() {
     }
 }
 
+// Function to update breadcrumbs based on the current page
+function updateBreadcrumbs() {
+    const breadcrumbContainer = document.querySelector('.breadcrumb ol');
+    if (!breadcrumbContainer) return;
+
+    // Clear existing breadcrumbs
+    breadcrumbContainer.innerHTML = '';
+
+    // Home breadcrumb
+    const homeBreadcrumb = document.createElement('li');
+    homeBreadcrumb.className = 'inline-flex items-center';
+    homeBreadcrumb.innerHTML = `
+        <a href="/CDA-Project/index.html" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-indigo-600">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+            Home
+        </a>
+    `;
+    breadcrumbContainer.appendChild(homeBreadcrumb);
+
+    // Dashboard breadcrumb (if on dashboard or info page)
+    if (window.location.pathname.includes('dashboard.html')) {
+        const dashboardBreadcrumb = document.createElement('li');
+        dashboardBreadcrumb.setAttribute('aria-current', 'page');
+        dashboardBreadcrumb.innerHTML = `
+            <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Dashboard</span>
+            </div>
+        `;
+        breadcrumbContainer.appendChild(dashboardBreadcrumb);
+    }
+
+    // Info breadcrumb (if on info page)
+    if (window.location.pathname.includes('info.html')) {
+        const infoBreadcrumb = document.createElement('li');
+        infoBreadcrumb.innerHTML = `
+            <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                <a href="/CDA-Project/dashboard.html" class="ml-1 text-sm font-medium text-gray-700 hover:text-indigo-600 md:ml-2">Dashboard</a>
+            </div>
+        `;
+        breadcrumbContainer.appendChild(infoBreadcrumb);
+
+        const currentBreadcrumb = document.createElement('li');
+        currentBreadcrumb.setAttribute('aria-current', 'page');
+        currentBreadcrumb.innerHTML = `
+            <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Information</span>
+            </div>
+        `;
+        breadcrumbContainer.appendChild(currentBreadcrumb);
+    }
+}
+
+// Call the function when the page loads
+document.addEventListener('DOMContentLoaded', updateBreadcrumbs);
+
 // Data Glossary Toggle
 const infoHeader = document.getElementById('infoHeader');
 const expandButton = document.getElementById('expandButton');
@@ -1080,6 +1138,9 @@ function exportToCSV() {
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
+    // Update breadcrumbs
+    updateBreadcrumbs();
+
     // Fetch data when page loads
     fetchData();
 

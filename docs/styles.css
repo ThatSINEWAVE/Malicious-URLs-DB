@@ -54,10 +54,10 @@ h2+p {
 /* ======================= */
 /* Navigation */
 nav {
-	position: sticky;
-	top: 0;
-	z-index: 30;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav .container {
@@ -827,4 +827,84 @@ body.bg-gray-900 .bg-white.p-4.rounded-lg.shadow.mb-6 label {
 /* Zebra Striping */
 #dataTable tbody tr:nth-child(even) {
 	background-color: #f8fafc;
+}
+
+/* Breadcrumbs Container */
+.breadcrumb-container {
+    position: sticky;
+    top: 1px; /* Adjust this value based on your header height */
+    z-index: 20;
+    background-color: transparent;
+    padding: 0.5rem 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: -30px;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.breadcrumb ol {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li a {
+    color: var(--gray-700);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.breadcrumb li a:hover {
+    color: var(--indigo-600);
+}
+
+.breadcrumb li svg {
+    margin-right: 0.5rem;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: '/';
+    margin: 0 0.5rem;
+    color: var(--gray-400);
+}
+
+.breadcrumb li:last-child span {
+    color: var(--gray-500);
+}
+
+/* Dark Mode Breadcrumbs */
+body.bg-gray-900 .breadcrumb-container {
+    background-color: transparent;
+}
+
+body.bg-gray-900 .breadcrumb li a {
+    color: var(--gray-300);
+}
+
+body.bg-gray-900 .breadcrumb li a:hover {
+    color: var(--primary-light);
+}
+
+body.bg-gray-900 .breadcrumb li:last-child span {
+    color: var(--gray-400);
+}
+
+body.bg-gray-900 .breadcrumb li:not(:last-child)::after {
+    color: var(--gray-500);
 }
