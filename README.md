@@ -71,6 +71,38 @@ A comprehensive security dashboard tracking malicious activities with advanced a
 
 </div>
 
+## Screenshots
+
+### Search and Filter Section
+
+Allows users to search by username, behavior, or attack method and filter results by attack method or date range for precise data analysis.
+
+![Search-Filters](https://raw.githubusercontent.com/ThatSINEWAVE/CDA-Project/refs/heads/main/.github/SCREENSHOTS/Search-Filters.png)
+
+### Stats Cards
+
+Provides key security metrics, such as the total compromised accounts, deleted accounts, active malicious URLs, common attack methods, and most targeted platforms.
+
+![Stat-Cards](https://raw.githubusercontent.com/ThatSINEWAVE/CDA-Project/refs/heads/main/.github/SCREENSHOTS/Stat-Cards.png)
+
+### Data Glossary & Explanations  
+
+Offers definitions and explanations for key metrics and status indicators, helping users understand the data presented on the dashboard.
+
+![Data-Glossary](https://raw.githubusercontent.com/ThatSINEWAVE/CDA-Project/refs/heads/main/.github/SCREENSHOTS/Data-Glossary.png)
+
+### Charts
+
+Visual representations of key security data, showcasing trends in attack methods, compromised accounts, and targeted platforms for quick insights.
+
+![Charts](https://raw.githubusercontent.com/ThatSINEWAVE/CDA-Project/refs/heads/main/.github/SCREENSHOTS/Charts.png)
+
+### Detailed Data
+
+A comprehensive table or dataset providing in-depth information about each detected threat, allowing for thorough analysis and investigation.
+
+![Detailed-Data](https://raw.githubusercontent.com/ThatSINEWAVE/CDA-Project/refs/heads/main/.github/SCREENSHOTS/Detailed-Data.png)
+
 ## Technical Highlights
 
 ### PWA Architecture
