@@ -58,6 +58,7 @@ nav {
 	top: 0;
 	z-index: 30;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 1rem 2rem;
 }
 
 nav .container {
@@ -113,6 +114,12 @@ footer a {
 footer a:hover {
 	background-color: rgba(255, 255, 255, 0.1);
 	transform: translateY(-2px);
+}
+
+.header-content {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 2rem;
 }
 
 #infoHeader {
@@ -872,13 +879,14 @@ body.bg-gray-900 .bg-white.p-4.rounded-lg.shadow.mb-6 label {
 .breadcrumb-container {
 	position: sticky;
 	top: 1px;
-	/* Adjust this value based on your header height */
 	z-index: 20;
 	background-color: transparent;
-	padding: 0.5rem 0;
+	padding: 0.5rem 2rem;
 	box-shadow: none;
 	border: none;
 	margin-bottom: -30px;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 /* Breadcrumbs Container */
