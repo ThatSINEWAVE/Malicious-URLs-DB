@@ -84,6 +84,11 @@ async function fetchData() {
     }
 }
 
+// Add event listener for the info button
+document.getElementById('infoButton').addEventListener('click', () => {
+    window.location.href = 'info.html';
+});
+
 // Process data and initialize charts
 function processData() {
     // Populate filter dropdowns
