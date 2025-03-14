@@ -13942,5 +13942,26 @@
         "FINAL_URL_STATUS": "INACTIVE",
         "NON_ASCII_USERNAME": false,
         "LAST_VT_CHECK": "2025-03-14T04:30:13.518608"
+    },
+    "ACCOUNT_NUMBER_665": {
+        "CASE_NUMBER": "665",
+        "FOUND_ON": "2025-03-14",
+        "DISCORD_ID": "422088091625586689",
+        "USERNAME": "endershot_1",
+        "ACCOUNT_STATUS": "COMPROMISED",
+        "BEHAVIOUR": "Markdown URL Obfuscation",
+        "ATTACK_METHOD": "Phishing site",
+        "ATTACK_VECTOR": "Cloned Steam Pages",
+        "ATTACK_GOAL": "Steam accounts",
+        "ATTACK_SURFACE": "Steam",
+        "SUSPECTED_REGION_OF_ORIGIN": "RU",
+        "SURFACE_URL": "https://in.mt/dVM",
+        "SURFACE_URL_DOMAIN": "in.mt",
+        "SURFACE_URL_STATUS": "ACTIVE",
+        "FINAL_URL": "https://sreqmcoommnunlty.com/pikus/kils/nuks",
+        "FINAL_URL_DOMAIN": "sreqmcoommnunlty.com",
+        "FINAL_URL_STATUS": "ACTIVE",
+        "NON_ASCII_USERNAME": false,
+        "LAST_VT_CHECK": "2025-03-14T09:39:34.764665"
     }
 }
