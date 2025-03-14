@@ -3,13 +3,21 @@ import json
 from datetime import datetime
 from urllib.parse import urlparse
 
+
+def log(message):
+    timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
+    print(f"{timestamp} {message}")
+
+
 # Open the Excel file
-workbook = openpyxl.load_workbook("ExporterSheet.xlsx")
+log("Loading Excel file...")
+workbook = openpyxl.load_workbook("../ExporterSheet.xlsx")
 worksheet = workbook.active
 
 # Load existing data from the output JSON file if it exists
+log("Loading JSON data...")
 try:
-    with open("Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
+    with open("../Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
         data = json.load(file)
 except FileNotFoundError:
     data = {}
@@ -17,10 +25,15 @@ except FileNotFoundError:
 # Create a set of existing DISCORD_IDs from the loaded JSON data
 existing_discord_ids = {account["DISCORD_ID"] for account in data.values()}
 
+# Get the number of existing cases in JSON and Excel
+json_case_count = len(data)
+excel_case_count = sum(1 for _ in worksheet.iter_rows(min_row=2, values_only=True))
+log(f"Found {json_case_count} cases in JSON file.")
+log(f"Found {excel_case_count} cases in Excel sheet.")
+
 # Iterate over the rows in the worksheet
-for row_number, row in enumerate(
-    worksheet.iter_rows(min_row=2, values_only=True), start=1
-):
+new_cases = 0
+for row_number, row in enumerate(worksheet.iter_rows(min_row=2, values_only=True), start=1):
     (
         NOUMBER,
         FOUND_ON,
@@ -36,26 +49,18 @@ for row_number, row in enumerate(
         STATUS,
     ) = row
 
-    # Convert DISCORD_ID to string for consistency
     discord_id_str = str(DISCORD_ID) if DISCORD_ID is not None else "Unknown"
-
-    # Skip if the DISCORD_ID already exists in the JSON data
-    if discord_id_str in existing_discord_ids:
+    if discord_id_str in existing_discord_ids or discord_id_str == "Unknown":
         continue
 
-    # Handle missing date values
+    if not any([FOUND_ON, DISCORD_ID, USERNAME, BEHAVIOUR, TYPE, METHOD, TARGET, PLATFORM, SURFACE_URL, REGION, STATUS]):
+        continue
+
+    new_cases += 1
     found_on_str = FOUND_ON.strftime("%Y-%m-%d") if FOUND_ON else "Unknown"
-
-    # Get the domain from the SURFACE_URL
-    surface_url_domain = ""
-    if SURFACE_URL:
-        parsed_url = urlparse(SURFACE_URL)
-        surface_url_domain = parsed_url.netloc
-
-    # Check if the username contains non-ASCII characters
+    surface_url_domain = urlparse(SURFACE_URL).netloc if SURFACE_URL else ""
     non_ascii_username = not USERNAME.isascii() if USERNAME else False
 
-    # Create a dictionary for the current account
     account = {
         "CASE_NUMBER": f"{row_number}",
         "FOUND_ON": found_on_str,
@@ -75,15 +80,16 @@ for row_number, row in enumerate(
         "FINAL_URL_DOMAIN": "",
         "FINAL_URL_STATUS": "",
         "NON_ASCII_USERNAME": non_ascii_username,
-        "LAST_VT_CHECK": "",
+        "LAST_CHECK": "",
     }
 
-    # Append the new entry at the end of the dictionary
     data[f"ACCOUNT_NUMBER_{len(data) + 1}"] = account
-
-    # Add the new DISCORD_ID to the set of existing DISCORD_IDs
     existing_discord_ids.add(discord_id_str)
 
+log(f"{new_cases} new cases will be added to JSON file.")
+
 # Write the updated JSON data to a file
-with open("Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
+log("Saving updated JSON data...")
+with open("../Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
     json.dump(data, file, indent=4, ensure_ascii=False)
+log("Update complete.")
