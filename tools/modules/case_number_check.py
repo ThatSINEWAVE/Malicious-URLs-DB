@@ -7,12 +7,16 @@ def get_current_timestamp():
 
 
 def fix_account_numbers(file_path):
-    print(f"[{get_current_timestamp()}] Starting to fix account numbers in the file: {file_path}")
+    print(
+        f"[{get_current_timestamp()}] Starting to fix account numbers in the file: {file_path}"
+    )
 
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        print(f"[{get_current_timestamp()}] Successfully loaded the data from the file.")
+        print(
+            f"[{get_current_timestamp()}] Successfully loaded the data from the file."
+        )
     except Exception as e:
         print(f"[{get_current_timestamp()}] Error loading the file: {e}")
         return
@@ -33,9 +37,11 @@ def fix_account_numbers(file_path):
         new_data[new_key] = account
 
     try:
-        with open(file_path, 'w', encoding='utf-8') as f:
+        with open(file_path, "w", encoding="utf-8") as f:
             json.dump(new_data, f, indent=4, ensure_ascii=False)
-        print(f"[{get_current_timestamp()}] Successfully saved the corrected data back to the file.")
+        print(
+            f"[{get_current_timestamp()}] Successfully saved the corrected data back to the file."
+        )
     except Exception as e:
         print(f"[{get_current_timestamp()}] Error saving the file: {e}")
         return

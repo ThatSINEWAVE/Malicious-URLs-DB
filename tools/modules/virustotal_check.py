@@ -78,9 +78,12 @@ total_cases = len(data)
 log(f"Total cases: {total_cases}")
 
 # Count non-excluded URLs
-non_excluded_count = sum(1 for details in data.values()
-                         if details.get("SURFACE_URL", "") and
-                         urlparse(details.get("SURFACE_URL", "")).netloc not in EXCLUDED_DOMAINS)
+non_excluded_count = sum(
+    1
+    for details in data.values()
+    if details.get("SURFACE_URL", "")
+    and urlparse(details.get("SURFACE_URL", "")).netloc not in EXCLUDED_DOMAINS
+)
 log(f"Cases to process (non-excluded URLs): {non_excluded_count}")
 
 request_count = 0  # Initialize the request count

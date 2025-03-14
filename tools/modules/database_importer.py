@@ -33,7 +33,9 @@ log(f"Found {excel_case_count} cases in Excel sheet.")
 
 # Iterate over the rows in the worksheet
 new_cases = 0
-for row_number, row in enumerate(worksheet.iter_rows(min_row=2, values_only=True), start=1):
+for row_number, row in enumerate(
+    worksheet.iter_rows(min_row=2, values_only=True), start=1
+):
     (
         NOUMBER,
         FOUND_ON,
@@ -53,7 +55,21 @@ for row_number, row in enumerate(worksheet.iter_rows(min_row=2, values_only=True
     if discord_id_str in existing_discord_ids or discord_id_str == "Unknown":
         continue
 
-    if not any([FOUND_ON, DISCORD_ID, USERNAME, BEHAVIOUR, TYPE, METHOD, TARGET, PLATFORM, SURFACE_URL, REGION, STATUS]):
+    if not any(
+        [
+            FOUND_ON,
+            DISCORD_ID,
+            USERNAME,
+            BEHAVIOUR,
+            TYPE,
+            METHOD,
+            TARGET,
+            PLATFORM,
+            SURFACE_URL,
+            REGION,
+            STATUS,
+        ]
+    ):
         continue
 
     new_cases += 1

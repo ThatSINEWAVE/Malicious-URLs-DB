@@ -9,7 +9,7 @@ def is_ascii(s):
 
 
 # Load the JSON data from the file
-with open('../Compromised-Discord-Accounts.json', 'r') as file:
+with open("../Compromised-Discord-Accounts.json", "r") as file:
     data = json.load(file)
 
 # Get the current timestamp in the desired format
@@ -35,15 +35,21 @@ for account_number, account_info in data.items():
         updated_true += 1
         # Get the current timestamp for each update
         current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print(f"[{current_timestamp}] Username for {username} is non-ASCII, NON_ASCII_USERNAME set to True.")
+        print(
+            f"[{current_timestamp}] Username for {username} is non-ASCII, NON_ASCII_USERNAME set to True."
+        )
 
 # Get the current timestamp for the final summary
 current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # Print the summary of updates with the current timestamp
-print(f"[{current_timestamp}] {updated_true} accounts updated with NON_ASCII_USERNAME set to True.")
-print(f"[{current_timestamp}] {updated_false} accounts updated with NON_ASCII_USERNAME set to False.")
+print(
+    f"[{current_timestamp}] {updated_true} accounts updated with NON_ASCII_USERNAME set to True."
+)
+print(
+    f"[{current_timestamp}] {updated_false} accounts updated with NON_ASCII_USERNAME set to False."
+)
 
 # Save the updated data back to the file
-with open('../Compromised-Discord-Accounts.json', 'w') as file:
+with open("../Compromised-Discord-Accounts.json", "w") as file:
     json.dump(data, file, indent=4)

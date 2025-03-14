@@ -10,7 +10,7 @@ def is_valid_url(url):
         return "Invalid URL: Must be a valid URL, not 'UNKNOWN'"
 
     # Check if URL starts with http:// or https://
-    if not url.startswith(('http://', 'https://')):
+    if not url.startswith(("http://", "https://")):
         return "Invalid URL: Must start with http:// or https://"
 
     # Parse the URL to ensure it's a valid structure
@@ -25,7 +25,7 @@ def is_valid_url(url):
 
 
 # Load the JSON data
-with open('../Compromised-Discord-Accounts.json', 'r') as file:
+with open("../Compromised-Discord-Accounts.json", "r") as file:
     data = json.load(file)
 
 # Initialize counters and lists for statistics
@@ -36,8 +36,8 @@ fixed_urls = []
 
 # Iterate over all accounts and check URLs silently
 for account_id, account_data in data.items():
-    surface_url = account_data.get('SURFACE_URL')
-    final_url = account_data.get('FINAL_URL')
+    surface_url = account_data.get("SURFACE_URL")
+    final_url = account_data.get("FINAL_URL")
 
     # Count the total URLs found
     total_urls_for_account = 0
@@ -50,14 +50,24 @@ for account_id, account_data in data.items():
         # If the URL is invalid
         if validation_error:
             if surface_url == "UNKNOWN":
-                invalid_urls.append(f"Invalid SURFACE_URL for {account_id}: {surface_url} - {validation_error}")
+                invalid_urls.append(
+                    f"Invalid SURFACE_URL for {account_id}: {surface_url} - {validation_error}"
+                )
             elif "Must start with http:// or https://" in validation_error:
                 # Fix the URL by adding https://
-                fixed_url = f"https://{surface_url}" if not surface_url.startswith(('http://', 'https://')) else surface_url
-                fixed_urls.append(f"Fixed SURFACE_URL for {account_id}: {surface_url} -> {fixed_url}")
-                account_data['SURFACE_URL'] = fixed_url  # Update the SURFACE_URL field
+                fixed_url = (
+                    f"https://{surface_url}"
+                    if not surface_url.startswith(("http://", "https://"))
+                    else surface_url
+                )
+                fixed_urls.append(
+                    f"Fixed SURFACE_URL for {account_id}: {surface_url} -> {fixed_url}"
+                )
+                account_data["SURFACE_URL"] = fixed_url  # Update the SURFACE_URL field
             else:
-                invalid_urls.append(f"Invalid SURFACE_URL for {account_id}: {surface_url} - {validation_error}")
+                invalid_urls.append(
+                    f"Invalid SURFACE_URL for {account_id}: {surface_url} - {validation_error}"
+                )
 
     # Check the final URL
     if final_url:
@@ -67,14 +77,24 @@ for account_id, account_data in data.items():
         # If the URL is invalid
         if validation_error:
             if final_url == "UNKNOWN":
-                invalid_urls.append(f"Invalid FINAL_URL for {account_id}: {final_url} - {validation_error}")
+                invalid_urls.append(
+                    f"Invalid FINAL_URL for {account_id}: {final_url} - {validation_error}"
+                )
             elif "Must start with http:// or https://" in validation_error:
                 # Fix the URL by adding https://
-                fixed_url = f"https://{final_url}" if not final_url.startswith(('http://', 'https://')) else final_url
-                fixed_urls.append(f"Fixed FINAL_URL for {account_id}: {final_url} -> {fixed_url}")
-                account_data['FINAL_URL'] = fixed_url  # Update the FINAL_URL field
+                fixed_url = (
+                    f"https://{final_url}"
+                    if not final_url.startswith(("http://", "https://"))
+                    else final_url
+                )
+                fixed_urls.append(
+                    f"Fixed FINAL_URL for {account_id}: {final_url} -> {fixed_url}"
+                )
+                account_data["FINAL_URL"] = fixed_url  # Update the FINAL_URL field
             else:
-                invalid_urls.append(f"Invalid FINAL_URL for {account_id}: {final_url} - {validation_error}")
+                invalid_urls.append(
+                    f"Invalid FINAL_URL for {account_id}: {final_url} - {validation_error}"
+                )
 
     total_urls += total_urls_for_account
 
@@ -96,5 +116,5 @@ if fixed_urls:
 print(f"Processed {total_urls} total URLs in {total_cases} cases successfully!")
 
 # Save the updated data back to the same JSON file
-with open('../Compromised-Discord-Accounts.json', 'w') as file:
+with open("../Compromised-Discord-Accounts.json", "w") as file:
     json.dump(data, file, indent=4)
