@@ -6297,7 +6297,7 @@
         "FINAL_URL_DOMAIN": "",
         "FINAL_URL_STATUS": "",
         "NON_ASCII_USERNAME": false,
-        "LAST_VT_CHECK": ""
+        "LAST_CHECK": "2025-03-14T14:33:52.636559"
     },
     "ACCOUNT_NUMBER_300": {
         "CASE_NUMBER": "300",
@@ -8642,7 +8642,7 @@
         "ATTACK_GOAL": "Discord Accounts",
         "ATTACK_SURFACE": "Discord",
         "SUSPECTED_REGION_OF_ORIGIN": "US",
-        "SURFACE_URL": "discord.gg/egirl-haven",
+        "SURFACE_URL": "https://discord.gg/egirl-haven",
         "SURFACE_URL_DOMAIN": "",
         "SURFACE_URL_STATUS": "INACTIVE",
         "FINAL_URL": "UNKNOWN",
@@ -9146,7 +9146,7 @@
         "ATTACK_GOAL": "Discord Accounts",
         "ATTACK_SURFACE": "Discord",
         "SUSPECTED_REGION_OF_ORIGIN": "US",
-        "SURFACE_URL": "discord.gg/egirl-haven",
+        "SURFACE_URL": "https://discord.gg/egirl-haven",
         "SURFACE_URL_DOMAIN": "",
         "SURFACE_URL_STATUS": "INACTIVE",
         "FINAL_URL": "UNKNOWN",
@@ -12842,8 +12842,8 @@
         "ATTACK_GOAL": "Unknown Goal",
         "ATTACK_SURFACE": "Discord",
         "SUSPECTED_REGION_OF_ORIGIN": "UNKNOWN",
-        "SURFACE_URL": "http://stakes.Financial Gains/auth/register?promo=em4fh4bj65",
-        "SURFACE_URL_DOMAIN": "stakes.Financial Gains",
+        "SURFACE_URL": "http://stakes.Financial.Gains/auth/register?promo=em4fh4bj65",
+        "SURFACE_URL_DOMAIN": "stakes.Financial.Gains",
         "SURFACE_URL_STATUS": "INACTIVE",
         "FINAL_URL": "UNKNOWN",
         "FINAL_URL_DOMAIN": "UNKNOWN",
