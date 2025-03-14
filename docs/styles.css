@@ -881,87 +881,85 @@ body.bg-gray-900 .bg-white.p-4.rounded-lg.shadow.mb-6 label {
 	margin-bottom: -30px;
 }
 
-/* Breadcrumbs */
+/* Breadcrumbs Container */
 .breadcrumb-container {
-	position: sticky;
-	top: 1px;
-	/* Adjust this value based on your header height */
-	z-index: 20;
-	background-color: transparent;
-	padding: 0.5rem 0;
-	box-shadow: none;
-	/* Ensure this is set to none */
-	border: none;
-	margin-bottom: -30px;
+  position: sticky;
+  top: 1px;
+  z-index: 20;
+  background-color: transparent;
+  padding: 0.5rem 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: -30px;
 }
 
+/* Breadcrumbs */
+/* Breadcrumbs Container */
+.breadcrumb-container {
+  position: sticky;
+  top: 1px;
+  z-index: 20;
+  background-color: transparent;
+  padding: 0.5rem 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: -30px;
+}
+
+/* Breadcrumbs */
 .breadcrumb {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	padding: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 0;
 }
 
 .breadcrumb-container nav {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 .breadcrumb ol {
-	display: flex;
-	align-items: center;
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .breadcrumb li {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .breadcrumb li a {
-	color: var(--gray-700);
-	text-decoration: none;
-	transition: color 0.2s ease;
-	display: inline-flex;
-	align-items: center;
+  color: var(--gray-700);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
 }
 
 .breadcrumb li a:hover {
-	color: var(--indigo-600);
+  color: var(--indigo-600);
 }
 
 .breadcrumb li svg {
-	margin-right: 0.5rem;
-}
-
-.breadcrumb li:not(:last-child)::after {
-	content: '/';
-	margin: 0 0.5rem;
-	color: var(--gray-400);
-}
-
-.breadcrumb li:last-child span {
-	color: var(--gray-500);
+  margin-right: 0.5rem;
 }
 
 /* Dark Mode Breadcrumbs */
 body.bg-gray-900 .breadcrumb-container {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 body.bg-gray-900 .breadcrumb li a {
-	color: var(--gray-300);
+  color: var(--gray-300);
 }
 
 body.bg-gray-900 .breadcrumb li a:hover {
-	color: var(--primary-light);
+  color: var(--primary-light);
 }
 
-body.bg-gray-900 .breadcrumb li:last-child span {
-	color: var(--gray-400);
-}
-
-body.bg-gray-900 .breadcrumb li:not(:last-child)::after {
-	color: var(--gray-500);
+body.bg-gray-900 .breadcrumb li span {
+  color: var(--gray-400);
 }
