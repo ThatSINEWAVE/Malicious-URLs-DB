@@ -4,6 +4,99 @@ let filteredData = [];
 let currentPage = 1;
 const rowsPerPage = 10;
 
+// Existing DOMContentLoaded event listener
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Add event listener for the info button
+    const infoButton = document.getElementById('infoButton');
+    if (infoButton) {
+        infoButton.addEventListener('click', () => {
+            window.location.href = 'info.html';
+        });
+    }
+
+    // Other event listeners and initialization code...
+    if (window.location.pathname.includes('dashboard.html')) {
+        fetchData();
+    }
+
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', filterData);
+    }
+
+    const attackMethodFilter = document.getElementById('attackMethodFilter');
+    if (attackMethodFilter) {
+        attackMethodFilter.addEventListener('change', filterData);
+    }
+
+    const dateFrom = document.getElementById('dateFrom');
+    if (dateFrom) {
+        dateFrom.addEventListener('change', filterData);
+    }
+
+    const dateTo = document.getElementById('dateTo');
+    if (dateTo) {
+        dateTo.addEventListener('change', filterData);
+    }
+
+    const prevPage = document.getElementById('prevPage');
+    if (prevPage) {
+        prevPage.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                updateTable();
+            }
+        });
+    }
+
+    const nextPage = document.getElementById('nextPage');
+    if (nextPage) {
+        nextPage.addEventListener('click', () => {
+            const maxPage = Math.ceil(filteredData.length / rowsPerPage);
+            if (currentPage < maxPage) {
+                currentPage++;
+                updateTable();
+            }
+        });
+    }
+
+    const closeModal = document.getElementById('closeModal');
+    if (closeModal) {
+        closeModal.addEventListener('click', () => {
+            document.getElementById('detailModal').classList.add('hidden');
+        });
+    }
+
+    const detailModal = document.getElementById('detailModal');
+    if (detailModal) {
+        detailModal.addEventListener('click', (e) => {
+            if (e.target === detailModal) {
+                detailModal.classList.add('hidden');
+            }
+        });
+    }
+
+    const exportCSV = document.getElementById('exportCSV');
+    if (exportCSV) {
+        exportCSV.addEventListener('click', exportToCSV);
+    }
+
+    const refreshData = document.getElementById('refreshData');
+    if (refreshData) {
+        refreshData.addEventListener('click', fetchData);
+    }
+
+    const infoHeader = document.getElementById('infoHeader');
+    const expandButton = document.getElementById('expandButton');
+    if (infoHeader && expandButton) {
+        infoHeader.addEventListener('click', toggleGlossary);
+        expandButton.addEventListener('click', toggleGlossary);
+    }
+
+    initializeTheme();
+});
+
 // Dark mode toggle
 const darkModeToggle = document.getElementById('darkModeToggle');
 darkModeToggle.addEventListener('click', () => {
@@ -1130,101 +1223,3 @@ function exportToCSV() {
     link.click();
     document.body.removeChild(link);
 }
-
-// Event listeners
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM fully loaded and parsed'); // Debug log
-
-    // Add event listener for the info button
-    const infoButton = document.getElementById('infoButton');
-    if (infoButton) {
-        console.log('infoButton found'); // Debug log
-        infoButton.addEventListener('click', () => {
-            console.log('infoButton clicked'); // Debug log
-            window.location.href = 'info.html';
-        });
-    } else {
-        console.log('infoButton not found'); // Debug log
-    }
-
-    // Other event listeners and initialization code...
-    if (window.location.pathname.includes('dashboard.html')) {
-        fetchData();
-    }
-
-    const searchInput = document.getElementById('searchInput');
-    if (searchInput) {
-        searchInput.addEventListener('input', filterData);
-    }
-
-    const attackMethodFilter = document.getElementById('attackMethodFilter');
-    if (attackMethodFilter) {
-        attackMethodFilter.addEventListener('change', filterData);
-    }
-
-    const dateFrom = document.getElementById('dateFrom');
-    if (dateFrom) {
-        dateFrom.addEventListener('change', filterData);
-    }
-
-    const dateTo = document.getElementById('dateTo');
-    if (dateTo) {
-        dateTo.addEventListener('change', filterData);
-    }
-
-    const prevPage = document.getElementById('prevPage');
-    if (prevPage) {
-        prevPage.addEventListener('click', () => {
-            if (currentPage > 1) {
-                currentPage--;
-                updateTable();
-            }
-        });
-    }
-
-    const nextPage = document.getElementById('nextPage');
-    if (nextPage) {
-        nextPage.addEventListener('click', () => {
-            const maxPage = Math.ceil(filteredData.length / rowsPerPage);
-            if (currentPage < maxPage) {
-                currentPage++;
-                updateTable();
-            }
-        });
-    }
-
-    const closeModal = document.getElementById('closeModal');
-    if (closeModal) {
-        closeModal.addEventListener('click', () => {
-            document.getElementById('detailModal').classList.add('hidden');
-        });
-    }
-
-    const detailModal = document.getElementById('detailModal');
-    if (detailModal) {
-        detailModal.addEventListener('click', (e) => {
-            if (e.target === detailModal) {
-                detailModal.classList.add('hidden');
-            }
-        });
-    }
-
-    const exportCSV = document.getElementById('exportCSV');
-    if (exportCSV) {
-        exportCSV.addEventListener('click', exportToCSV);
-    }
-
-    const refreshData = document.getElementById('refreshData');
-    if (refreshData) {
-        refreshData.addEventListener('click', fetchData);
-    }
-
-    const infoHeader = document.getElementById('infoHeader');
-    const expandButton = document.getElementById('expandButton');
-    if (infoHeader && expandButton) {
-        infoHeader.addEventListener('click', toggleGlossary);
-        expandButton.addEventListener('click', toggleGlossary);
-    }
-
-    initializeTheme();
-});
