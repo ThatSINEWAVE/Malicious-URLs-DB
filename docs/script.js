@@ -1185,13 +1185,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize theme from localStorage
     initializeTheme();
-
-    // Event listeners for navigation buttons
-    document.getElementById('infoButton').addEventListener('click', () => {
-        navigateToPage('info.html');
-    });
-
-    document.getElementById('dashboardButton').addEventListener('click', () => {
-        navigateToPage('dashboard.html');
-    });
 });
