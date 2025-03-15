@@ -17,7 +17,7 @@ worksheet = workbook.active
 # Load existing data from the output JSON file if it exists
 log("Loading JSON data...")
 try:
-    with open("Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
+    with open("../Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
         data = json.load(file)
 except FileNotFoundError:
     data = {}
@@ -106,6 +106,6 @@ log(f"{new_cases} new cases will be added to JSON file.")
 
 # Write the updated JSON data to a file
 log("Saving updated JSON data...")
-with open("Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
+with open("../Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
     json.dump(data, file, indent=4, ensure_ascii=False)
 log("Update complete.")

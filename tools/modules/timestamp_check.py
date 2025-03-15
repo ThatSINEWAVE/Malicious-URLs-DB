@@ -9,7 +9,7 @@ def print_with_timestamp(message):
 
 
 # Load the JSON file
-with open("Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
+with open("../Compromised-Discord-Accounts.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 # Get the current timestamp in ISO format for the file
@@ -30,7 +30,7 @@ for account in data.values():
         account["LAST_CHECK"] = current_timestamp
 
 # Save the updated JSON file
-with open("Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
+with open("../Compromised-Discord-Accounts.json", "w", encoding="utf-8") as file:
     json.dump(data, file, indent=4, ensure_ascii=False)
 
 # Print summary of actions

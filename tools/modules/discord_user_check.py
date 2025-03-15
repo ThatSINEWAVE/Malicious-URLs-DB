@@ -66,7 +66,7 @@ def update_json_file(file_path, updated_data):
 
 
 def main():
-    file_path = "Compromised-Discord-Accounts.json"
+    file_path = "../Compromised-Discord-Accounts.json"
 
     try:
         # Read the existing data from the JSON file
