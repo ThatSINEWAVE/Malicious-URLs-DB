@@ -2,6 +2,7 @@
     "ACCOUNT_NUMBER_1": {
         "CASE_NUMBER": "1",
         "FOUND_ON": "2021-08-09",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "608571881552871444",
         "USERNAME": "_wiktoria9555",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -23,6 +24,7 @@
     "ACCOUNT_NUMBER_2": {
         "CASE_NUMBER": "2",
         "FOUND_ON": "2021-08-25",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "755496074684399718",
         "USERNAME": "deleted_user_f3b8bb28a1bd",
         "ACCOUNT_STATUS": "DELETED",
@@ -44,6 +46,7 @@
     "ACCOUNT_NUMBER_3": {
         "CASE_NUMBER": "3",
         "FOUND_ON": "2021-11-16",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "675409753500811264",
         "USERNAME": "strolol",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -65,6 +68,7 @@
     "ACCOUNT_NUMBER_4": {
         "CASE_NUMBER": "4",
         "FOUND_ON": "2021-11-16",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "872619165922512926",
         "USERNAME": "deleted_user_d87e6e5fc682",
         "ACCOUNT_STATUS": "DELETED",
@@ -86,6 +90,7 @@
     "ACCOUNT_NUMBER_5": {
         "CASE_NUMBER": "5",
         "FOUND_ON": "2021-12-02",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "817505845235286066",
         "USERNAME": "deleted_user_15a107d67d80",
         "ACCOUNT_STATUS": "DELETED",
@@ -107,6 +112,7 @@
     "ACCOUNT_NUMBER_6": {
         "CASE_NUMBER": "6",
         "FOUND_ON": "2022-01-12",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "512201835117936650",
         "USERNAME": "vladislave0366",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -128,6 +134,7 @@
     "ACCOUNT_NUMBER_7": {
         "CASE_NUMBER": "7",
         "FOUND_ON": "2022-01-18",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "852990385763385374",
         "USERNAME": "betonomeshalka5668",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -149,6 +156,7 @@
     "ACCOUNT_NUMBER_8": {
         "CASE_NUMBER": "8",
         "FOUND_ON": "2023-05-19",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "422652692029243392",
         "USERNAME": "bo_cie_odcholuje",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -170,6 +178,7 @@
     "ACCOUNT_NUMBER_9": {
         "CASE_NUMBER": "9",
         "FOUND_ON": "2023-07-07",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "780374628819664916",
         "USERNAME": "bazookas",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -191,6 +200,7 @@
     "ACCOUNT_NUMBER_10": {
         "CASE_NUMBER": "10",
         "FOUND_ON": "2023-07-26",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1068911114622079006",
         "USERNAME": "hursarz",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -212,6 +222,7 @@
     "ACCOUNT_NUMBER_11": {
         "CASE_NUMBER": "11",
         "FOUND_ON": "2023-10-15",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "568022898447745066",
         "USERNAME": "deleted_user_c7cb47d170d5",
         "ACCOUNT_STATUS": "DELETED",
@@ -1861,6 +1872,7 @@
     "ACCOUNT_NUMBER_86": {
         "CASE_NUMBER": "86",
         "FOUND_ON": "2024-02-19",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "558919553153892353",
         "USERNAME": "__dziadu__",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -2124,6 +2136,7 @@
     "ACCOUNT_NUMBER_98": {
         "CASE_NUMBER": "98",
         "FOUND_ON": "2024-02-24",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "787946081426079764",
         "USERNAME": "durandar22",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -2431,6 +2444,7 @@
     "ACCOUNT_NUMBER_112": {
         "CASE_NUMBER": "112",
         "FOUND_ON": "2024-02-25",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1116323490736373821",
         "USERNAME": "deleted_user_fb81c77e9f9d",
         "ACCOUNT_STATUS": "DELETED",
@@ -4410,6 +4424,7 @@
     "ACCOUNT_NUMBER_202": {
         "CASE_NUMBER": "202",
         "FOUND_ON": "2024-03-18",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "842749423805399040",
         "USERNAME": "gzuz187sb",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -5795,6 +5810,7 @@
     "ACCOUNT_NUMBER_265": {
         "CASE_NUMBER": "265",
         "FOUND_ON": "2024-04-10",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "921518355540754452",
         "USERNAME": "tipsz.2056",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -6146,6 +6162,7 @@
     "ACCOUNT_NUMBER_281": {
         "CASE_NUMBER": "281",
         "FOUND_ON": "2024-04-15",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "348269107151503360",
         "USERNAME": ".dullknife",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -6343,6 +6360,7 @@
     "ACCOUNT_NUMBER_290": {
         "CASE_NUMBER": "290",
         "FOUND_ON": "2024-04-19",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "850205239302946866",
         "USERNAME": "jose_zelaya_hero_",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -6760,6 +6778,7 @@
     "ACCOUNT_NUMBER_309": {
         "CASE_NUMBER": "309",
         "FOUND_ON": "2024-04-23",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "790040571250606092",
         "USERNAME": "jeremoose5319",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -7155,6 +7174,7 @@
     "ACCOUNT_NUMBER_327": {
         "CASE_NUMBER": "327",
         "FOUND_ON": "2024-04-30",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "994010326146236546",
         "USERNAME": "nixhandy9272",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -7528,6 +7548,7 @@
     "ACCOUNT_NUMBER_344": {
         "CASE_NUMBER": "344",
         "FOUND_ON": "2024-05-08",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "480744971574706176",
         "USERNAME": "spctor.br",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -9353,6 +9374,7 @@
     "ACCOUNT_NUMBER_427": {
         "CASE_NUMBER": "427",
         "FOUND_ON": "2024-06-03",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "562323160222138390",
         "USERNAME": "p_r_3_z_e_s",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -9968,6 +9990,7 @@
     "ACCOUNT_NUMBER_455": {
         "CASE_NUMBER": "455",
         "FOUND_ON": "2024-06-18",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1205200475214057557",
         "USERNAME": "ipadstock_rng",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -10187,6 +10210,7 @@
     "ACCOUNT_NUMBER_465": {
         "CASE_NUMBER": "465",
         "FOUND_ON": "2024-06-21",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1011715621865672774",
         "USERNAME": "blackgoku_19",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -11396,6 +11420,7 @@
     "ACCOUNT_NUMBER_520": {
         "CASE_NUMBER": "520",
         "FOUND_ON": "2024-07-02",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1116542663634718781",
         "USERNAME": "deleted_user_1cdf0f2cfa8a",
         "ACCOUNT_STATUS": "DELETED",
@@ -11681,6 +11706,7 @@
     "ACCOUNT_NUMBER_533": {
         "CASE_NUMBER": "533",
         "FOUND_ON": "2024-07-10",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "776816173684621333",
         "USERNAME": "lechenda_",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -11944,6 +11970,7 @@
     "ACCOUNT_NUMBER_545": {
         "CASE_NUMBER": "545",
         "FOUND_ON": "2024-07-21",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1169190585861677097",
         "USERNAME": "njwamhmd8_85413",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -12273,6 +12300,7 @@
     "ACCOUNT_NUMBER_560": {
         "CASE_NUMBER": "560",
         "FOUND_ON": "2024-07-30",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "701687786914316320",
         "USERNAME": "__k1r4__83",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -12470,6 +12498,7 @@
     "ACCOUNT_NUMBER_569": {
         "CASE_NUMBER": "569",
         "FOUND_ON": "2024-08-19",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "537683559251574796",
         "USERNAME": "jhostk",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -12623,6 +12652,7 @@
     "ACCOUNT_NUMBER_576": {
         "CASE_NUMBER": "576",
         "FOUND_ON": "2024-09-03",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1197457788041957388",
         "USERNAME": "sardientje.",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -13084,6 +13114,7 @@
     "ACCOUNT_NUMBER_597": {
         "CASE_NUMBER": "597",
         "FOUND_ON": "2024-11-16",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "939952037116915753",
         "USERNAME": "hibino_kafka07",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -13347,6 +13378,7 @@
     "ACCOUNT_NUMBER_609": {
         "CASE_NUMBER": "609",
         "FOUND_ON": "2024-12-19",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "923204984168923147",
         "USERNAME": "phongcatmoi",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -13874,6 +13906,7 @@
     "ACCOUNT_NUMBER_633": {
         "CASE_NUMBER": "633",
         "FOUND_ON": "2025-01-28",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "933228345108348928",
         "USERNAME": "wyszukiwania",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -14401,6 +14434,7 @@
     "ACCOUNT_NUMBER_657": {
         "CASE_NUMBER": "657",
         "FOUND_ON": "2025-02-12",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "799284471609556992",
         "USERNAME": "przemek3562",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -14510,6 +14544,7 @@
     "ACCOUNT_NUMBER_662": {
         "CASE_NUMBER": "662",
         "FOUND_ON": "2025-02-17",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "423338844767911937",
         "USERNAME": "cattsy",
         "ACCOUNT_STATUS": "COMPROMISED",
@@ -15389,6 +15424,7 @@
     "ACCOUNT_NUMBER_702": {
         "CASE_NUMBER": "702",
         "FOUND_ON": "2025-03-14",
+        "FOUND_ON_SERVER": "BLITZHUB_EU",
         "DISCORD_ID": "1038480388110176257",
         "USERNAME": "migu3lill0rd",
         "ACCOUNT_STATUS": "COMPROMISED",
